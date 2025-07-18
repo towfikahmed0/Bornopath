@@ -50,14 +50,16 @@ function updateUIWithUserData(userData) {
     document.getElementsByClassName('profileAvatar')[i].alt = userData.name;
     document.getElementsByClassName('profileAvatar')[i].src = `https://placehold.co/600x400?text=${userData.name[0]}`; // Use a placeholder if no avatar
   }
+  updateStreakDays();
+  updateLeaderboardFromFirestore();
 
   document.getElementById('user-name').textContent = userData.name;
   document.getElementById('user-email').textContent = userData.email;
   document.getElementById('user-dob').innerHTML = '<i class="fa fa-birthday-cake"></i> ' + userData.birthDate;
-  document.getElementById('user-gender').innerHTML = '<i class="fa fa-male"></i> ' + userData.gender; // Corrected to use the actual data
-
+  document.getElementById('user-gender').innerHTML = '<i class="fa fa-genderi> ' + userData.gender; // Corrected to use the actual data
+  
   // Load stats (still hardcoded - consider fetching from Firestore)
-
+  
   for (let i = 0; i < document.getElementsByClassName('totalScore').length; i++) {
     document.getElementsByClassName('totalScore')[i].textContent = userData.points
   }
@@ -70,15 +72,9 @@ function updateUIWithUserData(userData) {
   for (let i = 0; i < document.getElementsByClassName('leaderboard-rank').length; i++) {
     document.getElementsByClassName('leaderboard-rank')[i].textContent = userData.leaderboardRank
   }
-  // Load practice data
   fetchPracticeDataAndRenderChart();
-  updateStreakDays();
-  updateLeaderboardFromFirestore();
-
+  
 }
-
-// THIS IS THE CRUCIAL CHANGE:
-// Attach the DOMContentLoaded listener directly at the global scope.
 document.addEventListener('DOMContentLoaded', async function () {
   console.log("DOMContentLoaded event fired."); // Confirmation log
 
@@ -118,68 +114,53 @@ window.signOut = function () {
     });
   }
 }
-
-
-
 let timerInitialized = false;
-// Sample data population - replace with actual API calls
 document.addEventListener('DOMContentLoaded', function () {
-  // Practice button event listeners
+  const $ = id => document.getElementById(id);
+  const hideAll = () => {
+    ["dashboardContant", "quiz", "quizEnd", "customize_quiz", "unlimitedTest"].forEach(id => $(id).style.display = 'none');
+  };
+
   document.querySelector('.quick-practice').addEventListener('click', function () {
-    // Initialize quick practice
-    document.getElementById("quizContainer").style.display = 'block';
-    document.getElementById("quiz-loadingSpinner").style.display = 'block';
+    $("quizContainer").style.display = 'block';
+    $("quiz-loadingSpinner").style.display = 'block';
+
     try {
-      score = 0; // Initialize score before updating UI
-      document.getElementById("quiz-point").innerText = `Point: ${score}`;
-      document.getElementById('dashboardContant').style.display = 'none';
-      document.getElementById('quizEnd').style.display = 'none';
-      document.getElementById('customize_quiz').style.display = 'none';
-      document.getElementById('unlimitedTest').style.display = 'none';
-      document.getElementById("quiz-loadingSpinner").style.display = 'none';
-      document.getElementById('quiz').style.display = 'block';
-      startTimer(300); // Start timer for 5 minutes (300 seconds)
-      intialQuestions(0, 10) // Call the function to initialize quick practice
-      timerInitialized = true; // Start the timer
-      return;
+      score = 0;
+      $("quiz-point").innerText = `Point: ${score}`;
+      hideAll();
+      $("quiz-loadingSpinner").style.display = 'none';
+      $("quiz").style.display = 'block';
+      startTimer(300);
+      intialQuestions(0, 10);
+      timerInitialized = true;
     } catch (error) {
       console.error("Error initializing quick practice:", error);
-      document.getElementById("quiz-loadingSpinner").style.display = 'block';
-      return;
+      $("quiz-loadingSpinner").style.display = 'block';
     }
   });
 
   document.querySelector('.customized-test').addEventListener('click', function () {
-    document.getElementById("quizContainer").style.display = 'block';
-    document.getElementById("quiz-loadingSpinner").style.display = 'block';
     try {
-      document.getElementById('dashboardContant').style.display = 'none';
-      document.getElementById('quiz').style.display = 'none';
-      document.getElementById('quizEnd').style.display = 'none';
-      document.getElementById('unlimitedTest').style.display = 'none';
-      document.getElementById("customize_quiz").style.display = 'block';
-      document.getElementById("quizContainer").style.display = 'block';
-      document.getElementById("quiz-loadingSpinner").style.display = 'none';
-      score = 0; // Reset score for customized test
-      // action handed over to intializeCustomizedTest function
+      score = 0;
+      hideAll();
+      $("quizContainer").style.display = 'block';
+      $("quiz-loadingSpinner").style.display = 'none';
+      $("customize_quiz").style.display = 'block';
     } catch (error) {
-      console.error("Error initializing quick practice:", error);
-      document.getElementById("quiz-loadingSpinner").style.display = 'block';
-      return;
+      console.error("Error initializing customized test:", error);
+      $("quiz-loadingSpinner").style.display = 'block';
     }
   });
 
   document.querySelector('.unlimited-practice').addEventListener('click', function () {
-    document.getElementById("unlimitedTest").style.display = 'block';
-    document.getElementById('dashboardContant').style.display = 'none';
-    document.getElementById('quizContainer').style.display = 'block';
-    document.getElementById('quiz').style.display = 'none';
-    document.getElementById('quizEnd').style.display = 'none';
-    document.getElementById('customize_quiz').style.display = 'none';
+    hideAll();
+    $("quizContainer").style.display = 'block';
+    $("unlimitedTest").style.display = 'block';
   });
-})
-// Word of the Day
+});
 
+// Word of the Day
 let wordofdayIdx
 // Fetch dictionary data from the remote JSON file
 async function fetchDictionary() {
@@ -263,81 +244,114 @@ async function setWordOfDay() {
     `;
   }
 }
-
 //quiz functions
-window.intialQuestions = async function (QNo, limit) {
-  // Initialize quick practice settings
+window.intialQuestions = async function (QNo = 0, limit) {
   restartQuizUI();
-  if (QNo === undefined) {
-    QNo = 0;
-  }
+
+  const quizContainer = document.getElementById("quizContainer");
+  const questionIdxEl = document.getElementById("questionIdx");
+  const questionTextEl = document.getElementById("questionText");
+  const progressTextEl = document.getElementById("progressText");
+  const quizProgressEl = document.getElementById("quizProgress");
+  const stutasEl = document.getElementById("stutas");
+  const quizTimerEl = document.getElementById("quizTimer");
+  const btnNext = document.getElementById("btnNext");
+  const endBtn = document.getElementById("endUnlimitedPractice");
+  const optionEls = document.getElementsByClassName("option-text");
+
+  const randomWord = () => dictionary[Math.floor(Math.random() * dictionary.length)];
+  const randomBN = (word) => word['bn'][Math.floor(Math.random() * word['bn'].length)];
+
+  // For unlimited practice
   if (limit === undefined) {
-    limit = 10; // Default limit if not provided
+    console.log("Initializing unlimited practice");
+    quizContainer.style.display = 'block';
+
+    const questionsWrd = randomWord();
+    const correctAnswer = randomBN(questionsWrd);
+
+    let genaratedOptions = Array.from({ length: 4 }, () => randomBN(randomWord()));
+    genaratedOptions[Math.floor(Math.random() * 4)] = correctAnswer;
+
+    questionIdxEl.innerText = dictionary.indexOf(questionsWrd);
+    questionTextEl.innerHTML = `What is the correct meaning of the word <span style='color: #159895; font-weight: bold;' onclick='speakWord("${questionsWrd['en']}")'>"${questionsWrd['en']}"</span>?`;
+    progressTextEl.style.display = quizProgressEl.style.display = 'none';
+    stutasEl.innerText = `Question ${QNo + 1}`;
+    quizTimerEl.innerHTML = " Infinity";
+    quizTimerEl.style.display = 'block';
+
+    speakWord(questionsWrd['en']);
+    Array.from(optionEls).forEach((el, i) => el.innerText = genaratedOptions[i]);
+
+    btnNext.setAttribute("onclick", `intialQuestions(${QNo + 1})`);
+    endBtn.style.display = 'block';
+    endBtn.setAttribute('onclick', `intialQuestions(${QNo}, ${QNo})`);
+    return;
   }
+
   console.log("Quick Practice initialized with question number:", QNo);
-  if (QNo == limit) {
+
+  if (QNo === limit) {
     document.getElementById("quiz").style.display = 'none';
-    document.getElementById('quizEnd').style.display = 'block';
+    document.getElementById("quizEnd").style.display = 'block';
     document.getElementById("finalScore").innerHTML = `${score}/${limit}`;
     document.getElementById("prac_accuracy").innerHTML = `${((score / limit) * 100).toFixed(2)}%`;
+
     updateScoreInFirestore(score, limit);
-    return false; // End the practice session
+    updateUIWithUserData(currentUserData.email).then(() => {
+      console.log("User data updated successfully after practice session.");
+    }).catch((error) => {
+      console.error("Error updating user data after practice session:", error);
+    });
+    return;
   }
 
-  let questions_idx = Math.floor(Math.random() * dictionary.length);
-  let questionsWrd = dictionary[questions_idx];
-  // Generate random options
-  let genaratedOptions = [];
-  for (let i = 0; i < 4; i++) {
-    const randomIndex = Math.floor(Math.random() * dictionary.length);
-    genaratedOptions.push(dictionary[randomIndex]['bn'][Math.floor(Math.random() * dictionary[randomIndex]['bn'].length)]);
+  const questionsWrd = randomWord();
+  const correctAnswer = randomBN(questionsWrd);
+
+  let genaratedOptions = Array.from({ length: 4 }, () => randomBN(randomWord()));
+  genaratedOptions[Math.floor(Math.random() * 4)] = correctAnswer;
+
+  questionIdxEl.innerText = dictionary.indexOf(questionsWrd);
+  questionTextEl.innerHTML = `What is the correct meaning of the word <span style='color: #159895; font-weight: bold;' onclick='speakWord("${questionsWrd['en']}")'>"${questionsWrd['en']}"</span>?`;
+  progressTextEl.innerHTML = `Question ${QNo + 1}/<span id='Qlimit'>${limit}</span>`;
+  quizProgressEl.style.width = `${((QNo + 1) / limit) * 100}%`;
+  stutasEl.innerText = `Question ${QNo + 1}`;
+
+  Array.from(optionEls).forEach((el, i) => el.innerText = genaratedOptions[i]);
+
+  speakWord(questionsWrd['en']);
+  quizTimerEl.style.display = 'block';
+
+  btnNext.setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit})`);
+
+  if (QNo !== 0) {
+    const timeParts = quizTimerEl.innerHTML.split(':');
+    if (timeParts.length >= 3) {
+      const remainingSeconds = parseInt(timeParts[1].trim()) * 60 + parseInt(timeParts[2].trim()) - 1;
+      startTimer(remainingSeconds);
+    }
   }
-  // Ensure the correct answer is included
-  genaratedOptions[Math.floor(Math.random() * genaratedOptions.length)] = questionsWrd['bn'][Math.floor(Math.random() * questionsWrd['bn'].length)];
-  //display the question and options
-  document.getElementById("questionIdx").innerText = questions_idx;
-  document.getElementById("questionText").innerHTML = `What is the correct meaning of the word <span style='color: #159895; font-weight: bold;' onclick='speakWord("${questionsWrd['en']}")'>"${questionsWrd['en']}"</span>?`;
-  document.getElementById("QNo").innerText = QNo + 1;
-  document.getElementById("progressText").innerHTML = `Question ${QNo + 1}/<span id='Qlimit'>${limit}</span>`;
-  document.getElementById("quizProgress").style.width = `${((QNo + 1) / limit) * 100}%`;
-  document.getElementById("stutas").innerText = "Question " + (QNo + 1);
-  document.getElementsByClassName('option-text')
-  for (let i = 0; i < genaratedOptions.length; i++) {
-    document.getElementsByClassName('option-text')[i].innerText = genaratedOptions[i];
-  }
-  speakWord(questionsWrd['en'])
-  timerInitialized = true;
-  startTimer(((parseInt(document.getElementById('quizTimer').innerHTML.split(':')[1].trim()) * 60) + parseInt(document.getElementById('quizTimer').innerHTML.split(':')[2].trim())) - 1);
-  document.getElementById("quizTimer").style.display = 'block';
 }
-
 window.intializeCustomizedTest = async function () {
-  // Initialize customized test settings
   document.getElementById("quizContainer").style.display = 'block';
   document.getElementById('customize_quiz').style.display = 'none';
   document.getElementById('dashboardContant').style.display = 'none';
   document.getElementById('quizEnd').style.display = 'none';
-  score = 0; // Reset score for customized test
-  timerInitialized = true; // Start the timer
+  score = 0;
+  timerInitialized = true;
   intialQuestions(0, document.getElementById('quizLimit').value);
-  startTimer(parseInt(document.getElementById('quizTime').value) * 60); // Convert minutes to seconds
+  startTimer(parseInt(document.getElementById('quizTime').value) * 60);
 }
 async function startTimer(time) {
-  if (time === undefined) {
-    return; // Exit if time is not valid
-  }
-  console.log("timer function called", time);
+  if (time === undefined) return;
   const timerElement = document.getElementById('quizTimer');
   let timeLeft = time;
   const timerInterval = setInterval(() => {
-    if (document.getElementById("quizContainer").style.display === 'none') {
+    if (document.getElementById("quizContainer").style.display === 'none' || !timerInitialized) {
       clearInterval(timerInterval);
-      restartQuizUI()
-      return; // Exit if quiz container is not visible
-    }
-    if (!timerInitialized) {
-      clearInterval(timerInterval);
-      return; // Exit if timer is not initialized
+      restartQuizUI();
+      return;
     }
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
@@ -349,95 +363,71 @@ async function startTimer(time) {
     }
   }, 1000);
 }
-function intialUnlimitedPractice() {
-  // Initialize unlimited practice settings
-  console.log("Unlimited Practice initialized.");
-  // Add your unlimited practice logic here
+window.intialUnlimitedPractice = function () {
+  document.getElementById("quizContainer").style.display = 'block';
+  document.getElementById('dashboardContant').style.display = 'none';
+  document.getElementById('unlimitedTest').style.display = 'none';
+  score = 0;
+  intialQuestions(0);
 }
-
 window.selectOption = function (selectedOption) {
   let userSelectedOption = selectedOption.children[1].innerText;
   let questionIdx = document.getElementById("questionIdx").innerText;
-  let isAnswerCorrect = false;
 
-  // If this is the first attempt, set default score value
   if (!dictionary[questionIdx].attemptScore && dictionary[questionIdx].attemptScore !== 0) {
     dictionary[questionIdx].attemptScore = 1.0;
   }
 
-  for (let i = 0; i < dictionary[questionIdx]['bn'].length; i++) {
-    if (userSelectedOption === dictionary[questionIdx]['bn'][i]) {
-      selectedOption.classList.add('correct');
-      document.getElementById("stutas").innerText = "Correct! Well done.";
-      isAnswerCorrect = true;
+  let isAnswerCorrect = dictionary[questionIdx]['bn'].includes(userSelectedOption);
 
-      // Add the remaining score to total score
-      score += dictionary[questionIdx].attemptScore;
-
-      document.getElementById("btnNext").style.display = 'block';
-      timerInitialized = false;
-
-      // Disable further clicks
-      let options = document.getElementsByClassName('quiz-option');
-      for (let i = 0; i < options.length; i++) {
-        options[i].removeAttribute("onclick");
-      }
-      document.getElementById("quiz-point").innerText = `Point: ${score}`;
-      return;
-    }
-  }
-
-  if (!isAnswerCorrect) {
+  if (isAnswerCorrect) {
+    selectedOption.classList.add('correct');
+    document.getElementById("stutas").innerText = "Correct! Well done.";
+    score += dictionary[questionIdx].attemptScore;
+    document.getElementById("btnNext").style.display = 'block';
+    timerInitialized = false;
+    Array.from(document.getElementsByClassName('quiz-option')).forEach(opt => opt.removeAttribute("onclick"));
+  } else {
     selectedOption.classList.add('incorrect');
     document.getElementById("stutas").innerHTML = "Incorrect!";
-    // Deduct 0.5 from attempt score (but not below 0)
     dictionary[questionIdx].attemptScore = Math.max(0, dictionary[questionIdx].attemptScore - 0.5);
-    document.getElementById("quiz-point").innerText = `Point: ${score}`;
   }
   document.getElementById("quiz-point").innerText = `Point: ${score}`;
 }
 
 async function updateScoreInFirestore(correctAnswersThisSession, questionsThisSession) {
   const user = auth.currentUser;
-  if (!user) {
-    console.error("No user is currently signed in.");
-    return Promise.reject("No user is currently signed in.");
-  }
+  if (!user) return Promise.reject("No user is currently signed in.");
 
   try {
     const userRef = collection(db, "users");
     const userQuery = query(userRef, where("email", "==", user.email));
     const querySnapshot = await getDocs(userQuery);
 
-    if (querySnapshot.empty) {
-      console.warn("No user data found for email:", user.email);
-      return Promise.reject("No user data found for email: " + user.email);
-    }
+    if (querySnapshot.empty) return Promise.reject("No user data found for email: " + user.email);
 
     const userDoc = querySnapshot.docs[0];
     const userData = userDoc.data();
 
-    // পুরনো মান বের করা
     const currentPoints = userData.points || 0;
     const currentTotalQuestions = userData.totalQuestions || 0;
     const currentPracData = userData.pracData || {};
 
-    // নতুন মান হিসাব করা
+    const today = new Date().toISOString().split('T')[0];
     const newPoints = currentPoints + correctAnswersThisSession;
     const newTotalQuestions = currentTotalQuestions + questionsThisSession;
     const newPracData = {
       ...currentPracData,
-      [new Date().toISOString().split('T')[0]]: {
-        correctAnswers: (currentPracData[new Date().toISOString().split('T')[0]]?.correctAnswers || 0) + correctAnswersThisSession,
-        totalQuestions: (currentPracData[new Date().toISOString().split('T')[0]]?.totalQuestions || 0) + questionsThisSession
+      [today]: {
+        correctAnswers: (currentPracData[today]?.correctAnswers || 0) + correctAnswersThisSession,
+        totalQuestions: (currentPracData[today]?.totalQuestions || 0) + questionsThisSession
       }
     };
 
     const newAccuracy = newTotalQuestions > 0
-      ? parseFloat((newPoints / newTotalQuestions).toFixed(2))
+      ? parseFloat((newPoints / newTotalQuestions).toFixed(1))
       : 0;
 
-    // ইউজারের স্কোর, প্রশ্ন সংখ্যা, অ্যাকিউরেসি আপডেট করা
     await updateDoc(userDoc.ref, {
       points: newPoints,
       totalQuestions: newTotalQuestions,
@@ -445,94 +435,66 @@ async function updateScoreInFirestore(correctAnswersThisSession, questionsThisSe
       pracData: newPracData
     });
 
-    // এখন leaderboard র‍্যাংক বের করা
     const leaderboardQuery = query(userRef, orderBy("points", "desc"));
     const allUsersSnapshot = await getDocs(leaderboardQuery);
 
     let rank = 1;
     for (const doc of allUsersSnapshot.docs) {
-      const data = doc.data();
-      if (data.email === user.email) {
-        break; // user found
-      }
+      if (doc.data().email === user.email) break;
       rank++;
     }
 
-    // leaderboardRank আপডেট করা
-    await updateDoc(userDoc.ref, {
-      leaderboardRank: rank
-    });
-
-    console.log("User data and leaderboard rank updated successfully.");
-    updateUIWithUserData(user.email); // তোমার UI ফাংশন
-
+    await updateDoc(userDoc.ref, { leaderboardRank: rank });
+    updateUIWithUserData(user.email);
     return;
-
   } catch (error) {
-    console.error("Error in updateScoreInFirestore:", error);
     return Promise.reject(error);
   }
 }
 
-
-
-
 function restartQuizUI() {
-  for (let i = 0; i < document.getElementsByClassName('quiz-option').length; i++) {
-    document.getElementsByClassName('quiz-option')[i].classList.remove('correct', 'incorrect');
-    document.getElementsByClassName('quiz-option')[i].setAttribute("onclick", "selectOption(this)");
-  }
+  Array.from(document.getElementsByClassName('quiz-option')).forEach(opt => {
+    opt.classList.remove('correct', 'incorrect');
+    opt.setAttribute("onclick", "selectOption(this)");
+  });
   document.getElementById("quiz-loadingSpinner").style.display = 'none';
-  console.log("----breaking----");
   document.getElementById("quiz").style.display = 'block';
   document.getElementById('quizEnd').style.display = 'none';
   document.getElementById("btnNext").style.display = 'none';
+  document.getElementById("endUnlimitedPractice").style.display = 'none';
 }
 
 function getLast7Dates() {
   const dates = [];
   const today = new Date();
-
   for (let i = 0; i < 7; i++) {
     const date = new Date(today);
     date.setDate(today.getDate() - i);
-
     const yyyy = date.getFullYear();
-    const mm = String(date.getMonth() + 1).padStart(2, '0'); // Month is 0-indexed
+    const mm = String(date.getMonth() + 1).padStart(2, '0');
     const dd = String(date.getDate()).padStart(2, '0');
-
     dates.push(`${yyyy}-${mm}-${dd}`);
   }
-
   return dates;
 }
+
 function fetchPracticeDataAndRenderChart() {
   onAuthStateChanged(auth, async (user) => {
     if (!user) return;
-
     const q = query(collection(db, "users"), where("email", "==", user.email));
     const snapshot = await getDocs(q);
-
-    if (snapshot.empty) {
-      console.error("User data not found.");
-      return;
-    }
-
+    if (snapshot.empty) return;
     const userDoc = snapshot.docs[0];
     const practiceData = userDoc.data().pracData || {};
-
     const labels = getLast7Dates();
-    const data = labels.map(date => {
-      return practiceData[date]?.correctAnswers || 0;
-    });
-
+    const data = labels.map(date => practiceData[date]?.correctAnswers || 0);
     renderChart(labels, data);
   });
 }
+
 function renderChart(labels, data) {
   const ctx = document.getElementById('progressChart');
   if (typeof Chart === 'undefined' || !ctx) return;
-
   new Chart(ctx.getContext('2d'), {
     type: 'line',
     data: {
@@ -549,53 +511,34 @@ function renderChart(labels, data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      scales: {
-        y: {
-          beginAtZero: true
-        }
-      }
+      scales: { y: { beginAtZero: true } }
     }
   });
 }
+
 function updateStreakDays() {
   onAuthStateChanged(auth, async (user) => {
     if (!user) return;
-
     const q = query(collection(db, "users"), where("email", "==", user.email));
     const snapshot = await getDocs(q);
-
-    if (snapshot.empty) {
-      console.error("User data not found.");
-      return;
-    }
-
+    if (snapshot.empty) return;
     const userDoc = snapshot.docs[0];
-    const userData = userDoc.data();
-    const pracData = userData.pracData || {};
-
+    const pracData = userDoc.data().pracData || {};
     const practicedDates = Object.keys(pracData).sort((a, b) => new Date(b) - new Date(a));
-
     let streakDays = 0;
     let currentDate = new Date();
-    currentDate.setHours(0, 0, 0, 0); // Normalize to midnight
-
+    currentDate.setHours(0, 0, 0, 0);
     for (const dateStr of practicedDates) {
       const practicedDate = new Date(dateStr);
-      practicedDate.setHours(0, 0, 0, 0); // Normalize too
-
+      practicedDate.setHours(0, 0, 0, 0);
       if (practicedDate.getTime() === currentDate.getTime()) {
         streakDays++;
-        currentDate.setDate(currentDate.getDate() - 1); // Check the day before
+        currentDate.setDate(currentDate.getDate() - 1);
       } else {
-        break; // If a day is missed, streak ends
+        break;
       }
     }
-
-    // Update all DOM elements with class "streak-days"
-    document.querySelectorAll('.streak-days').forEach(el => {
-      el.textContent = streakDays;
-    });
-    // Update streak in Firestore
+    document.querySelectorAll('.streak-days').forEach(el => el.textContent = streakDays);
     await updateDoc(userDoc.ref, { streak: streakDays });
   });
 }
@@ -607,15 +550,11 @@ async function fetchAllUsersFromFirestore() {
 
 function renderLeaderboard(allUsers, currentUserEmail) {
   const leaderboardBody = document.getElementById("leaderboard-data");
-  leaderboardBody.innerHTML = ""; // Clear existing rows
-
-  // Sort users by points (highest first)
+  leaderboardBody.innerHTML = "";
   allUsers.sort((a, b) => b.points - a.points);
-
   allUsers.forEach((user, index) => {
     const isCurrentUser = user.email === currentUserEmail;
     const nameInitial = user.name?.[0]?.toUpperCase() || "?";
-
     const userRow = document.createElement("div");
     userRow.className = `leaderboard-row ${isCurrentUser ? "current-user" : ""}`;
     userRow.innerHTML = `
@@ -639,13 +578,12 @@ function updateLeaderboardFromFirestore() {
     renderLeaderboard(allUsers, user.email);
   });
 }
+
 window.renderQuestionBank = async function () {
   const container = document.getElementById("dictionary-list");
-
   dictionary.forEach(entry => {
     const card = document.createElement("div");
     card.className = "word-card";
-
     card.innerHTML = `
       <div class="word-title">
         ${entry.en}
@@ -656,12 +594,12 @@ window.renderQuestionBank = async function () {
         <p><span>Definition:</span> ${entry.def.join("; ")}</p>
         <p><span>Synonyms:</span> ${entry.syn.join(", ") || 'N/A'}</p>
         <p><span>Antonyms:</span> ${entry.ant.join(", ") || 'N/A'}</p>
-        </div>
-      `;
-
+      </div>
+    `;
     container.appendChild(card);
   });
 }
+
 window.speakWord = function (word) {
   const utterance = new SpeechSynthesisUtterance(word);
   utterance.lang = "en-US";
