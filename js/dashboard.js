@@ -56,7 +56,7 @@ function updateUIWithUserData(userData) {
   document.getElementById('user-name').textContent = userData.name;
   document.getElementById('user-email').textContent = userData.email;
   document.getElementById('user-dob').innerHTML = '<i class="fa fa-birthday-cake"></i> ' + userData.birthDate;
-  document.getElementById('user-gender').innerHTML = '<i class="fa fa-genderi> ' + userData.gender; // Corrected to use the actual data
+  document.getElementById('user-gender').innerHTML = '<i class="fa fa-male"></i> ' + userData.gender; // Corrected to use the actual data
   
   // Load stats (still hardcoded - consider fetching from Firestore)
   
@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', function () {
       hideAll();
       $("quiz-loadingSpinner").style.display = 'none';
       $("quiz").style.display = 'block';
+      timerInitialized = true;
       startTimer(300);
       intialQuestions(0, 10);
-      timerInitialized = true;
     } catch (error) {
       console.error("Error initializing quick practice:", error);
       $("quiz-loadingSpinner").style.display = 'block';
@@ -329,6 +329,7 @@ window.intialQuestions = async function (QNo = 0, limit) {
     const timeParts = quizTimerEl.innerHTML.split(':');
     if (timeParts.length >= 3) {
       const remainingSeconds = parseInt(timeParts[1].trim()) * 60 + parseInt(timeParts[2].trim()) - 1;
+      timerInitialized = true;
       startTimer(remainingSeconds);
     }
   }
@@ -350,7 +351,7 @@ async function startTimer(time) {
   const timerInterval = setInterval(() => {
     if (document.getElementById("quizContainer").style.display === 'none' || !timerInitialized) {
       clearInterval(timerInterval);
-      restartQuizUI();
+      //restartQuizUI();
       return;
     }
     if (timeLeft <= 0) {
@@ -381,6 +382,7 @@ window.selectOption = function (selectedOption) {
   let isAnswerCorrect = dictionary[questionIdx]['bn'].includes(userSelectedOption);
 
   if (isAnswerCorrect) {
+    console.log("Correct answer selected:", userSelectedOption);
     selectedOption.classList.add('correct');
     document.getElementById("stutas").innerText = "Correct! Well done.";
     score += dictionary[questionIdx].attemptScore;
