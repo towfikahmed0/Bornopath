@@ -1,44 +1,15 @@
 function switchtab(ele) {
-    ele.classList.add("active");
-    if (ele.id == "tab_1") {
-        document.getElementById("tab_2").classList.remove("active")
-        document.getElementById("tab_3").classList.remove("active")
-        document.getElementById("tab_4").classList.remove("active")
-        document.getElementById("dashboardContant").style.display = "block";
-        document.getElementById("questionBank").style.display = "none";
-        document.getElementById("leaderboard").style.display = "none";
-        document.getElementById("profileContant").style.display = "none";
-        document.getElementById("quizContainer").style.display = 'none';
-    } else if(ele.id == 'tab_2') {
-        document.getElementById("tab_1").classList.remove("active")
-        document.getElementById("tab_3").classList.remove("active")
-        document.getElementById("tab_4").classList.remove("active")
-        document.getElementById("dashboardContant").style.display = "none";
-        document.getElementById("questionBank").style.display = "block";
-        document.getElementById("leaderboard").style.display = "none";
-        document.getElementById("profileContant").style.display = "none";
-        document.getElementById("quizContainer").style.display = 'none';
-        renderQuestionBank();
-    } else if(ele.id == 'tab_3') {
-        document.getElementById("tab_1").classList.remove("active")
-        document.getElementById("tab_2").classList.remove("active")
-        document.getElementById("tab_4").classList.remove("active")
-        document.getElementById("dashboardContant").style.display = "none";
-        document.getElementById("questionBank").style.display = "none";
-        document.getElementById("leaderboard").style.display = "block";
-        document.getElementById("profileContant").style.display = "none";
-        document.getElementById("quizContainer").style.display = 'none';
-    }
-    else{
-        document.getElementById("tab_1").classList.remove("active")
-        document.getElementById("tab_2").classList.remove("active")
-        document.getElementById("tab_3").classList.remove("active")
-        document.getElementById("dashboardContant").style.display = "none";
-        document.getElementById("questionBank").style.display = "none";
-        document.getElementById("leaderboard").style.display = "none";
-        document.getElementById("profileContant").style.display = "block";
-        document.getElementById("quizContainer").style.display = 'none';
-    }
+  const tabIds = ["tab_1", "tab_2", "tab_3", "tab_4"];
+  const contentIds = ["dashboardContant", "questionBank", "leaderboard", "profileContant"];
+  const index = tabIds.indexOf(ele.id);
+
+  tabIds.forEach((id, i) => {
+    document.getElementById(id).classList.toggle("active", i === index);
+    document.getElementById(contentIds[i]).style.display = i === index ? "block" : "none";
+  });
+
+  document.getElementById("quizContainer").style.display = 'none';
+  if (ele.id === "tab_2") renderQuestionBank();
 }
 
 function selectOption(ele) {
