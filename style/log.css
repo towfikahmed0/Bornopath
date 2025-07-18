@@ -70,9 +70,9 @@ button {
     background-color: transparent; 
     border: none; 
     outline: none; 
-    width: 115px; 
+    width: 120px; 
     border: 1px solid #fff; 
-    padding: 8px 15px 8px 15px;
+    padding: 7px 10px 7px 10px;
 }
 .sidetext button:hover{
     background-color: #fff; 
@@ -145,6 +145,7 @@ button {
         top: 4vw;
     }
     .aboutContainer {
-    margin: 3vw;
+    margin: 1vw;
+    overflow: auto;
     }
 }
