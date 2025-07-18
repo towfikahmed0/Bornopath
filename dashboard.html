@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-  <title>Bornopath-Explore the world of words with WordVo</title>
+  <title>Bornopath-Learn Words the Smart Way.</title>
 </head>
 
 <body>
@@ -36,10 +36,14 @@
     <a href="#" style="bottom: 0;" onclick="signOut()"><i class="fa fa-sign-out"></i> <span>Log out</span></a>
   </div>
   <div class="content">
-    <div id="dashboardContant">
-      <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  Please note that BornoPath is still in the <strong> development phase</strong>. Full functionality will be available soon.
-      </div>
+    <div id="dashboardContant" style="padding: 19px;">
+     <div class="alert alert-success alert-dismissible fade show" role="alert" id="bornoAlert">
+  BornoPath is now fully functional! 🎉
+  However, the project is temporarily closed for now.
+  Thanks for your support – we’ll be back soon!
+  <button type="button" class="btn-close" onclick="document.getElementById('bornoAlert').style.display='none';" aria-label="Close"></button>
+</div>
+
       <!-- User Stats Overview -->
       <div class="dashboard-header">
         <div class="user-stats">
@@ -158,12 +162,12 @@
 
       </div>
     </div>
-    <div id="questionBank" style="display: none;">
+    <div id="questionBank" style="display: none; padding: 19px;">
       <h2><i class="fa fa-book" aria-hidden="true"></i> Dictionary</h2>
       <br>
       <div id="dictionary-list"></div>
     </div>
-    <div id="leaderboard" style="display: none;">
+    <div id="leaderboard" style="display: none; padding: 19px;">
       <div class="leaderboard-container">
         <h1 class="leaderboard-title"><i class="fa fa-trophy"></i> Bornopath Leaderboard</h1>
 
@@ -208,7 +212,7 @@
       </div> -->
       </div>
     </div>
-    <div id="quizContainer" style="display: none;">
+    <div id="quizContainer" style="display: none; padding: 19px;">
       <div id="quiz-loadingSpinner"
         style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
         <div class="d-flex justify-content-center">
@@ -238,7 +242,6 @@
             <h2 class="question-text" id="questionText">What is the correct meaning of the word "ephemeral"?</h2>
           </div>
           <div class="options-container" id="optionsContainer">
-            <p hidden id="QNo"></p>
             <p hidden id="opton-selected"></p>
             <p hidden id="questionIdx"></p>
             <!-- Options will be inserted here by JavaScript -->
@@ -261,8 +264,12 @@
           </div>
         </div>
         <div class="quiz-footer">
+          <button class="btn-quiz-nav" id="endUnlimitedPractice"
+            style="display: block;">
+            End Quiz <i class="fa fa-flag" aria-hidden="true"></i>
+          </button>
           <button class="btn-quiz-nav" id="btnNext"
-            onclick="intialQuestions(parseInt(document.getElementById('QNo').innerText), parseInt(document.getElementById('Qlimit').innerText))"
+            onclick="intialQuestions(0,0)"
             style="display: none;">
             Next <i class="fa fa-arrow-right"></i>
           </button>
