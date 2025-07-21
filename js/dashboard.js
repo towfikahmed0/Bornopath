@@ -3,7 +3,7 @@ import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/fi
 import { getFirestore, collection, query, where, getDocs, updateDoc, orderBy } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB12GMrNdELvkdSKxF8Ij2IGKRqUh63WTc",
+  apiKey: "",
   authDomain: "wordvo-bb47d.firebaseapp.com",
   projectId: "wordvo-bb47d",
   storageBucket: "wordvo-bb47d.firebasestorage.app",
