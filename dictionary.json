@@ -4320,5 +4320,1426 @@
             "infidel",
             "heretic"
         ]
+    },
+    {
+        "en": "hypothesis",
+        "bn": ["অনুমান"],
+        "def": ["a proposed explanation made on limited evidence"],
+        "syn": ["theory", "supposition"],
+        "ant": ["fact", "certainty"]
+    },
+    {
+        "en": "metaphor",
+        "bn": ["রূপক"],
+        "def": ["figure of speech comparing unrelated things"],
+        "syn": ["analogy", "symbol"],
+        "ant": ["literal statement"]
+    },
+    {
+        "en": "globalization",
+        "bn": ["বিশ্বায়ন"],
+        "def": ["international integration through trade/culture"],
+        "syn": ["interconnectedness", "universalization"],
+        "ant": ["isolationism", "protectionism"]
+    },
+    {
+        "en": "sustainability",
+        "bn": ["টেকসইতা"],
+        "def": ["avoiding resource depletion for future generations"],
+        "syn": ["endurance", "ecological balance"],
+        "ant": ["unsustainability", "exploitation"]
+    },
+    {
+        "en": "biodiversity",
+        "bn": ["জৈববৈচিত্র্য"],
+        "def": ["variety of life in an ecosystem"],
+        "syn": ["ecological diversity", "species richness"],
+        "ant": ["monoculture", "uniformity"]
+    },
+    {
+        "en": "democracy",
+        "bn": ["গণতন্ত্র"],
+        "def": ["government by the people"],
+        "syn": ["self-rule", "popular sovereignty"],
+        "ant": ["autocracy", "dictatorship"]
+    },
+    {
+        "en": "colonialism",
+        "bn": ["উপনিবেশবাদ"],
+        "def": ["political control by a foreign power"],
+        "syn": ["imperialism", "domination"],
+        "ant": ["decolonization", "independence"]
+    },
+    {
+        "en": "urbanization",
+        "bn": ["নগরায়ন"],
+        "def": ["population shift to cities"],
+        "syn": ["metropolitan growth", "industrialization"],
+        "ant": ["ruralization", "deurbanization"]
+    },
+    {
+        "en": "climate",
+        "bn": ["জলবায়ু"],
+        "def": ["long-term weather patterns"],
+        "syn": ["atmospheric conditions", "weather system"],
+        "ant": ["microclimate", "weather anomaly"]
+    },
+    {
+        "en": "bureaucracy",
+        "bn": ["আমলাতন্ত্র"],
+        "def": ["system of government with rigid hierarchies"],
+        "syn": ["administration", "officialdom"],
+        "ant": ["anarchy", "simplicity"]
+    },
+    {
+        "en": "industrialization",
+        "bn": ["শিল্পায়ন"],
+        "def": ["development of industries in a country"],
+        "syn": ["manufacturing growth", "technological advancement"],
+        "ant": ["deindustrialization", "agrarian economy"]
+    },
+    {
+        "en": "entrepreneur",
+        "bn": ["উদ্যোক্তা"],
+        "def": ["person who starts a business venture"],
+        "syn": ["businessperson", "innovator"],
+        "ant": ["employee", "laborer"]
+    },
+    {
+        "en": "inflation",
+        "bn": ["মুদ্রাস্ফীতি"],
+        "def": ["general price increase over time"],
+        "syn": ["price rise", "economic devaluation"],
+        "ant": ["deflation", "price stability"]
+    },
+    {
+        "en": "ecosystem",
+        "bn": ["বাস্তুতন্ত্র"],
+        "def": ["community of interacting organisms"],
+        "syn": ["ecological system", "habitat network"],
+        "ant": ["artificial environment"]
+    },
+    {
+        "en": "gender",
+        "bn": ["লিঙ্গ"],
+        "def": ["social/cultural roles of sexes"],
+        "syn": ["sex identity", "social construct"],
+        "ant": ["biological sex"]
+    },
+    {
+        "en": "literacy",
+        "bn": ["সাক্ষরতা"],
+        "def": ["ability to read and write"],
+        "syn": ["education", "learning"],
+        "ant": ["illiteracy", "ignorance"]
+    },
+    {
+        "en": "migration",
+        "bn": ["প্রবাসন"],
+        "def": ["movement of people/animals"],
+        "syn": ["relocation", "displacement"],
+        "ant": ["sedentary lifestyle", "settlement"]
+    },
+    {
+        "en": "monarchy",
+        "bn": ["রাজতন্ত্র"],
+        "def": ["government with a hereditary ruler"],
+        "syn": ["kingship", "sovereignty"],
+        "ant": ["republic", "democracy"]
+    },
+    {
+        "en": "nationalism",
+        "bn": ["জাতীয়তাবাদ"],
+        "def": ["patriotic feeling/principles"],
+        "syn": ["patriotism", "chauvinism"],
+        "ant": ["internationalism", "globalism"]
+    },
+    {
+        "en": "poverty",
+        "bn": ["দারিদ্র্য"],
+        "def": ["state of extreme deprivation"],
+        "syn": ["destitution", "indigence"],
+        "ant": ["affluence", "prosperity"]
+    },
+    {
+        "en": "refugee",
+        "bn": ["শরণার্থী"],
+        "def": ["person fleeing war/persecution"],
+        "syn": ["displaced person", "asylum seeker"],
+        "ant": ["citizen", "native"]
+    },
+    {
+        "en": "renewable",
+        "bn": ["নবায়নযোগ্য"],
+        "def": ["energy source that replenishes naturally"],
+        "syn": ["sustainable", "replenishable"],
+        "ant": ["non-renewable", "finite"]
+    },
+    {
+        "en": "satire",
+        "bn": ["ব্যঙ্গ"],
+        "def": ["use of humor to criticize"],
+        "syn": ["parody", "irony"],
+        "ant": ["praise", "eulogy"]
+    },
+    {
+        "en": "stereotype",
+        "bn": ["স্থূলীকরণ"],
+        "def": ["oversimplified generalization"],
+        "syn": ["cliché", "prejudice"],
+        "ant": ["individuality", "nuance"]
+    },
+    {
+        "en": "syntax",
+        "bn": ["বাক্য গঠন"],
+        "def": ["arrangement of words in sentences"],
+        "syn": ["sentence structure", "grammar"],
+        "ant": ["random word order"]
+    },
+    {
+        "en": "taxation",
+        "bn": ["কর"],
+        "def": ["compulsory financial charge by government"],
+        "syn": ["levy", "duty"],
+        "ant": ["tax exemption", "subsidy"]
+    },
+    {
+        "en": "technology",
+        "bn": ["প্রযুক্তি"],
+        "def": ["application of scientific knowledge"],
+        "syn": ["innovation", "applied science"],
+        "ant": ["primitive tools", "manual labor"]
+    },
+    {
+        "en": "tolerance",
+        "bn": ["সহিষ্ণুতা"],
+        "def": ["acceptance of diverse opinions"],
+        "syn": ["open-mindedness", "broad-mindedness"],
+        "ant": ["bigotry", "prejudice"]
+    },
+    {
+        "en": "unemployment",
+        "bn": ["বেকারত্ব"],
+        "def": ["state of being jobless"],
+        "syn": ["joblessness", "idleness"],
+        "ant": ["employment", "occupation"]
+    },
+    {
+        "en": "urban",
+        "bn": ["শহুরে"],
+        "def": ["relating to cities"],
+        "syn": ["metropolitan", "municipal"],
+        "ant": ["rural", "pastoral"]
+    },
+    {
+        "en": "violation",
+        "bn": ["লঙ্ঘন"],
+        "def": ["act of breaking rules/laws"],
+        "syn": ["infringement", "transgression"],
+        "ant": ["compliance", "observance"]
+    },
+    {
+        "en": "welfare",
+        "bn": ["কল্যাণ"],
+        "def": ["government aid for the needy"],
+        "syn": ["social security", "public assistance"],
+        "ant": ["neglect", "austerity"]
+    },
+    {
+        "en": "xenophobia",
+        "bn": ["বিদেশীভীতি"],
+        "def": ["dislike/fear of foreigners"],
+        "syn": ["racism", "chauvinism"],
+        "ant": ["cosmopolitanism", "acceptance"]
+    },
+    {
+        "en": "yield",
+        "bn": ["ফলন"],
+        "def": ["agricultural production"],
+        "syn": ["harvest", "output"],
+        "ant": ["shortage", "deficit"]
+    },
+    {
+        "en": "zoology",
+        "bn": ["প্রাণিবিদ্যা"],
+        "def": ["study of animals"],
+        "syn": ["animal biology", "faunal studies"],
+        "ant": ["botany", "plant science"]
+    },
+    {
+        "en": "algorithm",
+        "bn": ["অ্যালগরিদম"],
+        "def": ["step-by-step computational procedure"],
+        "syn": ["formula", "calculation method"],
+        "ant": ["random process", "improvisation"]
+    },
+    {
+        "en": "bilingual",
+        "bn": ["দ্বিভাষিক"],
+        "def": ["fluent in two languages"],
+        "syn": ["multilingual", "polyglot"],
+        "ant": ["monolingual", "unilingual"]
+    },
+    {
+        "en": "carbon",
+        "bn": ["কার্বন"],
+        "def": ["chemical element basis of life"],
+        "syn": ["C (atomic symbol)", "organic compound"],
+        "ant": ["inorganic matter"]
+    },
+    {
+        "en": "drought",
+        "bn": ["খরা"],
+        "def": ["prolonged water shortage"],
+        "syn": ["aridity", "water scarcity"],
+        "ant": ["flood", "deluge"]
+    },
+    {
+        "en": "epidemic",
+        "bn": ["মহামারী"],
+        "def": ["widespread disease outbreak"],
+        "syn": ["pandemic", "plague"],
+        "ant": ["containment", "eradication"]
+    },
+    {
+        "en": "fossil",
+        "bn": ["জীবাশ্ম"],
+        "def": ["preserved remains of ancient organisms"],
+        "syn": ["relic", "petrified remains"],
+        "ant": ["living specimen"]
+    },
+    {
+        "en": "genetics",
+        "bn": ["জিনতত্ত্ব"],
+        "def": ["study of heredity"],
+        "syn": ["hereditary science", "DNA research"],
+        "ant": ["environmental studies"]
+    },
+    {
+        "en": "hybrid",
+        "bn": ["সংকর"],
+        "def": ["mix of different elements"],
+        "syn": ["crossbreed", "composite"],
+        "ant": ["purebred", "homogeneous"]
+    },
+    {
+        "en": "indigenous",
+        "bn": ["আদিবাসী"],
+        "def": ["native to a region"],
+        "syn": ["aboriginal", "autochthonous"],
+        "ant": ["foreign", "non-native"]
+    },
+    {
+        "en": "jurisdiction",
+        "bn": ["আইনগত অধিক্ষেত্র"],
+        "def": ["official power to make legal decisions"],
+        "syn": ["authority", "legal control"],
+        "ant": ["lawlessness", "anarchy"]
+    },
+    {
+        "en": "kinetic",
+        "bn": ["গতিশীল"],
+        "def": ["relating to motion"],
+        "syn": ["dynamic", "moving"],
+        "ant": ["static", "stationary"]
+    },
+    {
+        "en": "legislation",
+        "bn": ["আইন প্রণয়ন"],
+        "def": ["process of making laws"],
+        "syn": ["lawmaking", "enactment"],
+        "ant": ["lawlessness", "repeal"]
+    },
+    {
+        "en": "malnutrition",
+        "bn": ["পুষ্টিহীনতা"],
+        "def": ["lack of proper nutrition"],
+        "syn": ["undernourishment", "starvation"],
+        "ant": ["nourishment", "health"]
+    },
+    {
+        "en": "neutron",
+        "bn": ["নিউট্রন"],
+        "def": ["subatomic particle with no charge"],
+        "syn": ["atomic particle", "nucleon"],
+        "ant": ["proton", "electron"]
+    },
+    {
+        "en": "ozone",
+        "bn": ["ওজোন"],
+        "def": ["protective atmospheric layer"],
+        "syn": ["O₃", "trioxygen"],
+        "ant": ["pollutant", "smog"]
+    },
+    {
+        "en": "antibiotic",
+        "bn": ["অ্যান্টিবায়োটিক"],
+        "def": ["medicine that inhibits bacteria"],
+        "syn": ["antimicrobial", "germicide"],
+        "ant": ["probiotic", "culture"]
+    },
+    {
+        "en": "barter",
+        "bn": ["বিনিময় প্রথা"],
+        "def": ["exchange goods without money"],
+        "syn": ["trade", "swap"],
+        "ant": ["purchase", "sell"]
+    },
+    {
+        "en": "census",
+        "bn": ["জনগণনা"],
+        "def": ["official population count"],
+        "syn": ["survey", "enumeration"],
+        "ant": ["estimate", "sampling"]
+    },
+    {
+        "en": "deforestation",
+        "bn": ["বন উজাড়"],
+        "def": ["clearing of forests"],
+        "syn": ["clear-cutting", "desolation"],
+        "ant": ["afforestation", "reforestation"]
+    },
+    {
+        "en": "embargo",
+        "bn": ["নিষেধাজ্ঞা"],
+        "def": ["official ban on trade"],
+        "syn": ["sanction", "blockade"],
+        "ant": ["free trade", "allowance"]
+    },
+    {
+        "en": "federal",
+        "bn": ["ফেডারেল"],
+        "def": ["relating to central government"],
+        "syn": ["national", "union"],
+        "ant": ["local", "provincial"]
+    },
+    {
+        "en": "geothermal",
+        "bn": ["ভূ-তাপীয়"],
+        "def": ["energy from earth's heat"],
+        "syn": ["thermal", "underground"],
+        "ant": ["solar", "wind-powered"]
+    },
+    {
+        "en": "habitat",
+        "bn": ["বাসস্থান"],
+        "def": ["natural environment of an organism"],
+        "syn": ["ecosystem", "dwelling"],
+        "ant": ["artificial habitat", "captivity"]
+    },
+    {
+        "en": "immunity",
+        "bn": ["প্রতিরোধ ক্ষমতা"],
+        "def": ["biological resistance to disease"],
+        "syn": ["defense", "resistance"],
+        "ant": ["susceptibility", "vulnerability"]
+    },
+    {
+        "en": "judiciary",
+        "bn": ["বিচার বিভাগ"],
+        "def": ["system of courts"],
+        "syn": ["legal system", "judges"],
+        "ant": ["executive", "legislature"]
+    },
+    {
+        "en": "kilowatt",
+        "bn": ["কিলোওয়াট"],
+        "def": ["unit of electrical power"],
+        "syn": ["kW", "energy unit"],
+        "ant": ["watt-hour", "voltage"]
+    },
+    {
+        "en": "lithosphere",
+        "bn": ["শিলামণ্ডল"],
+        "def": ["rigid outer earth layer"],
+        "syn": ["earth's crust", "tectonic plate"],
+        "ant": ["atmosphere", "hydrosphere"]
+    },
+    {
+        "en": "monsoon",
+        "bn": ["মৌসুমি বায়ু"],
+        "def": ["seasonal wind/rain pattern"],
+        "syn": ["rainy season", "trade winds"],
+        "ant": ["drought", "dry spell"]
+    },
+    {
+        "en": "neutron",
+        "bn": ["নিউট্রন"],
+        "def": ["neutral subatomic particle"],
+        "syn": ["nucleon", "atomic particle"],
+        "ant": ["proton", "electron"]
+    },
+    {
+        "en": "osmosis",
+        "bn": ["অস্মোসিস"],
+        "def": ["molecule diffusion through membrane"],
+        "syn": ["absorption", "diffusion"],
+        "ant": ["active transport", "pumping"]
+    },
+    {
+        "en": "photosynthesis",
+        "bn": ["সালোকসংশ্লেষণ"],
+        "def": ["plant process of making food"],
+        "syn": ["carbon fixation", "light reaction"],
+        "ant": ["respiration", "decay"]
+    },
+    {
+        "en": "quota",
+        "bn": ["কোটা"],
+        "def": ["fixed share/allowance"],
+        "syn": ["allocation", "ration"],
+        "ant": ["unlimited", "surplus"]
+    },
+    {
+        "en": "renewable",
+        "bn": ["নবায়নযোগ্য"],
+        "def": ["energy source that replenishes"],
+        "syn": ["sustainable", "replenishable"],
+        "ant": ["non-renewable", "finite"]
+    },
+    {
+        "en": "sediment",
+        "bn": ["পলল"],
+        "def": ["eroded matter deposited by water"],
+        "syn": ["silt", "deposit"],
+        "ant": ["bedrock", "parent material"]
+    },
+    {
+        "en": "topography",
+        "bn": ["স্থানাঙ্কবিদ্যা"],
+        "def": ["physical features of land"],
+        "syn": ["terrain", "landscape"],
+        "ant": ["flatness", "uniformity"]
+    },
+    {
+        "en": "urbanization",
+        "bn": ["নগরায়ন"],
+        "def": ["population shift to cities"],
+        "syn": ["metropolitan growth", "industrialization"],
+        "ant": ["ruralization", "deurbanization"]
+    },
+    {
+        "en": "velocity",
+        "bn": ["বেগ"],
+        "def": ["speed in a direction"],
+        "syn": ["momentum", "rapidity"],
+        "ant": ["slowness", "inertia"]
+    },
+    {
+        "en": "watershed",
+        "bn": ["জলবিভাজিকা"],
+        "def": ["area draining to a waterbody"],
+        "syn": ["basin", "catchment"],
+        "ant": ["divide", "ridge"]
+    },
+    {
+        "en": "xylem",
+        "bn": ["জাইলেম"],
+        "def": ["plant tissue transporting water"],
+        "syn": ["vascular tissue", "wood"],
+        "ant": ["phloem", "bark"]
+    },
+    {
+        "en": "yield",
+        "bn": ["ফলন"],
+        "def": ["agricultural production"],
+        "syn": ["harvest", "output"],
+        "ant": ["shortage", "deficit"]
+    },
+    {
+        "en": "zoology",
+        "bn": ["প্রাণিবিদ্যা"],
+        "def": ["study of animals"],
+        "syn": ["animal biology", "faunal studies"],
+        "ant": ["botany", "plant science"]
+    },
+    {
+        "en": "acid rain",
+        "bn": ["অ্যাসিড বৃষ্টি"],
+        "def": ["precipitation with acidic pollutants"],
+        "syn": ["polluted rain", "chemical rain"],
+        "ant": ["clean rain", "pure water"]
+    },
+    {
+        "en": "biome",
+        "bn": ["জৈবক্ষেত্র"],
+        "def": ["large ecological community"],
+        "syn": ["ecozone", "habitat type"],
+        "ant": ["artificial ecosystem"]
+    },
+    {
+        "en": "carbon footprint",
+        "bn": ["কার্বন পদচিহ্ন"],
+        "def": ["total greenhouse gas emissions"],
+        "syn": ["environmental impact", "emissions"],
+        "ant": ["carbon neutrality", "sustainability"]
+    },
+    {
+        "en": "drought",
+        "bn": ["খরা"],
+        "def": ["prolonged water shortage"],
+        "syn": ["aridity", "water scarcity"],
+        "ant": ["flood", "deluge"]
+    },
+    {
+        "en": "ecotourism",
+        "bn": ["ইকোট্যুরিজম"],
+        "def": ["tourism supporting conservation"],
+        "syn": ["green tourism", "sustainable travel"],
+        "ant": ["mass tourism", "overdevelopment"]
+    },
+    {
+        "en": "fossil fuel",
+        "bn": ["জীবাশ্ম জ্বালানি"],
+        "def": ["fuel from ancient organic matter"],
+        "syn": ["coal/oil/gas", "non-renewable energy"],
+        "ant": ["renewable energy", "biofuel"]
+    },
+    {
+        "en": "greenhouse effect",
+        "bn": ["গ্রিনহাউস প্রভাব"],
+        "def": ["heat trapping by atmospheric gases"],
+        "syn": ["global warming", "climate change"],
+        "ant": ["ice age", "cooling"]
+    },
+    {
+        "en": "hydroelectric",
+        "bn": ["জলবিদ্যুৎ"],
+        "def": ["electricity from water power"],
+        "syn": ["hydropower", "dam-generated"],
+        "ant": ["thermal power", "fossil fuel"]
+    },
+    {
+        "en": "invasive species",
+        "bn": ["আক্রমণাত্মক প্রজাতি"],
+        "def": ["non-native organism harming ecosystems"],
+        "syn": ["alien species", "pest"],
+        "ant": ["native species", "endemic"]
+    },
+    {
+        "en": "jet stream",
+        "bn": ["জেট স্ট্রিম"],
+        "def": ["fast-flowing air currents"],
+        "syn": ["air current", "wind pattern"],
+        "ant": ["still air", "calm"]
+    },
+    {
+        "en": "keystone species",
+        "bn": ["কিস্টোন প্রজাতি"],
+        "def": ["species critical to ecosystem"],
+        "syn": ["crucial species", "ecosystem engineer"],
+        "ant": ["insignificant species", "redundant"]
+    },
+    {
+        "en": "landfill",
+        "bn": ["ল্যান্ডফিল"],
+        "def": ["waste disposal site"],
+        "syn": ["dump", "rubbish tip"],
+        "ant": ["recycling center", "compost"]
+    },
+    {
+        "en": "microplastic",
+        "bn": ["মাইক্রোপ্লাস্টিক"],
+        "def": ["tiny plastic pollution particles"],
+        "syn": ["plastic debris", "nanoplastic"],
+        "ant": ["biodegradable", "organic"]
+    },
+    {
+        "en": "nitrogen cycle",
+        "bn": ["নাইট্রোজেন চক্র"],
+        "def": ["circulation of nitrogen in nature"],
+        "syn": ["nutrient cycle", "biogeochemical cycle"],
+        "ant": ["pollution", "disruption"]
+    },
+    {
+        "en": "ozone layer",
+        "bn": ["ওজোন স্তর"],
+        "def": ["atmospheric UV protection layer"],
+        "syn": ["stratospheric shield", "O₃ layer"],
+        "ant": ["ozone hole", "depletion"]
+    },
+    {
+        "en": "pollination",
+        "bn": ["পরাগায়ন"],
+        "def": ["transfer of pollen for fertilization"],
+        "syn": ["cross-fertilization", "plant reproduction"],
+        "ant": ["sterility", "self-pollination"]
+    },
+    {
+        "en": "quarantine",
+        "bn": ["কোয়ারেন্টাইন"],
+        "def": ["isolation to prevent disease spread"],
+        "syn": ["isolation", "segregation"],
+        "ant": ["free movement", "integration"]
+    },
+    {
+        "en": "recycling",
+        "bn": ["পুনর্ব্যবহার"],
+        "def": ["converting waste into reusable material"],
+        "syn": ["reprocessing", "upcycling"],
+        "ant": ["landfilling", "wasting"]
+    },
+    {
+        "en": "solar panel",
+        "bn": ["সোলার প্যানেল"],
+        "def": ["device converting sunlight to electricity"],
+        "syn": ["photovoltaic cell", "sun collector"],
+        "ant": ["fossil fuel", "generator"]
+    },
+    {
+        "en": "tectonic plate",
+        "bn": ["টেকটোনিক প্লেট"],
+        "def": ["massive moving crust segment"],
+        "syn": ["lithospheric plate", "continental plate"],
+        "ant": ["static crust", "fixed"]
+    },
+    {
+        "en": "ultraviolet",
+        "bn": ["অতিবেগুনী"],
+        "def": ["electromagnetic radiation beyond violet"],
+        "syn": ["UV", "sunburn rays"],
+        "ant": ["infrared", "visible light"]
+    },
+    {
+        "en": "volcano",
+        "bn": ["আগ্নেয়গিরি"],
+        "def": ["mountain erupting molten rock"],
+        "syn": ["vent", "magma chamber"],
+        "ant": ["plain", "plateau"]
+    },
+    {
+        "en": "water cycle",
+        "bn": ["জলচক্র"],
+        "def": ["continuous water movement on Earth"],
+        "syn": ["hydrologic cycle", "evaporation cycle"],
+        "ant": ["stagnation", "drought"]
+    },
+    {
+        "en": "xerophyte",
+        "bn": ["জেরোফাইট"],
+        "def": ["plant adapted to dry conditions"],
+        "syn": ["desert plant", "succulent"],
+        "ant": ["hydrophyte", "aquatic plant"]
+    },
+    {
+        "en": "yield gap",
+        "bn": ["ফলন ব্যবধান"],
+        "def": ["difference between potential/actual crop yield"],
+        "syn": ["production gap", "agricultural deficit"],
+        "ant": ["maximum yield", "optimal production"]
+    },
+    {
+        "en": "zero waste",
+        "bn": ["জিরো ওয়েস্ট"],
+        "def": ["aim to eliminate trash"],
+        "syn": ["waste-free", "circular economy"],
+        "ant": ["landfill", "disposable"]
+    },
+    {
+        "en": "allegory",
+        "bn": ["রূপকধর্মী রচনা"],
+        "def": ["story with a hidden moral/political meaning"],
+        "syn": ["parable", "symbolic tale"],
+        "ant": ["literal narrative", "direct statement"]
+    },
+    {
+        "en": "alliteration",
+        "bn": ["অনুপ্রাস"],
+        "def": ["repetition of initial consonant sounds"],
+        "syn": ["head rhyme", "initial rhyme"],
+        "ant": ["assonance", "consonance"]
+    },
+    {
+        "en": "ambiguity",
+        "bn": ["অস্পষ্টতা"],
+        "def": ["uncertainty of meaning in language"],
+        "syn": ["vagueness", "equivocation"],
+        "ant": ["clarity", "precision"]
+    },
+    {
+        "en": "anecdote",
+        "bn": ["উপাখ্যান"],
+        "def": ["short amusing/revealing story"],
+        "syn": ["tale", "reminiscence"],
+        "ant": ["lengthy account", "formal report"]
+    },
+    {
+        "en": "antagonist",
+        "bn": ["খলনায়ক"],
+        "def": ["character opposing the protagonist"],
+        "syn": ["adversary", "rival"],
+        "ant": ["protagonist", "hero"]
+    },
+    {
+        "en": "archetype",
+        "bn": ["মূল আদর্শ"],
+        "def": ["universal symbol/character pattern"],
+        "syn": ["prototype", "model"],
+        "ant": ["anomaly", "original"]
+    },
+    {
+        "en": "assonance",
+        "bn": ["স্বরসাদৃশ্য"],
+        "def": ["repetition of vowel sounds"],
+        "syn": ["vowel rhyme", "harmony"],
+        "ant": ["dissonance", "cacophony"]
+    },
+    {
+        "en": "ballad",
+        "bn": ["গাথা"],
+        "def": ["narrative poem in short stanzas"],
+        "syn": ["folk song", "lay"],
+        "ant": ["prose", "essay"]
+    },
+    {
+        "en": "bildungsroman",
+        "bn": ["বিকাশমূলক উপন্যাস"],
+        "def": ["novel about moral/psychological growth"],
+        "syn": ["coming-of-age story", "apprenticeship novel"],
+        "ant": ["static narrative", "episodic tale"]
+    },
+    {
+        "en": "caesura",
+        "bn": ["ছন্দোবিরাম"],
+        "def": ["pause in a line of poetry"],
+        "syn": ["break", "interruption"],
+        "ant": ["continuity", "flow"]
+    },
+    {
+        "en": "caricature",
+        "bn": ["ব্যঙ্গচিত্র"],
+        "def": ["exaggerated portrayal for comic effect"],
+        "syn": ["cartoon", "parody"],
+        "ant": ["realistic portrayal", "accurate depiction"]
+    },
+    {
+        "en": "colloquialism",
+        "bn": ["আঞ্চলিক ভাষা"],
+        "def": ["informal/slang expression"],
+        "syn": ["vernacular", "idiom"],
+        "ant": ["formal language", "literary diction"]
+    },
+    {
+        "en": "connotation",
+        "bn": ["গৌণ অর্থ"],
+        "def": ["implied cultural/emotional meaning"],
+        "syn": ["overtone", "undertone"],
+        "ant": ["denotation", "literal meaning"]
+    },
+    {
+        "en": "dactyl",
+        "bn": ["ড্যাক্টিল"],
+        "def": ["metrical foot with one stressed + two unstressed syllables"],
+        "syn": ["poetic foot", "meter"],
+        "ant": ["iamb", "trochee"]
+    },
+    {
+        "en": "denouement",
+        "bn": ["উপন্যাসের সমাধান"],
+        "def": ["final resolution of a plot"],
+        "syn": ["conclusion", "climax"],
+        "ant": ["complication", "rising action"]
+    },
+    {
+        "en": "didactic",
+        "bn": ["উপদেশমূলক"],
+        "def": ["intended to teach morally"],
+        "syn": ["instructive", "preachy"],
+        "ant": ["entertaining", "ambiguous"]
+    },
+    {
+        "en": "elegy",
+        "bn": ["শোকগাথা"],
+        "def": ["poem mourning the dead"],
+        "syn": ["lament", "dirge"],
+        "ant": ["celebration", "ode"]
+    },
+    {
+        "en": "epigram",
+        "bn": ["চুটকি"],
+        "def": ["witty, concise saying"],
+        "syn": ["quip", "aphorism"],
+        "ant": ["long-winded speech", "prose"]
+    },
+    {
+        "en": "euphemism",
+        "bn": ["প্রিয়োক্তি"],
+        "def": ["mild term substituting a harsh one"],
+        "syn": ["softening", "polite term"],
+        "ant": ["bluntness", "dysphemism"]
+    },
+    {
+        "en": "farce",
+        "bn": ["প্রহসন"],
+        "def": ["absurd comedy with exaggerated situations"],
+        "syn": ["slapstick", "burlesque"],
+        "ant": ["tragedy", "serious drama"]
+    },
+    {
+        "en": "foil",
+        "bn": ["বৈসাদৃশ্যপূর্ণ চরিত্র"],
+        "def": ["character contrasting with another to highlight traits"],
+        "syn": ["counterpart", "contrast"],
+        "ant": ["mirror character", "double"]
+    },
+    {
+        "en": "free verse",
+        "bn": ["মুক্ত ছন্দ"],
+        "def": ["poetry without regular meter/rhyme"],
+        "syn": ["unrhymed verse", "open form"],
+        "ant": ["rhymed verse", "sonnet"]
+    },
+    {
+        "en": "hubris",
+        "bn": ["অহংকার"],
+        "def": ["excessive pride leading to downfall"],
+        "syn": ["arrogance", "overconfidence"],
+        "ant": ["humility", "modesty"]
+    },
+    {
+        "en": "irony",
+        "bn": ["ব্যঙ্গোক্তি"],
+        "def": ["contrast between expectation and reality"],
+        "syn": ["sarcasm", "satire"],
+        "ant": ["sincerity", "literalness"]
+    },
+    {
+        "en": "juxtaposition",
+        "bn": ["পাশাপাশি স্থাপন"],
+        "def": ["placing contrasting elements side by side"],
+        "syn": ["comparison", "collocation"],
+        "ant": ["separation", "isolation"]
+    },
+    {
+        "en": "lyric",
+        "bn": ["গীতিকবিতা"],
+        "def": ["emotional, song-like poem"],
+        "syn": ["ode", "song"],
+        "ant": ["epic", "narrative poem"]
+    },
+    {
+        "en": "metonymy",
+        "bn": ["লক্ষণা"],
+        "def": ["substituting a related term for the actual word"],
+        "syn": ["symbolism", "association"],
+        "ant": ["literal term", "direct reference"]
+    },
+    {
+        "en": "motif",
+        "bn": ["মূলভাব"],
+        "def": ["recurring thematic element"],
+        "syn": ["theme", "leitmotif"],
+        "ant": ["random detail", "irrelevance"]
+    },
+    {
+        "en": "ode",
+        "bn": ["স্তবক"],
+        "def": ["lyric poem addressing a subject formally"],
+        "syn": ["paean", "hymn"],
+        "ant": ["epigram", "limerick"]
+    },
+    {
+        "en": "oxymoron",
+        "bn": ["অসঙ্গতি"],
+        "def": ["contradictory terms combined"],
+        "syn": ["paradox", "contradiction"],
+        "ant": ["consistent phrase", "literal term"]
+    },
+    {
+        "en": "parable",
+        "bn": ["দৃষ্টান্তকথা"],
+        "def": ["short story with moral lesson"],
+        "syn": ["allegory", "fable"],
+        "ant": ["factual account", "report"]
+    },
+    {
+        "en": "pastoral",
+        "bn": ["গ্রাম্য জীবন সম্পর্কিত"],
+        "def": ["literary work idealizing rural life"],
+        "syn": ["bucolic", "idyllic"],
+        "ant": ["urban", "industrial"]
+    },
+    {
+        "en": "pathos",
+        "bn": ["করুণ রস"],
+        "def": ["quality evoking pity/sadness"],
+        "syn": ["tragedy", "melancholy"],
+        "ant": ["comedy", "joy"]
+    },
+    {
+        "en": "quatrain",
+        "bn": ["চতুষ্পদী"],
+        "def": ["four-line stanza"],
+        "syn": ["stanza", "verse"],
+        "ant": ["couplet", "tercet"]
+    },
+    {
+        "en": "refrain",
+        "bn": ["গানের প্রতিপাদ্য"],
+        "def": ["repeated line/phrase in poetry"],
+        "syn": ["chorus", "repetition"],
+        "ant": ["unique line", "variation"]
+    },
+    {
+        "en": "satire",
+        "bn": ["ব্যঙ্গ"],
+        "def": ["humor exposing human vices"],
+        "syn": ["parody", "irony"],
+        "ant": ["praise", "eulogy"]
+    },
+    {
+        "en": "soliloquy",
+        "bn": ["স্বগতোক্তি"],
+        "def": ["character speaking thoughts aloud alone"],
+        "syn": ["monologue", "self-talk"],
+        "ant": ["dialogue", "conversation"]
+    },
+    {
+        "en": "sonnet",
+        "bn": ["চতুর্দশপদী"],
+        "def": ["14-line poem with fixed rhyme"],
+        "syn": ["lyric poem", "verse"],
+        "ant": ["free verse", "prose"]
+    },
+    {
+        "en": "stanza",
+        "bn": ["স্তবক"],
+        "def": ["group of lines in poetry"],
+        "syn": ["verse", "strophe"],
+        "ant": ["paragraph", "prose"]
+    },
+    {
+        "en": "stream of consciousness",
+        "bn": ["চেতনার স্রোত"],
+        "def": ["narrative mimicking unfiltered thoughts"],
+        "syn": ["interior monologue", "free association"],
+        "ant": ["structured narrative", "outline"]
+    },
+    {
+        "en": "synecdoche",
+        "bn": ["অংশদ্বারা সমগ্র বোঝানো"],
+        "def": ["using a part to represent the whole"],
+        "syn": ["metonymy", "symbolism"],
+        "ant": ["literal term", "whole representation"]
+    },
+    {
+        "en": "tragic flaw",
+        "bn": ["ত্রুটিজনিত পতন"],
+        "def": ["character defect causing downfall"],
+        "syn": ["hamartia", "weakness"],
+        "ant": ["virtue", "strength"]
+    },
+    {
+        "en": "trochee",
+        "bn": ["ট্রোকি"],
+        "def": ["metrical foot with stressed + unstressed syllable"],
+        "syn": ["poetic foot", "meter"],
+        "ant": ["iamb", "dactyl"]
+    },
+    {
+        "en": "understatement",
+        "bn": ["ন্যূনোক্তি"],
+        "def": ["presenting something as less important"],
+        "syn": ["minimization", "restraint"],
+        "ant": ["hyperbole", "exaggeration"]
+    },
+    {
+        "en": "verisimilitude",
+        "bn": ["বাস্তবসম্মত"],
+        "def": ["appearance of being true/real"],
+        "syn": ["realism", "authenticity"],
+        "ant": ["implausibility", "falseness"]
+    },
+    {
+        "en": "villanelle",
+        "bn": ["বিশেষ ধরনের কবিতা"],
+        "def": ["19-line poem with repeated refrains"],
+        "syn": ["fixed form", "lyric poem"],
+        "ant": ["free verse", "prose poem"]
+    },
+    {
+        "en": "zeugma",
+        "bn": ["শব্দের একাধিক প্রয়োগ"],
+        "def": ["using one word to govern two others differently"],
+        "syn": ["syllepsis", "rhetorical device"],
+        "ant": ["separate clauses", "distinct terms"]
+    },
+    {
+        "en": "anaphora",
+        "bn": ["পুনরুক্তি"],
+        "def": ["repetition of a word/phrase at the start of successive clauses"],
+        "syn": ["repetition", "parallelism"],
+        "ant": ["variation", "diversity"]
+    },
+    {
+        "en": "bathos",
+        "bn": ["অপ্রত্যাশিত সামান্যতা"],
+        "def": ["sudden shift from serious to ridiculous"],
+        "syn": ["anticlimax", "letdown"],
+        "ant": ["sublime", "grandeur"]
+    },
+    {
+        "en": "chiasmus",
+        "bn": ["ক্রস-বিন্যাস"],
+        "def": ["rhetorical device with reversed parallel structure"],
+        "syn": ["inversion", "antimetabole"],
+        "ant": ["straightforward syntax", "linear structure"]
+    },
+    {
+        "en": "diction",
+        "bn": ["শব্দ নির্বাচন"],
+        "def": ["author's choice of words"],
+        "syn": ["word choice", "phraseology"],
+        "ant": ["improvisation", "randomness"]
+    },
+    {
+        "en": "epistrophe",
+        "bn": ["শেষ পুনরুক্তি"],
+        "def": ["repetition of a word at the end of successive clauses"],
+        "syn": ["conclusion repetition", "terminal echo"],
+        "ant": ["anaphora", "initial repetition"]
+    },
+    {
+        "en": "foreshadowing",
+        "bn": ["ইঙ্গিত"],
+        "def": ["hinting at future events"],
+        "syn": ["prefiguration", "omen"],
+        "ant": ["flashback", "retrospection"]
+    },
+    {
+        "en": "gothic",
+        "bn": ["গথিক"],
+        "def": ["literary style with dark/mysterious elements"],
+        "syn": ["macabre", "grotesque"],
+        "ant": ["realistic", "mundane"]
+    },
+    {
+        "en": "hyperbaton",
+        "bn": ["অস্বাভাবিক বাক্য গঠন"],
+        "def": ["inversion of normal word order"],
+        "syn": ["anastrophe", "transposition"],
+        "ant": ["standard syntax", "normal order"]
+    },
+    {
+        "en": "in medias res",
+        "bn": ["মাঝখান থেকে শুরু"],
+        "def": ["narrative starting mid-action"],
+        "syn": ["mid-action", "dramatic entrance"],
+        "ant": ["chronological", "linear"]
+    },
+    {
+        "en": "kenning",
+        "bn": ["পরোক্ষ নাম"],
+        "def": ["compound poetic phrase (e.g., 'whale-road' for sea)"],
+        "syn": ["metaphorical compound", "periphrasis"],
+        "ant": ["literal term", "direct name"]
+    },
+    {
+        "en": "litotes",
+        "bn": ["নঞর্থক বাক্য"],
+        "def": ["understatement via negative phrasing"],
+        "syn": ["double negative", "underemphasis"],
+        "ant": ["hyperbole", "exaggeration"]
+    },
+    {
+        "en": "malapropism",
+        "bn": ["শব্দের ভুল প্রয়োগ"],
+        "def": ["humorous misuse of similar-sounding words"],
+        "syn": ["word blunder", "misapplication"],
+        "ant": ["correct usage", "precision"]
+    },
+    {
+        "en": "neologism",
+        "bn": ["নবগঠিত শব্দ"],
+        "def": ["newly coined word/phrase"],
+        "syn": ["invention", "coinage"],
+        "ant": ["archaism", "obsolete term"]
+    },
+    {
+        "en": "onomatopoeia",
+        "bn": ["ধ্বনাত্মক শব্দ"],
+        "def": ["word imitating natural sounds"],
+        "syn": ["echoism", "sound symbolism"],
+        "ant": ["abstract term", "silent concept"]
+    },
+    {
+        "en": "pathetic fallacy",
+        "bn": ["প্রকৃতির মানবিকীকরণ"],
+        "def": ["attributing human emotions to nature"],
+        "syn": ["personification", "emotional projection"],
+        "ant": ["objective description", "scientific observation"]
+    },
+    {
+        "en": "quintain",
+        "bn": ["পঞ্চপদী"],
+        "def": ["five-line stanza"],
+        "syn": ["stanza", "verse"],
+        "ant": ["couplet", "tercet"]
+    },
+    {
+        "en": "rhetorical question",
+        "bn": ["অলংকারিক প্রশ্ন"],
+        "def": ["question asked for effect, not answer"],
+        "syn": ["posed question", "stylistic query"],
+        "ant": ["direct question", "inquiry"]
+    },
+    {
+        "en": "spondee",
+        "bn": ["স্পন্ডি"],
+        "def": ["metrical foot with two stressed syllables"],
+        "syn": ["poetic foot", "meter"],
+        "ant": ["iamb", "trochee"]
+    },
+    {
+        "en": "tragicomedy",
+        "bn": ["হাস্যকরুণ"],
+        "def": ["blend of tragic and comic elements"],
+        "syn": ["dramatic hybrid", "mixed genre"],
+        "ant": ["pure tragedy", "pure comedy"]
+    },
+    {
+        "en": "ubi sunt",
+        "bn": ["অতীতের জন্য শোক"],
+        "def": ["poetic theme lamenting vanished things"],
+        "syn": ["lament", "elegiac theme"],
+        "ant": ["celebration", "rejoicing"]
+    },
+    {
+        "en": "verse libre",
+        "bn": ["মুক্ত পদ্য"],
+        "def": ["unrhymed verse without regular meter"],
+        "syn": ["free verse", "unconstrained poetry"],
+        "ant": ["sonnet", "villanelle"]
+    },
+    {
+        "en": "wit",
+        "bn": ["বুদ্ধিদীপ্ত মন্তব্য"],
+        "def": ["clever expression blending humor/insight"],
+        "syn": ["humor", "repartee"],
+        "ant": ["dullness", "earnestness"]
+    },
+    {
+        "en": "anagnorisis",
+        "bn": ["চরিত্রের উপলব্ধি"],
+        "def": ["moment of critical discovery in drama"],
+        "syn": ["recognition", "realization"],
+        "ant": ["ignorance", "obliviousness"]
+    },
+    {
+        "en": "belles-lettres",
+        "bn": ["সাহিত্যিক রচনা"],
+        "def": ["fine writing valued for aesthetic qualities"],
+        "syn": ["literary arts", "creative writing"],
+        "ant": ["technical writing", "utilitarian prose"]
+    },
+    {
+        "en": "cacophony",
+        "bn": ["কর্কশ ধ্বনি"],
+        "def": ["harsh, discordant sounds in language"],
+        "syn": ["dissonance", "noise"],
+        "ant": ["euphony", "harmony"]
+    },
+    {
+        "en": "deus ex machina",
+        "bn": ["অপ্রত্যাশিত সমাধান"],
+        "def": ["implausible plot device resolving conflict"],
+        "syn": ["contrivance", "forced resolution"],
+        "ant": ["organic resolution", "logical conclusion"]
+    },
+    {
+        "en": "eclogue",
+        "bn": ["পাঠ্যকবিতা"],
+        "def": ["short pastoral poem"],
+        "syn": ["bucolic", "idyll"],
+        "ant": ["urban poem", "industrial narrative"]
+    },
+    {
+        "en": "fabliau",
+        "bn": ["রসাত্মক ছোটগল্প"],
+        "def": ["medieval comic tale in verse"],
+        "syn": ["comic verse", "satirical tale"],
+        "ant": ["moral parable", "serious epic"]
+    },
+    {
+        "en": "hamartia",
+        "bn": ["ত্রুটি"],
+        "def": ["fatal flaw leading to a downfall"],
+        "syn": ["tragic flaw", "weakness"],
+        "ant": ["virtue", "strength"]
+    },
+    {
+        "en": "invective",
+        "bn": ["অপমানজনক ভাষা"],
+        "def": ["insulting/abusive language"],
+        "syn": ["vituperation", "denunciation"],
+        "ant": ["praise", "compliment"]
+    },
+    {
+        "en": "lampoon",
+        "bn": ["বিদ্রূপাত্মক রচনা"],
+        "def": ["sharp satire mocking individuals"],
+        "syn": ["parody", "mockery"],
+        "ant": ["eulogy", "tribute"]
+    },
+    {
+        "en": "mimesis",
+        "bn": ["অনুকরণ"],
+        "def": ["imitation of reality in art"],
+        "syn": ["representation", "simulation"],
+        "ant": ["originality", "abstraction"]
+    },
+    {
+        "en": "narrative arc",
+        "bn": ["গল্পের কাঠামো"],
+        "def": ["progression of a story's plot"],
+        "syn": ["storyline", "plot development"],
+        "ant": ["fragmented narrative", "disjointed plot"]
+    },
+    {
+        "en": "ottava rima",
+        "bn": ["অষ্টপদী"],
+        "def": ["eight-line stanza with specific rhyme"],
+        "syn": ["stanza form", "poetic structure"],
+        "ant": ["free verse", "prose"]
+    },
+    {
+        "en": "palimpsest",
+        "bn": ["পুনর্লিখিত পাণ্ডুলিপি"],
+        "def": ["manuscript with erased/reused text"],
+        "syn": ["layered text", "overwritten document"],
+        "ant": ["original manuscript", "clean copy"]
+    },
+    {
+        "en": "quixotic",
+        "bn": ["অবাস্তব"],
+        "def": ["unrealistically idealistic"],
+        "syn": ["impractical", "utopian"],
+        "ant": ["pragmatic", "realistic"]
+    },
+    {
+        "en": "recognition",
+        "bn": ["চিনতে পারা"],
+        "def": ["moment of discovery in drama"],
+        "syn": ["anagnorisis", "realization"],
+        "ant": ["ignorance", "obliviousness"]
+    },
+    {
+        "en": "sestina",
+        "bn": ["ষট্পদী কবিতা"],
+        "def": ["fixed 39-line poetic form"],
+        "syn": ["complex form", "structured poem"],
+        "ant": ["free verse", "prose poetry"]
+    },
+    {
+        "en": "threnody",
+        "bn": ["বিলাপগীতি"],
+        "def": ["song/lament for the dead"],
+        "syn": ["dirge", "elegy"],
+        "ant": ["celebration", "paean"]
+    },
+    {
+        "en": "unities",
+        "bn": ["নাট্য ঐক্য"],
+        "def": ["classical drama rules of time/place/action"],
+        "syn": ["dramatic rules", "Aristotelian principles"],
+        "ant": ["disunity", "fragmentation"]
+    },
+    {
+        "en": "vignette",
+        "bn": ["সংক্ষিপ্ত বর্ণনা"],
+        "def": ["brief evocative description"],
+        "syn": ["sketch", "vignette"],
+        "ant": ["full narrative", "detailed account"]
+    },
+    {
+        "en": "willing suspension of disbelief",
+        "bn": ["অবিশ্বাসের স্বেচ্ছাসমর্পণ"],
+        "def": ["accepting implausible elements in fiction"],
+        "syn": ["temporary acceptance", "imaginative consent"],
+        "ant": ["skepticism", "rationality"]
+    },
+    {
+        "en": "exegesis",
+        "bn": ["ব্যাখ্যা"],
+        "def": ["critical interpretation of text"],
+        "syn": ["analysis", "commentary"],
+        "ant": ["misinterpretation", "paraphrase"]
+    },
+    {
+        "en": "zeugma",
+        "bn": ["শব্দের একাধিক প্রয়োগ"],
+        "def": ["one word governing two others differently"],
+        "syn": ["syllepsis", "rhetorical device"],
+        "ant": ["separate clauses", "distinct terms"]
+    },
+    {
+        "en": "anadiplosis",
+        "bn": ["শেষ শব্দের পুনরাবৃত্তি"],
+        "def": ["repeating the last word of a clause at the start of the next"],
+        "syn": ["repetition", "rhetorical device"],
+        "ant": ["variation", "diversity"]
+    },
+    {
+        "en": "bombast",
+        "bn": ["অতিরঞ্জিত ভাষা"],
+        "def": ["high-sounding but empty language"],
+        "syn": ["grandiloquence", "pompousness"],
+        "ant": ["plain speech", "simplicity"]
+    },
+    {
+        "en": "chivalric",
+        "bn": ["শৌর্যবীর্য সম্পর্কিত"],
+        "def": ["relating to medieval knighthood"],
+        "syn": ["knightly", "heroic"],
+        "ant": ["cowardly", "ungentlemanly"]
+    },
+    {
+        "en": "doggerel",
+        "bn": ["নিকৃষ্ট কবিতা"],
+        "def": ["badly written/comic verse"],
+        "syn": ["doggerel verse", "poor poetry"],
+        "ant": ["fine poetry", "elegant verse"]
+    },
+    {
+        "en": "enjambment",
+        "bn": ["অসমাপ্ত ছন্দ"],
+        "def": ["continuation of a sentence beyond a line break"],
+        "syn": ["run-on line", "continuation"],
+        "ant": ["end-stopped", "pause"]
+    },
+    {
+        "en": "fable",
+        "bn": ["নীতিকথা"],
+        "def": ["short story with animal characters and moral"],
+        "syn": ["parable", "allegory"],
+        "ant": ["factual account", "realistic story"]
+    },
+    {
+        "en": "gazetteer",
+        "bn": ["ভৌগোলিক অভিধান"],
+        "def": ["geographical dictionary"],
+        "syn": ["index", "directory"],
+        "ant": ["narrative", "story"]
+    },
+    {
+        "en": "homily",
+        "bn": ["ধর্মীয় উপদেশ"],
+        "def": ["sermon/moral lecture"],
+        "syn": ["preaching", "moralizing"],
+        "ant": ["secular speech", "entertainment"]
+    },
+    {
+        "en": "idyllic",
+        "bn": ["সুখী ও শান্তিপূর্ণ"],
+        "def": ["extremely happy/peaceful"],
+        "syn": ["pastoral", "serene"],
+        "ant": ["chaotic", "turbulent"]
+    },
+    {
+        "en": "jeremiad",
+        "bn": ["বিলাপমূলক রচনা"],
+        "def": ["lengthy lament/complaint"],
+        "syn": ["tirade", "diatribe"],
+        "ant": ["praise", "commendation"]
     }
 ]
