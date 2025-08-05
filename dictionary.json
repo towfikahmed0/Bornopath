@@ -1,4 +1,488 @@
 [
+    
+    {
+        "en": "legendary",
+        "bn": ["পৌরাণিক", "কিংবদন্তিতুল্য", "অসাধারণ"],
+        "def": ["remarkable enough to be famous; very well known"],
+        "syn": ["fabulous", "fabled", "mythical"],
+        "ant": ["ordinary", "infamous", "real"]
+    },
+    {
+        "en": "heroine",
+        "bn": ["নায়িকা", "বীরাঙ্গনা"],
+        "def": ["a woman admired for her courage or noble qualities"],
+        "syn": ["eidolon", "epitome", "exemplar"],
+        "ant": ["antihero", "villain", "heavy"]
+    },
+    {
+        "en": "medieval",
+        "bn": ["মধ্যযুগীয়"],
+        "def": ["relating to the Middle Ages"],
+        "syn": ["gothic", "antique", "primitive"],
+        "ant": ["modern", "present", "current"]
+    },
+    {
+        "en": "epic",
+        "bn": ["মহাকাব্য", "অতিকায়"],
+        "def": ["a long poem narrating heroic deeds"],
+        "syn": ["legend", "narrative", "tale", "saga"],
+        "ant": ["short story"]
+    },
+    {
+        "en": "devotee",
+        "bn": ["ভক্ত", "অনুরাগী"],
+        "def": ["an ardent follower or enthusiast"],
+        "syn": ["fan", "admirer", "supporter"],
+        "ant": ["critic", "detractor", "enemy"]
+    },
+    {
+        "en": "boast",
+        "bn": ["গর্ব করা", "দম্ভ করা"],
+        "def": ["to talk with excessive pride"],
+        "syn": ["brag", "bluster", "bully"],
+        "ant": ["deprecation", "humility"]
+    },
+    {
+        "en": "clever",
+        "bn": ["চালাক", "বুদ্ধিমান"],
+        "def": ["quick to understand, learn, and devise ideas"],
+        "syn": ["ingenious", "adroit", "canny"],
+        "ant": ["awkward", "foolish", "idiotic"]
+    },
+    {
+        "en": "chamber",
+        "bn": ["কক্ষ", "কামরা"],
+        "def": ["a large room used for formal or public events"],
+        "syn": ["room", "apartment", "alcove"],
+        "ant": []
+    },
+    {
+        "en": "impregnable",
+        "bn": ["অভেদ্য", "দুর্ভেদ্য"],
+        "def": ["unable to be captured or broken into"],
+        "syn": ["fortified", "invincible"],
+        "ant": ["destructible", "soft", "breakable"]
+    },
+    {
+        "en": "strand",
+        "bn": ["তন্তু", "সূতা"],
+        "def": ["a single thin length of thread, wire, hair etc."],
+        "syn": ["fiber", "filament", "string"],
+        "ant": ["hunk", "chunk", "slab"]
+    },
+    {
+        "en": "minute",
+        "bn": ["অতি ক্ষুদ্র", "সূক্ষ্ম"],
+        "def": ["extremely small"],
+        "syn": ["tiny", "microscopic"],
+        "ant": ["huge", "large", "significant"]
+    },
+    {
+        "en": "refuse",
+        "bn": ["প্রত্যাখ্যান করা"],
+        "def": ["indicate or show that one is not willing to do something"],
+        "syn": ["decline", "reject", "deny"],
+        "ant": ["accept", "approve", "agree"]
+    },
+    {
+        "en": "death",
+        "bn": ["মৃত্যু", "মরণ"],
+        "def": ["the permanent end of all life functions"],
+        "syn": ["demise", "decease"],
+        "ant": ["birth", "rebirth"]
+    },
+    {
+        "en": "corpse",
+        "bn": ["মরদেহ", "লাশ"],
+        "def": ["a dead body"],
+        "syn": ["dead body", "remains"],
+        "ant": []
+    },
+    {
+        "en": "raft",
+        "bn": ["ভেলা"],
+        "def": ["a flat buoyant structure for floating on water"],
+        "syn": ["flatboat", "barge", "float"],
+        "ant": []
+    },
+    {
+        "en": "hazardous",
+        "bn": ["বিপজ্জনক"],
+        "def": ["risky; dangerous"],
+        "syn": ["dangerous", "perilous"],
+        "ant": ["safe", "secure"]
+    },
+    {
+        "en": "abode",
+        "bn": ["বাসস্থান"],
+        "def": ["a place of residence"],
+        "syn": ["home", "habitat"],
+        "ant": []
+    },
+    {
+        "en": "temptation",
+        "bn": ["প্রলোভন"],
+        "def": ["the desire to do something unwise or wrong"],
+        "syn": ["lure", "attraction"],
+        "ant": ["repulsion", "apathy"]
+    },
+    {
+        "en": "encounter",
+        "bn": ["সম্মুখীন হওয়া"],
+        "def": ["unexpectedly experience or face"],
+        "syn": ["face", "confront"],
+        "ant": ["retreat", "surrender"]
+    },
+    {
+        "en": "continue",
+        "bn": ["চালিয়ে যাওয়া"],
+        "def": ["persist in an activity or process"],
+        "syn": ["carry on", "endure"],
+        "ant": ["cease", "halt"]
+    },
+    {
+        "en": "plead",
+        "bn": ["অনুনয় করা"],
+        "def": ["make an emotional appeal"],
+        "syn": ["beg", "request"],
+        "ant": ["refuse", "punish"]
+    },
+    {
+        "en": "promise",
+        "bn": ["প্রতিশ্রুতি"],
+        "def": ["a declaration assuring that one will do something"],
+        "syn": ["affirm", "assure"],
+        "ant": ["deny", "disavow"]
+    },
+    {
+        "en": "worship",
+        "bn": ["পূজা", "উপাসনা"],
+        "def": ["show reverence and adoration"],
+        "syn": ["idolize", "chant"],
+        "ant": ["abhor", "despise"]
+    },
+    {
+        "en": "fearsome",
+        "bn": ["ভয়ঙ্কর"],
+        "def": ["causing fear or dread"],
+        "syn": ["terrifying", "frightening"],
+        "ant": ["comforting", "pleasant"]
+    },
+    {
+        "en": "terrorize",
+        "bn": ["আতঙ্কিত করা"],
+        "def": ["create and maintain extreme fear"],
+        "syn": ["frighten", "threaten"],
+        "ant": ["reassure"]
+    },
+    {
+        "en": "masterful",
+        "bn": ["দক্ষ"],
+        "def": ["having great skill or competence"],
+        "syn": ["expert", "meticulous"],
+        "ant": ["incompetent"]
+    },
+    {
+        "en": "architect",
+        "bn": ["স্থপতি"],
+        "def": ["a person who designs buildings"],
+        "syn": ["planner"],
+        "ant": ["destroyer", "eliminator"]
+    },
+    {
+        "en": "intricate",
+        "bn": ["জটিল"],
+        "def": ["very complicated or detailed"],
+        "syn": ["complex", "complicated"],
+        "ant": ["simple"]
+    },
+    {
+        "en": "labyrinth",
+        "bn": ["গোলকধাঁধা"],
+        "def": ["a complicated irregular network of passages"],
+        "syn": ["maze", "confusing"],
+        "ant": ["simplicity"]
+    },
+    {
+        "en": "gruesome",
+        "bn": ["ভয়াবহ"],
+        "def": ["causing repulsion or horror"],
+        "syn": ["frightful", "horrifying"],
+        "ant": ["pleasant"]
+    },
+    {
+        "en": "inventor",
+        "bn": ["আবিষ্কারক"],
+        "def": ["a person who invented something"],
+        "syn": ["creator"],
+        "ant": ["abolisher", "destroyer"]
+    },
+    {
+        "en": "stranded",
+        "bn": ["আটকা পড়া"],
+        "def": ["left without means to move from somewhere"],
+        "syn": ["abandoned"],
+        "ant": ["rescued"]
+    },
+    {
+        "en": "inspired",
+        "bn": ["অনুপ্রাণিত"],
+        "def": ["of extraordinary quality, as if arising from inspiration"],
+        "syn": ["motivated"],
+        "ant": ["discouraged", "depressed"]
+    },
+    {
+        "en": "moderate",
+        "bn": ["মধ্যপন্থী"],
+        "def": ["average in amount, intensity, or degree"],
+        "syn": ["modest", "mediocre"],
+        "ant": ["extreme"]
+    },
+    {
+        "en": "overwhelmed",
+        "bn": ["আবিষ্ট"],
+        "def": ["burdened with too much of something"],
+        "syn": ["overimpressed", "affected"],
+        "ant": ["untroubled"]
+    },
+    {
+        "en": "excitement",
+        "bn": ["উত্তেজনা"],
+        "def": ["a feeling of great enthusiasm and eagerness"],
+        "syn": ["exhilaration", "eagerness"],
+        "ant": ["boredom"]
+    },
+    {
+        "en": "soared",
+        "bn": ["উর্ধ্বগামী"],
+        "def": ["fly or rise high in the air"],
+        "syn": ["ascended", "flew"],
+        "ant": ["plummeted"]
+    },
+    {
+        "en": "plummeted",
+        "bn": ["নিম্নগামী"],
+        "def": ["fall or drop straight down at high speed"],
+        "syn": ["descended"],
+        "ant": ["ascended"]
+    },
+    {
+        "en": "devastated",
+        "bn": ["ধ্বংসপ্রাপ্ত"],
+        "def": ["destroyed or ruined"],
+        "syn": ["destroyed", "grieved"],
+        "ant": ["gladdened", "happy"]
+    },
+    {
+        "en": "mourned",
+        "bn": ["শোক প্রকাশ করা"],
+        "def": ["feel or show sorrow for the death of someone"],
+        "syn": ["lamented", "bemoaned"],
+        "ant": ["rejoiced"]
+    },
+    {
+        "en": "myth",
+        "bn": ["পুরাণ"],
+        "def": ["a traditional story concerning early history"],
+        "syn": ["legend", "primitive tale"],
+        "ant": ["fact", "non-fiction"]
+    },
+    {
+        "en": "legend",
+        "bn": ["কিংবদন্তি"],
+        "def": ["a traditional story sometimes regarded as historical"],
+        "syn": ["mythological story", "myth"],
+        "ant": ["fact", "non-fiction"]
+    },
+    {
+        "en": "credit",
+        "bn": ["কৃতিত্ব দেওয়া"],
+        "def": ["publicly acknowledge someone's contribution"],
+        "syn": ["attribute", "believe"],
+        "ant": ["disbelieve", "discredit"]
+    },
+    {
+        "en": "miracle",
+        "bn": ["অলৌকিক ঘটনা"],
+        "def": ["a surprising event attributed to divine agency"],
+        "syn": ["wonder", "marvel"],
+        "ant": ["ordinariness", "usualness"]
+    },
+    {
+        "en": "supposedly",
+        "bn": ["অনুমানত"],
+        "def": ["according to what is generally assumed"],
+        "syn": ["allegedly", "assumably"],
+        "ant": ["improbably", "unlikely"]
+    },
+    {
+        "en": "calm",
+        "bn": ["শান্ত করা"],
+        "def": ["make someone tranquil and quiet"],
+        "syn": ["pacify", "appease"],
+        "ant": ["agitate", "excite"]
+    },
+    {
+        "en": "docile",
+        "bn": ["বাধ্য"],
+        "def": ["ready to accept control or instruction"],
+        "syn": ["obedient", "tame"],
+        "ant": ["obstinate", "unyielding"]
+    },
+    {
+        "en": "depict",
+        "bn": ["চিত্রিত করা"],
+        "def": ["represent by a drawing, painting, etc."],
+        "syn": ["picture", "draw"],
+        "ant": ["caricature", "suppress"]
+    },
+    {
+        "en": "fierce-looking",
+        "bn": ["ভয়ঙ্কর চেহারার"],
+        "def": ["having a frightening appearance"],
+        "syn": ["frightening to look at"],
+        "ant": ["gentle-looking"]
+    },
+    {
+        "en": "apparent",
+        "bn": ["স্পষ্ট"],
+        "def": ["clearly visible or understood"],
+        "syn": ["evident", "obvious"],
+        "ant": ["obscure", "unclear"]
+    },
+    {
+        "en": "threaten",
+        "bn": ["হুমকি দেওয়া"],
+        "def": ["state one's intention to take hostile action"],
+        "syn": ["denounce", "put at risk"],
+        "ant": ["guard", "protect"]
+    },
+    {
+        "en": "region",
+        "bn": ["অঞ্চল"],
+        "def": ["an area of a country or the world"],
+        "syn": ["territory", "locality"],
+        "ant": ["sky", "whole"]
+    },
+    {
+        "en": "creek",
+        "bn": ["খাল"],
+        "def": ["a narrow, sheltered waterway"],
+        "syn": ["inlet", "small river"],
+        "ant": ["big river"]
+    },
+    {
+        "en": "vigilant",
+        "bn": ["সতর্ক"],
+        "def": ["keeping careful watch for danger"],
+        "syn": ["watchful", "alert"],
+        "ant": ["heedless", "careless"]
+    },
+    {
+        "en": "presence",
+        "bn": ["উপস্থিতি"],
+        "def": ["the state of being present"],
+        "syn": ["appearance", "nearness"],
+        "ant": ["absence"]
+    },
+    {
+        "en": "predatory",
+        "bn": ["লুণ্ঠনকারী"],
+        "def": ["seeking to exploit others"],
+        "syn": ["preying upon others"],
+        "ant": []
+    },
+    {
+        "en": "consequently",
+        "bn": ["ফলে"],
+        "def": ["as a result"],
+        "syn": ["as a result", "consequentially"],
+        "ant": ["inconsequently"]
+    },
+    {
+        "en": "protection",
+        "bn": ["সুরক্ষা"],
+        "def": ["the action of protecting someone/something"],
+        "syn": ["safety", "defense"],
+        "ant": ["danger", "insecurity"]
+    },
+    {
+        "en": "preserve",
+        "bn": ["সংরক্ষণ করা"],
+        "def": ["maintain something in its original state"],
+        "syn": ["treasure up", "conserve"],
+        "ant": ["destroy", "endanger"]
+    },
+    {
+        "en": "indigenous",
+        "bn": ["আদিবাসী"],
+        "def": ["originating in a particular place"],
+        "syn": ["native", "aboriginal"],
+        "ant": ["foreign", "alien"]
+    },
+    {
+        "en": "scroll",
+        "bn": ["পুঁথি"],
+        "def": ["a roll of parchment or paper"],
+        "syn": ["parchment", "document"],
+        "ant": []
+    },
+    {
+        "en": "interdependence",
+        "bn": ["আন্তঃনির্ভরশীলতা"],
+        "def": ["mutual dependence between things"],
+        "syn": ["interconnection"],
+        "ant": ["dissociation"]
+    },
+    {
+        "en": "myriad",
+        "bn": ["অগণিত"],
+        "def": ["a countless or extremely great number"],
+        "syn": ["countless", "innumerable"],
+        "ant": ["few"]
+    },
+    {
+        "en": "mythical",
+        "bn": ["পৌরাণিক"],
+        "def": ["occurring in myths"],
+        "syn": ["fictitious", "unreal"],
+        "ant": ["real", "factual"]
+    },
+    {
+        "en": "incredible",
+        "bn": ["অবিশ্বাস্য"],
+        "def": ["impossible to believe"],
+        "syn": ["unbelievable"],
+        "ant": ["credible"]
+    },
+    {
+        "en": "predict",
+        "bn": ["ভবিষ্যদ্বাণী করা"],
+        "def": ["say or estimate that something will happen"],
+        "syn": ["forecast", "foretell"],
+        "ant": ["doubt"]
+    },
+    {
+        "en": "peasant",
+        "bn": ["কৃষক"],
+        "def": ["a poor smallholder or agricultural laborer"],
+        "syn": ["countryman", "farmer"],
+        "ant": ["elite"]
+    },
+    {
+        "en": "challenged",
+        "bn": ["চ্যালেঞ্জ করা"],
+        "def": ["disputed the truth or validity of"],
+        "syn": ["confronted"],
+        "ant": ["unobstructed"]
+    },
+    {
+        "en": "harsh",
+        "bn": ["কঠোর"],
+        "def": ["unpleasantly rough or jarring"],
+        "syn": ["rude", "rough"],
+        "ant": ["soft"]
+    },
     {
         "en": "Inflict",
         "bn": [
