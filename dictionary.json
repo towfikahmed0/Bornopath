@@ -1153,39 +1153,6 @@
         ]
     },
     {
-        "en": "carbon",
-        "bn": [
-            "কার্বন"
-        ],
-        "def": [
-            "chemical element basis of life"
-        ],
-        "syn": [
-            "C (atomic symbol)",
-            "organic compound"
-        ],
-        "ant": [
-            "inorganic matter"
-        ]
-    },
-    {
-        "en": "carbon footprint",
-        "bn": [
-            "কার্বন পদচিহ্ন"
-        ],
-        "def": [
-            "total greenhouse gas emissions"
-        ],
-        "syn": [
-            "environmental impact",
-            "emissions"
-        ],
-        "ant": [
-            "carbon neutrality",
-            "sustainability"
-        ]
-    },
-    {
         "en": "caricature",
         "bn": [
             "ব্যঙ্গচিত্র"
@@ -3150,23 +3117,6 @@
         ],
         "ant": [
             "living specimen"
-        ]
-    },
-    {
-        "en": "fossil fuel",
-        "bn": [
-            "জীবাশ্ম জ্বালানি"
-        ],
-        "def": [
-            "fuel from ancient organic matter"
-        ],
-        "syn": [
-            "coal/oil/gas",
-            "non-renewable energy"
-        ],
-        "ant": [
-            "renewable energy",
-            "biofuel"
         ]
     },
     {
