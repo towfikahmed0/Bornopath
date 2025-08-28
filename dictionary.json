@@ -8558,5 +8558,1203 @@
             "shun",
             "ignore"
         ]
-    }
+    },
+    {
+   "en":"Deliberately",
+   "bn":[
+      "ইচ্ছাকৃতভাবে",
+      "সচেতনভাবে"
+   ],
+   "def":[
+      "consciously and intentionally"
+   ],
+   "syn":[
+      "intentionally",
+      "purposefully",
+      "knowingly"
+   ],
+   "ant":[
+      "accidentally",
+      "unintentionally"
+   ]
+},
+{
+   "en":"Obscene",
+   "bn":[
+      "অশ্লীল",
+      "অভদ্র"
+   ],
+   "def":[
+      "offensive or disgusting by accepted standards of morality and decency"
+   ],
+   "syn":[
+      "indecent",
+      "nasty",
+      "foul"
+   ],
+   "ant":[
+      "decent",
+      "upright",
+      "moral"
+   ]
+},
+{
+   "en":"Religious",
+   "bn":[
+      "ধর্মীয়",
+      "ধার্মিক"
+   ],
+   "def":[
+      "relating to or believing in a religion"
+   ],
+   "syn":[
+      "devout",
+      "pious",
+      "spiritual"
+   ],
+   "ant":[
+      "secular",
+      "irreligious"
+   ]
+},
+{
+   "en":"Insulate",
+   "bn":[
+      "অন্তরক করা",
+      "বিচ্ছিন্ন করা"
+   ],
+   "def":[
+      "protect someone or something from unpleasant influences or experiences"
+   ],
+   "syn":[
+      "protect",
+      "shield",
+      "isolate"
+   ],
+   "ant":[
+      "expose",
+      "connect"
+   ]
+},
+{
+   "en":"Imprisonment",
+   "bn":[
+      "কারাবাস",
+      "বন্দীদশা"
+   ],
+   "def":[
+      "the state of being imprisoned"
+   ],
+   "syn":[
+      "confinement",
+      "captivity",
+      "incarceration"
+   ],
+   "ant":[
+      "freedom",
+      "release",
+      "liberty"
+   ]
+},
+{
+   "en":"Complaint",
+   "bn":[
+      "অভিযোগ",
+      "অসন্তোষ"
+   ],
+   "def":[
+      "a statement that something is unsatisfactory or unacceptable"
+   ],
+   "syn":[
+      "objection",
+      "grievance",
+      "protest"
+   ],
+   "ant":[
+      "compliment",
+      "approval",
+      "commendation"
+   ]
+},
+{
+   "en":"Information",
+   "bn":[
+      "তথ্য",
+      "খবর"
+   ],
+   "def":[
+      "facts provided or learned about something or someone"
+   ],
+   "syn":[
+      "data",
+      "details",
+      "facts"
+   ],
+   "ant":[
+      "misinformation",
+      "ignorance"
+   ]
+},
+{
+   "en":"Reputation",
+   "bn":[
+      "সুনাম",
+      "খ্যাতি"
+   ],
+   "def":[
+      "the beliefs or opinions that are generally held about someone or something"
+   ],
+   "syn":[
+      "standing",
+      "status",
+      "name"
+   ],
+   "ant":[
+      "disrepute",
+      "infamy",
+      "notoriety"
+   ]
+},
+{
+   "en":"Definitely",
+   "bn":[
+      "নিঃসন্দেহে",
+      "অবশ্যই"
+   ],
+   "def":[
+      "without doubt; certainly"
+   ],
+   "syn":[
+      "certainly",
+      "surely",
+      "unquestionably"
+   ],
+   "ant":[
+      "possibly",
+      "uncertainly",
+      "doubtfully"
+   ]
+},
+{
+   "en":"Particular",
+   "bn":[
+      "নির্দিষ্ট",
+      "বিশেষ"
+   ],
+   "def":[
+      "used to single out an individual member of a specified group or class"
+   ],
+   "syn":[
+      "specific",
+      "certain",
+      "distinct"
+   ],
+   "ant":[
+      "general",
+      "vague",
+      "unspecific"
+   ]
+},
+{
+   "en":"Popular",
+   "bn":[
+      "জনপ্রিয়",
+      "প্রচলিত"
+   ],
+   "def":[
+      "liked or admired by many people or by a particular person or group"
+   ],
+   "syn":[
+      "well-liked",
+      "fashionable",
+      "accepted"
+   ],
+   "ant":[
+      "unpopular",
+      "unknown",
+      "uncommon"
+   ]
+},
+{
+   "en":"Provoke",
+   "bn":[
+      "উত্তেজিত করা",
+      "প্ররোচিত করা"
+   ],
+   "def":[
+      "stimulate or give rise to (a reaction or emotion, typically a strong or unwelcome one) in someone"
+   ],
+   "syn":[
+      "incite",
+      "stimulate",
+      "arouse"
+   ],
+   "ant":[
+      "pacify",
+      "deter",
+      "discourage"
+   ]
+},
+{
+   "en":"Contamination",
+   "bn":[
+      "দূষণ",
+      "অপবিত্রতা"
+   ],
+   "def":[
+      "making or being made impure by polluting or poisoning"
+   ],
+   "syn":[
+      "contagion",
+      "infectivity",
+      "pollution",
+      "defilement",
+      "impurity"
+   ],
+   "ant":[
+      "detoxification",
+      "decontamination",
+      "depollution",
+      "purification",
+      "cleansing"
+   ]
+},
+{
+   "en":"Displacement",
+   "bn":[
+      "স্থানচ্যুতি",
+      "সরণ"
+   ],
+   "def":[
+      "the action of moving something from its place or position"
+   ],
+   "syn":[
+      "movement",
+      "shift",
+      "dislocation",
+      "dislodgment",
+      "disarticulation"
+   ],
+   "ant":[
+      "inaction",
+      "inactivity",
+      "immobility",
+      "lack of progress"
+   ]
+},
+{
+   "en":"Degradation",
+   "bn":[
+      "অবনতি",
+      "অপকর্ষ"
+   ],
+   "def":[
+      "the process by which something is made worse"
+   ],
+   "syn":[
+      "deterioration",
+      "decline",
+      "decadence",
+      "indignity",
+      "degeneracy",
+      "ignominy"
+   ],
+   "ant":[
+      "elevation",
+      "promotion",
+      "upgrade",
+      "advance",
+      "deification",
+      "exaltation"
+   ]
+},
+{
+   "en":"Indiscriminate",
+   "bn":[
+      "অবিবেচনাপূর্ণ",
+      "এলোমেলো"
+   ],
+   "def":[
+      "done at random or without careful judgement"
+   ],
+   "syn":[
+      "haphazard",
+      "heedless",
+      "indecisive",
+      "uncritical",
+      "unselective",
+      "aimless",
+      "unsystematic"
+   ],
+   "ant":[
+      "selective",
+      "systematic",
+      "discriminating"
+   ]
+},
+{
+   "en":"Exploitation",
+   "bn":[
+      "শোষণ",
+      "অনুচ্চ exploitation"
+   ],
+   "def":[
+      "the action or fact of treating someone unfairly for one's own advantage"
+   ],
+   "syn":[
+      "manipulation",
+      "misapplication",
+      "mishandling",
+      "victimization",
+      "mistreatment"
+   ],
+   "ant":[
+      "inactivity",
+      "abstain",
+      "nonfunctional"
+   ]
+},
+{
+   "en":"Unauthorized",
+   "bn":[
+      "অননুমোদিত",
+      "অবৈধ"
+   ],
+   "def":[
+      "not having official permission or approval"
+   ],
+   "syn":[
+      "unofficial",
+      "unlicensed",
+      "unsanctioned",
+      "illegal",
+      "unaccredited",
+      "unapproved",
+      "illegitimate"
+   ],
+   "ant":[
+      "legitimate",
+      "lawful",
+      "legal",
+      "valid",
+      "genuine",
+      "recognized"
+   ]
+},
+{
+   "en":"Criticism",
+   "bn":[
+      "সমালোচনা",
+      "비판"
+   ],
+   "def":[
+      "the expression of disapproval of someone or something based on perceived faults or mistakes"
+   ],
+   "syn":[
+      "assessment",
+      "opinion",
+      "appraisal",
+      "comment",
+      "judgment",
+      "review",
+      "evaluation"
+   ],
+   "ant":[
+      "acclamation",
+      "applause",
+      "commendation",
+      "approbation"
+   ]
+},
+{
+   "en":"Sensitive",
+   "bn":[
+      "সংবেদনশীল",
+      "সূক্ষ্ম"
+   ],
+   "def":[
+      "quick to detect or respond to slight changes, signals, or influences"
+   ],
+   "syn":[
+      "conscious",
+      "delicate",
+      "attentive",
+      "aware",
+      "cognizant",
+      "vulnerable",
+      "responsive",
+      "precise"
+   ],
+   "ant":[
+      "public",
+      "indifferent",
+      "invulnerable",
+      "imprecise",
+      "unfocussed",
+      "indistinct"
+   ]
+},
+{
+   "en":"Ecosystem",
+   "bn":[
+      "বাস্তুতন্ত্র",
+      "পরিবেশ ব্যবস্থা"
+   ],
+   "def":[
+      "a biological community of interacting organisms and their physical environment"
+   ],
+   "syn":[
+      "habitat",
+      "biodiversity",
+      "wetland",
+      "ecosystems",
+      "plant life",
+      "biosphere"
+   ],
+   "ant":[
+      "cosmos",
+      "outer space",
+      "space",
+      "universe"
+   ]
+},
+{
+   "en":"Community",
+   "bn":[
+      "সম্প্রদায়",
+      "সমাজ"
+   ],
+   "def":[
+      "a group of people living in the same place or having a particular characteristic in common"
+   ],
+   "syn":[
+      "group",
+      "society",
+      "commune",
+      "section",
+      "clan",
+      "faction",
+      "gang",
+      "band",
+      "lineup"
+   ],
+   "ant":[
+      "segregation",
+      "animosity",
+      "dissociation",
+      "disconnection",
+      "estrangement",
+      "heterogeneity"
+   ]
+},
+{
+   "en":"Cautious",
+   "bn":[
+      "সতর্ক",
+      "সাবধান"
+   ],
+   "def":[
+      "careful to avoid potential problems or dangers"
+   ],
+   "syn":[
+      "careful",
+      "wary",
+      "aware",
+      "heedful",
+      "attentive",
+      "alert",
+      "watchful",
+      "vigilant"
+   ],
+   "ant":[
+      "incautious",
+      "reckless",
+      "careless",
+      "inattentive",
+      "indiscreet",
+      "negligent"
+   ]
+},
+{
+   "en":"Adverse",
+   "bn":[
+      "প্রতিকূল",
+      "বিরূপ"
+   ],
+   "def":[
+      "preventing success or development; harmful; unfavourable"
+   ],
+   "syn":[
+      "opposing",
+      "contrary",
+      "hostile",
+      "adversative",
+      "adversarial",
+      "oppositional"
+   ],
+   "ant":[
+      "favorable",
+      "positive",
+      "complimentary",
+      "auspicious",
+      "beneficial",
+      "promising"
+   ]
+},
+{
+   "en":"Yell",
+   "bn":[
+      "চিৎকার করা",
+      "গলা ছেড়ে ডাকা"
+   ],
+   "def":[
+      "to make a sudden, loud cry"
+   ],
+   "syn":[
+      "howl",
+      "screech",
+      "shriek",
+      "shrill",
+      "squall",
+      "squeal",
+      "yelp",
+      "scream"
+   ],
+   "ant":[
+      "whisper",
+      "murmur",
+      "mumble"
+   ]
+},
+{
+   "en":"Descend",
+   "bn":[
+      "নামা",
+      "অবতরণ করা"
+   ],
+   "def":[
+      "to go or move from a higher to a lower place or level"
+   ],
+   "syn":[
+      "decline",
+      "drop",
+      "fall",
+      "plunge",
+      "sink"
+   ],
+   "ant":[
+      "ascend",
+      "rise",
+      "climb",
+      "scale"
+   ]
+},
+{
+   "en":"Beseech",
+   "bn":[
+      "অনুনয় করা",
+      "প্রার্থনা করা"
+   ],
+   "def":[
+      "to ask (someone) urgently and fervently to do something; implore; entreat"
+   ],
+   "syn":[
+      "appeal",
+      "beg",
+      "request",
+      "ask",
+      "entreat",
+      "plead"
+   ],
+   "ant":[
+      "demand",
+      "command",
+      "insist"
+   ]
+},
+{
+   "en":"Wicked",
+   "bn":[
+      "দুষ্ট",
+      "পাপী"
+   ],
+   "def":[
+      "evil or morally wrong"
+   ],
+   "syn":[
+      "depraved",
+      "immoral",
+      "sinful",
+      "impious",
+      "nefarious",
+      "fiendish"
+   ],
+   "ant":[
+      "virtuous",
+      "moral",
+      "righteous",
+      "good"
+   ]
+},
+{
+   "en":"Native",
+   "bn":[
+      "স্থানীয়",
+      "স্বদেশী"
+   ],
+   "def":[
+      "associated with the place or circumstances of a person's birth"
+   ],
+   "syn":[
+      "aboriginal",
+      "local",
+      "resident",
+      "domestic",
+      "endemic",
+      "indigenous"
+   ],
+   "ant":[
+      "foreign",
+      "alien",
+      "nonnative",
+      "imported"
+   ]
+},
+{
+   "en":"Fetch",
+   "bn":[
+      "নিয়ে আসা",
+      "আহরণ করা"
+   ],
+   "def":[
+      "to go after and bring back (someone or something)"
+   ],
+   "syn":[
+      "retrieve",
+      "get",
+      "bring",
+      "carry",
+      "deliver",
+      "transport"
+   ],
+   "ant":[
+      "take away",
+      "remove",
+      "send"
+   ]
+},
+{
+   "en":"Planter",
+   "bn":[
+      "চাষী",
+      "কৃষক"
+   ],
+   "def":[
+      "a person who grows plants, especially on a large scale"
+   ],
+   "syn":[
+      "agriculturist",
+      "agronomist",
+      "cultivator",
+      "grower",
+      "farmer",
+      "tiller"
+   ],
+   "ant":[
+      "destroyer",
+      "neglecter"
+   ]
+},
+{
+   "en":"Rival",
+   "bn":[
+      "প্রতিদ্বন্দ্বী",
+      "প্রতিযোগী"
+   ],
+   "def":[
+      "a person or thing competing with another for the same objective or for superiority"
+   ],
+   "syn":[
+      "competitor",
+      "opponent",
+      "contender",
+      "challenger",
+      "adversary"
+   ],
+   "ant":[
+      "partner",
+      "ally",
+      "associate",
+      "colleague"
+   ]
+},
+{
+   "en":"Ecotourism",
+   "bn":[
+      "প্রকৃতি পর্যটন",
+      "বাস্তু পর্যটন"
+   ],
+   "def":[
+      "tourism directed toward exotic, often threatened, natural environments"
+   ],
+   "syn":[
+      "nature tourism",
+      "responsible tourism",
+      "sustainable tourism"
+   ],
+   "ant":[
+      "mass tourism",
+      "unsustainable tourism",
+      "irresponsible tourism"
+   ]
+},
+{
+   "en":"Famous",
+   "bn":[
+      "বিখ্যাত",
+      "প্রসিদ্ধ"
+   ],
+   "def":[
+      "known about by many people"
+   ],
+   "syn":[
+      "celebrated",
+      "famed",
+      "noted",
+      "notorious",
+      "prominent",
+      "renowned"
+   ],
+   "ant":[
+      "anonymous",
+      "nameless",
+      "obscure",
+      "unpopular",
+      "disliked"
+   ]
+},
+{
+   "en":"Endangered",
+   "bn":[
+      "বিপন্ন",
+      "বিলুপ্তির মুখোমুখি"
+   ],
+   "def":[
+      "seriously at risk of extinction"
+   ],
+   "syn":[
+      "threatened",
+      "risked",
+      "jeopardized",
+      "facing extinction",
+      "in danger"
+   ],
+   "ant":[
+      "protected",
+      "safe",
+      "secure",
+      "shielded"
+   ]
+},
+{
+   "en":"Diversity",
+   "bn":[
+      "বিবিধতা",
+      "বৈচিত্র্য"
+   ],
+   "def":[
+      "the state of being diverse; variety"
+   ],
+   "syn":[
+      "diverseness",
+      "multifariousness",
+      "variety"
+   ],
+   "ant":[
+      "homogeneity",
+      "uniformity",
+      "sameness"
+   ]
+},
+{
+   "en":"Impact",
+   "bn":[
+      "প্রভাব",
+      "আঘাত"
+   ],
+   "def":[
+      "the action of one object coming forcibly into contact with another"
+   ],
+   "syn":[
+      "effect",
+      "influence",
+      "repercussion",
+      "sway"
+   ],
+   "ant":[
+      "unimportance",
+      "insignificance",
+      "irrelevance"
+   ]
+},
+{
+   "en":"Destination",
+   "bn":[
+      "গন্তব্য",
+      "যাত্রার শেষ স্টেশন"
+   ],
+   "def":[
+      "the place to which someone or something is going or being sent"
+   ],
+   "syn":[
+      "terminus",
+      "target",
+      "terminal",
+      "station"
+   ],
+   "ant":[
+      "beginning",
+      "source",
+      "start",
+      "origin"
+   ]
+},
+{
+   "en":"Opportunity",
+   "bn":[
+      "সুযোগ",
+      "অবসর"
+   ],
+   "def":[
+      "a set of circumstances that makes it possible to do something"
+   ],
+   "syn":[
+      "chance",
+      "prospect",
+      "possibility",
+      "opening"
+   ],
+   "ant":[
+      "misfortune",
+      "adversity",
+      "setback"
+   ]
+},
+{
+   "en":"Various",
+   "bn":[
+      "বিবিধ",
+      "নানা"
+   ],
+   "def":[
+      "different from one another; of different kinds or sorts"
+   ],
+   "syn":[
+      "assorted",
+      "different",
+      "unlike",
+      "divergent",
+      "variant",
+      "multiform",
+      "several"
+   ],
+   "ant":[
+      "homogeneous",
+      "same",
+      "similar",
+      "uniform",
+      "identical"
+   ]
+},
+{
+   "en":"Expansion",
+   "bn":[
+      "প্রসারণ",
+      "বিস্তার"
+   ],
+   "def":[
+      "the action of becoming larger or more extensive"
+   ],
+   "syn":[
+      "growth",
+      "enlargement",
+      "extension",
+      "increase",
+      "amplification"
+   ],
+   "ant":[
+      "contraction",
+      "reduction",
+      "decrease",
+      "compression"
+   ]
+},
+{
+   "en":"Unregulated",
+   "bn":[
+      "অনিয়ন্ত্রিত",
+      "নিয়ন্ত্রণহীন"
+   ],
+   "def":[
+      "not controlled or supervised by regulations or laws"
+   ],
+   "syn":[
+      "unchecked",
+      "unsupervised",
+      "uncontrolled",
+      "unmonitored"
+   ],
+   "ant":[
+      "regulated",
+      "controlled",
+      "supervised",
+      "monitored"
+   ]
+},
+{
+   "en":"Erosion",
+   "bn":[
+      "ক্ষয়",
+      "অপক্ষয়"
+   ],
+   "def":[
+      "the process of eroding or being eroded by wind, water, or other natural agents"
+   ],
+   "syn":[
+      "corrosion",
+      "attrition",
+      "destruction",
+      "abrasion",
+      "wearing away"
+   ],
+   "ant":[
+      "accretion",
+      "deposit",
+      "addition",
+      "accumulation"
+   ]
+},
+{
+   "en":"Intricate",
+   "bn":[
+      "জটিল",
+      "জটিলতা"
+   ],
+   "def":[
+      "having many interrelated parts or facets"
+   ],
+   "syn":[
+      "baroque",
+      "byzantine",
+      "complicate",
+      "complicated",
+      "convoluted"
+   ],
+   "ant":[
+      "noncomplex",
+      "noncomplicated",
+      "plain",
+      "simple"
+   ]
+},
+{
+   "en":"Protection",
+   "bn":[
+      "সুরক্ষা",
+      "রক্ষা"
+   ],
+   "def":[
+      "the act of protecting or the state of being protected"
+   ],
+   "syn":[
+      "ammunition",
+      "armor",
+      "buckler",
+      "cover",
+      "guard"
+   ],
+   "ant":[
+      "danger",
+      "distress",
+      "endangerment",
+      "impertinent"
+   ]
+},
+{
+   "en":"Permanent",
+   "bn":[
+      "স্থায়ী",
+      "চিরস্থায়ী"
+   ],
+   "def":[
+      "intended to exist or function for a long"
+   ],
+   "syn":[
+      "ceaseless",
+      "dateless",
+      "deathless",
+      "endless",
+      "eternal"
+   ],
+   "ant":[
+      "impermanent",
+      "mortal",
+      "temporary",
+      "transient"
+   ]
+},
+{
+   "en":"Memory",
+   "bn":[
+      "স্মৃতি",
+      "স্মরণশক্তি"
+   ],
+   "def":[
+      "the mental capacity or faculty of retaining and reviving facts"
+   ],
+   "syn":[
+      "mind",
+      "recollection",
+      "remembrance",
+      "reminiscence"
+   ],
+   "ant":[
+      
+   ]
+},
+{
+   "en":"Remote",
+   "bn":[
+      "দূরবর্তী",
+      "বিচ্ছিন্ন"
+   ],
+   "def":[
+      "far distant in space"
+   ],
+   "syn":[
+      "fragile",
+      "frail",
+      "negligible",
+      "outside",
+      "slight"
+   ],
+   "ant":[
+      "good"
+   ]
+},
+{
+   "en":"Prevent",
+   "bn":[
+      "প্রতিরোধ করা",
+      "বাধা দেওয়া"
+   ],
+   "def":[
+      "to keep from occurring"
+   ],
+   "syn":[
+      "forestall",
+      "preclude"
+   ],
+   "ant":[
+      
+   ]
+},
+{
+   "en":"Crawl",
+   "bn":[
+      "হামাগুড়ি দেওয়া",
+      "রেঁধে চলা"
+   ],
+   "def":[
+      "to move in a prone position with the body resting on or close to the ground"
+   ],
+   "syn":[
+      "creep",
+      "grovel",
+      "slide",
+      "slither",
+      "snake",
+      "worm"
+   ],
+   "ant":[
+      "race",
+      "speed",
+      "whiz",
+      "zip"
+   ]
+},
+{
+   "en":"Remonstrate",
+   "bn":[
+      "প্রতিবাদ করা",
+      "আপত্তি জানানো"
+   ],
+   "def":[
+      "to say or plead in protest"
+   ],
+   "syn":[
+      "maintain",
+      "argue"
+   ],
+   "ant":[
+      
+   ]
+},
+{
+   "en":"Plead",
+   "bn":[
+      "অনুনয় করা",
+      "আবেদন করা"
+   ],
+   "def":[
+      "to appeal or entreat earnestly"
+   ],
+   "syn":[
+      "bizarre",
+      "bizarro",
+      "cranky",
+      "crazy",
+      "curious",
+      "eccentric"
+   ],
+   "ant":[
+      "familiar"
+   ]
+},
+{
+   "en":"Strange",
+   "bn":[
+      "অদ্ভুত",
+      "অচেনা"
+   ],
+   "def":[
+      "as a result of being out of one's natural environment"
+   ],
+   "syn":[
+      "big name",
+      "cause célèbre",
+      "celeb",
+      "figure",
+      "icon"
+   ],
+   "ant":[
+      "nobody"
+   ]
+},
+{
+   "en":"Celebrity",
+   "bn":[
+      "খ্যাতনামা ব্যক্তি",
+      "সেলিব্রিটি"
+   ],
+   "def":[
+      "a famous or well-known person"
+   ],
+   "syn":[
+      
+   ],
+   "ant":[
+      
+   ]
+}
 ]
