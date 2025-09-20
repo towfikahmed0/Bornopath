@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Rubik+Marker+Hatch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style/log.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bornopath-Learn Words the Smart Way.</title>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <div class="hedding">
+        <h1>Bornopath <span style="font-family: 'Mina', sans-serif; margin-left: 2px;">বর্ণপাঠ</span></h1>
+    </div>
+    <div class="aboutSection" style="position: absolute; top: 0; left: 0;display: none;" id="about_page">
+        <div class="aboutMain">
+            <div class="aboutContainer">
+                <div class="about_head">
+                    <i class="fa fa-times" onclick="document.getElementById('about_page').style.display='none'"></i>
+                </div>
+                <div class="about_body">
+                    <h2>About Us</h2>
+                    <p>
+                        <strong>BornoPath</strong> is a free and open-source learning tool designed to help users
+                        strengthen their English vocabulary. Whether you're a student, language learner, or curious
+                        explorer, BornoPath provides a simple and interactive way to learn word meanings, synonyms,
+                        antonyms, and pronunciation—all in one place.
+                    </p>
+                    <p>
+                        Our goal is to make vocabulary learning easier, faster, and more engaging for everyone.
+                        BornoPath is built with care using modern web technologies, and it’s continuously improved based
+                        on user feedback.
+                    </p>
+                    <p>
+                        We’re committed to keeping BornoPath accessible, ad-free, and community-driven.
+                        Your words matter—follow the path.<br>
+                        <em>Learn a little every day. Let your words grow — with BornoPath.</em>
+                    </p>
+
+                    <p>
+                        <strong>Created by:</strong><br>
+                        <a href="https://github.com/towfikahmed0">Towfik Ahmed</a><br>
+                        <a href="mailto:towfikahmed2477@gmail.com">towfikahmed2477@gmail.com</a><br>
+                    </p>
+
+                    <p>
+                        <strong>Contributor:</strong><br>
+                        ChatGPT by OpenAI — Assisted in writing, refining, and improving content and code.
+                    </p>
+
+                    <p>
+                        <a href="support.html"> Need help?</a><br>
+                        <a href="https://github.com/towfikahmed0/Bornopath">📂 Project Repository</a>
+                    </p>
+
+                    <div class="alert alert-primary" role="alert">
+                        You are using <strong>BornoPath v1.3.0</strong>.
+                    </div>
+                    <p style="color: gray;"><strong>Last Updated:</strong> 17th September 2025 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="startup">
+        <div class="sidetext">
+
+            <h1 style="font-family: 'Work Sans', sans-serif; color: white;">Learn Words the Smart Way.</h1>
+            <p style="font-size: larger;color: white;">Build your vocabulary step by step with BornoPath — your friendly
+                word-learning companion.</p>
+            <button onclick="document.getElementById('about_page').style.display='block'">About Us <i
+                    class="fa fa-angle-right"></i></button>
+        </div>
+        <div class="loginform" style="text-align: center;">
+            <h1>Get Started</h1>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="text" placeholder="Name" id="name" style="display: none;">
+            <!-- <input type="text" placeholder="Gender" id="gender" style="display: none;">-->
+            <select id="gender" style="display: none;" class="form-control">
+                <option disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <!-- <input type="" placeholder="Date of Birth" id="date_of_birth" style="display: none;"> -->
+            <select id="class" style="display: none;" class="form-control">
+                <option disabled selected>Select Grade/Class</option>
+                <option value="Four">Four</option>
+                <option value="Five">Five</option>
+                <option value="Six">Six</option>
+                <option value="Seven">Seven</option>
+                <option value="Eight">Eight</option>
+                <option value="Nine">Nine</option>
+                <option value="Ten">Ten</option>
+                <option value="Eleven">Eleven</option>
+                <option value="Twelve">Twelve</option>
+                <option value="University">University</option>
+
+            </select>
+            <input type="password" placeholder="Password" id="password" style="display: none;">
+            <button onclick="login_next()" id="nextbtn">Next</button>
+            <button onclick="signUp()" id="signinbtn" style="display: none;">Sign in</button>
+            <button onclick="login()" id="loginbtn" style="display: none;">Log in</button>
+            <a href="support.html"> Need help?</a>
+            <div class="alert alert-danger" role="alert" id="status" style="display: none;"></div>
+        </div>
+        <script type="module" src="js/sys.js?v=1.3.0"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/sw.js')
+                        .then(reg => console.log('Service Worker registered:', reg))
+                        .catch(err => console.error('Service Worker registration failed:', err));
+                });
+            }
+        </script>
+        <!-- <script src="js/ui.js"></script> -->
+</body>
+
+</html>

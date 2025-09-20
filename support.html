@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bornopath | User Manual</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2C3E50;
+      --primary-dark: #1A252F;
+      --primary-light: #F0F4F8;
+      --accent: #E74C3C;
+      --accent-light: #FADBD8;
+      --accent-gradient: linear-gradient(135deg, #E74C3C 0%, #FF7F50 100%);
+      --text: #34495E;
+      --text-light: #7F8C8D;
+      --background: #ECF0F1;
+      --white: #ffffff;
+      --card-bg: rgba(255, 255, 255, 0.95);
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      --transition-fast: all 0.2s ease-in-out;
+      --transition-slow: all 0.4s ease-in-out;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+      background-image:
+        radial-gradient(circle at 5% 10%, rgba(231, 76, 60, 0.05) 0%, transparent 20%),
+        radial-gradient(circle at 95% 80%, rgba(44, 62, 80, 0.05) 0%, transparent 20%);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .creative-header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      border-bottom: 5px solid transparent;
+      border-image: var(--accent-gradient);
+      border-image-slice: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .creative-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image:
+        radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 20%),
+        radial-gradient(circle at 80% 70%, rgba(231, 76, 60, 0.1) 0%, transparent 20%);
+      z-index: 1;
+    }
+
+    .logo-icon {
+      background: var(--accent-gradient);
+      box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+      transform: rotate(-5deg);
+      transition: var(--transition-slow);
+    }
+
+    .logo-icon:hover {
+      transform: rotate(5deg) scale(1.05);
+    }
+
+    .tab-button {
+      transition: var(--transition-slow);
+      border-bottom: 3px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .tab-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: var(--accent-gradient);
+      opacity: 0.2;
+      transition: var(--transition-slow);
+      z-index: -1;
+    }
+
+    .tab-button.active {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-bottom-color: transparent;
+      background-image: var(--accent-gradient);
+    }
+
+    .tab-button:not(.active):hover::before {
+      left: 0;
+    }
+
+    .content-card {
+      background: var(--card-bg);
+      box-shadow: var(--shadow);
+      animation: fadeInFromTop var(--transition-slow);
+      border-radius: 16px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+
+    .feature-item {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: var(--transition-fast);
+      border-left: 4px solid var(--accent);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--accent-gradient);
+      opacity: 0;
+      transition: var(--transition-fast);
+    }
+
+    .feature-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-item:hover::before {
+      opacity: 1;
+    }
+
+    .feature-icon {
+      background: var(--accent-gradient);
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 5px 15px rgba(231, 76, 60, 0.2);
+    }
+
+    .cta-card {
+      background: var(--accent-gradient);
+      color: white;
+      border-radius: 16px;
+      transition: var(--transition-slow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 60%);
+      transform: rotate(30deg);
+      transition: var(--transition-slow);
+      opacity: 0;
+    }
+
+    .cta-card:hover {
+      box-shadow: 0 15px 35px rgba(231, 76, 60, 0.3);
+    }
+
+    .cta-card:hover::before {
+      opacity: 1;
+      animation: shine 1.5s forwards;
+    }
+
+    .faq-item {
+      transition: var(--transition-fast);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      margin-bottom: 1rem;
+    }
+
+    .faq-question {
+      transition: var(--transition-fast);
+      background: var(--white);
+      padding: 1.5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+    }
+
+    .faq-question:hover {
+      background: var(--primary-light);
+    }
+
+    .faq-answer {
+      transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+      max-height: 0;
+      overflow: hidden;
+      background: var(--primary-light);
+    }
+
+    .faq-answer.expanded {
+      max-height: 300px;
+      padding: 1.5rem;
+    }
+
+    .tool-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: var(--transition-slow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .tool-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: var(--accent-gradient);
+    }
+
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    @keyframes fadeInFromTop {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes shine {
+      to {
+        transform: translateX(100%) rotate(30deg);
+      }
+    }
+
+    .input-glow:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px rgba(231, 76, 60, 0.2);
+      border-color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent-gradient);
+      color: white;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: var(--transition-fast);
+      box-shadow: 0 5px 15px rgba(231, 76, 60, 0.2);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(231, 76, 60, 0.3);
+    }
+
+    .btn-secondary {
+      background: var(--primary);
+      color: white;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: var(--transition-fast);
+      box-shadow: 0 5px 15px rgba(44, 62, 80, 0.2);
+    }
+
+    .btn-secondary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(44, 62, 80, 0.3);
+    }
+
+    .loading-spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: var(--accent);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .social-icon {
+      transition: var(--transition-fast);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .social-icon:hover {
+      transform: translateY(-5px) scale(1.1);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeInFromTop 0.5s ease-out;
+    }
+
+    .btn-3d {
+      position: relative;
+      background: var(--accent-gradient);
+      border: none;
+      border-radius: 12px;
+      padding: 1rem 2rem;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 6px 0 var(--accent);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btn-3d:active {
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 var(--accent);
+    }
+
+    .cta-card a.btn-3d {
+        box-shadow: 0 6px 0 var(--primary);
+    }
+
+    .cta-card a.btn-3d:active {
+        box-shadow: 0 3px 0 var(--primary);
+    }
+
+    .hover-grow {
+        transition: transform 0.3s ease-in-out;
+    }
+    .hover-grow:hover {
+        transform: scale(1.05);
+    }
+    
+    .hover-pulse:hover {
+        animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .word-scramble-word.correct {
+        animation: glow-green 1s forwards;
+    }
+
+    @keyframes glow-green {
+      from { box-shadow: 0 0 0 0 #10B981; }
+      to { box-shadow: 0 0 20px 5px #10B981; }
+    }
+  </style>
+</head>
+
+<body class="bg-background">
+  <!-- Header Section -->
+  <header class="creative-header text-white text-center py-16 px-4 relative">
+    <div class="absolute inset-0 bg-black opacity-10"></div>
+    <div class="relative z-10">
+      <div class="logo-icon w-24 h-24 mx-auto mb-6 flex items-center justify-center text-5xl hover-pulse">
+        <i class="fas fa-book-open"></i>
+      </div>
+      <h1 class="text-5xl sm:text-6xl mb-4 font-bold leading-tight">Bornopath</h1>
+      <p class="text-lg sm:text-xl font-light text-gray-300 max-w-2xl mx-auto">Your Interactive Guide to Mastering Words - Learn Smarter, Not Harder</p>
+      <div class="mt-8 flex justify-center">
+        <div class="w-24 h-1 bg-white opacity-50 rounded-full"></div>
+        <div class="w-8 h-1 bg-accent mx-2 rounded-full"></div>
+        <div class="w-24 h-1 bg-white opacity-50 rounded-full"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container mx-auto px-4 mt-8 mb-16">
+    <div class="content-card max-w-6xl mx-auto">
+      <!-- Tab Buttons -->
+      <div class="flex flex-wrap bg-primary">
+        <button class="tab-button active flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="getting">
+          <i class="fa fa-rocket"></i> Getting Started
+        </button>
+        <button class="tab-button flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="features">
+          <i class="fa fa-star"></i> Features
+        </button>
+        <button class="tab-button flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="tips">
+          <i class="fa fa-lightbulb"></i> Tips
+        </button>
+        <button class="tab-button flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="faq">
+          <i class="fa fa-question-circle"></i> FAQ
+        </button>
+        <button class="tab-button flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="tools">
+          <i class="fa fa-tools"></i> Tools
+        </button>
+        <button class="tab-button flex-1 py-5 px-4 font-semibold cursor-pointer flex items-center justify-center gap-3 min-w-[150px] text-base" data-tab="creator">
+          <i class="fa fa-user"></i> Creator
+        </button>
+      </div>
+
+      <!-- Tab Contents -->
+      <div id="getting" class="tab-content active p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-rocket text-accent text-4xl"></i> Getting Started</h2>
+        <p class="text-gray-600 mb-6">Welcome to Bornopath! Follow these simple steps to start your language learning journey:</p>
+        <ol class="space-y-6">
+          <li class="flex items-start gap-4 p-4 rounded-xl bg-gray-50 hover-grow">
+            <div class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center text-xl font-bold">1</div>
+            <div>
+              <h3 class="font-bold text-lg mb-1">Sign Up or Log In</h3>
+              <p class="text-gray-600">Create your free account to save your progress and access all features.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-4 p-4 rounded-xl bg-gray-50 hover-grow">
+            <div class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center text-xl font-bold">2</div>
+            <div>
+              <h3 class="font-bold text-lg mb-1">Set Up Your Profile</h3>
+              <p class="text-gray-600">Tell us about yourself. Your profile helps us personalize your learning experience.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-4 p-4 rounded-xl bg-gray-50 hover-grow">
+            <div class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center text-xl font-bold">3</div>
+            <div>
+              <h3 class="font-bold text-lg mb-1">Choose a Practice Mode</h3>
+              <p class="text-gray-600">Start with a **Quick Practice** for a daily challenge or a **Customized Test** for targeted learning.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div id="features" class="tab-content p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-star text-accent text-4xl"></i> Core Features</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-bolt"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Quick Practice</h3>
+            <p class="text-gray-600">5-minute daily challenges to keep your vocabulary growing consistently.</p>
+          </div>
+          
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-cogs"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Customized Test</h3>
+            <p class="text-gray-600">Tailor quizzes to your specific level and learning objectives.</p>
+          </div>
+          
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-infinity"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Unlimited Practice</h3>
+            <p class="text-gray-600">Practice as much as you want with no restrictions.</p>
+          </div>
+          
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-trophy"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Leaderboard</h3>
+            <p class="text-gray-600">Compete with other learners and track your progress.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="tips" class="tab-content p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-lightbulb text-accent text-4xl"></i> Pro Tips</h2>
+        <p class="text-gray-600 mb-6">Master your vocabulary with these expert tips:</p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-sync-alt"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Consistency is Key</h3>
+            <p class="text-gray-600">Regular practice dramatically improves vocabulary retention.</p>
+          </div>
+          
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-search"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Learn from Mistakes</h3>
+            <p class="text-gray-600">Review detailed explanations for incorrect answers to deepen understanding.</p>
+          </div>
+          
+          <div class="feature-item hover-grow">
+            <div class="feature-icon">
+              <i class="fa fa-chart-line"></i>
+            </div>
+            <h3 class="font-bold text-lg mb-2">Stay Competitive</h3>
+            <p class="text-gray-600">Engage with the leaderboard to maintain motivation and learning enthusiasm.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="faq" class="tab-content p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-question-circle text-accent text-4xl"></i> Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              Is Bornopath completely free? <i class="fa fa-chevron-down transition-transform duration-300"></i>
+            </div>
+            <div class="faq-answer">
+              <p class="text-gray-600">✅ Yes, Bornopath is completely free with no hidden costs. We believe in making language learning accessible to everyone.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              How do the different quiz modes work? <i class="fa fa-chevron-down transition-transform duration-300"></i>
+            </div>
+            <div class="faq-answer">
+              <p class="text-gray-600">✅ We offer three practice modes: Quick (5-minute daily challenge), Customized (tailor to your level), and Unlimited (practice without restrictions). Each mode is designed to suit different learning needs and time availability.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              Is Bornopath mobile-friendly? <i class="fa fa-chevron-down transition-transform duration-300"></i>
+            </div>
+            <div class="faq-answer">
+              <p class="text-gray-600">✅ Yes, our platform is fully responsive and works seamlessly on all devices - smartphones, tablets, and desktops.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              How can I track my progress? <i class="fa fa-chevron-down transition-transform duration-300"></i>
+            </div>
+            <div class="faq-answer">
+              <p class="text-gray-600">✅ Your profile includes a comprehensive dashboard that shows your learning progress, achievements, and leaderboard position. You can also see detailed statistics about your performance over time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools Tab -->
+      <div id="tools" class="tab-content p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-tools text-accent text-4xl"></i> Interactive Language Tools</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Word Scramble Game -->
+          <div class="tool-card hover-grow">
+            <h3 class="text-xl font-bold text-primary-dark mb-4 flex items-center gap-2"><i class="fa fa-gamepad text-accent"></i> Word Scramble Challenge</h3>
+            <div class="text-center">
+              <p class="text-2xl font-semibold text-primary mb-4 p-3 bg-primary-light rounded-lg word-scramble-word" id="scrambledWord"></p>
+              <input type="text" id="scrambleInput" placeholder="Unscramble the word..." class="w-full p-3 rounded-lg border-2 border-primary-light text-center text-lg input-glow mb-4" autofocus>
+              <p class="mb-4 text-sm min-h-[24px]" id="scrambleMessage"></p>
+              <div class="flex justify-center gap-4">
+                <button id="checkScrambleBtn" class="btn-primary btn-3d">
+                  Check Answer
+                </button>
+                <button id="nextWordBtn" class="btn-secondary btn-3d" style="--accent: var(--primary);">
+                  Next Word
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Language Tool -->
+          <div class="tool-card hover-grow">
+            <h3 class="text-xl font-bold text-primary-dark mb-4 flex items-center gap-2"><i class="fa fa-robot text-accent"></i> AI Translation Assistant</h3>
+            <div class="mb-4">
+              <input type="text" id="translateInput" placeholder="Enter word or phrase to translate..." class="w-full p-3 rounded-lg border-2 border-primary-light text-lg input-glow mb-3">
+              <select id="languageSelect" class="w-full p-3 rounded-lg border-2 border-primary-light text-lg input-glow">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="zh">Chinese</option>
+              </select>
+            </div>
+            <button id="translateBtn" class="btn-primary btn-3d w-full">
+              Translate Now
+            </button>
+            <div id="translateOutput" class="mt-6 p-5 rounded-lg bg-primary-light flex flex-col items-center justify-center min-h-[120px] text-center">
+              <div class="loading-spinner hidden"></div>
+              <p class="text-lg text-gray-700 font-semibold" id="translatedText">Your translation will appear here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="creator" class="tab-content p-8">
+        <h2 class="text-3xl font-bold text-primary mb-6 flex items-center gap-3"><i class="fa fa-user text-accent text-4xl"></i> Creator & Contact</h2>
+        
+        <div class="flex flex-col md:flex-row gap-8 items-center md:items-start">
+          <div class="w-40 h-40 rounded-full bg-primary-light flex items-center justify-center text-6xl text-primary mb-6 md:mb-0 shadow-lg hover-pulse">
+            <i class="fa fa-user-tie"></i>
+          </div>
+          
+          <div class="flex-1">
+            <h3 class="text-2xl font-bold mb-4">Towfik Ahmed Razin</h3>
+            <div class="space-y-4 text-md">
+              <p class="flex items-center gap-3 text-gray-700">
+                <i class="fa fa-envelope text-accent text-xl"></i> 
+                <a href="mailto:towfikahmed2477@gmail.com" class="text-primary hover:text-accent transition-colors">towfikahmed2477@gmail.com</a>
+              </p>
+              <p class="flex items-center gap-3 text-gray-700">
+                <i class="fa fa-code text-accent text-xl"></i> 
+                <a href="https://github.com/towfikahmed0" target="_blank" class="text-primary hover:text-accent transition-colors">github.com/towfikahmed0</a>
+              </p>
+              <p class="text-gray-600 mt-6">Passionate about creating educational tools that make learning engaging and effective for everyone.</p>
+            </div>
+            
+            <div class="flex gap-4 mt-8">
+              <a href="https://github.com/towfikahmed0" target="_blank" class="social-icon w-12 h-12 bg-gray-100 rounded-full text-primary flex items-center justify-center text-xl" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-icon w-12 h-12 bg-gray-100 rounded-full text-primary flex items-center justify-center text-xl" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-icon w-12 h-12 bg-gray-100 rounded-full text-primary flex items-center justify-center text-xl" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon w-12 h-12 bg-gray-100 rounded-full text-primary flex items-center justify-center text-xl" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Call to Action Section -->
+  <section class="cta-card py-12 px-6 mt-12 rounded-2xl max-w-6xl mx-auto text-center relative overflow-hidden">
+    <div class="relative z-10">
+      <h3 class="text-3xl font-bold mb-4 text-white">Ready to Begin Your Language Journey?</h3>
+      <p class="text-lg text-white opacity-90 mb-6">Join thousands of learners who are expanding their vocabulary with Bornopath</p>
+      <a href="#" class="btn-3d inline-flex items-center">
+        <i class="fa fa-user-plus mr-2"></i> Create Your Free Account
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary-dark text-white text-center py-8 px-4 mt-16">
+    <div class="max-w-6xl mx-auto">
+      <p class="mb-4">&copy; 2025 Bornopath. All rights reserved.</p>
+      <p class="text-sm text-gray-400 flex items-center justify-center">
+        Made with <i class="fa fa-heart text-red-400 animate-pulse mx-1"></i> for language learners worldwide
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.tab-button');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const tabId = tab.dataset.tab;
+
+          tabs.forEach(item => item.classList.remove('active'));
+          tab.classList.add('active');
+
+          tabContents.forEach(content => {
+            content.classList.remove('active');
+            if (content.id === tabId) {
+              content.classList.add('active');
+            }
+          });
+        });
+      });
+    });
+
+    // FAQ Accordion
+    function toggleFaq(element) {
+      const faqAnswer = element.nextElementSibling;
+      const icon = element.querySelector('i');
+      if (faqAnswer.classList.contains('expanded')) {
+        faqAnswer.classList.remove('expanded');
+        icon.style.transform = 'rotate(0deg)';
+      } else {
+        // Close any other open FAQs
+        document.querySelectorAll('.faq-answer.expanded').forEach(item => {
+          item.classList.remove('expanded');
+          item.previousElementSibling.querySelector('i').style.transform = 'rotate(0deg)';
+        });
+        
+        faqAnswer.classList.add('expanded');
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // Word Scramble Game Logic
+    const words = ['language', 'vocabulary', 'bornopath', 'challenge', 'progress', 'translate', 'premium', 'learning', 'education', 'knowledge'];
+    let currentWord = '';
+
+    const scrambledWordEl = document.getElementById('scrambledWord');
+    const scrambleInput = document.getElementById('scrambleInput');
+    const scrambleMessage = document.getElementById('scrambleMessage');
+    const checkScrambleBtn = document.getElementById('checkScrambleBtn');
+    const nextWordBtn = document.getElementById('nextWordBtn');
+
+    function selectRandomWord() {
+      const randomIndex = Math.floor(Math.random() * words.length);
+      currentWord = words[randomIndex];
+      return currentWord;
+    }
+
+    function scrambleWord(word) {
+      let scrambled = word.split('');
+      for (let i = scrambled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [scrambled[i], scrambled[j]] = [scrambled[j], scrambled[i]];
+      }
+      return scrambled.join('');
+    }
+
+    function startGame() {
+      const wordToScramble = selectRandomWord();
+      const scrambled = scrambleWord(wordToScramble);
+      scrambledWordEl.textContent = scrambled.toUpperCase();
+      scrambleInput.value = '';
+      scrambleMessage.textContent = '';
+      scrambleMessage.style.color = '';
+      scrambledWordEl.classList.remove('correct');
+      checkScrambleBtn.disabled = false;
+      scrambleInput.focus();
+    }
+
+    checkScrambleBtn.addEventListener('click', () => {
+      const userGuess = scrambleInput.value.toLowerCase().trim();
+      if (userGuess === currentWord) {
+        scrambleMessage.textContent = 'Correct! Great job!';
+        scrambleMessage.style.color = '#10B981';
+        scrambledWordEl.classList.add('correct');
+        checkScrambleBtn.disabled = true;
+      } else {
+        scrambleMessage.textContent = 'Incorrect, try again.';
+        scrambleMessage.style.color = '#EF4444';
+      }
+    });
+
+    nextWordBtn.addEventListener('click', startGame);
+    scrambleInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        checkScrambleBtn.click();
+      }
+    });
+
+    // Initialize the game when the tools tab is opened
+    document.querySelector('[data-tab="tools"]').addEventListener('click', startGame);
+
+    // AI Language Tool Logic
+    const translateInput = document.getElementById('translateInput');
+    const languageSelect = document.getElementById('languageSelect');
+    const translateBtn = document.getElementById('translateBtn');
+    const translateOutput = document.getElementById('translateOutput');
+    const translatedTextEl = document.getElementById('translatedText');
+    const loadingSpinner = document.querySelector('.loading-spinner');
+
+    const apiKey = "";
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+    async function callGeminiApi(payload, retries = 3, delay = 1000) {
+      try {
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status} ${response.statusText}`);
+        }
+
+        const result = await response.json();
+        return result;
+      } catch (error) {
+        if (retries > 0) {
+          await new Promise(res => setTimeout(res, delay));
+          return callGeminiApi(payload, retries - 1, delay * 2);
+        }
+        throw error;
+      }
+    }
+
+    translateBtn.addEventListener('click', async () => {
+      const textToTranslate = translateInput.value.trim();
+      const targetLang = languageSelect.value;
+      if (!textToTranslate) return;
+
+      translatedTextEl.textContent = '';
+      loadingSpinner.classList.remove('hidden');
+      translateBtn.disabled = true;
+      translateInput.disabled = true;
+
+      const userQuery = `Translate "${textToTranslate}" into the language with code "${targetLang}". Just give me the translated word/phrase, nothing else.`;
+      const payload = {
+        contents: [{
+          parts: [{
+            text: userQuery
+          }]
+        }],
+      };
+
+      try {
+        const result = await callGeminiApi(payload);
+        const translatedResult = result.candidates[0].content.parts[0].text;
+        translatedTextEl.textContent = translatedResult;
+      } catch (error) {
+        translatedTextEl.textContent = 'Error: Could not translate. Please check your API key.';
+        console.error('Translation error:', error);
+      } finally {
+        loadingSpinner.classList.add('hidden');
+        translateBtn.disabled = false;
+        translateInput.disabled = false;
+      }
+    });
+
+    translateInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        translateBtn.click();
+      }
+    });
+  </script>
+</body>
+
+</html>

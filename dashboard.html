@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/icons/icon-192.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="theme-color" content="#159895">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Rubik+Marker+Hatch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="style/dashboard.css?v=6" rel="stylesheet">
+  <link href="style/profile.css?v=2" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js">
+
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Bornopath-Learn Words the Smart Way.</title>
+</head>
+
+<body data-theme="light">
+  <div class="sidebar">
+    <a href="#" class="logo">
+      <span>
+        <h3 style="color: #159895;font-family: 'Rubik Marker Hatch', system-ui;">Bornopath</h3>
+      </span>
+    </a>
+    <a href="#" id="tab_1" class="active" onclick="switchtab(this)"><i class="fa fa-home"></i>
+      <span>Dashboard</span></a>
+    <a href="#" id="tab_2" onclick="switchtab(this)"><i class="fa fa-book" aria-hidden="true"></i>
+      <span>Dictionary</span></a>
+    <a href="#" id="tab_3" onclick="switchtab(this)"><i class="fa fa-line-chart"></i> <span>Leaderboard</span></a>
+    <a href="#" id="tab_4" onclick="switchtab(this)"><i class="fa fa-user-o"></i> <span>Profile</span></a>
+    <!-- <a href="#" style="bottom: 0;" onclick="signOut()"><i class="fa fa-sign-out"></i> <span>Log out</span></a> -->
+    <a href="#" id="themeToggleBtn" style="bottom: 0;" onclick="toggleTheme()"><i class="fa fa-moon-o"></i> <span>Dark Mode</span></a>
+
+  </div>
+  <div class="content">
+    <div id="dashboardContant" style="padding: 19px;">
+      <!-- notification -->
+      <div class="alert alert-success alert-dismissible fade show" role="alert" id="bornoAlert" style="display: none;">
+        ✨ Install Bornopath on your device like an app!<button id="installBtn" class="btn"
+          style="display: none;">Install Bornopath</button>
+        <button type="button" class="btn-close" onclick="document.getElementById('bornoAlert').style.display='none';"
+          aria-label="Close"></button>
+      </div>
+
+      <!-- User Stats Overview -->
+      <div class="dashboard-header">
+        <div class="user-stats">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa fa-trophy"></i></div>
+            <div class="stat-content">
+              <h3>Your Score</h3>
+              <p class="stat-value totalScore">
+              </p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa fa-flag"></i></div>
+            <div class="stat-content">
+              <h3>Leaderboard Rank</h3>
+              <p class="stat-value leaderboard-rank">
+
+              </p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa fa-fire"></i></div>
+            <div class="stat-content">
+              <h3>Current Streak</h3>
+              <p class="stat-value streak-days">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practice O options -->
+      <div class="practice-options">
+        <h2 class="section-title">Practice Modes</h2>
+        <div class="options-grid">
+          <button class="practice-btn quick-practice">
+            <i class="fa fa-bolt"></i>
+            <h3>Quick Practice</h3>
+            <p>5-minute daily challenge</p>
+          </button>
+
+          <button class="practice-btn customized-test">
+            <i class="fa fa-cogs"></i>
+            <h3>Customized Test</h3>
+            <p>Tailored to your level</p>
+          </button>
+
+          <button class="practice-btn unlimited-practice">
+            <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+            <h3>Unlimited Practice</h3>
+            <p>Practice without limits</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Word of the Day -->
+      <div class="word-of-day" id="wordOfDay">
+        <h2 class="section-title">Word of the Day</h2>
+        <div class="word-card">
+          <div class="loading" id="loadingDiv">
+            <span id="btnSpinner" class="loading-spinner"></span><br>
+            <h5 class="loading-text">Word Loading...</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="profileContant" style="display: none;">
+      <div class="profile-container">
+        <!-- Profile Header Section -->
+        <div class="profile-header">
+          <div class="avatar-section">
+            <div class="avatar-wrapper">
+              <img src="https://placehold.co/600x400?text=..." alt="Profile Picture"
+                class="profile-avatar profileAvatar">
+            </div>
+            <div class="basic-info">
+              <h1 class="profile-name" id="user-name">Loading...</h1>
+              <p class="profile-email" id="user-email">user@example.com</p>
+              <div class="profile-meta">
+                <span class="meta-item" id="user-dob"><i class="fa fa-birthday-cake"></i> Loading...</span>
+                <span class="meta-item" id="user-gender"><i class="fa fa-venus-mars"></i> Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="switchingTab">
+          <button class="pf-tab-btn active" id="profileTab" onclick="switchProfileTab('profile')">Profile</button>
+          <button class="pf-tab-btn" id="settingsTab" onclick="switchProfileTab('settings')">Settings</button>
+        </div>
+
+        <!-- Stats Overview -->
+        <div class="profile-tab-content" id="profile">
+          <div class="stats-section">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa fa-trophy"></i></div>
+              <div class="stat-info">
+                <span class="stat-value totalScore">NaN</span>
+                <span class="stat-label">Total Score</span>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa fa-calendar-check-o"></i></div>
+              <div class="stat-info">
+                <span class="stat-value streak-days">NaN</span>
+                <span class="stat-label">Day Streak</span>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa fa-line-chart"></i></div>
+              <div class="stat-info">
+                <span class="stat-value accuracy">NaN</span>
+                <span class="stat-label">Accuracy</span>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa fa-question"></i></div>
+              <div class="stat-info">
+                <span class="stat-value qnAtmpt">NaN</span>
+                <span class="stat-label">Questions Attempted</span>
+              </div>
+            </div>
+          </div>
+          <div class='progress-section' id="progressOverview"></div>
+          <!-- Progress Graph -->
+          <div class="graph-section">
+            <h2 class="section-title"><i class="fa fa-bar-chart"></i> Learning Progress</h2>
+            <select class="form-select" id="chartRangeSelector" onchange="updateChartRange()">
+              <option value="7" selected>Last Week</option>
+              <option value="15">Last 15 Days</option>
+              <option value="30">Last Month</option>
+              <option value="365">Last Year</option>
+            </select>
+            <div class="graph-container">
+              <canvas id="progressChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="profile-tab-content" id="settings" style="display: none;">
+          <div class="account-settings">
+            <h2 class="section-title"><i class="fa fa-cogs"></i> Account Settings</h2>
+            <button class="btn" id="changePassword" onclick="sendResetEmail()">Change Password</button>
+<button class="btn" id="deleteAccount" onclick="signOut()">Log Out</button>            
+<button class="btn" id="deleteAccount" onclick="showDeleteConfirmation()">Delete Account</button>
+          </div>
+        </div>
+        <div class="profile-tab-content progressOverviewModal" id="progressOverviewModal" style="display: none;">
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div id="questionBank" style="display: none; padding: 19px;">
+      <h2><i class="fa fa-book" aria-hidden="true"></i> Dictionary</h2>
+      <br>
+      <input type="text" id="searchInput" onkeyup="searchword()" placeholder="Search for words.."
+        title="Type in a word">
+
+      <ul id="dictionary-word-list" style="display: block;">
+      </ul>
+      <div class="word-card" id="no-results-message" style="display: none;">
+      </div>
+      <div id="wordDetailsModalContent" style="display: none;">
+        <div class="loading" id="loadingDiv">
+          <span id="btnSpinner" class="loading-spinner"></span><br>
+        </div>
+      </div>
+      <!-- <div id="dictionary-list"></div> -->
+    </div>
+    <div id="leaderboard" style="display: none; padding: 19px;">
+      <div class="leaderboard-container">
+        <!-- notification -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert" id="bornoAlert_2">
+          ✨ Now, you can see other's profile!
+          <button type="button" class="btn-close"
+            onclick="document.getElementById('bornoAlert_2').style.display='none';" aria-label="Close"></button>
+        </div>
+        <h1 class="leaderboard-title"><i class="fa fa-trophy"></i> Bornopath Leaderboard</h1>
+
+        <!-- Leaderboard Table -->
+        <div class="leaderboard-table">
+          <div class="table-header">
+            <div class="header-rank">Rank</div>
+            <div class="header-user">User</div>
+            <div class="header-score">Score</div>
+            <div class="header-accuracy">Accuracy</div>
+            <div class="header-streak">Streak</div>
+          </div>
+
+          <div class="table-body" id="leaderboard-data">
+            <!-- Leaderboard data will be inserted here by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Current User Position -->
+        <div class="user-position">
+          <div class="user-rank">
+            <span class="leaderboard-rank">NaN</span>
+            <span class="rank-label">Your Position</span>
+          </div>
+          <div class="user-info">
+            <img alt="Your profile" class="user-avatar profileAvatar">
+            <span class="user-name">You</span>
+          </div>
+          <div class="user-score totalScore">NaN</div>
+          <div class="user-accuracy accuracy">NaN</div>
+          <div class="user-streak streak-days">NaN</div>
+        </div>
+
+        <!-- Pagination
+        <div class="pagination">
+          <button class="page-btn" id="prev-page"><i class="fa fa-chevron-left"></i> Previous</button>
+          <span class="page-numbers">
+            <span class="current-page">1</span> of <span class="total-pages">5</span>
+          </span>
+          <button class="page-btn" id="next-page">Next <i class="fa fa-chevron-right"></i></button>
+        </div>
+      </div> -->
+      </div>
+      <div id="user2user_Profile">
+        <!-- <> -->
+      </div>
+    </div>
+    <div id="quizContainer" style="display: none; padding: 19px;">
+      <div id="quiz-loadingSpinner"
+        style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" id="quiz">
+        <div>
+          <div class="quiz-header">
+            <div class="quiz-progress">
+              <div class="question-point" id="quiz-point" style="margin-bottom: 1%;">Point: 0</div>
+              <div class="progress-bar" style="height: 9px;">
+                <div class="progress-fill" id="quizProgress"></div>
+              </div>
+              <span class="progress-text" id="progressText"></span>
+            </div>
+            <div class="quiz-timer">
+              <i class="fa fa-clock-o"></i>
+              <span id="quizTimer">00:30</span>
+            </div>
+          </div>
+          <div class="quiz-body">
+            <div class="question-container">
+              <div class="question-type" id="stutas">loading...</div>
+              <h2 class="question-text" id="questionText">What is the correct meaning of the word "ephemeral"?</h2>
+            </div>
+            <div class="options-container" id="optionsContainer">
+              <p hidden id="opton-selected"></p>
+              <p hidden id="questionIdx"></p>
+              <!-- Options will be inserted here by JavaScript -->
+              <div class="quiz-option">
+                <span class="option-letter">A</span>
+                <span class="option-text">Option 1</span>
+              </div>
+              <div class="quiz-option">
+                <span class="option-letter">B</span>
+                <span class="option-text">Option 2</span>
+              </div>
+              <div class="quiz-option">
+                <span class="option-letter">C</span>
+                <span class="option-text">Option 3</span>
+              </div>
+              <div class="quiz-option">
+                <span class="option-letter">D</span>
+                <span class="option-text">Option 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="quiz-footer">
+            <button class="btn-quiz-nav" id="endUnlimitedPractice" style="display: block;">
+              End Quiz <i class="fa fa-flag" aria-hidden="true"></i>
+            </button>
+            <button class="btn-quiz-nav" id="btnNext" onclick="intialQuestions(0,0)" style="display: none;">
+              Next <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div id="additionalWordInfo">
+        </div>
+      </div>
+      <div id="customize_quiz" style="display: none;">
+        <div class="quiz-end-header">
+          <h1><i class="fa fa-cogs"></i> Customize Test</h1>
+        </div>
+        <div class="quiz-end-body m-2">
+          <label for="quizLimit">Select Number of Questions:</label>
+          <select id="quizLimit" class="form-control">
+            <option value="10">10 Questions</option>
+            <option value="20">20 Questions</option>
+            <option value="30">30 Questions</option>
+            <option value="50">50 Questions</option>
+            <option value="100">100 Questions</option>
+          </select>
+
+          <label for="quizTime">Select Time Limit (minute):</label>
+          <input type="number" id="quizTime" class="form-control" placeholder="Enter time in seconds" value="5">
+
+          <label for="practiceType">Practice Mood:</label>
+          <select id="practiceType" class="form-control">
+            <option value="en2bn">English to Bangla</option>
+            <option value="en2en">English to English</option>
+          </select>
+          <button class="btn btn-primary" style="margin-top: 5px; width: 100%;"
+            onclick="intializeCustomizedTest()">Start Quiz</button>
+        </div>
+      </div>
+      <div id="unlimitedTest" style="display: none;">
+        <div class="quiz-end-header">
+          <h1><i class="fa fa-plus-square-o" aria-hidden="true"></i> Unlimited Practice</h1>
+          <p>Practice unlimited questions without any time limit.</p>
+        </div>
+        <div class="quiz-end-body m-2">
+          <label for="practiceType">Practice Mood:</label>
+          <select id="unlimited_practiceType" class="form-control">
+            <option value="en2bn">English to Bangla</option>
+            <option value="en2en">English to English</option>
+          </select>
+          <button class="btn btn-primary" style="margin-top: 5px; width: 100%;"
+            onclick="intialUnlimitedPractice()">Start Unlimited Practice</button>
+        </div>
+      </div>
+      <div id="practiceTypeSelectionContainer" style="display: none;">
+        <div class="quiz-end-header">
+          <h2><i class="fa fa-bolt"></i> Select a Practice Type</h2>
+          <p>Choose a practice mode to enhance your vocabulary skills.</p>
+          <!-- <p>Quick 5-minute practice session.</p> -->
+        </div>
+        <div class="quiz-end-body m-2" style="display: flex; align-items: center;">
+          <button class="btn btn-primary" onclick="moodselection(0,15,'en2bn')" style="width: 100%;">Practice English to
+            Bangla</button>
+        </div>
+        <div class="quiz-end-body m-2" style="display: flex; align-items: center;">
+          <button class="btn btn-primary" onclick="moodselection(0,15,'en2en')" style="width: 100%;">Practice English to
+            English</button>
+        </div>
+      </div>
+      <div id="quizEnd" style="display: none;">
+        <div class="quiz-end-header">
+          <h1> Quiz Completed!</h1>
+          <p style="color: #159895; font-weight: bold;">score: <span id="finalScore">0/0</span></p>
+          <p style="color: #159895; font-weight: bold;">Accuracy: <span id="prac_accuracy">0%</span></p>
+        </div>
+        <div class="quiz-end-body">
+          <p>Thank you for participating in the quiz. Your performance has been recorded.</p>
+          <button class="btn quiz-restart" onclick="window.location.reload()">Back to Dashboard</button>
+        </div>
+      </div>
+    </div>
+    <div class="configpagebg">
+
+    </div>
+
+
+  </div>
+  <script>
+
+    // Check for service worker updates every hour
+setInterval(() => {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistration().then(reg => {
+      if (reg) {
+        reg.update();
+      }
+    });
+  }
+}, 60 * 60 * 1000); // Check every hour
+
+// Listen for update messages
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('message', event => {
+    if (event.data.type === 'NEW_VERSION_AVAILABLE') {
+      if (confirm('A new version is available. Reload now?')) {
+        window.location.reload();
+      }
+    }
+    
+    if (event.data.type === 'RESOURCE_UPDATED') {
+      console.log('Resource updated:', event.data.url);
+      // You can optionally reload specific components here
+    }
+  });
+}
+
+// Force service worker update when user interacts with page
+document.addEventListener('click', () => {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistration().then(reg => {
+      if (reg) {
+        reg.update();
+      }
+    });
+  }
+});
+    // Theme toggle logic
+    const themeBtn = document.getElementById('themeToggleBtn');
+    function setTheme(theme) {
+      document.body.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      themeBtn.innerHTML = theme === 'dark'
+        ? '<i class="fa fa-sun-o"></i> <span>Light Mode</span>'
+        : '<i class="fa fa-moon-o"></i> <span>Dark Mode</span>';
+    }
+    themeBtn.onclick = function() {
+      setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    };
+    // On load, set theme from localStorage
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      setTheme(savedTheme);
+    })();
+  </script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://js.puter.com/v2/"></script>
+  <script type="module" src="js/dashboard.js?v=1.3.1"></script>
+  <script src="js/ui.js?v=4"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
