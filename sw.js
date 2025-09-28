@@ -1,10 +1,13 @@
- const CACHE_NAME = 'bornopath-cache-v6';
+ const CACHE_NAME = 'bornopath-cache-v1.3.0';
 const urlsToCache = [
   '/',
   '/index.html',
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
+ '/js/sys.js',
+ '/js/ui.js',
+ '/js/dashboard.js'
   // Add more static assets if needed
 ];
 
