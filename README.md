@@ -1,4 +1,4 @@
-# BornoPath
+# <img src="icons/icon-192.png" width="40" alt="Your alt text here">  BornoPath
 
 **BornoPath** is a free and open-source platform created by **Towfik Ahmed** to make English vocabulary learning simpler, smarter, and rooted in the learner’s language and culture.
 
@@ -11,6 +11,8 @@ This is just the beginning. **BornoPath is a work in progress** — shaped by cu
 > Learn a little every day.  
 > Let your words grow — with **BornoPath**.
 
+> Link_1 (with PWA) : https://bornopath.kinsta.page <br>
+> Link_2 :           https://bornopath.free.nf
 ---
 
 ## 📸 Screenshots
