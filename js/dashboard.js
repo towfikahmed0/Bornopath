@@ -383,7 +383,7 @@ window.intialQuestions = async function (QNo, limit, mood) {
     const isUnlimited = isNaN(limit);
 
     if (!dictionary || dictionary.length === 0) {
-        console.error("Dictionary not loaded or empty!");
+        window.location.reload();
         return;
     }
 
@@ -498,14 +498,14 @@ window.intialQuestions = async function (QNo, limit, mood) {
     timerInitialized = true;
     document.getElementById("quizTimer").style.display = 'block';
     document.getElementById('btnNext').removeAttribute("onclick");
-    document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit}, "${mood}")`);
+    document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${QNo + 2}, "${mood}")`);
     document.getElementById("stutas").innerHTML = `Question <span>${QNo + 1}</span>`;
     if (isUnlimited) {
         document.getElementById("progressText").style.display = 'none';
         document.getElementById('quizTimer').innerHTML = 'Infinity';
         document.getElementsByClassName('progress-bar')[0].style.display = 'none';
         document.getElementById('endUnlimitedPractice').removeAttribute("onclick");
-        document.getElementById("endUnlimitedPractice").setAttribute("onclick", `intialQuestions("${QNo + 1}", "${limit}", "${mood}")`);
+        document.getElementById("endUnlimitedPractice").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${QNo + 1}, "${mood}")`);
         document.getElementById("endUnlimitedPractice").style.display = 'block';
         return; // Exit for unlimited practice
     }
