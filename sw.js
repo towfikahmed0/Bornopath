@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bornopath-cache-v1.3.1';
+const CACHE_NAME = 'bornopath-cache-v1.3.2';
 const OFFLINE_URL = '/offline.html';
 
 const urlsToCache = [
