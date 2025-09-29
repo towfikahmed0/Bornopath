@@ -498,7 +498,6 @@ window.intialQuestions = async function (QNo, limit, mood) {
     timerInitialized = true;
     document.getElementById("quizTimer").style.display = 'block';
     document.getElementById('btnNext').removeAttribute("onclick");
-    document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${QNo + 2}, "${mood}")`);
     document.getElementById("stutas").innerHTML = `Question <span>${QNo + 1}</span>`;
     if (isUnlimited) {
         document.getElementById("progressText").style.display = 'none';
@@ -509,6 +508,8 @@ window.intialQuestions = async function (QNo, limit, mood) {
         document.getElementById("endUnlimitedPractice").style.display = 'block';
         return; // Exit for unlimited practice
     }
+    document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit}, "${mood}")`);
+    
     limit = parseInt(limit)
     document.getElementById("progressText").innerHTML = `Question ${QNo + 1}/<span id='Qlimit'>${limit}</span>`;
     document.getElementById("quizProgress").style.width = `${((QNo + 1) / limit) * 100}%`;
