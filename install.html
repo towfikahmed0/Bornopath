@@ -97,61 +97,58 @@
     </div>
 
     <script>
-let deferredPrompt;
-const installBtn = document.getElementById("installBtn");
+document.addEventListener("DOMContentLoaded", () => {
+    let deferredPrompt;
+    const installBtn = document.getElementById("installBtn");
 
-//  App install হয়ে গেলে স্টেট আপডেট + রিডাইরেক্ট
-const setInstalledState = () => {
-    installBtn.textContent = "App Installed";
-    installBtn.disabled = true;
-    installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
-    installBtn.classList.add('bg-green-600', 'cursor-default');
-    installBtn.style.pointerEvents = 'none';
+    // ✅ App install হয়ে গেলে স্টেট আপডেট + রিডাইরেক্ট
+    const setInstalledState = () => {
+        installBtn.textContent = "App Installed";
+        installBtn.disabled = true;
+        installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
+        installBtn.classList.add('bg-green-600', 'cursor-default');
+        installBtn.style.pointerEvents = 'none';
+        window.location.replace("index.html"); // 🔹 রিডাইরেক্ট
+    };
 
-    //  ইন্সটল হলে index.html এ পাঠাও
-    window.location.replace("index.html");
-};
+    // ✅ Install Prompt ইভেন্ট
+    window.addEventListener("beforeinstallprompt", (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        installBtn.style.display = "flex";
+        installBtn.innerHTML = `
+            <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Install Bornopath</span>
+        `;
+    });
 
-//  Install Prompt ইভেন্ট ধরো
-window.addEventListener("beforeinstallprompt", (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-
-    // Install button দেখাও
-    installBtn.style.display = "flex";
-    installBtn.innerHTML = `
-        <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-            <polyline points="7 10 12 15 17 10"></polyline>
-            <line x1="12" y1="15" x2="12" y2="3"></line>
-        </svg>
-        <span>Install Bornopath</span>
-    `;
-});
-
-//  Install Button এ ক্লিক করলে prompt দেখাও
-installBtn.addEventListener("click", async () => {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-
-        if (outcome === "accepted") {
-            setInstalledState();
+    // ✅ Install button ক্লিক
+    installBtn.addEventListener("click", async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === "accepted") {
+                setInstalledState();
+            }
+            deferredPrompt = null;
         }
-        deferredPrompt = null;
+    });
+
+    // ✅ App install হয়ে গেলে
+    window.addEventListener("appinstalled", () => {
+        setInstalledState();
+        console.log("Bornopath PWA was installed successfully.");
+    });
+
+    // ✅ চেক করো আগে থেকেই standalone (মানে PWA mode এ) চলছে কিনা
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+        window.location.replace("index.html");
     }
 });
-
-//  App install হয়ে গেলে
-window.addEventListener("appinstalled", () => {
-    setInstalledState();
-    console.log("Bornopath PWA was installed successfully.");
-});
-
-//  যদি standalone মোডে খোলা থাকে (মানে আগেই ইন্সটল করা)
-if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
-    window.location.replace("index.html");
-}
 
     </script>
 </body>
