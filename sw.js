@@ -16,10 +16,11 @@ const urlsToCache = [
 // Install event
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(urlsToCache))
+      .catch(err => console.error('Failed to cache during install:', err))
   );
-  // Activate new SW immediately
-  self.skipWaiting();
+  self.skipWaiting(); // Activate immediately
 });
 
 // Activate event
@@ -33,39 +34,40 @@ self.addEventListener('activate', event => {
       )
     )
   );
-  // Take control of all clients without reload
-  self.clients.claim();
+  self.clients.claim(); // Take control of clients immediately
 });
 
 // Fetch event
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
-  event.respondWith(
-    caches.match(event.request).then(cachedResponse => {
-      const fetchPromise = fetch(event.request)
-        .then(networkResponse => {
-          if (
-            networkResponse &&
-            networkResponse.status === 200 &&
-            event.request.url.startsWith('http')
-          ) {
-            caches.open(CACHE_NAME).then(cache =>
-              cache.put(event.request, networkResponse.clone())
-            );
-          }
-          return networkResponse;
-        })
-        .catch(() => {
-          if (cachedResponse) return cachedResponse;
-          if (event.request.mode === 'navigate') {
-            return caches.match(OFFLINE_URL);
-          }
-        });
+  event.respondWith((async () => {
+    const cachedResponse = await caches.match(event.request);
 
-      return cachedResponse || fetchPromise;
-    })
-  );
+    try {
+      const networkResponse = await fetch(event.request);
+
+      // Cache network responses if valid
+      if (
+        networkResponse &&
+        networkResponse.status === 200 &&
+        event.request.url.startsWith('http')
+      ) {
+        const cache = await caches.open(CACHE_NAME);
+        try {
+          await cache.put(event.request, networkResponse.clone());
+        } catch (err) {
+          console.warn('Failed to cache network response:', err);
+        }
+      }
+
+      return networkResponse;
+
+    } catch (err) {
+      // If network fails, fallback to cache or offline page
+      return cachedResponse || (event.request.mode === 'navigate' ? await caches.match(OFFLINE_URL) : undefined);
+    }
+  })());
 });
 
 // Listen for messages to force update
