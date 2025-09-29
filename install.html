@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +9,15 @@
     <meta name="theme-color" content="#159895">
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/icons/icon-192.png">
-    
-    <!-- Load Inter font and Tailwind CSS -->
+
+    <!-- Tailwind CSS & Inter font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Configure Tailwind to use the specified theme color and font -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        // Custom color based on the original theme
                         'bornopath-teal': '#159895',
                         'bornopath-teal-dark': '#127a77',
                     },
@@ -31,16 +30,15 @@
     </script>
 
     <style>
-        /* Ensuring the body fills the viewport without overflow issues on mobile */
         body {
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: #f9fdfd;
+            font-family: 'Inter', sans-serif;
         }
 
-        /* Custom icon/font-awesome replacement (using inline SVG) */
         .icon-download {
             width: 1em;
             height: 1em;
@@ -54,39 +52,21 @@
         }
     </style>
 </head>
-<body class="p-4">
 
-    <!-- Installation Card -->
+<body>
+
     <div class="bg-white p-8 sm:p-10 rounded-xl shadow-2xl max-w-sm w-full text-center transition-all duration-300">
-        <!-- Logo (Centered) -->
-        <img 
-            src="/icons/icon-192.png" 
-            alt="Bornopath Logo" 
-            width="80" 
-            height="80"
+        <img src="/icons/icon-192.png" alt="Bornopath Logo" width="80" height="80"
             class="mx-auto mb-6 rounded-full shadow-md"
-            onerror="this.onerror=null; this.src='https://placehold.co/80x80/159895/ffffff?text=B'"
-        >
-
-        <!-- Title -->
-        <h1 class="text-3xl font-bold mb-2 text-gray-800">
-            Install <span class="text-bornopath-teal">Bornopath</span>
+            onerror="this.onerror=null; this.src='https://placehold.co/80x80/159895/ffffff?text=B'">
+        <h1 class="text-3xl font-bold mb-2 text-gray-800">Install <span class="text-bornopath-teal">Bornopath</span>
         </h1>
+        <p class="text-gray-500 mb-6 text-base">Add Bornopath to your home screen for quick access and an immersive app
+            experience.</p>
 
-        <!-- Description -->
-        <p class="text-gray-500 mb-6 text-base">
-            Add Bornopath to your home screen for quick access and an immersive app experience.
-        </p>
-        
-        <!-- Install Button -->
-        <button id="installBtn" 
-                class="btn-install w-full flex items-center justify-center space-x-2 
-                       bg-bornopath-teal text-white font-semibold py-3 px-6 
-                       rounded-full shadow-lg transition duration-200 
-                       hover:bg-bornopath-teal-dark hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-bornopath-teal/50"
-                style="display: none;">
-            
-            <!-- Inline Download Icon (Replaces Font Awesome) -->
+        <button id="installBtn"
+            class="w-full flex items-center justify-center space-x-2 bg-bornopath-teal text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-200 hover:bg-bornopath-teal-dark hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-bornopath-teal/50"
+            style="display: block;">
             <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>
@@ -97,66 +77,54 @@
     </div>
 
     <script>
-        if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/sw.js')
-                        .then(reg => console.log('Service Worker registered:', reg))
-                        .catch(err => console.error('Service Worker registration failed:', err));
-                });
-            }
-document.addEventListener("DOMContentLoaded", () => {
-    let deferredPrompt;
-    const installBtn = document.getElementById("installBtn");
-
-    // ✅ App install হয়ে গেলে স্টেট আপডেট + রিডাইরেক্ট
-    const setInstalledState = () => {
-        installBtn.textContent = "App Installed";
-        installBtn.disabled = true;
-        installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
-        installBtn.classList.add('bg-green-600', 'cursor-default');
-        installBtn.style.pointerEvents = 'none';
-        window.location.replace("index.html"); // 🔹 রিডাইরেক্ট
-    };
-
-    // ✅ Install Prompt ইভেন্ট
-    window.addEventListener("beforeinstallprompt", (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        installBtn.style.display = "flex";
-        installBtn.innerHTML = `
-            <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-            </svg>
-            <span>Install Bornopath</span>
-        `;
-    });
-
-    // ✅ Install button ক্লিক
-    installBtn.addEventListener("click", async () => {
-        if (deferredPrompt) {
-            deferredPrompt.prompt();
-            const { outcome } = await deferredPrompt.userChoice;
-            if (outcome === "accepted") {
-                setInstalledState();
-            }
-            deferredPrompt = null;
+        // Redirect immediately if already running as PWA
+        if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+            window.location.replace("/index.html");
         }
-    });
 
-    // ✅ App install হয়ে গেলে
-    window.addEventListener("appinstalled", () => {
-        setInstalledState();
-        console.log("Bornopath PWA was installed successfully.");
-    });
+        let deferredPrompt;
+        const installBtn = document.getElementById("installBtn");
 
-    // ✅ চেক করো আগে থেকেই standalone (মানে PWA mode এ) চলছে কিনা
-    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
-        window.location.replace("index.html");
-    }
-});
+        // Listen for beforeinstallprompt event
+        window.addEventListener("beforeinstallprompt", (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installBtn.style.display = "flex"; // show install button
+        });
+
+        // Handle install button click
+        installBtn.addEventListener("click", async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                if (outcome === "accepted") {
+                    installBtn.style.display = "none";
+                    window.location.replace("/index.html");
+                }
+                deferredPrompt = null;
+            } else {
+                console.log("Install prompt not available");
+                installBtn.innerText = "Redirecting...";
+                window.location.replace("/index.html");
+
+            }
+        });
+
+        
+        // Handle appinstalled event
+        window.addEventListener("appinstalled", () => {
+            installBtn.style.display = "none";
+            console.log("Bornopath PWA installed");
+            window.location.replace("/index.html");
+        });
+        
+        if (installBtn.style.display === "none") {
+            console.log("Install button hidden, redirecting...");
+            window.location.replace("/index.html");
+        }
 
     </script>
+
 </body>
+
 </html>
