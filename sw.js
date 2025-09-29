@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bornopath-cache-v1.3.0';
+const CACHE_NAME = 'bornopath-cache-v1.3.1';
 const OFFLINE_URL = '/offline.html';
 
 const urlsToCache = [
@@ -18,6 +18,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
   );
+  // Activate new SW immediately
   self.skipWaiting();
 });
 
@@ -32,6 +33,7 @@ self.addEventListener('activate', event => {
       )
     )
   );
+  // Take control of all clients without reload
   self.clients.claim();
 });
 
@@ -40,34 +42,35 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
-    caches.open(CACHE_NAME).then(cache =>
-      cache.match(event.request).then(cachedResponse => {
-        const fetchPromise = fetch(event.request)
-          .then(networkResponse => {
-            // Only cache http(s) requests
-            if (
-              networkResponse &&
-              networkResponse.status === 200 &&
-              event.request.url.startsWith('http')
-            ) {
-              cache.put(event.request, networkResponse.clone()).catch(err => {
-                console.warn('Cache put failed:', event.request.url, err);
-              });
-            }
-            return networkResponse;
-          })
-          .catch(() => {
-            // If offline
-            if (cachedResponse) return cachedResponse;
+    caches.match(event.request).then(cachedResponse => {
+      const fetchPromise = fetch(event.request)
+        .then(networkResponse => {
+          if (
+            networkResponse &&
+            networkResponse.status === 200 &&
+            event.request.url.startsWith('http')
+          ) {
+            caches.open(CACHE_NAME).then(cache =>
+              cache.put(event.request, networkResponse.clone())
+            );
+          }
+          return networkResponse;
+        })
+        .catch(() => {
+          if (cachedResponse) return cachedResponse;
+          if (event.request.mode === 'navigate') {
+            return caches.match(OFFLINE_URL);
+          }
+        });
 
-            // If it’s a navigation request → show offline.html
-            if (event.request.mode === 'navigate') {
-              return cache.match(OFFLINE_URL);
-            }
-          });
-
-        return cachedResponse || fetchPromise;
-      })
-    )
+      return cachedResponse || fetchPromise;
+    })
   );
+});
+
+// Listen for messages to force update
+self.addEventListener('message', event => {
+  if (event.data === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
