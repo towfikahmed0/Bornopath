@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Bornopath</title>
+    <meta name="theme-color" content="#159895">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/icons/icon-192.png">
+    
+    <!-- Load Inter font and Tailwind CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Configure Tailwind to use the specified theme color and font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Custom color based on the original theme
+                        'bornopath-teal': '#159895',
+                        'bornopath-teal-dark': '#127a77',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+    <style>
+        /* Ensuring the body fills the viewport without overflow issues on mobile */
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9fdfd;
+        }
+
+        /* Custom icon/font-awesome replacement (using inline SVG) */
+        .icon-download {
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            vertical-align: middle;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    </style>
+</head>
+<body class="p-4">
+
+    <!-- Installation Card -->
+    <div class="bg-white p-8 sm:p-10 rounded-xl shadow-2xl max-w-sm w-full text-center transition-all duration-300">
+        <!-- Logo (Centered) -->
+        <img 
+            src="/icons/icon-192.png" 
+            alt="Bornopath Logo" 
+            width="80" 
+            height="80"
+            class="mx-auto mb-6 rounded-full shadow-md"
+            onerror="this.onerror=null; this.src='https://placehold.co/80x80/159895/ffffff?text=B'"
+        >
+
+        <!-- Title -->
+        <h1 class="text-3xl font-bold mb-2 text-gray-800">
+            Install <span class="text-bornopath-teal">Bornopath</span>
+        </h1>
+
+        <!-- Description -->
+        <p class="text-gray-500 mb-6 text-base">
+            Add Bornopath to your home screen for quick access and an immersive app experience.
+        </p>
+        
+        <!-- Install Button -->
+        <button id="installBtn" 
+                class="btn-install w-full flex items-center justify-center space-x-2 
+                       bg-bornopath-teal text-white font-semibold py-3 px-6 
+                       rounded-full shadow-lg transition duration-200 
+                       hover:bg-bornopath-teal-dark hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-bornopath-teal/50"
+                style="display: none;">
+            
+            <!-- Inline Download Icon (Replaces Font Awesome) -->
+            <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Install Bornopath</span>
+        </button>
+    </div>
+
+    <script>
+        let deferredPrompt;
+        const installBtn = document.getElementById("installBtn");
+
+        // Function to update the button style when installed
+        const setInstalledState = () => {
+            installBtn.textContent = "App Installed";
+            installBtn.disabled = true;
+            installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
+            installBtn.classList.add('bg-green-600', 'cursor-default');
+            installBtn.style.pointerEvents = 'none'; // Prevent any further clicks
+        };
+
+        // 1. Event listener fires when the browser determines the app is installable
+        window.addEventListener("beforeinstallprompt", (e) => {
+            // Prevent the default browser prompt (we'll trigger it manually)
+            e.preventDefault();
+            
+            // Store the event so we can trigger it later
+            deferredPrompt = e;
+            
+            // Show the install button
+            installBtn.style.display = "flex";
+            installBtn.innerHTML = `
+                <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Install Bornopath</span>
+            `;
+        });
+
+        // 2. Button click handler to show the install prompt
+        installBtn.addEventListener("click", async () => {
+            if (deferredPrompt) {
+                // Show the prompt
+                deferredPrompt.prompt();
+                
+                // Wait for the user to respond to the prompt
+                const { outcome } = await deferredPrompt.userChoice;
+
+                // Log the outcome (optional)
+                console.log(`User response to the install prompt: ${outcome}`);
+
+                // Check if the user accepted installation
+                if (outcome === "accepted") {
+                    // Update button state visually
+                    setInstalledState();
+                }
+
+                // We can only use the prompt once
+                deferredPrompt = null;
+            }
+        });
+
+        // 3. Event listener fires if the app is already installed
+        window.addEventListener("appinstalled", () => {
+            // Hide the button or change its state
+            setInstalledState();
+            console.log("Bornopath PWA was installed successfully.");
+        });
+
+        // 4. Initial check for standalone mode (if already installed and opened as app)
+        if (window.matchMedia('(display-mode: standalone)').matches || 
+            (navigator.standalone)) { // navigator.standalone is for older iOS
+            setInstalledState();
+        }
+    </script>
+</body>
+</html>
