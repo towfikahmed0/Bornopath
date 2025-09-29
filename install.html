@@ -97,73 +97,62 @@
     </div>
 
     <script>
-        let deferredPrompt;
-        const installBtn = document.getElementById("installBtn");
+let deferredPrompt;
+const installBtn = document.getElementById("installBtn");
 
-        // Function to update the button style when installed
-        const setInstalledState = () => {
-            installBtn.textContent = "App Installed";
-            installBtn.disabled = true;
-            installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
-            installBtn.classList.add('bg-green-600', 'cursor-default');
-            installBtn.style.pointerEvents = 'none'; // Prevent any further clicks
-        };
+//  App install হয়ে গেলে স্টেট আপডেট + রিডাইরেক্ট
+const setInstalledState = () => {
+    installBtn.textContent = "App Installed";
+    installBtn.disabled = true;
+    installBtn.classList.remove('bg-bornopath-teal', 'hover:bg-bornopath-teal-dark');
+    installBtn.classList.add('bg-green-600', 'cursor-default');
+    installBtn.style.pointerEvents = 'none';
 
-        // 1. Event listener fires when the browser determines the app is installable
-        window.addEventListener("beforeinstallprompt", (e) => {
-            // Prevent the default browser prompt (we'll trigger it manually)
-            e.preventDefault();
-            
-            // Store the event so we can trigger it later
-            deferredPrompt = e;
-            
-            // Show the install button
-            installBtn.style.display = "flex";
-            installBtn.innerHTML = `
-                <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="7 10 12 15 17 10"></polyline>
-                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                </svg>
-                <span>Install Bornopath</span>
-            `;
-        });
+    //  ইন্সটল হলে index.html এ পাঠাও
+    window.location.replace("index.html");
+};
 
-        // 2. Button click handler to show the install prompt
-        installBtn.addEventListener("click", async () => {
-            if (deferredPrompt) {
-                // Show the prompt
-                deferredPrompt.prompt();
-                
-                // Wait for the user to respond to the prompt
-                const { outcome } = await deferredPrompt.userChoice;
+//  Install Prompt ইভেন্ট ধরো
+window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
 
-                // Log the outcome (optional)
-                console.log(`User response to the install prompt: ${outcome}`);
+    // Install button দেখাও
+    installBtn.style.display = "flex";
+    installBtn.innerHTML = `
+        <svg class="icon-download text-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <span>Install Bornopath</span>
+    `;
+});
 
-                // Check if the user accepted installation
-                if (outcome === "accepted") {
-                    // Update button state visually
-                    setInstalledState();
-                }
+//  Install Button এ ক্লিক করলে prompt দেখাও
+installBtn.addEventListener("click", async () => {
+    if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
 
-                // We can only use the prompt once
-                deferredPrompt = null;
-            }
-        });
-
-        // 3. Event listener fires if the app is already installed
-        window.addEventListener("appinstalled", () => {
-            // Hide the button or change its state
-            setInstalledState();
-            console.log("Bornopath PWA was installed successfully.");
-        });
-
-        // 4. Initial check for standalone mode (if already installed and opened as app)
-        if (window.matchMedia('(display-mode: standalone)').matches || 
-            (navigator.standalone)) { // navigator.standalone is for older iOS
+        if (outcome === "accepted") {
             setInstalledState();
         }
+        deferredPrompt = null;
+    }
+});
+
+//  App install হয়ে গেলে
+window.addEventListener("appinstalled", () => {
+    setInstalledState();
+    console.log("Bornopath PWA was installed successfully.");
+});
+
+//  যদি standalone মোডে খোলা থাকে (মানে আগেই ইন্সটল করা)
+if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
+    window.location.replace("index.html");
+}
+
     </script>
 </body>
 </html>
