@@ -40,7 +40,8 @@
     <a href="#" id="tab_3" onclick="switchtab(this)"><i class="fa fa-line-chart"></i> <span>Leaderboard</span></a>
     <a href="#" id="tab_4" onclick="switchtab(this)"><i class="fa fa-user-o"></i> <span>Profile</span></a>
     <!-- <a href="#" style="bottom: 0;" onclick="signOut()"><i class="fa fa-sign-out"></i> <span>Log out</span></a> -->
-    <a href="#" id="themeToggleBtn" style="bottom: 0;" onclick="toggleTheme()"><i class="fa fa-moon-o"></i> <span>Dark Mode</span></a>
+    <a href="#" id="themeToggleBtn" style="bottom: 0;" onclick="toggleTheme()"><i class="fa fa-moon-o"></i> <span>Dark
+        Mode</span></a>
 
   </div>
   <div class="content">
@@ -198,15 +199,18 @@
         <div class="profile-tab-content" id="settings" style="display: none;">
           <div class="account-settings">
             <h2 class="section-title"><i class="fa fa-cogs"></i> Account Settings</h2>
-            
+
             <a href="https://bornopath.kinsta.page/install.html"> <button class="btn">Install Bornopath App</button></a>
             <button class="btn" id="changePassword" onclick="sendResetEmail()">Change Password</button>
-<button class="btn" id="deleteAccount" onclick="signOut()">Log Out</button>            
-<button class="btn" id="deleteAccount" onclick="showDeleteConfirmation()">Delete Account</button>
+            <button class="btn" id="deleteAccount" onclick="signOut()">Log Out</button>
+            <button class="btn" id="deleteAccount" onclick="showDeleteConfirmation()">Delete Account</button>
+            <div class="alert alert-primary" role="alert">
+              You are using <strong>BornoPath v1.3.3</strong>.
+            </div>
           </div>
         </div>
         <div class="profile-tab-content progressOverviewModal" id="progressOverviewModal" style="display: none;">
-          
+
         </div>
       </div>
     </div>
@@ -421,100 +425,100 @@
 
 
   </div>
-<script>
+  <script>
 
-// Check for service worker updates every hour
-setInterval(() => {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistration().then(reg => {
-      if (reg) {
-        reg.update();
+    // Check for service worker updates every hour
+    setInterval(() => {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistration().then(reg => {
+          if (reg) {
+            reg.update();
+          }
+        });
+      }
+    }, 60 * 60 * 1000); // Check every hour
+
+    // Listen for update messages
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('message', event => {
+        if (event.data && event.data.type === 'NEW_VERSION_AVAILABLE') {
+          if (confirm('A new version is available. Reload now?')) {
+            window.location.reload();
+          }
+        }
+
+        if (event.data && event.data.type === 'RESOURCE_UPDATED') {
+          console.log('Resource updated:', event.data.url);
+          // You can optionally reload specific components here
+        }
+      });
+    }
+
+    // Force service worker update when user interacts with page
+    document.addEventListener('click', () => {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistration().then(reg => {
+          if (reg) {
+            reg.update();
+          }
+        });
       }
     });
-  }
-}, 60 * 60 * 1000); // Check every hour
 
-// Listen for update messages
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.addEventListener('message', event => {
-    if (event.data && event.data.type === 'NEW_VERSION_AVAILABLE') {
-      if (confirm('A new version is available. Reload now?')) {
-        window.location.reload();
+    // Theme toggle logic
+    const themeBtn = document.getElementById('themeToggleBtn');
+
+    function setTheme(theme) {
+      document.body.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      if (themeBtn) {
+        themeBtn.innerHTML = theme === 'dark'
+          ? '<i class="fa fa-sun-o"></i> <span>Light Mode</span>'
+          : '<i class="fa fa-moon-o"></i> <span>Dark Mode</span>';
       }
     }
-    
-    if (event.data && event.data.type === 'RESOURCE_UPDATED') {
-      console.log('Resource updated:', event.data.url);
-      // You can optionally reload specific components here
-    }
-  });
-}
 
-// Force service worker update when user interacts with page
-document.addEventListener('click', () => {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistration().then(reg => {
-      if (reg) {
-        reg.update();
-      }
+    if (themeBtn) {
+      themeBtn.onclick = function () {
+        setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      };
+    }
+
+    // On load, set theme from localStorage
+    (function () {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      setTheme(savedTheme);
+    })();
+
+    // PWA Install Prompt Logic
+    let deferredPrompt;
+    const bornoAlert = document.getElementById('bornoAlert');
+    const installBtn = document.getElementById('installBtn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (bornoAlert) bornoAlert.style.display = 'block';
+      if (installBtn) installBtn.style.display = 'inline-block';
     });
-  }
-});
 
-// Theme toggle logic
-const themeBtn = document.getElementById('themeToggleBtn');
-
-function setTheme(theme) {
-  document.body.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-  if (themeBtn) {
-    themeBtn.innerHTML = theme === 'dark'
-      ? '<i class="fa fa-sun-o"></i> <span>Light Mode</span>'
-      : '<i class="fa fa-moon-o"></i> <span>Dark Mode</span>';
-  }
-}
-
-if (themeBtn) {
-  themeBtn.onclick = function() {
-    setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-  };
-}
-
-// On load, set theme from localStorage
-(function() {
-  const savedTheme = localStorage.getItem('theme') || 'light';
-  setTheme(savedTheme);
-})();
-
-// PWA Install Prompt Logic
-let deferredPrompt;
-const bornoAlert = document.getElementById('bornoAlert');
-const installBtn = document.getElementById('installBtn');
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  if (bornoAlert) bornoAlert.style.display = 'block';
-  if (installBtn) installBtn.style.display = 'inline-block';
-});
-
-if (installBtn) {
-  installBtn.addEventListener('click', async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const { outcome } = await deferredPrompt.userChoice;
-      if (outcome === 'accepted') {
-        console.log('User accepted the install prompt');
-      } else {
-        console.log('User dismissed the install prompt');
-      }
-      deferredPrompt = null;
-      if (bornoAlert) bornoAlert.style.display = 'none';
+    if (installBtn) {
+      installBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          const { outcome } = await deferredPrompt.userChoice;
+          if (outcome === 'accepted') {
+            console.log('User accepted the install prompt');
+          } else {
+            console.log('User dismissed the install prompt');
+          }
+          deferredPrompt = null;
+          if (bornoAlert) bornoAlert.style.display = 'none';
+        }
+      });
     }
-  });
-}
 
-</script>
+  </script>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script src="https://js.puter.com/v2/"></script>
   <script type="module" src="js/dashboard.js?v=1.3.2"></script>
