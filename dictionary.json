@@ -3731,23 +3731,6 @@
         ]
     },
     {
-        "en": "in medias res",
-        "bn": [
-            "মাঝখান থেকে শুরু"
-        ],
-        "def": [
-            "narrative starting mid-action"
-        ],
-        "syn": [
-            "mid-action",
-            "dramatic entrance"
-        ],
-        "ant": [
-            "chronological",
-            "linear"
-        ]
-    },
-    {
         "en": "Incorporate",
         "bn": [
             "অন্তর্ভুক্ত করা",
@@ -8527,7 +8510,7 @@
     {
         "en": "Redouble",
         "bn": [
-            "বহুগুণে বেড়ে যাওয়া,দ্বিগুণ করা,বেড়ে যাওয়া"
+            "বহুগুণে বেড়ে যাওয়া", "দ্বিগুণ করা", "বেড়ে যাওয়া"
         ],
         "def": [
             "make or become much greater, more intense, or more numerous."
@@ -8944,8 +8927,7 @@
 {
    "en":"Criticism",
    "bn":[
-      "সমালোচনা",
-      "비판"
+      "সমালোচনা"
    ],
    "def":[
       "the expression of disapproval of someone or something based on perceived faults or mistakes"
