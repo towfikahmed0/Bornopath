@@ -1,5 +1,670 @@
 [
   {
+    "en": "abandon",
+    "bn": ["পরিত্যাগ করা"],
+    "def": ["To leave completely and finally; forsake utterly; desert", "To give up control of something"],
+    "syn": ["desert", "forsake", "leave"],
+    "ant": ["keep", "retain", "hold"]
+  },
+  {
+    "en": "ability",
+    "bn": ["ক্ষমতা"],
+    "def": ["The quality of being able to perform; capacity to do or act", "Talent, skill, or proficiency"],
+    "syn": ["capability", "capacity", "skill"],
+    "ant": ["inability", "incapacity", "incompetence"]
+  },
+  {
+    "en": "abolish",
+    "bn": ["রদ করা", "উচ্ছেদ করা"],
+    "def": ["To do away with completely; put an end to", "To annul or make void"],
+    "syn": ["eliminate", "eradicate", "terminate"],
+    "ant": ["establish", "create", "institute"]
+  },
+  {
+    "en": "academics",
+    "bn": ["শিক্ষাবিদ্যা", "শিক্ষাক্ষেত্র"],
+    "def": ["The scholarly activities of a school or university", "The field of education and learning"],
+    "syn": ["scholarship", "education", "learning"],
+    "ant": ["ignorance", "illiteracy"]
+  },
+  {
+    "en": "accidental",
+    "bn": ["দুর্ঘটনাজনিত", "আকস্মিক"],
+    "def": ["Happening by chance or accident", "Not planned or intended"],
+    "syn": ["unintentional", "unplanned", "fortuitous"],
+    "ant": ["intentional", "deliberate", "planned"]
+  },
+  {
+    "en": "acknowledges",
+    "bn": ["স্বীকার করে"],
+    "def": ["Accepts or admits the existence or truth of", "Recognizes the importance or quality of"],
+    "syn": ["admits", "recognizes", "accepts"],
+    "ant": ["denies", "rejects", "disputes"]
+  },
+  {
+    "en": "act",
+    "bn": ["কাজ", "আইন", "অভিনয় করা"],
+    "def": ["Something done or performed", "A law formally passed by a legislative body", "To perform in a play or movie"],
+    "syn": ["deed", "action", "performance"],
+    "ant": ["inaction", "idleness"]
+  },
+  {
+    "en": "ad",
+    "bn": ["বিজ্ঞাপন"],
+    "def": ["A notice or announcement in a public medium promoting something", "Short for advertisement"],
+    "syn": ["advertisement", "commercial", "promotion"],
+    "ant": []
+  },
+  {
+    "en": "admiration",
+    "bn": ["প্রশংসা", "অভিনন্দন"],
+    "def": ["A feeling of respect and approval", "Pleasant contemplation of something considered excellent"],
+    "syn": ["respect", "esteem", "approval"],
+    "ant": ["contempt", "disdain", "scorn"]
+  },
+  {
+    "en": "advanced",
+    "bn": ["উন্নত", "অগ্রসর"],
+    "def": ["Far on in progress or development", "At a higher level"],
+    "syn": ["progressive", "sophisticated", "developed"],
+    "ant": ["basic", "elementary", "primitive"]
+  },
+  {
+    "en": "advantage",
+    "bn": ["সুবিধা", "লাভ"],
+    "def": ["A condition giving greater chance of success", "Benefit or gain"],
+    "syn": ["benefit", "gain", "profit"],
+    "ant": ["disadvantage", "drawback", "handicap"]
+  },
+  {
+    "en": "advantages",
+    "bn": ["সুবিধাসমূহ"],
+    "def": ["Plural of advantage; multiple benefits or favorable conditions"],
+    "syn": ["benefits", "gains", "profits"],
+    "ant": ["disadvantages", "drawbacks"]
+  },
+  {
+    "en": "adviser",
+    "bn": ["উপদেষ্টা", "পরামর্শদাতা"],
+    "def": ["A person who gives advice, typically professionally", "Someone who provides guidance"],
+    "syn": ["counselor", "consultant", "mentor"],
+    "ant": []
+  },
+  {
+    "en": "advocated",
+    "bn": ["সমর্থন করা", "ওকালতি করা"],
+    "def": ["Publicly recommended or supported", "Argued in favor of"],
+    "syn": ["supported", "championed", "endorsed"],
+    "ant": ["opposed", "rejected", "denounced"]
+  },
+  {
+    "en": "affiliate",
+    "bn": ["অধিভুক্ত", "সহযোগী প্রতিষ্ঠান"],
+    "def": ["Officially attach or connect to an organization", "A subsidiary organization"],
+    "syn": ["associate", "partner", "branch"],
+    "ant": ["separate", "detach"]
+  },
+  {
+    "en": "after",
+    "bn": ["পরে", "পশ্চাত্"],
+    "def": ["Later in time than", "Behind in place"],
+    "syn": ["following", "later", "subsequent"],
+    "ant": ["before", "prior"]
+  },
+  {
+    "en": "against",
+    "bn": ["বিরুদ্ধে", "বিপরীতে"],
+    "def": ["In opposition to", "In contact with"],
+    "syn": ["opposed to", "versus", "counter"],
+    "ant": ["for", "pro"]
+  },
+  {
+    "en": "agree",
+    "bn": ["সম্মত হওয়া", "রাজি হওয়া"],
+    "def": ["To have the same opinion", "To consent or approve"],
+    "syn": ["consent", "concur", "approve"],
+    "ant": ["disagree", "dissent", "oppose"]
+  },
+  {
+    "en": "allow",
+    "bn": ["অনুমতি দেওয়া", "স্বীকার করা"],
+    "def": ["To give permission for something", "To permit"],
+    "syn": ["permit", "authorize", "let"],
+    "ant": ["forbid", "prohibit", "prevent"]
+  },
+  {
+    "en": "allowed",
+    "bn": ["অনুমোদিত", "স্বীকৃত"],
+    "def": ["Permitted or authorized", "Given permission"],
+    "syn": ["permitted", "authorized", "approved"],
+    "ant": ["forbidden", "prohibited", "banned"]
+  },
+  {
+    "en": "almost",
+    "bn": ["প্রায়"],
+    "def": ["Very nearly but not completely", "Just about"],
+    "syn": ["nearly", "practically", "virtually"],
+    "ant": ["completely", "totally", "entirely"]
+  },
+  {
+    "en": "along",
+    "bn": ["বরাবর", "ধারে ধারে"],
+    "def": ["Moving in a constant direction on", "In line with the length of"],
+    "syn": ["alongside", "by", "through"],
+    "ant": ["across", "against"]
+  },
+  {
+    "en": "alpha",
+    "bn": ["আলফা"],
+    "def": ["The first letter of the Greek alphabet", "Denoting the first or most dominant"],
+    "syn": ["first", "primary", "dominant"],
+    "ant": ["omega", "last", "subordinate"]
+  },
+  {
+    "en": "although",
+    "bn": ["যদিও", "তা সত্ত্বেও"],
+    "def": ["In spite of the fact that", "Even though"],
+    "syn": ["though", "even though", "while"],
+    "ant": ["because", "since"]
+  },
+  {
+    "en": "always",
+    "bn": ["সর্বদা", "চিরকাল"],
+    "def": ["At all times", "On every occasion"],
+    "syn": ["forever", "constantly", "perpetually"],
+    "ant": ["never", "sometimes", "occasionally"]
+  },
+  {
+    "en": "among",
+    "bn": ["মধ্যে", "ভিতরে"],
+    "def": ["Situated more or less centrally in relation to", "Being a member or members of"],
+    "syn": ["between", "amidst", "within"],
+    "ant": ["outside", "beyond"]
+  },
+  {
+    "en": "amount",
+    "bn": ["পরিমাণ", "সংখ্যা"],
+    "def": ["A quantity of something", "The total number or value"],
+    "syn": ["quantity", "total", "sum"],
+    "ant": ["lack", "deficiency"]
+  },
+  {
+    "en": "annoying",
+    "bn": ["বিরক্তিকর", "উত্তেজক"],
+    "def": ["Causing irritation or annoyance", "Troublesome or bothersome"],
+    "syn": ["irritating", "bothersome", "troublesome"],
+    "ant": ["pleasing", "delightful", "soothing"]
+  },
+  {
+    "en": "another",
+    "bn": ["অন্য", "আরেক"],
+    "def": ["One more of the same kind", "Different or distinct"],
+    "syn": ["additional", "further", "different"],
+    "ant": ["same", "identical"]
+  },
+  {
+    "en": "answer",
+    "bn": ["উত্তর", "জবাব"],
+    "def": ["A response to a question", "A solution to a problem"],
+    "syn": ["reply", "response", "solution"],
+    "ant": ["question", "query", "problem"]
+  },
+  {
+    "en": "any",
+    "bn": ["যেকোনো", "কোন"],
+    "def": ["One or some of a thing or number", "Whichever of a specified class"],
+    "syn": ["some", "whichever", "whatever"],
+    "ant": ["none", "no"]
+  },
+  {
+    "en": "anyone",
+    "bn": ["যে কেউ", "কেউ"],
+    "def": ["Any person", "Somebody"],
+    "syn": ["anybody", "somebody", "someone"],
+    "ant": ["nobody", "no one"]
+  },
+  {
+    "en": "appeared",
+    "bn": ["হাজির হয়েছিল", "দেখা দিয়েছিল"],
+    "def": ["Came into sight", "Seemed or looked"],
+    "syn": ["emerged", "showed", "seemed"],
+    "ant": ["disappeared", "vanished"]
+  },
+  {
+    "en": "applauding",
+    "bn": ["করতালি দিচ্ছে", "প্রশংসা করছে"],
+    "def": ["Showing approval or praise by clapping", "Expressing strong approval"],
+    "syn": ["clapping", "cheering", "praising"],
+    "ant": ["booing", "criticizing"]
+  },
+  {
+    "en": "aptitude",
+    "bn": ["যোগ্যতা", "প্রতিভা"],
+    "def": ["A natural ability to do something", "Suitability or fitness"],
+    "syn": ["talent", "ability", "capability"],
+    "ant": ["inability", "incompetence"]
+  },
+  {
+    "en": "argues",
+    "bn": ["যুক্তি দেয়", "তর্ক করে"],
+    "def": ["Gives reasons for or against something", "Exchanges opposing views"],
+    "syn": ["debates", "disputes", "contends"],
+    "ant": ["agrees", "concurs", "accepts"]
+  },
+  {
+    "en": "around",
+    "bn": ["চারপাশে", "প্রায়"],
+    "def": ["On every side", "Approximately"],
+    "syn": ["about", "approximately", "surrounding"],
+    "ant": ["exactly", "precisely"]
+  },
+  {
+    "en": "article",
+    "bn": ["নিবন্ধ", "বস্তু"],
+    "def": ["A piece of writing in a newspaper or magazine", "A particular item or object"],
+    "syn": ["essay", "report", "item"],
+    "ant": []
+  },
+  {
+    "en": "artist",
+    "bn": ["শিল্পী", "চিত্রশিল্পী"],
+    "def": ["A person who creates art", "A performer in visual arts"],
+    "syn": ["creator", "painter", "performer"],
+    "ant": []
+  },
+  {
+    "en": "asked",
+    "bn": ["জিজ্ঞাসা করেছিল", "প্রশ্ন করেছিল"],
+    "def": ["Put a question to someone", "Requested something"],
+    "syn": ["inquired", "questioned", "requested"],
+    "ant": ["answered", "replied"]
+  },
+  {
+    "en": "asks",
+    "bn": ["জিজ্ঞাসা করে", "প্রশ্ন করে"],
+    "def": ["Puts questions to someone", "Makes requests"],
+    "syn": ["inquires", "questions", "requests"],
+    "ant": ["answers", "replies"]
+  },
+  {
+    "en": "asserted",
+    "bn": ["দাবি করেছিল", "জোর দিয়েছিল"],
+    "def": ["Stated a fact or belief confidently", "Declared positively"],
+    "syn": ["declared", "stated", "affirmed"],
+    "ant": ["denied", "retracted"]
+  },
+  {
+    "en": "associated",
+    "bn": ["সংযুক্ত", "জড়িত"],
+    "def": ["Connected with something else", "Joined in relationship"],
+    "syn": ["connected", "related", "linked"],
+    "ant": ["disconnected", "unrelated"]
+  },
+  {
+    "en": "assumption",
+    "bn": ["ধারণা", "অনুমান"],
+    "def": ["Something accepted as true without proof", "A supposition"],
+    "syn": ["presumption", "supposition", "hypothesis"],
+    "ant": ["fact", "reality", "certainty"]
+  },
+  {
+    "en": "ate",
+    "bn": ["খেয়েছিল"],
+    "def": ["Past tense of eat; consumed food", "Ingested nourishment"],
+    "syn": ["consumed", "devoured", "ingested"],
+    "ant": ["fasted", "abstained"]
+  },
+  {
+    "en": "attempted",
+    "bn": ["চেষ্টা করেছিল", "প্রয়াস করেছিল"],
+    "def": ["Made an effort to achieve something", "Tried to do something"],
+    "syn": ["tried", "endeavored", "sought"],
+    "ant": ["abandoned", "neglected"]
+  },
+  {
+    "en": "auction",
+    "bn": ["নিলাম"],
+    "def": ["A public sale where goods are sold to the highest bidder", "The process of bidding"],
+    "syn": ["sale", "bidding", "vendue"],
+    "ant": []
+  },
+  {
+    "en": "average",
+    "bn": ["গড়", "সাধারণ"],
+    "def": ["The result obtained by adding quantities and dividing the total", "Typical or normal"],
+    "syn": ["mean", "median", "typical"],
+    "ant": ["extraordinary", "exceptional", "outstanding"]
+  },
+  {
+    "en": "averse",
+    "bn": ["বিরুদ্ধ", "অনিচ্ছুক"],
+    "def": ["Having a strong dislike or opposition", "Unwilling or reluctant"],
+    "syn": ["opposed", "reluctant", "unwilling"],
+    "ant": ["keen", "eager", "willing"]
+  },
+  {
+    "en": "avowed",
+    "bn": ["ঘোষিত", "স্বীকৃত"],
+    "def": ["Openly declared or acknowledged", "Admitted publicly"],
+    "syn": ["declared", "acknowledged", "admitted"],
+    "ant": ["secret", "hidden", "denied"]
+  },
+  {
+    "en": "awarded",
+    "bn": ["পুরস্কৃত", "প্রদান করা"],
+    "def": ["Given as a prize or honor", "Granted officially"],
+    "syn": ["presented", "bestowed", "granted"],
+    "ant": ["withheld", "denied", "refused"]
+  },
+  {
+    "en": "axe",
+    "bn": ["কুড়াল"],
+    "def": ["A tool used for chopping wood", "To dismiss or eliminate"],
+    "syn": ["hatchet", "chopper", "dismiss"],
+    "ant": ["hire", "keep"]
+  },
+  {
+    "en": "bad",
+    "bn": ["খারাপ", "অসুস্থ"],
+    "def": ["Of poor quality or low standard", "Unpleasant or undesirable"],
+    "syn": ["poor", "terrible", "awful"],
+    "ant": ["good", "excellent", "wonderful"]
+  },
+  {
+    "en": "bank",
+    "bn": ["ব্যাংক", "তীর"],
+    "def": ["A financial institution that handles money", "The land alongside a river"],
+    "syn": ["financial institution", "shore", "riverbank"],
+    "ant": []
+  },
+  {
+    "en": "based",
+    "bn": ["ভিত্তিক", "আধারিত"],
+    "def": ["Having a base or foundation", "Founded on"],
+    "syn": ["founded", "established", "grounded"],
+    "ant": ["baseless", "unfounded"]
+  },
+  {
+    "en": "bathroom",
+    "bn": ["গোসলখানা", "পায়খানা"],
+    "def": ["A room containing a bath and typically a toilet", "A washroom"],
+    "syn": ["washroom", "restroom", "lavatory"],
+    "ant": []
+  },
+  {
+    "en": "because",
+    "bn": ["কারণ", "যেহেতু"],
+    "def": ["For the reason that", "On account of"],
+    "syn": ["since", "as", "due to"],
+    "ant": ["despite", "although"]
+  },
+  {
+    "en": "becomes",
+    "bn": ["হয়ে ওঠে", "পরিণত হয়"],
+    "def": ["Grows to be", "Develops into"],
+    "syn": ["turns into", "develops", "evolves"],
+    "ant": ["remains", "stays"]
+  },
+  {
+    "en": "before",
+    "bn": ["আগে", "সম্মুখে"],
+    "def": ["Earlier in time", "In front of"],
+    "syn": ["prior to", "earlier", "ahead of"],
+    "ant": ["after", "behind"]
+  },
+  {
+    "en": "behavioral",
+    "bn": ["আচরণগত"],
+    "def": ["Relating to behavior", "Concerning conduct"],
+    "syn": ["conduct-related", "manner-related"],
+    "ant": []
+  },
+  {
+    "en": "beings",
+    "bn": ["প্রাণী", "সত্তা"],
+    "def": ["Living creatures", "Existing entities"],
+    "syn": ["creatures", "entities", "organisms"],
+    "ant": ["objects", "things"]
+  },
+  {
+    "en": "believed",
+    "bn": ["বিশ্বাস করেছিল", "ধারণা করেছিল"],
+    "def": ["Accepted as true or real", "Had faith in"],
+    "syn": ["trusted", "accepted", "thought"],
+    "ant": ["doubted", "disbelieved", "distrusted"]
+  },
+  {
+    "en": "believes",
+    "bn": ["বিশ্বাস করে"],
+    "def": ["Accepts as true or real", "Has confidence in"],
+    "syn": ["trusts", "accepts", "has faith"],
+    "ant": ["doubts", "disbelieves"]
+  },
+  {
+    "en": "bell",
+    "bn": ["ঘণ্টা"],
+    "def": ["A hollow metal object that rings when struck", "A signaling device"],
+    "syn": ["chime", "gong", "tocsin"],
+    "ant": []
+  },
+  {
+    "en": "best",
+    "bn": ["সেরা", "শ্রেষ্ঠ"],
+    "def": ["Of the highest quality or standard", "Most excellent"],
+    "syn": ["finest", "greatest", "optimal"],
+    "ant": ["worst", "poorest", "lowest"]
+  },
+  {
+    "en": "bested",
+    "bn": ["পরাজিত করেছিল"],
+    "def": ["Defeated or outdid", "Got the better of"],
+    "syn": ["defeated", "overcame", "surpassed"],
+    "ant": ["lost to", "was defeated by"]
+  },
+  {
+    "en": "better",
+    "bn": ["ভালো", "উত্তম"],
+    "def": ["Of higher quality or standard", "More excellent"],
+    "syn": ["superior", "finer", "improved"],
+    "ant": ["worse", "inferior", "poorer"]
+  },
+  {
+    "en": "between",
+    "bn": ["মধ্যে", "ভিতরে"],
+    "def": ["In the space separating two things", "In the time separating two events"],
+    "syn": ["among", "amid", "betwixt"],
+    "ant": ["outside", "beyond"]
+  },
+  {
+    "en": "billion",
+    "bn": ["বিলিয়ন"],
+    "def": ["The number equivalent to one thousand million", "A very large number"],
+    "syn": ["thousand million"],
+    "ant": []
+  },
+  {
+    "en": "billionaires",
+    "bn": ["বিলিয়নেয়ারগণ"],
+    "def": ["People whose wealth exceeds one billion dollars", "Extremely wealthy individuals"],
+    "syn": ["multibillionaires", "tycoons"],
+    "ant": ["paupers", "beggars"]
+  },
+  {
+    "en": "biographies",
+    "bn": ["জীবনীসমূহ"],
+    "def": ["Written accounts of people's lives", "Life stories"],
+    "syn": ["life stories", "memoirs", "profiles"],
+    "ant": []
+  },
+  {
+    "en": "biological",
+    "bn": ["জৈবিক"],
+    "def": ["Relating to biology or living organisms", "Connected with life processes"],
+    "syn": ["organic", "living", "natural"],
+    "ant": ["artificial", "synthetic"]
+  },
+  {
+    "en": "bit",
+    "bn": ["টুকরা", "বিট"],
+    "def": ["A small piece or amount", "A binary digit in computing"],
+    "syn": ["piece", "fragment", "morsel"],
+    "ant": ["whole", "entirety"]
+  },
+  {
+    "en": "black",
+    "bn": ["কালো"],
+    "def": ["Of the very darkest color", "Absorbing all light"],
+    "syn": ["dark", "ebony", "jet"],
+    "ant": ["white", "light"]
+  },
+  {
+    "en": "blending",
+    "bn": ["মিশ্রণ", "সম্মিলন"],
+    "def": ["Mixing together thoroughly", "Combining harmoniously"],
+    "syn": ["mixing", "combining", "merging"],
+    "ant": ["separating", "dividing"]
+  },
+  {
+    "en": "blog",
+    "bn": ["ব্লগ"],
+    "def": ["A website containing personal reflections", "Online journal"],
+    "syn": ["weblog", "online diary", "website"],
+    "ant": []
+  },
+  {
+    "en": "book",
+    "bn": ["বই"],
+    "def": ["A written or printed work consisting of pages", "A volume for reading"],
+    "syn": ["volume", "tome", "publication"],
+    "ant": []
+  },
+  {
+    "en": "books",
+    "bn": ["বইসমূহ"],
+    "def": ["Plural of book; multiple written works", "Collections of pages"],
+    "syn": ["volumes", "tomes", "publications"],
+    "ant": []
+  },
+  {
+    "en": "bored",
+    "bn": ["বিরক্ত", "ক্লান্ত"],
+    "def": ["Feeling weary and impatient", "Lacking interest"],
+    "syn": ["uninterested", "weary", "tired"],
+    "ant": ["interested", "engaged", "entertained"]
+  },
+  {
+    "en": "both",
+    "bn": ["উভয়", "দুই"],
+    "def": ["Referring to two people or things", "The two together"],
+    "syn": ["the two", "each", "together"],
+    "ant": ["neither", "none"]
+  },
+  {
+    "en": "boy",
+    "bn": ["ছেলে"],
+    "def": ["A male child or young man", "A son"],
+    "syn": ["lad", "youth", "youngster"],
+    "ant": ["girl", "female"]
+  },
+  {
+    "en": "boys",
+    "bn": ["ছেলেরা", "বালকগণ"],
+    "def": ["Plural of boy; multiple male children", "Young males"],
+    "syn": ["lads", "youths", "youngsters"],
+    "ant": ["girls", "females"]
+  },
+  {
+    "en": "bringing",
+    "bn": ["আনয়ন", "নিয়ে আসা"],
+    "def": ["Carrying or accompanying to a place", "Causing to come"],
+    "syn": ["carrying", "fetching", "delivering"],
+    "ant": ["taking", "removing"]
+  },
+  {
+    "en": "brushes",
+    "bn": ["ব্রাশসমূহ"],
+    "def": ["Tools with bristles used for cleaning or painting", "Brief encounters"],
+    "syn": ["brooms", "paintbrushes", "encounters"],
+    "ant": []
+  },
+  {
+    "en": "bundle",
+    "bn": ["পুলিন্দা", "বান্ডিল"],
+    "def": ["A collection of things tied together", "A package"],
+    "syn": ["package", "parcel", "collection"],
+    "ant": ["single", "individual"]
+  },
+  {
+    "en": "cached",
+    "bn": ["ক্যাশে সংরক্ষিত"],
+    "def": ["Stored in a cache for quick retrieval", "Hidden away"],
+    "syn": ["stored", "saved", "archived"],
+    "ant": ["deleted", "removed"]
+  },
+  {
+    "en": "call",
+    "bn": ["ডাকা", "কল"],
+    "def": ["To cry out in a loud voice", "To telephone someone"],
+    "syn": ["shout", "cry", "phone"],
+    "ant": ["whisper", "ignore"]
+  },
+  {
+    "en": "called",
+    "bn": ["ডেকেছিল", "নামক"],
+    "def": ["Named or known as", "Summoned"],
+    "syn": ["named", "termed", "summoned"],
+    "ant": ["unnamed", "unsummoned"]
+  },
+  {
+    "en": "calls",
+    "bn": ["ডাকে", "কল করে"],
+    "def": ["Makes vocal sounds", "Telephones"],
+    "syn": ["shouts", "cries", "phones"],
+    "ant": ["ignores", "silences"]
+  },
+  {
+    "en": "came",
+    "bn": ["এল", "আসল"],
+    "def": ["Moved toward or arrived at", "Past tense of come"],
+    "syn": ["arrived", "approached", "reached"],
+    "ant": ["went", "left"]
+  },
+  {
+    "en": "cannot",
+    "bn": ["পারে না", "অক্ষম"],
+    "def": ["Is unable to", "Not capable of"],
+    "syn": ["unable to", "incapable of"],
+    "ant": ["can", "able to"]
+  },
+  {
+    "en": "capable",
+    "bn": ["সক্ষম", "যোগ্য"],
+    "def": ["Having ability or capacity", "Competent"],
+    "syn": ["able", "competent", "skilled"],
+    "ant": ["incapable", "incompetent", "unable"]
+  },
+  {
+    "en": "capacities",
+    "bn": ["ক্ষমতাসমূহ", "ধারণক্ষমতা"],
+    "def": ["Plural of capacity; abilities or volumes", "Various capabilities"],
+    "syn": ["abilities", "capabilities", "volumes"],
+    "ant": ["incapacities", "inabilities"]
+  },
+  {
+    "en": "car",
+    "bn": ["গাড়ি"],
+    "def": ["A road vehicle with an engine", "Automobile"],
+    "syn": ["automobile", "vehicle", "auto"],
+    "ant": []
+  },
+  {
+    "en": "care",
+    "bn": ["যত্ন", "উদ্বেগ"],
+    "def": ["The provision of attention", "Serious attention or consideration"],
+    "syn": ["attention", "concern", "worry"],
+    "ant": ["neglect", "indifference"]
+  },
+  {
     "en": "able",
     "bn": [
       "সক্ষম",
