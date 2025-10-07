@@ -1,5 +1,2977 @@
 [
-    {
+  {
+    "en": "able",
+    "bn": [
+      "সক্ষম",
+      "যোগ্য"
+    ],
+    "def": [
+      "Having the power, skill, or means to do something."
+    ],
+    "syn": [
+      "capable",
+      "competent"
+    ],
+    "ant": [
+      "unable",
+      "incapable"
+    ]
+  },
+  {
+    "en": "about",
+    "bn": [
+      "সম্পর্কে",
+      "প্রায়"
+    ],
+    "def": [
+      "On the subject of; concerning.",
+      "Approximately."
+    ],
+    "syn": [
+      "regarding",
+      "approximately"
+    ],
+    "ant": []
+  },
+  {
+    "en": "accelerate",
+    "bn": [
+      "ত্বরান্বিত করা"
+    ],
+    "def": [
+      "To begin to move more quickly.",
+      "To cause to happen sooner."
+    ],
+    "syn": [
+      "quicken",
+      "expedite"
+    ],
+    "ant": [
+      "decelerate",
+      "slow down"
+    ]
+  },
+  {
+    "en": "according",
+    "bn": [
+      "অনুসারে"
+    ],
+    "def": [
+      "As stated by or in."
+    ],
+    "syn": [
+      "as per",
+      "in accordance with"
+    ],
+    "ant": []
+  },
+  {
+    "en": "accumulate",
+    "bn": [
+      "জমা করা",
+      "সঞ্চয় করা"
+    ],
+    "def": [
+      "To gather or acquire a large number of things over time."
+    ],
+    "syn": [
+      "collect",
+      "amass"
+    ],
+    "ant": [
+      "disperse",
+      "dissipate"
+    ]
+  },
+  {
+    "en": "across",
+    "bn": [
+      "জুড়ে",
+      "ওপারে"
+    ],
+    "def": [
+      "From one side to the other of."
+    ],
+    "syn": [
+      "over",
+      "through"
+    ],
+    "ant": []
+  },
+  {
+    "en": "activity",
+    "bn": [
+      "ক্রিয়াকলাপ",
+      "কার্যকলাপ"
+    ],
+    "def": [
+      "The state of being active.",
+      "Something that is done for a particular purpose."
+    ],
+    "syn": [
+      "action",
+      "movement"
+    ],
+    "ant": [
+      "inactivity",
+      "idleness"
+    ]
+  },
+  {
+    "en": "all",
+    "bn": [
+      "সব",
+      "সমস্ত"
+    ],
+    "def": [
+      "The whole quantity or extent of."
+    ],
+    "syn": [
+      "every",
+      "entire"
+    ],
+    "ant": [
+      "none",
+      "some"
+    ]
+  },
+  {
+    "en": "also",
+    "bn": [
+      "এছাড়াও"
+    ],
+    "def": [
+      "In addition; too."
+    ],
+    "syn": [
+      "too",
+      "as well"
+    ],
+    "ant": []
+  },
+  {
+    "en": "appear",
+    "bn": [
+      "প্রকাশ পাওয়া",
+      "দেখা দেওয়া"
+    ],
+    "def": [
+      "To become visible or noticeable.",
+      "To seem."
+    ],
+    "syn": [
+      "emerge",
+      "seem"
+    ],
+    "ant": [
+      "disappear",
+      "vanish"
+    ]
+  },
+  {
+    "en": "approach",
+    "bn": [
+      "অভিগমন",
+      "নিকটবর্তী হওয়া"
+    ],
+    "def": [
+      "To come near or nearer to.",
+      "A way of dealing with something."
+    ],
+    "syn": [
+      "near",
+      "method"
+    ],
+    "ant": [
+      "leave",
+      "depart"
+    ]
+  },
+  {
+    "en": "area",
+    "bn": [
+      "ক্ষেত্র",
+      "অঞ্চল"
+    ],
+    "def": [
+      "A region or part of a place.",
+      "The extent of a two-dimensional surface."
+    ],
+    "syn": [
+      "region",
+      "zone"
+    ],
+    "ant": []
+  },
+  {
+    "en": "associate",
+    "bn": [
+      "জড়িত করা",
+      "সহযোগী"
+    ],
+    "def": [
+      "To connect someone or something with something else.",
+      "A partner or colleague."
+    ],
+    "syn": [
+      "connect",
+      "partner"
+    ],
+    "ant": [
+      "dissociate",
+      "disconnect"
+    ]
+  },
+  {
+    "en": "association",
+    "bn": [
+      "সমিতি",
+      "সংঘ"
+    ],
+    "def": [
+      "A group of people organized for a joint purpose.",
+      "A connection or relationship."
+    ],
+    "syn": [
+      "organization",
+      "connection"
+    ],
+    "ant": [
+      "disunion",
+      "rivalry"
+    ]
+  },
+  {
+    "en": "author",
+    "bn": [
+      "লেখক"
+    ],
+    "def": [
+      "A writer of a book, article, or report."
+    ],
+    "syn": [
+      "writer",
+      "creator"
+    ],
+    "ant": []
+  },
+  {
+    "en": "bacteria",
+    "bn": [
+      "ব্যাকটেরিয়া"
+    ],
+    "def": [
+      "Microscopic single-celled organisms, some of which can cause disease."
+    ],
+    "syn": [
+      "microbes",
+      "germs"
+    ],
+    "ant": []
+  },
+  {
+    "en": "basis",
+    "bn": [
+      "ভিত্তি"
+    ],
+    "def": [
+      "The underlying support or foundation for an idea, argument, or process."
+    ],
+    "syn": [
+      "foundation",
+      "grounds"
+    ],
+    "ant": []
+  },
+  {
+    "en": "become",
+    "bn": [
+      "হয়ে ওঠা"
+    ],
+    "def": [
+      "To begin to be.",
+      "To suit or befit."
+    ],
+    "syn": [
+      "turn into",
+      "suit"
+    ],
+    "ant": []
+  },
+  {
+    "en": "begin",
+    "bn": [
+      "শুরু করা"
+    ],
+    "def": [
+      "To start; to perform the first part of an action."
+    ],
+    "syn": [
+      "start",
+      "commence"
+    ],
+    "ant": [
+      "end",
+      "finish"
+    ]
+  },
+  {
+    "en": "beneath",
+    "bn": [
+      "নীচে"
+    ],
+    "def": [
+      "Extending or directly underneath.",
+      "At a lower level or layer than."
+    ],
+    "syn": [
+      "under",
+      "below"
+    ],
+    "ant": [
+      "above",
+      "over"
+    ]
+  },
+  {
+    "en": "bottom",
+    "bn": [
+      "নিচ",
+      "তলদেশ"
+    ],
+    "def": [
+      "The lowest point or part.",
+      "The farthest point or part."
+    ],
+    "syn": [
+      "base",
+      "lowest"
+    ],
+    "ant": [
+      "top",
+      "peak"
+    ]
+  },
+  {
+    "en": "brain",
+    "bn": [
+      "মস্তিষ্ক",
+      "মেধা"
+    ],
+    "def": [
+      "The organ inside the head that controls thought, memory, and nervous system.",
+      "Intellectual capacity."
+    ],
+    "syn": [
+      "mind",
+      "intellect"
+    ],
+    "ant": []
+  },
+  {
+    "en": "build",
+    "bn": [
+      "গড়ে তোলা",
+      "নির্মাণ করা"
+    ],
+    "def": [
+      "To construct something by putting parts or materials together."
+    ],
+    "syn": [
+      "construct",
+      "erect"
+    ],
+    "ant": [
+      "demolish",
+      "destroy"
+    ]
+  },
+  {
+    "en": "campaign",
+    "bn": [
+      "প্রচারণা",
+      "অভিযান"
+    ],
+    "def": [
+      "A series of military operations or planned activities for a specific purpose."
+    ],
+    "syn": [
+      "crusade",
+      "drive"
+    ],
+    "ant": []
+  },
+  {
+    "en": "carbon",
+    "bn": [
+      "কার্বন"
+    ],
+    "def": [
+      "A chemical element that is the basis of all known life."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "certain",
+    "bn": [
+      "নিশ্চিত",
+      "কিছু"
+    ],
+    "def": [
+      "Known for sure; established beyond doubt.",
+      "Specific but not explicitly named."
+    ],
+    "syn": [
+      "sure",
+      "definite"
+    ],
+    "ant": [
+      "uncertain",
+      "doubtful"
+    ]
+  },
+  {
+    "en": "change",
+    "bn": [
+      "পরিবর্তন"
+    ],
+    "def": [
+      "To make or become different.",
+      "Coins or money given in exchange for a larger denomination."
+    ],
+    "syn": [
+      "alter",
+      "modify"
+    ],
+    "ant": [
+      "keep",
+      "maintain"
+    ]
+  },
+  {
+    "en": "complex",
+    "bn": [
+      "জটিল",
+      "সমষ্টিগত"
+    ],
+    "def": [
+      "Consisting of many different and connected parts.",
+      "A group of similar buildings or facilities."
+    ],
+    "syn": [
+      "complicated",
+      "intricate"
+    ],
+    "ant": [
+      "simple",
+      "basic"
+    ]
+  },
+  {
+    "en": "condition",
+    "bn": [
+      "শর্ত",
+      "অবস্থা"
+    ],
+    "def": [
+      "The state of something or someone.",
+      "A requirement or stipulation."
+    ],
+    "syn": [
+      "state",
+      "term"
+    ],
+    "ant": []
+  },
+  {
+    "en": "connect",
+    "bn": [
+      "সংযোগ করা"
+    ],
+    "def": [
+      "To bring together or into contact so that a link is established."
+    ],
+    "syn": [
+      "join",
+      "link"
+    ],
+    "ant": [
+      "disconnect",
+      "separate"
+    ]
+  },
+  {
+    "en": "content",
+    "bn": [
+      "সন্তুষ্ট",
+      "বিষয়বস্তু"
+    ],
+    "def": [
+      "In a state of peaceful happiness.",
+      "The things that are held or included in something."
+    ],
+    "syn": [
+      "satisfied",
+      "subject matter"
+    ],
+    "ant": [
+      "discontent",
+      "displeased"
+    ]
+  },
+  {
+    "en": "copyright",
+    "bn": [
+      "কপিরাইট"
+    ],
+    "def": [
+      "The exclusive legal right to reproduce, publish, or sell a creative work."
+    ],
+    "syn": [
+      "licensing",
+      "ownership"
+    ],
+    "ant": [
+      "public domain"
+    ]
+  },
+  {
+    "en": "could",
+    "bn": [
+      "পারত",
+      "পারে"
+    ],
+    "def": [
+      "Past tense of 'can'.",
+      "Used to indicate possibility."
+    ],
+    "syn": [
+      "was able to",
+      "might"
+    ],
+    "ant": [
+      "could not"
+    ]
+  },
+  {
+    "en": "create",
+    "bn": [
+      "সৃষ্টি করা"
+    ],
+    "def": [
+      "To bring something into existence."
+    ],
+    "syn": [
+      "make",
+      "generate"
+    ],
+    "ant": [
+      "destroy",
+      "demolish"
+    ]
+  },
+  {
+    "en": "daily",
+    "bn": [
+      "দৈনিক"
+    ],
+    "def": [
+      "Happening or produced every day."
+    ],
+    "syn": [
+      "everyday",
+      "quotidian"
+    ],
+    "ant": [
+      "nightly",
+      "rarely"
+    ]
+  },
+  {
+    "en": "database",
+    "bn": [
+      "ডেটাবেজ"
+    ],
+    "def": [
+      "A structured set of data held in a computer."
+    ],
+    "syn": [
+      "data bank",
+      "repository"
+    ],
+    "ant": []
+  },
+  {
+    "en": "decline",
+    "bn": [
+      "পতন",
+      "প্রত্যাখ্যান করা"
+    ],
+    "def": [
+      "To become smaller, fewer, or less; decrease.",
+      "To politely refuse."
+    ],
+    "syn": [
+      "decrease",
+      "refuse"
+    ],
+    "ant": [
+      "increase",
+      "accept"
+    ]
+  },
+  {
+    "en": "depend",
+    "bn": [
+      "নির্ভর করা"
+    ],
+    "def": [
+      "To be controlled or determined by.",
+      "To rely on."
+    ],
+    "syn": [
+      "rely",
+      "count on"
+    ],
+    "ant": []
+  },
+  {
+    "en": "detail",
+    "bn": [
+      "বিস্তারিত",
+      "বিশদ"
+    ],
+    "def": [
+      "An individual feature, fact, or item.",
+      "To describe item by item."
+    ],
+    "syn": [
+      "particular",
+      "specify"
+    ],
+    "ant": [
+      "whole",
+      "overview"
+    ]
+  },
+  {
+    "en": "different",
+    "bn": [
+      "ভিন্ন",
+      "বিভিন্ন"
+    ],
+    "def": [
+      "Not the same as another or each other."
+    ],
+    "syn": [
+      "distinct",
+      "dissimilar"
+    ],
+    "ant": [
+      "same",
+      "similar"
+    ]
+  },
+  {
+    "en": "direct",
+    "bn": [
+      "সরাসরি",
+      "নির্দেশ করা"
+    ],
+    "def": [
+      "Extending or moving from one place to another without changing direction or stopping.",
+      "To control the operations of; manage."
+    ],
+    "syn": [
+      "straight",
+      "manage"
+    ],
+    "ant": [
+      "indirect",
+      "meandering"
+    ]
+  },
+  {
+    "en": "dominant",
+    "bn": [
+      "প্রভাবশালী"
+    ],
+    "def": [
+      "Having power and influence over others."
+    ],
+    "syn": [
+      "commanding",
+      "supreme"
+    ],
+    "ant": [
+      "submissive",
+      "weak"
+    ]
+  },
+  {
+    "en": "dominate",
+    "bn": [
+      "আধিপত্য করা"
+    ],
+    "def": [
+      "To have a commanding influence on; exercise control over."
+    ],
+    "syn": [
+      "control",
+      "rule"
+    ],
+    "ant": [
+      "follow",
+      "submit"
+    ]
+  },
+  {
+    "en": "ecologist",
+    "bn": [
+      "বাস্তুবিদ"
+    ],
+    "def": [
+      "A person who studies ecology."
+    ],
+    "syn": [
+      "environmental scientist"
+    ],
+    "ant": []
+  },
+  {
+    "en": "ecosystem",
+    "bn": [
+      "বাস্তুতন্ত্র"
+    ],
+    "def": [
+      "A biological community of interacting organisms and their physical environment."
+    ],
+    "syn": [
+      "environment",
+      "biome"
+    ],
+    "ant": []
+  },
+  {
+    "en": "effect",
+    "bn": [
+      "প্রভাব",
+      "ফল"
+    ],
+    "def": [
+      "A change which is a result or consequence of an action or other cause."
+    ],
+    "syn": [
+      "result",
+      "impact"
+    ],
+    "ant": [
+      "cause",
+      "origin"
+    ]
+  },
+  {
+    "en": "effort",
+    "bn": [
+      "প্রচেষ্টা"
+    ],
+    "def": [
+      "A vigorous or determined attempt."
+    ],
+    "syn": [
+      "attempt",
+      "endeavor"
+    ],
+    "ant": [
+      "idleness",
+      "inactivity"
+    ]
+  },
+  {
+    "en": "emission",
+    "bn": [
+      "নির্গমন"
+    ],
+    "def": [
+      "The production and discharge of something, especially gas or radiation."
+    ],
+    "syn": [
+      "discharge",
+      "release"
+    ],
+    "ant": [
+      "absorption",
+      "retention"
+    ]
+  },
+  {
+    "en": "even",
+    "bn": [
+      "এমনকি",
+      "সমতল"
+    ],
+    "def": [
+      "Used to emphasize something surprising.",
+      "Flat and smooth."
+    ],
+    "syn": [
+      "indeed",
+      "level"
+    ],
+    "ant": [
+      "uneven",
+      "odd"
+    ]
+  },
+  {
+    "en": "external",
+    "bn": [
+      "বাহ্যিক"
+    ],
+    "def": [
+      "Belonging to or forming the outer surface or structure."
+    ],
+    "syn": [
+      "outer",
+      "exterior"
+    ],
+    "ant": [
+      "internal",
+      "inner"
+    ]
+  },
+  {
+    "en": "fast",
+    "bn": [
+      "দ্রুত",
+      "দৃঢ়"
+    ],
+    "def": [
+      "Moving or capable of moving at high speed.",
+      "Firmly fixed or attached."
+    ],
+    "syn": [
+      "quick",
+      "secure"
+    ],
+    "ant": [
+      "slow",
+      "loose"
+    ]
+  },
+  {
+    "en": "feedback",
+    "bn": [
+      "প্রতিক্রিয়া"
+    ],
+    "def": [
+      "Information about reactions to a product or a person's performance, used as a basis for improvement."
+    ],
+    "syn": [
+      "response",
+      "comment"
+    ],
+    "ant": []
+  },
+  {
+    "en": "figure",
+    "bn": [
+      "চিত্র",
+      "আকৃতি"
+    ],
+    "def": [
+      "A number or a shape.",
+      "An important or distinctive person."
+    ],
+    "syn": [
+      "number",
+      "shape"
+    ],
+    "ant": []
+  },
+  {
+    "en": "find",
+    "bn": [
+      "খুঁজে পাওয়া"
+    ],
+    "def": [
+      "To discover or perceive by chance or unexpectedly."
+    ],
+    "syn": [
+      "discover",
+      "locate"
+    ],
+    "ant": [
+      "lose",
+      "miss"
+    ]
+  },
+  {
+    "en": "first",
+    "bn": [
+      "প্রথম"
+    ],
+    "def": [
+      "Coming before all others in time or order."
+    ],
+    "syn": [
+      "initial",
+      "earliest"
+    ],
+    "ant": [
+      "last",
+      "final"
+    ]
+  },
+  {
+    "en": "follow",
+    "bn": [
+      "অনুসরণ করা"
+    ],
+    "def": [
+      "To go or come after a person or thing.",
+      "To act according to an instruction or example."
+    ],
+    "syn": [
+      "pursue",
+      "obey"
+    ],
+    "ant": [
+      "lead",
+      "precede"
+    ]
+  },
+  {
+    "en": "forest",
+    "bn": [
+      "বন",
+      "অরণ্য"
+    ],
+    "def": [
+      "A large area covered chiefly with trees and undergrowth."
+    ],
+    "syn": [
+      "woods",
+      "woodland"
+    ],
+    "ant": [
+      "clearing",
+      "plain"
+    ]
+  },
+  {
+    "en": "form",
+    "bn": [
+      "ফর্ম",
+      "গঠন করা"
+    ],
+    "def": [
+      "The shape or configuration of something.",
+      "To bring together parts to create something."
+    ],
+    "syn": [
+      "shape",
+      "create"
+    ],
+    "ant": [
+      "destroy",
+      "deform"
+    ]
+  },
+  {
+    "en": "from",
+    "bn": [
+      "থেকে"
+    ],
+    "def": [
+      "Indicating the point in space or time at which a journey, process, or action starts."
+    ],
+    "syn": [
+      "since",
+      "out of"
+    ],
+    "ant": [
+      "to",
+      "towards"
+    ]
+  },
+  {
+    "en": "fungus",
+    "bn": [
+      "ছত্রাক"
+    ],
+    "def": [
+      "A group of spore-producing organisms feeding on organic matter, including molds, yeast, and mushrooms."
+    ],
+    "syn": [
+      "mold",
+      "mushroom"
+    ],
+    "ant": []
+  },
+  {
+    "en": "global",
+    "bn": [
+      "বৈশ্বিক"
+    ],
+    "def": [
+      "Relating to the whole world; worldwide."
+    ],
+    "syn": [
+      "worldwide",
+      "international"
+    ],
+    "ant": [
+      "local",
+      "national"
+    ]
+  },
+  {
+    "en": "group",
+    "bn": [
+      "গোষ্ঠী",
+      "দল"
+    ],
+    "def": [
+      "A number of people or things that are located, gathered, or classed together."
+    ],
+    "syn": [
+      "collection",
+      "category"
+    ],
+    "ant": [
+      "individual",
+      "single"
+    ]
+  },
+  {
+    "en": "happen",
+    "bn": [
+      "ঘটা"
+    ],
+    "def": [
+      "To take place or occur."
+    ],
+    "syn": [
+      "occur",
+      "take place"
+    ],
+    "ant": []
+  },
+  {
+    "en": "have",
+    "bn": [
+      "আছে",
+      "ধারণ করা"
+    ],
+    "def": [
+      "To possess, own, or hold.",
+      "Used with a past participle to form the perfect tense."
+    ],
+    "syn": [
+      "possess",
+      "own"
+    ],
+    "ant": [
+      "lack",
+      "not have"
+    ]
+  },
+  {
+    "en": "help",
+    "bn": [
+      "সাহায্য করা"
+    ],
+    "def": [
+      "To make it easier for someone to do something by offering one's services or resources."
+    ],
+    "syn": [
+      "assist",
+      "aid"
+    ],
+    "ant": [
+      "hinder",
+      "obstruct"
+    ]
+  },
+  {
+    "en": "huge",
+    "bn": [
+      "বিপুল",
+      "বিশাল"
+    ],
+    "def": [
+      "Extremely large; enormous."
+    ],
+    "syn": [
+      "enormous",
+      "gigantic"
+    ],
+    "ant": [
+      "tiny",
+      "small"
+    ]
+  },
+  {
+    "en": "important",
+    "bn": [
+      "গুরুত্বপূর্ণ"
+    ],
+    "def": [
+      "Of great significance or value."
+    ],
+    "syn": [
+      "significant",
+      "crucial"
+    ],
+    "ant": [
+      "unimportant",
+      "trivial"
+    ]
+  },
+  {
+    "en": "increase",
+    "bn": [
+      "বৃদ্ধি"
+    ],
+    "def": [
+      "To become or make greater in size, amount, or degree."
+    ],
+    "syn": [
+      "grow",
+      "raise"
+    ],
+    "ant": [
+      "decrease",
+      "reduce"
+    ]
+  },
+  {
+    "en": "inform",
+    "bn": [
+      "তথ্য দেওয়া"
+    ],
+    "def": [
+      "To give someone facts or information."
+    ],
+    "syn": [
+      "tell",
+      "notify"
+    ],
+    "ant": [
+      "misinform",
+      "deceive"
+    ]
+  },
+  {
+    "en": "interact",
+    "bn": [
+      "মিথস্ক্রিয়া করা"
+    ],
+    "def": [
+      "To act in such a way as to have an effect on another."
+    ],
+    "syn": [
+      "engage",
+      "communicate"
+    ],
+    "ant": [
+      "ignore",
+      "avoid"
+    ]
+  },
+  {
+    "en": "international",
+    "bn": [
+      "আন্তর্জাতিক"
+    ],
+    "def": [
+      "Existing, occurring, or carried on between nations."
+    ],
+    "syn": [
+      "global",
+      "worldwide"
+    ],
+    "ant": [
+      "national",
+      "domestic"
+    ]
+  },
+  {
+    "en": "key",
+    "bn": [
+      "চাবি",
+      "মূল"
+    ],
+    "def": [
+      "A small piece of shaped metal used to unlock a lock.",
+      "Of crucial importance."
+    ],
+    "syn": [
+      "crucial",
+      "essential"
+    ],
+    "ant": [
+      "unimportant",
+      "minor"
+    ]
+  },
+  {
+    "en": "known",
+    "bn": [
+      "জানা"
+    ],
+    "def": [
+      "Recognized, familiar, or within the scope of knowledge."
+    ],
+    "syn": [
+      "recognized",
+      "familiar"
+    ],
+    "ant": [
+      "unknown",
+      "unfamiliar"
+    ]
+  },
+  {
+    "en": "life",
+    "bn": [
+      "জীবন"
+    ],
+    "def": [
+      "The condition that distinguishes animals and plants from inorganic matter, including growth and reproduction."
+    ],
+    "syn": [
+      "existence",
+      "being"
+    ],
+    "ant": [
+      "death",
+      "non-living"
+    ]
+  },
+  {
+    "en": "like",
+    "bn": [
+      "পছন্দ করা",
+      "এর মতো"
+    ],
+    "def": [
+      "To find agreeable or enjoyable.",
+      "Having the same characteristics or qualities as."
+    ],
+    "syn": [
+      "enjoy",
+      "similar to"
+    ],
+    "ant": [
+      "dislike",
+      "hate",
+      "unlike"
+    ]
+  },
+  {
+    "en": "limit",
+    "bn": [
+      "সীমা"
+    ],
+    "def": [
+      "A point or level beyond which something does not or may not extend or pass."
+    ],
+    "syn": [
+      "restrict",
+      "boundary"
+    ],
+    "ant": [
+      "free",
+      "unlimited"
+    ]
+  },
+  {
+    "en": "live",
+    "bn": [
+      "বাস করা",
+      "সরাসরি"
+    ],
+    "def": [
+      "To remain alive.",
+      "Transmitted at the time of occurrence."
+    ],
+    "syn": [
+      "reside",
+      "alive"
+    ],
+    "ant": [
+      "die",
+      "recorded"
+    ]
+  },
+  {
+    "en": "lose",
+    "bn": [
+      "হারানো"
+    ],
+    "def": [
+      "To be deprived of or cease to have or retain something."
+    ],
+    "syn": [
+      "mislay",
+      "be defeated"
+    ],
+    "ant": [
+      "find",
+      "win"
+    ]
+  },
+  {
+    "en": "lost",
+    "bn": [
+      "হারানো",
+      "ভ্রষ্ট"
+    ],
+    "def": [
+      "Unable to find one's way; not knowing one's whereabouts.",
+      "That has been taken away or cannot be recovered."
+    ],
+    "syn": [
+      "missing",
+      "gone"
+    ],
+    "ant": [
+      "found",
+      "saved"
+    ]
+  },
+  {
+    "en": "main",
+    "bn": [
+      "প্রধান"
+    ],
+    "def": [
+      "Chief in size or importance."
+    ],
+    "syn": [
+      "primary",
+      "central"
+    ],
+    "ant": [
+      "minor",
+      "secondary"
+    ]
+  },
+  {
+    "en": "map",
+    "bn": [
+      "মানচিত্র"
+    ],
+    "def": [
+      "A diagrammatic representation of an area of land or sea."
+    ],
+    "syn": [
+      "chart",
+      "plan"
+    ],
+    "ant": []
+  },
+  {
+    "en": "microorganism",
+    "bn": [
+      "অণুজীব"
+    ],
+    "def": [
+      "A microscopic organism, especially a bacterium, virus, or fungus."
+    ],
+    "syn": [
+      "microbe",
+      "germ"
+    ],
+    "ant": []
+  },
+  {
+    "en": "million",
+    "bn": [
+      "দশ লক্ষ",
+      "মিলিয়ন"
+    ],
+    "def": [
+      "The number equivalent to one thousand thousands (1,000,000)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "model",
+    "bn": [
+      "মডেল",
+      "নমুনা"
+    ],
+    "def": [
+      "A three-dimensional representation of a person or thing.",
+      "A system or thing used as an example to follow or imitate."
+    ],
+    "syn": [
+      "example",
+      "prototype"
+    ],
+    "ant": []
+  },
+  {
+    "en": "more",
+    "bn": [
+      "আরও"
+    ],
+    "def": [
+      "A greater or additional amount or degree."
+    ],
+    "syn": [
+      "additional",
+      "extra"
+    ],
+    "ant": [
+      "less",
+      "fewer"
+    ]
+  },
+  {
+    "en": "mostly",
+    "bn": [
+      "বেশিরভাগ"
+    ],
+    "def": [
+      "As regards the greater part or number."
+    ],
+    "syn": [
+      "mainly",
+      "largely"
+    ],
+    "ant": [
+      "rarely",
+      "seldom"
+    ]
+  },
+  {
+    "en": "much",
+    "bn": [
+      "অনেক"
+    ],
+    "def": [
+      "A large amount."
+    ],
+    "syn": [
+      "a lot",
+      "greatly"
+    ],
+    "ant": [
+      "little",
+      "slightly"
+    ]
+  },
+  {
+    "en": "nature",
+    "bn": [
+      "প্রকৃতি"
+    ],
+    "def": [
+      "The phenomena of the physical world collectively, including plants, animals, and landscapes."
+    ],
+    "syn": [
+      "environment",
+      "wildlife"
+    ],
+    "ant": [
+      "man-made",
+      "urban"
+    ]
+  },
+  {
+    "en": "nearly",
+    "bn": [
+      "প্রায়"
+    ],
+    "def": [
+      "Very close to; almost."
+    ],
+    "syn": [
+      "almost",
+      "practically"
+    ],
+    "ant": [
+      "completely",
+      "totally"
+    ]
+  },
+  {
+    "en": "network",
+    "bn": [
+      "নেটওয়ার্ক"
+    ],
+    "def": [
+      "A group or system of interconnected people or things."
+    ],
+    "syn": [
+      "web",
+      "system"
+    ],
+    "ant": []
+  },
+  {
+    "en": "not",
+    "bn": [
+      "না"
+    ],
+    "def": [
+      "Used to form a negative expression."
+    ],
+    "syn": [
+      "no",
+      "never"
+    ],
+    "ant": [
+      "yes",
+      "is"
+    ]
+  },
+  {
+    "en": "now",
+    "bn": [
+      "এখন"
+    ],
+    "def": [
+      "At the present time."
+    ],
+    "syn": [
+      "currently",
+      "at present"
+    ],
+    "ant": [
+      "then",
+      "later"
+    ]
+  },
+  {
+    "en": "observation",
+    "bn": [
+      "পর্যবেক্ষণ"
+    ],
+    "def": [
+      "The action or process of closely observing or monitoring."
+    ],
+    "syn": [
+      "monitoring",
+      "scrutiny"
+    ],
+    "ant": [
+      "ignorance",
+      "disregard"
+    ]
+  },
+  {
+    "en": "one",
+    "bn": [
+      "এক"
+    ],
+    "def": [
+      "The lowest cardinal number; half of two; 1.",
+      "Referring to a person or thing previously mentioned or easily identified."
+    ],
+    "syn": [
+      "single",
+      "a"
+    ],
+    "ant": [
+      "many",
+      "none"
+    ]
+  },
+  {
+    "en": "only",
+    "bn": [
+      "শুধুমাত্র"
+    ],
+    "def": [
+      "And no one or nothing more besides; solely."
+    ],
+    "syn": [
+      "solely",
+      "exclusively"
+    ],
+    "ant": [
+      "many",
+      "multiple"
+    ]
+  },
+  {
+    "en": "out",
+    "bn": [
+      "বাইরে"
+    ],
+    "def": [
+      "Moving or appearing to move away from a particular place.",
+      "Not at home or one's place of work."
+    ],
+    "syn": [
+      "outside",
+      "away"
+    ],
+    "ant": [
+      "in",
+      "inside"
+    ]
+  },
+  {
+    "en": "part",
+    "bn": [
+      "অংশ"
+    ],
+    "def": [
+      "A piece or segment of something."
+    ],
+    "syn": [
+      "piece",
+      "segment"
+    ],
+    "ant": [
+      "whole",
+      "entirety"
+    ]
+  },
+  {
+    "en": "penetrate",
+    "bn": [
+      "অনুপ্রবেশ করা"
+    ],
+    "def": [
+      "To succeed in forcing a way into or through."
+    ],
+    "syn": [
+      "pierce",
+      "enter"
+    ],
+    "ant": [
+      "exit",
+      "withdraw"
+    ]
+  },
+  {
+    "en": "plant",
+    "bn": [
+      "গাছ",
+      "উদ্ভিদ"
+    ],
+    "def": [
+      "A living organism that grows in the ground and uses photosynthesis.",
+      "A factory or place where an industrial process takes place."
+    ],
+    "syn": [
+      "herb",
+      "factory"
+    ],
+    "ant": [
+      "animal",
+      "destroy"
+    ]
+  },
+  {
+    "en": "plot",
+    "bn": [
+      "প্লট",
+      "ষড়যন্ত্র"
+    ],
+    "def": [
+      "A small piece of ground.",
+      "The main events of a play, novel, or film.",
+      "A secret plan to do something unlawful or harmful."
+    ],
+    "syn": [
+      "storyline",
+      "conspiracy"
+    ],
+    "ant": []
+  },
+  {
+    "en": "potentially",
+    "bn": [
+      "সম্ভাব্য"
+    ],
+    "def": [
+      "With the capacity to develop or happen in the future."
+    ],
+    "syn": [
+      "possibly",
+      "likely"
+    ],
+    "ant": [
+      "impossibly",
+      "unlikely"
+    ]
+  },
+  {
+    "en": "present",
+    "bn": [
+      "বর্তমান",
+      "উপস্থাপন করা"
+    ],
+    "def": [
+      "Existing or occurring now.",
+      "To show or offer for others to scrutinize or consider."
+    ],
+    "syn": [
+      "current",
+      "show"
+    ],
+    "ant": [
+      "past",
+      "future",
+      "absent"
+    ]
+  },
+  {
+    "en": "produce",
+    "bn": [
+      "উৎপাদন করা"
+    ],
+    "def": [
+      "To make or manufacture from components or raw materials.",
+      "To cause a particular result or effect."
+    ],
+    "syn": [
+      "make",
+      "create"
+    ],
+    "ant": [
+      "consume",
+      "destroy"
+    ]
+  },
+  {
+    "en": "promote",
+    "bn": [
+      "প্রচার করা",
+      "পদোন্নতি দেওয়া"
+    ],
+    "def": [
+      "To further the progress of something.",
+      "To advance someone to a higher position."
+    ],
+    "syn": [
+      "encourage",
+      "advance"
+    ],
+    "ant": [
+      "demote",
+      "hinder"
+    ]
+  },
+  {
+    "en": "provide",
+    "bn": [
+      "প্রদান করা"
+    ],
+    "def": [
+      "To make available for use; supply."
+    ],
+    "syn": [
+      "supply",
+      "furnish"
+    ],
+    "ant": [
+      "withhold",
+      "remove"
+    ]
+  },
+  {
+    "en": "rate",
+    "bn": [
+      "হার",
+      "মূল্যায়ন"
+    ],
+    "def": [
+      "A measure, quantity, or frequency.",
+      "To assign a standard or value to something based on a comparative assessment."
+    ],
+    "syn": [
+      "speed",
+      "evaluate"
+    ],
+    "ant": []
+  },
+  {
+    "en": "read",
+    "bn": [
+      "পড়া"
+    ],
+    "def": [
+      "To look at and comprehend the meaning of written or printed matter."
+    ],
+    "syn": [
+      "peruse",
+      "scan"
+    ],
+    "ant": [
+      "write",
+      "ignore"
+    ]
+  },
+  {
+    "en": "reduction",
+    "bn": [
+      "হ্রাস"
+    ],
+    "def": [
+      "The action of making something smaller or less in amount, degree, or size."
+    ],
+    "syn": [
+      "decrease",
+      "cut"
+    ],
+    "ant": [
+      "increase",
+      "expansion"
+    ]
+  },
+  {
+    "en": "relationship",
+    "bn": [
+      "সম্পর্ক"
+    ],
+    "def": [
+      "The way in which two or more people or things are connected, or the state of being connected."
+    ],
+    "syn": [
+      "connection",
+      "association"
+    ],
+    "ant": [
+      "disconnection",
+      "separation"
+    ]
+  },
+  {
+    "en": "release",
+    "bn": [
+      "মুক্তি",
+      "মুক্ত করা"
+    ],
+    "def": [
+      "To allow or enable to escape from confinement.",
+      "To allow something to move, act, or flow freely."
+    ],
+    "syn": [
+      "free",
+      "launch"
+    ],
+    "ant": [
+      "capture",
+      "hold"
+    ]
+  },
+  {
+    "en": "replace",
+    "bn": [
+      "প্রতিস্থাপন করা"
+    ],
+    "def": [
+      "To take the place of.",
+      "To put something back in its previous position."
+    ],
+    "syn": [
+      "substitute",
+      "restore"
+    ],
+    "ant": [
+      "remove",
+      "keep"
+    ]
+  },
+  {
+    "en": "research",
+    "bn": [
+      "গবেষণা"
+    ],
+    "def": [
+      "The systematic investigation into and study of materials and sources to establish facts and reach new conclusions."
+    ],
+    "syn": [
+      "investigation",
+      "study"
+    ],
+    "ant": [
+      "ignorance",
+      "neglect"
+    ]
+  },
+  {
+    "en": "researcher",
+    "bn": [
+      "গবেষক"
+    ],
+    "def": [
+      "A person who carries out academic or scientific research."
+    ],
+    "syn": [
+      "investigator",
+      "scholar"
+    ],
+    "ant": []
+  },
+  {
+    "en": "restoration",
+    "bn": [
+      "পুনরুদ্ধার"
+    ],
+    "def": [
+      "The action of returning something to a former owner, place, or condition."
+    ],
+    "syn": [
+      "repair",
+      "reinstatement"
+    ],
+    "ant": [
+      "damage",
+      "destruction"
+    ]
+  },
+  {
+    "en": "result",
+    "bn": [
+      "ফলাফল"
+    ],
+    "def": [
+      "A consequence, effect, or outcome of something."
+    ],
+    "syn": [
+      "outcome",
+      "consequence"
+    ],
+    "ant": [
+      "cause",
+      "origin"
+    ]
+  },
+  {
+    "en": "reveal",
+    "bn": [
+      "প্রকাশ করা"
+    ],
+    "def": [
+      "To make previously unknown or secret information known to others."
+    ],
+    "syn": [
+      "disclose",
+      "show"
+    ],
+    "ant": [
+      "conceal",
+      "hide"
+    ]
+  },
+  {
+    "en": "right",
+    "bn": [
+      "সঠিক",
+      "অধিকার"
+    ],
+    "def": [
+      "Morally good, justified, or acceptable.",
+      "That which is morally correct, just, or honorable.",
+      "A moral or legal entitlement to have or do something."
+    ],
+    "syn": [
+      "correct",
+      "entitlement"
+    ],
+    "ant": [
+      "wrong",
+      "left"
+    ]
+  },
+  {
+    "en": "root",
+    "bn": [
+      "মূল"
+    ],
+    "def": [
+      "The part of a plant that attaches it to the ground and conveys water and nourishment.",
+      "The basic cause, source, or origin of something."
+    ],
+    "syn": [
+      "origin",
+      "source"
+    ],
+    "ant": [
+      "branch",
+      "effect"
+    ]
+  },
+  {
+    "en": "scale",
+    "bn": [
+      "স্কেল",
+      "মাপ"
+    ],
+    "def": [
+      "The relative size or extent of something.",
+      "A graduated range of values forming a standard system for measuring or grading something."
+    ],
+    "syn": [
+      "size",
+      "range"
+    ],
+    "ant": []
+  },
+  {
+    "en": "scan",
+    "bn": [
+      "স্ক্যান করা"
+    ],
+    "def": [
+      "To look at all parts of something carefully in order to detect some feature.",
+      "To convert a document or picture into digital form."
+    ],
+    "syn": [
+      "examine",
+      "digitize"
+    ],
+    "ant": [
+      "ignore",
+      "overlook"
+    ]
+  },
+  {
+    "en": "secretive",
+    "bn": [
+      "গোপনীয়"
+    ],
+    "def": [
+      "Inclined to conceal feelings and intentions or not to disclose information."
+    ],
+    "syn": [
+      "reserved",
+      "clandestine"
+    ],
+    "ant": [
+      "open",
+      "communicative"
+    ]
+  },
+  {
+    "en": "see",
+    "bn": [
+      "দেখা"
+    ],
+    "def": [
+      "To perceive with the eyes.",
+      "To understand or realize."
+    ],
+    "syn": [
+      "perceive",
+      "understand"
+    ],
+    "ant": [
+      "ignore",
+      "miss"
+    ]
+  },
+  {
+    "en": "serve",
+    "bn": [
+      "সেবা করা"
+    ],
+    "def": [
+      "To perform duties or services for another person or an organization."
+    ],
+    "syn": [
+      "assist",
+      "help"
+    ],
+    "ant": [
+      "harm",
+      "oppose"
+    ]
+  },
+  {
+    "en": "show",
+    "bn": [
+      "দেখানো"
+    ],
+    "def": [
+      "To allow or cause to be visible.",
+      "To demonstrate or prove."
+    ],
+    "syn": [
+      "display",
+      "demonstrate"
+    ],
+    "ant": [
+      "hide",
+      "conceal"
+    ]
+  },
+  {
+    "en": "small",
+    "bn": [
+      "ছোট"
+    ],
+    "def": [
+      "Of a size that is less than normal or usual."
+    ],
+    "syn": [
+      "little",
+      "tiny"
+    ],
+    "ant": [
+      "large",
+      "big"
+    ]
+  },
+  {
+    "en": "social",
+    "bn": [
+      "সামাজিক"
+    ],
+    "def": [
+      "Relating to society or its organization.",
+      "Needing companionship and therefore best suited to living in communities."
+    ],
+    "syn": [
+      "communal",
+      "public"
+    ],
+    "ant": [
+      "unsocial",
+      "solitary"
+    ]
+  },
+  {
+    "en": "soil",
+    "bn": [
+      "মাটি"
+    ],
+    "def": [
+      "The upper layer of earth in which plants grow, a black or dark brown material typically consisting of organic remains, clay, and rock particles."
+    ],
+    "syn": [
+      "earth",
+      "ground"
+    ],
+    "ant": []
+  },
+  {
+    "en": "some",
+    "bn": [
+      "কিছু"
+    ],
+    "def": [
+      "An unspecified amount or number of."
+    ],
+    "syn": [
+      "a few",
+      "a little"
+    ],
+    "ant": [
+      "none",
+      "all"
+    ]
+  },
+  {
+    "en": "species",
+    "bn": [
+      "প্রজাতি"
+    ],
+    "def": [
+      "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    ],
+    "syn": [
+      "kind",
+      "type"
+    ],
+    "ant": []
+  },
+  {
+    "en": "start",
+    "bn": [
+      "শুরু"
+    ],
+    "def": [
+      "To begin to do or pursue something.",
+      "To come into existence."
+    ],
+    "syn": [
+      "begin",
+      "commence"
+    ],
+    "ant": [
+      "end",
+      "finish"
+    ]
+  },
+  {
+    "en": "still",
+    "bn": [
+      "এখনও",
+      "স্থির"
+    ],
+    "def": [
+      "Up to and including the present or the time mentioned; even now (or then).",
+      "Not moving or making a sound."
+    ],
+    "syn": [
+      "yet",
+      "motionless"
+    ],
+    "ant": [
+      "moving",
+      "noisy"
+    ]
+  },
+  {
+    "en": "stop",
+    "bn": [
+      "বন্ধ করা",
+      "থামা"
+    ],
+    "def": [
+      "To cause to come to an end.",
+      "To cease movement or operation."
+    ],
+    "syn": [
+      "halt",
+      "cease"
+    ],
+    "ant": [
+      "start",
+      "continue"
+    ]
+  },
+  {
+    "en": "study",
+    "bn": [
+      "অধ্যয়ন"
+    ],
+    "def": [
+      "The devotion of time and attention to acquiring knowledge.",
+      "A detailed investigation and analysis of a subject or situation."
+    ],
+    "syn": [
+      "learn",
+      "research"
+    ],
+    "ant": [
+      "ignore",
+      "neglect"
+    ]
+  },
+  {
+    "en": "such",
+    "bn": [
+      "যেমন"
+    ],
+    "def": [
+      "Of the type previously mentioned."
+    ],
+    "syn": [
+      "like",
+      "similar"
+    ],
+    "ant": [
+      "different",
+      "unlike"
+    ]
+  },
+  {
+    "en": "suggest",
+    "bn": [
+      "প্রস্তাব করা"
+    ],
+    "def": [
+      "To put forward for consideration."
+    ],
+    "syn": [
+      "propose",
+      "recommend"
+    ],
+    "ant": [
+      "demand",
+      "command"
+    ]
+  },
+  {
+    "en": "system",
+    "bn": [
+      "পদ্ধতি"
+    ],
+    "def": [
+      "A set of connected things or parts forming a complex whole."
+    ],
+    "syn": [
+      "method",
+      "structure"
+    ],
+    "ant": [
+      "chaos",
+      "disorder"
+    ]
+  },
+  {
+    "en": "take",
+    "bn": [
+      "নেওয়া"
+    ],
+    "def": [
+      "To lay hold of something with one's hands; remove.",
+      "To carry or bring with one."
+    ],
+    "syn": [
+      "grab",
+      "carry"
+    ],
+    "ant": [
+      "give",
+      "receive"
+    ]
+  },
+  {
+    "en": "than",
+    "bn": [
+      "চেয়ে"
+    ],
+    "def": [
+      "Used to introduce the second element in a comparison."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "that",
+    "bn": [
+      "যে",
+      "সেটা"
+    ],
+    "def": [
+      "Used to identify a specific person or thing observed or heard by the speaker.",
+      "Introducing a subordinate clause."
+    ],
+    "syn": [
+      "which",
+      "who"
+    ],
+    "ant": [
+      "this"
+    ]
+  },
+  {
+    "en": "the",
+    "bn": [
+      "দ্য"
+    ],
+    "def": [
+      "Denoting one or more people or things already mentioned or assumed to be common knowledge."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "their",
+    "bn": [
+      "তাদের"
+    ],
+    "def": [
+      "Belonging to or associated with the people or things previously mentioned or easily identified."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "then",
+    "bn": [
+      "তারপর"
+    ],
+    "def": [
+      "At that time; at the time in question.",
+      "After that; next; afterwards."
+    ],
+    "syn": [
+      "next",
+      "afterwards"
+    ],
+    "ant": [
+      "now",
+      "before"
+    ]
+  },
+  {
+    "en": "there",
+    "bn": [
+      "সেখানে"
+    ],
+    "def": [
+      "In, at, or to that place or position."
+    ],
+    "syn": [
+      "in that place"
+    ],
+    "ant": [
+      "here"
+    ]
+  },
+  {
+    "en": "they",
+    "bn": [
+      "তারা"
+    ],
+    "def": [
+      "Used to refer to two or more people or things previously mentioned or easily identified."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "this",
+    "bn": [
+      "এই"
+    ],
+    "def": [
+      "Used to identify a specific person or thing close at hand or being indicated or experienced."
+    ],
+    "syn": [],
+    "ant": [
+      "that"
+    ]
+  },
+  {
+    "en": "time",
+    "bn": [
+      "সময়"
+    ],
+    "def": [
+      "The indefinite continued progress of existence and events in the past, present, and future.",
+      "A point of time as measured in hours and minutes."
+    ],
+    "syn": [
+      "duration",
+      "period"
+    ],
+    "ant": []
+  },
+  {
+    "en": "to",
+    "bn": [
+      "প্রতি",
+      "কে"
+    ],
+    "def": [
+      "Expressing motion in the direction of a particular location.",
+      "Used with the base form of a verb to indicate the infinitive."
+    ],
+    "syn": [
+      "toward",
+      "until"
+    ],
+    "ant": [
+      "from"
+    ]
+  },
+  {
+    "en": "today",
+    "bn": [
+      "আজ"
+    ],
+    "def": [
+      "On or in the course of this present day.",
+      "At the present period of time."
+    ],
+    "syn": [
+      "this day",
+      "nowadays"
+    ],
+    "ant": [
+      "yesterday",
+      "tomorrow"
+    ]
+  },
+  {
+    "en": "together",
+    "bn": [
+      "একসাথে"
+    ],
+    "def": [
+      "With or in proximity to another person or people.",
+      "Into companionship or close association."
+    ],
+    "syn": [
+      "collectively",
+      "jointly"
+    ],
+    "ant": [
+      "apart",
+      "separately"
+    ]
+  },
+  {
+    "en": "too",
+    "bn": [
+      "অত্যধিক",
+      "এছাড়াও"
+    ],
+    "def": [
+      "To a higher degree than is desirable, permissible, or possible; excessively.",
+      "In addition; also."
+    ],
+    "syn": [
+      "excessively",
+      "also"
+    ],
+    "ant": [
+      "inadequately"
+    ]
+  },
+  {
+    "en": "tree",
+    "bn": [
+      "গাছ"
+    ],
+    "def": [
+      "A woody perennial plant, typically having a single stem or trunk growing to a considerable height."
+    ],
+    "syn": [
+      "sapling",
+      "timber"
+    ],
+    "ant": []
+  },
+  {
+    "en": "try",
+    "bn": [
+      "চেষ্টা করা"
+    ],
+    "def": [
+      "To make an attempt or effort to do something."
+    ],
+    "syn": [
+      "attempt",
+      "endeavor"
+    ],
+    "ant": [
+      "neglect",
+      "ignore"
+    ]
+  },
+  {
+    "en": "understand",
+    "bn": [
+      "বোঝা"
+    ],
+    "def": [
+      "To perceive the intended meaning of words, a language, or a speaker.",
+      "To be sympathetically aware of other people's feelings."
+    ],
+    "syn": [
+      "comprehend",
+      "grasp"
+    ],
+    "ant": [
+      "misunderstand",
+      "confuse"
+    ]
+  },
+  {
+    "en": "use",
+    "bn": [
+      "ব্যবহার"
+    ],
+    "def": [
+      "To take, hold, or deploy something as a means of accomplishing a purpose.",
+      "The action of using something."
+    ],
+    "syn": [
+      "utilize",
+      "employ"
+    ],
+    "ant": [
+      "disuse",
+      "abstain"
+    ]
+  },
+  {
+    "en": "various",
+    "bn": [
+      "বিভিন্ন"
+    ],
+    "def": [
+      "Different from one another; of different kinds or sorts."
+    ],
+    "syn": [
+      "diverse",
+      "assorted"
+    ],
+    "ant": [
+      "same",
+      "uniform"
+    ]
+  },
+  {
+    "en": "very",
+    "bn": [
+      "অত্যন্ত"
+    ],
+    "def": [
+      "In a high degree.",
+      "Used for emphasis."
+    ],
+    "syn": [
+      "extremely",
+      "really"
+    ],
+    "ant": [
+      "slightly",
+      "somewhat"
+    ]
+  },
+  {
+    "en": "virus",
+    "bn": [
+      "ভাইরাস"
+    ],
+    "def": [
+      "An infective agent that typically consists of a nucleic acid molecule in a protein coat, and is able to multiply only within the living cells of a host."
+    ],
+    "syn": [
+      "pathogen",
+      "germ"
+    ],
+    "ant": []
+  },
+  {
+    "en": "want",
+    "bn": [
+      "চাওয়া"
+    ],
+    "def": [
+      "To have a desire to possess or do something; wish for."
+    ],
+    "syn": [
+      "desire",
+      "wish"
+    ],
+    "ant": [
+      "dislike",
+      "have"
+    ]
+  },
+  {
+    "en": "water",
+    "bn": [
+      "পানি",
+      "জল"
+    ],
+    "def": [
+      "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain.",
+      "To pour or sprinkle water over a plant."
+    ],
+    "syn": [
+      "H2O",
+      "aqua"
+    ],
+    "ant": []
+  },
+  {
+    "en": "way",
+    "bn": [
+      "পথ",
+      "উপায়"
+    ],
+    "def": [
+      "A method, style, or manner of doing something.",
+      "A road, path, or other route for traveling."
+    ],
+    "syn": [
+      "method",
+      "path"
+    ],
+    "ant": []
+  },
+  {
+    "en": "we",
+    "bn": [
+      "আমরা"
+    ],
+    "def": [
+      "Used by a speaker to refer to himself or herself and one or more other people considered together."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "well",
+    "bn": [
+      "ভাল",
+      "কূপ"
+    ],
+    "def": [
+      "In a good or satisfactory way.",
+      "A shaft sunk into the ground to obtain water, oil, or gas."
+    ],
+    "syn": [
+      "healthy",
+      "satisfactorily"
+    ],
+    "ant": [
+      "poorly",
+      "sick"
+    ]
+  },
+  {
+    "en": "what",
+    "bn": [
+      "কি"
+    ],
+    "def": [
+      "Asking for information specifying something.",
+      "The thing or things that."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "when",
+    "bn": [
+      "কখন"
+    ],
+    "def": [
+      "At what time.",
+      "At or during the time that."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "where",
+    "bn": [
+      "কোথায়"
+    ],
+    "def": [
+      "In or to what place or position."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "which",
+    "bn": [
+      "যা",
+      "কোনটি"
+    ],
+    "def": [
+      "Asking for information specifying one or more people or things from a definite set.",
+      "Used to refer to something previously mentioned when introducing a clause."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "while",
+    "bn": [
+      "যখন",
+      "সময়"
+    ],
+    "def": [
+      "A period of time.",
+      "At the same time; whereas."
+    ],
+    "syn": [
+      "during",
+      "whereas"
+    ],
+    "ant": []
+  },
+  {
+    "en": "who",
+    "bn": [
+      "কে"
+    ],
+    "def": [
+      "What or which person or people.",
+      "Used to introduce a clause giving further information about a person or people previously mentioned."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "whole",
+    "bn": [
+      "সমগ্র"
+    ],
+    "def": [
+      "All of; entire.",
+      "A thing that is complete in itself."
+    ],
+    "syn": [
+      "entire",
+      "complete"
+    ],
+    "ant": [
+      "part",
+      "partial"
+    ]
+  },
+  {
+    "en": "why",
+    "bn": [
+      "কেন"
+    ],
+    "def": [
+      "For what reason or purpose."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "will",
+    "bn": [
+      "ইচ্ছা",
+      "উইল"
+    ],
+    "def": [
+      "Expressing the future tense.",
+      "The faculty by which a person decides on and initiates action.",
+      "A legal document containing instructions for one's property after death."
+    ],
+    "syn": [
+      "determination",
+      "testament"
+    ],
+    "ant": [
+      "hesitation",
+      "weakness"
+    ]
+  },
+  {
+    "en": "with",
+    "bn": [
+      "সাথে"
+    ],
+    "def": [
+      "Accompanied by another person or thing.",
+      "Having or possessing."
+    ],
+    "syn": [
+      "alongside",
+      "including"
+    ],
+    "ant": [
+      "without"
+    ]
+  },
+  {
+    "en": "work",
+    "bn": [
+      "কাজ"
+    ],
+    "def": [
+      "Activity involving mental or physical effort done in order to achieve a purpose or result.",
+      "To be engaged in physical or mental activity in order to achieve a result."
+    ],
+    "syn": [
+      "labor",
+      "function"
+    ],
+    "ant": [
+      "rest",
+      "play"
+    ]
+  },
+  {
+    "en": "world",
+    "bn": [
+      "বিশ্ব"
+    ],
+    "def": [
+      "The earth, together with all of its countries, peoples, and natural features."
+    ],
+    "syn": [
+      "earth",
+      "globe"
+    ],
+    "ant": []
+  },
+  {
+    "en": "would",
+    "bn": [
+      "করত"
+    ],
+    "def": [
+      "Past of 'will', used to talk about the future in the past.",
+      "Expressing a desire or inclination."
+    ],
+    "syn": [
+      "wish",
+      "want"
+    ],
+    "ant": [
+      "would not"
+    ]
+  },
+  {
+    "en": "write",
+    "bn": [
+      "লেখা"
+    ],
+    "def": [
+      "To mark letters, words, or other symbols on a surface, typically paper, with a pen, pencil, or similar implement."
+    ],
+    "syn": [
+      "compose",
+      "record"
+    ],
+    "ant": [
+      "erase",
+      "delete"
+    ]
+  },
+  {
+    "en": "year",
+    "bn": [
+      "বছর"
+    ],
+    "def": [
+      "The time taken by the earth to make one revolution around the sun."
+    ],
+    "syn": [
+      "twelve months"
+    ],
+    "ant": []
+  },
+  {
+    "en": "you",
+    "bn": [
+      "তুমি",
+      "আপনি"
+    ],
+    "def": [
+      "Used to refer to the person or people that the speaker is addressing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "young",
+    "bn": [
+      "তরুণ"
+    ],
+    "def": [
+      "Having lived or existed for only a short time; not old."
+    ],
+    "syn": [
+      "youthful",
+      "juvenile"
+    ],
+    "ant": [
+      "old",
+      "elderly"
+    ]
+  },
+  {
         "en": "Abandoned",
         "bn": [
             "পরিত্যক্ত",
