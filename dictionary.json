@@ -169,7 +169,7 @@
   },
   {
     "en": "bias",
-    "bn": ["পক্ষপাত", "অপ偏向"],
+    "bn": ["পক্ষপাত", "প্রবণতা"],
     "def": ["Inclination or prejudice for or against one person or group."],
     "syn": ["prejudice", "partiality"],
     "ant": ["impartiality", "fairness"]
