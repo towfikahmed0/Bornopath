@@ -205,26 +205,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 })
 // --------------------------------Word of the Day--------------------------------------------------------------
-let wordofdayIdx
-// Fetch dictionary data from the remote JSON file
-// async function fetchDictionary() {
 
-//     try {
-//         const response = await fetch('https://raw.githubusercontent.com/towfikahmed0/Bornopath/refs/heads/main/dictionary.json');
-//         dictionary = await response.json();
-//         console.log("Dictionary loaded successfully.");
-//     } catch (error) {
-//         console.error("Error loading dictionary:", error);
-//         document.getElementsByTagName('body')[0].innerHTML = `
-//     <div class="container text-center m-5">
-//     <h1><i class="fa fa-exclamation-triangle"></i> Error Loading Dictionary :(</h1>
-//     <p>There was an error loading the dictionary. Please try again later.</p>
-//     <button class="btn btn-primary" onclick="window.location.reload()">Reload</button>
-//     <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
-//     </div>`;
-//         return;
-//     }
-// }
 
 fetchDictionary().then(() => {
     // After fetching the dictionary, check for the word of the day
@@ -244,41 +225,6 @@ window.setWordOfDay = function () {
         let wordofdayIdx;
         let highlightAccuracy = null;
 
-        // if (user) {
-        //     try {
-        //         const userRef = doc(db, "users", user.uid);
-        //         const userSnap = await getDoc(userRef);
-
-        //         let lowestIdx = null;
-        //         let lowestAccuracy = 101;
-
-        //         if (userSnap.exists()) {
-        //             let practiced = userSnap.data().practicedQuestionsIdx || {};
-        //             let entries = Array.isArray(practiced)
-        //                 ? practiced.flatMap(item => Object.entries(item))
-        //                 : Object.entries(practiced);
-
-        //             for (const [idx, stats] of entries) {
-        //                 const correct = stats.correctAttempts || 0;
-        //                 const total = stats.totalAttempts || 0;
-        //                 if (total > 0) {
-        //                     const accuracy = (correct / total) * 100;
-        //                     if (accuracy < lowestAccuracy) {
-        //                         lowestAccuracy = accuracy;
-        //                         lowestIdx = idx;
-        //                     }
-        //                 }
-        //             }
-        //         }
-
-        //         if (lowestIdx !== null) {
-        //             wordofdayIdx = lowestIdx;
-        //             highlightAccuracy = lowestAccuracy.toFixed(1);
-        //         }
-        //     } catch (err) {
-        //         console.error("Error fetching user progress:", err);
-        //     }
-        // }
 
         // fallback to random word
         const date = new Date().getDate();
@@ -506,6 +452,8 @@ window.intialQuestions = async function (QNo, limit, mood) {
         document.getElementById('endUnlimitedPractice').removeAttribute("onclick");
         document.getElementById("endUnlimitedPractice").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${QNo + 1}, "${mood}")`);
         document.getElementById("endUnlimitedPractice").style.display = 'block';
+        document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit}, "${mood}")`);
+
         return; // Exit for unlimited practice
     }
     document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit}, "${mood}")`);
@@ -734,8 +682,12 @@ function showCorrectAnsDtls(ansIdx, options, correctOption) {
                 <h4><i class="fa fa-exchange"></i> Antonyms</h4>
                 <p>${correctAnsData['ant']}</p>
               </div>
-            </div><button 
-  class="btn btn-primary" 
+            </div>
+            <div>
+                    <img src="https://www.english-bangla.com/public/images/words/D${correctAnsData['en'][0].toLowerCase()}/${correctAnsData['en'].toLowerCase()}" style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px;" alt="Image related to ${correctAnsData['en']}" onerror="this.style.display='none'">
+            </div>
+            <br>
+            <button class="btn btn-primary" 
   onclick="
     generateAIExplanation(
       '${correctAnsData['en']}',
@@ -1239,6 +1191,10 @@ window.showWordDtls = async function (wordDetails) {
                   <p>${allAntonyms}</p>
                 </div>
               </div>
+              <div>
+                    <img src="https://www.english-bangla.com/public/images/words/D${wordDetails[0][0].toLowerCase()}/${wordDetails[0].toLowerCase()}" style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px;" alt="Image related to ${wordDetails[0]}" onerror="this.style.display='none'">
+            </div>
+            <br>
 
               <div id="ai-explanation" class="mb-3">
                 <div class="loading" id="loadingDiv">
