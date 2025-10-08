@@ -1,5 +1,418 @@
 [
   {
+    "en": "advances",
+    "bn": ["অগ্রগতি", "উন্নতি"],
+    "def": ["Forward movement or progress in development."],
+    "syn": ["progress", "development"],
+    "ant": ["regress", "decline"]
+  },
+  {
+    "en": "affirming",
+    "bn": ["দৃঢ়ভাবে বলা", "নিশ্চিতকরণ"],
+    "def": ["Stating or asserting something positively and firmly."],
+    "syn": ["declaring", "asserting"],
+    "ant": ["denying", "rejecting"]
+  },
+  {
+    "en": "analysis",
+    "bn": ["বিশ্লেষণ"],
+    "def": ["Detailed examination of the elements or structure of something."],
+    "syn": ["examination", "evaluation"],
+    "ant": ["synthesis", "combination"]
+  },
+  {
+    "en": "analyze",
+    "bn": ["বিশ্লেষণ করা"],
+    "def": ["To examine methodically and in detail."],
+    "syn": ["examine", "investigate"],
+    "ant": ["synthesize", "combine"]
+  },
+  {
+    "en": "argue",
+    "bn": ["যুক্তি দেওয়া", "তর্ক করা"],
+    "def": ["To give reasons or evidence in support of an idea or theory."],
+    "syn": ["contend", "reason"],
+    "ant": ["agree", "concur"]
+  },
+  {
+    "en": "assertions",
+    "bn": ["দাবি", "জোর দিয়ে বলা"],
+    "def": ["Confident and forceful statements of fact or belief."],
+    "syn": ["declarations", "contentions"],
+    "ant": ["denials", "retractions"]
+  },
+  {
+    "en": "astronomers",
+    "bn": ["জ্যোতির্বিজ্ঞানী"],
+    "def": ["Scientists who study celestial bodies and the universe."],
+    "syn": ["astrophysicists", "stargazers"],
+    "ant": []
+  },
+  {
+    "en": "chemical",
+    "bn": ["রাসায়নিক"],
+    "def": ["Relating to chemistry, or a substance produced by or used in a chemical process."],
+    "syn": ["compound", "substance"],
+    "ant": []
+  },
+  {
+    "en": "complication",
+    "bn": ["জটিলতা"],
+    "def": ["A circumstance that makes something more difficult or intricate."],
+    "syn": ["difficulty", "problem"],
+    "ant": ["simplicity", "resolution"]
+  },
+  {
+    "en": "conclusion",
+    "bn": ["উপসংহার", "সিদ্ধান্ত"],
+    "def": ["The end or finish of an event, process, or a judgment reached by reasoning."],
+    "syn": ["end", "inference"],
+    "ant": ["beginning", "introduction"]
+  },
+  {
+    "en": "critical",
+    "bn": ["সমালোচনামূলক", "গুরুত্বপূর্ণ"],
+    "def": ["Expressing adverse or disapproving comments; or of crucial importance."],
+    "syn": ["fault-finding", "crucial"],
+    "ant": ["complimentary", "unimportant"]
+  },
+  {
+    "en": "curious",
+    "bn": ["কৌতূহলী"],
+    "def": ["Eager to know or learn something."],
+    "syn": ["inquisitive", "interested"],
+    "ant": ["indifferent", "uninterested"]
+  },
+  {
+    "en": "data",
+    "bn": ["উপাত্ত", "তথ্য"],
+    "def": ["Facts and statistics collected together for reference or analysis."],
+    "syn": ["information", "facts"],
+    "ant": []
+  },
+  {
+    "en": "degree",
+    "bn": ["ডিগ্রী", "মাত্রা"],
+    "def": ["The amount, level, or extent to which something happens or is present; an academic qualification."],
+    "syn": ["level", "extent", "qualification"],
+    "ant": []
+  },
+  {
+    "en": "development",
+    "bn": ["উন্নয়ন", "মানোন্নয়ন"],
+    "def": ["The process of growing or progressing."],
+    "syn": ["growth", "evolution"],
+    "ant": ["decline", "stagnation"]
+  },
+  {
+    "en": "discoveries",
+    "bn": ["আবিষ্কার"],
+    "def": ["The actions or processes of finding something for the first time."],
+    "syn": ["findings", "revelations"],
+    "ant": []
+  },
+  {
+    "en": "disprove",
+    "bn": ["মিথ্যা প্রমাণ করা"],
+    "def": ["To prove that something is false."],
+    "syn": ["refute", "debunk"],
+    "ant": ["prove", "confirm"]
+  },
+  {
+    "en": "electromagnetic",
+    "bn": ["তড়িৎ-চৌম্বকীয়"],
+    "def": ["Relating to the interrelation of electric currents or fields and magnetic fields."],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "element",
+    "bn": ["উপাদান", "মৌল"],
+    "def": ["A fundamental or essential part; a chemical substance that cannot be broken down."],
+    "syn": ["component", "constituent"],
+    "ant": ["whole", "compound"]
+  },
+  {
+    "en": "emphasize",
+    "bn": ["গুরুত্ব দেওয়া", "জোর দেওয়া"],
+    "def": ["To give special importance or prominence to something."],
+    "syn": ["stress", "highlight"],
+    "ant": ["understate", "downplay"]
+  },
+  {
+    "en": "errors",
+    "bn": ["ভুল", "ত্রুটি"],
+    "def": ["Mistakes."],
+    "syn": ["mistakes", "faults"],
+    "ant": ["accuracies", "correctness"]
+  },
+  {
+    "en": "essential",
+    "bn": ["অপরিহার্য", "মৌলিক"],
+    "def": ["Absolutely necessary; extremely important."],
+    "syn": ["crucial", "vital"],
+    "ant": ["optional", "nonessential"]
+  },
+  {
+    "en": "evidence",
+    "bn": ["প্রমাণ"],
+    "def": ["The available body of facts indicating whether a belief is true or valid."],
+    "syn": ["proof", "testimony"],
+    "ant": ["disproof", "refutation"]
+  },
+  {
+    "en": "experiment",
+    "bn": ["পরীক্ষা", "পরীক্ষণ"],
+    "def": ["A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact."],
+    "syn": ["test", "trial"],
+    "ant": []
+  },
+  {
+    "en": "explanation",
+    "bn": ["ব্যাখ্যা"],
+    "def": ["A statement that makes something clear."],
+    "syn": ["clarification", "interpretation"],
+    "ant": ["obfuscation", "mystification"]
+  },
+  {
+    "en": "fact",
+    "bn": ["সত্য", "বাস্তবতা"],
+    "def": ["A thing that is known or proved to be true."],
+    "syn": ["reality", "truth"],
+    "ant": ["fiction", "falsehood"]
+  },
+  {
+    "en": "finite",
+    "bn": ["সসীম", "সীমাবদ্ধ"],
+    "def": ["Having limits or bounds."],
+    "syn": ["limited", "bounded"],
+    "ant": ["infinite", "endless"]
+  },
+  {
+    "en": "framework",
+    "bn": ["কাঠামো"],
+    "def": ["A basic structure underlying a system, concept, or text."],
+    "syn": ["structure", "skeleton"],
+    "ant": []
+  },
+  {
+    "en": "gather",
+    "bn": ["জড়ো করা", "সংগ্রহ করা"],
+    "def": ["To come together; to collect."],
+    "syn": ["collect", "assemble"],
+    "ant": ["disperse", "scatter"]
+  },
+  {
+    "en": "hypotheses",
+    "bn": ["প্রকল্প", "অনুমান"],
+    "def": ["Proposed explanations made on the basis of limited evidence as a starting point for further investigation."],
+    "syn": ["theories", "suppositions"],
+    "ant": ["proofs", "facts"]
+  },
+  {
+    "en": "hypothesize",
+    "bn": ["অনুমান করা"],
+    "def": ["To put forward as a hypothesis."],
+    "syn": ["theorize", "speculate"],
+    "ant": ["prove", "demonstrate"]
+  },
+  {
+    "en": "idea",
+    "bn": ["ধারণা", "ভাবনা"],
+    "def": ["A thought or suggestion as to a possible course of action; a concept."],
+    "syn": ["concept", "thought"],
+    "ant": ["reality", "fact"]
+  },
+  {
+    "en": "insight",
+    "bn": ["সূক্ষ্মদৃষ্টি", "অন্তর্দৃষ্টি"],
+    "def": ["The capacity to gain an accurate and deep understanding of someone or something."],
+    "syn": ["understanding", "perception"],
+    "ant": ["obtuseness", "ignorance"]
+  },
+  {
+    "en": "knowledge",
+    "bn": ["জ্ঞান"],
+    "def": ["Facts, information, and skills acquired through experience or education."],
+    "syn": ["understanding", "wisdom"],
+    "ant": ["ignorance", "illiteracy"]
+  },
+  {
+    "en": "method",
+    "bn": ["পদ্ধতি"],
+    "def": ["A particular procedure for accomplishing or approaching something."],
+    "syn": ["technique", "process"],
+    "ant": ["chaos", "disorder"]
+  },
+  {
+    "en": "modern",
+    "bn": ["আধুনিক"],
+    "def": ["Relating to the present or recent times as opposed to the remote past."],
+    "syn": ["contemporary", "current"],
+    "ant": ["ancient", "old-fashioned"]
+  },
+  {
+    "en": "natural",
+    "bn": ["প্রাকৃতিক"],
+    "def": ["Existing in or derived from nature; not made or caused by humankind."],
+    "syn": ["organic", "wild"],
+    "ant": ["artificial", "man-made"]
+  },
+  {
+    "en": "observation",
+    "bn": ["পর্যবেক্ষণ"],
+    "def": ["The action or process of closely observing or monitoring."],
+    "syn": ["monitoring", "scrutiny"],
+    "ant": ["ignorance", "disregard"]
+  },
+  {
+    "en": "pattern",
+    "bn": ["নমুনা", "ছাঁদ"],
+    "def": ["A repeated decorative design; a regular and intelligible form or sequence."],
+    "syn": ["design", "sequence"],
+    "ant": ["randomness", "disorder"]
+  },
+  {
+    "en": "precisely",
+    "bn": ["অবিকল", "সঠিকভাবে"],
+    "def": ["In exact terms; without vagueness."],
+    "syn": ["exactly", "accurately"],
+    "ant": ["approximately", "vaguely"]
+  },
+  {
+    "en": "process",
+    "bn": ["প্রক্রিয়া"],
+    "def": ["A series of actions or steps taken to achieve a particular end."],
+    "syn": ["procedure", "method"],
+    "ant": []
+  },
+  {
+    "en": "prove",
+    "bn": ["প্রমাণ করা"],
+    "def": ["To demonstrate the truth or existence of something."],
+    "syn": ["verify", "confirm"],
+    "ant": ["disprove", "refute"]
+  },
+  {
+    "en": "quantitative",
+    "bn": ["পরিমাণগত"],
+    "def": ["Relating to, measuring, or measured by the quantity of something rather than its quality."],
+    "syn": ["numerical", "measurable"],
+    "ant": ["qualitative"]
+  },
+  {
+    "en": "reliable",
+    "bn": ["নির্ভরযোগ্য"],
+    "def": ["Consistently good in quality or performance; able to be trusted."],
+    "syn": ["dependable", "trustworthy"],
+    "ant": ["unreliable", "undependable"]
+  },
+  {
+    "en": "robust",
+    "bn": ["মজবুত", "শক্তিশালী"],
+    "def": ["Strong and healthy; vigorous."],
+    "syn": ["sturdy", "durable"],
+    "ant": ["weak", "fragile"]
+  },
+  {
+    "en": "science",
+    "bn": ["বিজ্ঞান"],
+    "def": ["The systematic study of the structure and behavior of the physical and natural world through observation and experiment."],
+    "syn": ["knowledge", "discipline"],
+    "ant": ["superstition", "pseudoscience"]
+  },
+  {
+    "en": "scientific",
+    "bn": ["বৈজ্ঞানিক"],
+    "def": ["Based on or characterized by the methods and principles of science."],
+    "syn": ["systematic", "methodical"],
+    "ant": ["unscientific", "anecdotal"]
+  },
+  {
+    "en": "scope",
+    "bn": ["পরিসর", "ক্ষেত্র"],
+    "def": ["The extent of the area or subject matter that something deals with or to which it is relevant."],
+    "syn": ["range", "extent"],
+    "ant": ["limitation", "restriction"]
+  },
+  {
+    "en": "serendipity",
+    "bn": ["অপ্রত্যাশিত সৌভাগ্য", "দৈবযোগ"],
+    "def": ["The occurrence of events by chance in a happy or beneficial way."],
+    "syn": ["chance", "luck"],
+    "ant": ["misfortune", "planning"]
+  },
+  {
+    "en": "significant",
+    "bn": ["গুরুত্বপূর্ণ", "উল্লেখযোগ্য"],
+    "def": ["Sufficiently great or important to be worthy of attention."],
+    "syn": ["important", "notable"],
+    "ant": ["insignificant", "unimportant"]
+  },
+  {
+    "en": "similarity",
+    "bn": ["সাদৃশ্য"],
+    "def": ["The state or fact of being similar."],
+    "syn": ["resemblance", "likeness"],
+    "ant": ["difference", "dissimilarity"]
+  },
+  {
+    "en": "simplification",
+    "bn": ["সরলীকরণ"],
+    "def": ["The process of making something simpler or easier to do or understand."],
+    "syn": ["clarification", "streamlining"],
+    "ant": ["complication", "elaboration"]
+  },
+  {
+    "en": "statement",
+    "bn": ["বিবৃতি"],
+    "def": ["A definite or clear expression of something in speech or writing."],
+    "syn": ["declaration", "announcement"],
+    "ant": ["question", "denial"]
+  },
+  {
+    "en": "support",
+    "bn": ["সমর্থন করা"],
+    "def": ["To bear all or part of the weight; to give assistance or approval."],
+    "syn": ["bolster", "endorse"],
+    "ant": ["oppose", "undermine"]
+  },
+  {
+    "en": "tentative",
+    "bn": ["অস্থায়ী", "প্রাথমিক"],
+    "def": ["Not certain or fixed; provisional."],
+    "syn": ["provisional", "speculative"],
+    "ant": ["definite", "final"]
+  },
+  {
+    "en": "terminology",
+    "bn": ["পরিভাষা"],
+    "def": ["The body of terms used with a particular technical application in a subject of study."],
+    "syn": ["jargon", "vocabulary"],
+    "ant": []
+  },
+  {
+    "en": "test",
+    "bn": ["পরীক্ষা"],
+    "def": ["A procedure intended to establish the quality, performance, or reliability of something."],
+    "syn": ["trial", "experiment"],
+    "ant": []
+  },
+  {
+    "en": "theory",
+    "bn": ["তত্ত্ব"],
+    "def": ["A supposition or a system of ideas intended to explain something, based on general principles independent of the thing to be explained."],
+    "syn": ["hypothesis", "concept"],
+    "ant": ["practice", "fact"]
+  },
+  {
+    "en": "uncertainty",
+    "bn": ["অনিশ্চয়তা"],
+    "def": ["The state of being uncertain."],
+    "syn": ["doubt", "unpredictability"],
+    "ant": ["certainty", "clarity"]
+  },
+  {
     "en": "abandon",
     "bn": ["পরিত্যাগ করা"],
     "def": ["To leave completely and finally; forsake utterly; desert", "To give up control of something"],
