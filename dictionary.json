@@ -1,5 +1,1531 @@
 [
   {
+    "en": "academy",
+    "bn": ["একাডেমি", "শিক্ষাপ্রতিষ্ঠান"],
+    "def": ["A society or institution of learned individuals, or a school for special training."],
+    "syn": ["institute", "college"],
+    "ant": []
+  },
+  {
+    "en": "accepted",
+    "bn": ["গৃহীত", "স্বীকৃত"],
+    "def": ["Generally approved, believed, or recognized."],
+    "syn": ["approved", "recognized"],
+    "ant": ["rejected", "denied"]
+  },
+  {
+    "en": "access",
+    "bn": ["প্রবেশ", "অধিগম"],
+    "def": ["The means or opportunity to approach or enter a place."],
+    "syn": ["entry", "admission"],
+    "ant": ["exit", "egress"]
+  },
+  {
+    "en": "accident",
+    "bn": ["দুর্ঘটনা"],
+    "def": ["An unfortunate incident that happens unexpectedly and unintentionally."],
+    "syn": ["mishap", "casualty"],
+    "ant": ["intention", "plan"]
+  },
+  {
+    "en": "accurate",
+    "bn": ["সঠিক", "নির্ভুল"],
+    "def": ["Correct in all details; exact."],
+    "syn": ["precise", "correct"],
+    "ant": ["inaccurate", "wrong"]
+  },
+  {
+    "en": "actions",
+    "bn": ["কর্ম", "কার্যক্রম"],
+    "def": ["The process of doing something to achieve an aim."],
+    "syn": ["deeds", "acts"],
+    "ant": ["inaction", "idleness"]
+  },
+  {
+    "en": "activate",
+    "bn": ["সক্রিয় করা"],
+    "def": ["To make something active or operative."],
+    "syn": ["trigger", "start"],
+    "ant": ["deactivate", "disable"]
+  },
+  {
+    "en": "active",
+    "bn": ["সক্রিয়", "কর্মঠ"],
+    "def": ["Engaging or ready to engage in physically energetic pursuits."],
+    "syn": ["energetic", "lively"],
+    "ant": ["inactive", "passive"]
+  },
+  {
+    "en": "actually",
+    "bn": ["আসলে", "বাস্তবিকভাবে"],
+    "def": ["As the truth or facts of a situation; really."],
+    "syn": ["really", "in fact"],
+    "ant": ["supposedly", "theoretically"]
+  },
+  {
+    "en": "adjust",
+    "bn": ["সামঞ্জস্য করা", "ঠিক করা"],
+    "def": ["To alter or move slightly in order to achieve the desired fit, appearance, or result."],
+    "syn": ["adapt", "modify"],
+    "ant": ["disrupt", "derange"]
+  },
+  {
+    "en": "adopt",
+    "bn": ["দত্তক নেওয়া", "অবলম্বন করা"],
+    "def": ["To take up or start to use or follow (an idea, method, or course of action)."],
+    "syn": ["embrace", "take on"],
+    "ant": ["abandon", "reject"]
+  },
+  {
+    "en": "affect",
+    "bn": ["প্রভাবিত করা"],
+    "def": ["To have an effect on; make a difference to."],
+    "syn": ["influence", "impact"],
+    "ant": ["leave alone", "disregard"]
+  },
+  {
+    "en": "alternative",
+    "bn": ["বিকল্প"],
+    "def": ["One of two or more available possibilities."],
+    "syn": ["option", "choice"],
+    "ant": ["requirement", "necessity"]
+  },
+  {
+    "en": "analyse",
+    "bn": ["বিশ্লেষণ করা"],
+    "def": ["To examine methodically and in detail."],
+    "syn": ["examine", "investigate"],
+    "ant": ["synthesize", "combine"]
+  },
+  {
+    "en": "analytical",
+    "bn": ["বিশ্লেষণাত্মক"],
+    "def": ["Relating to or using analysis or logical reasoning."],
+    "syn": ["logical", "systematic"],
+    "ant": ["illogical", "unsystematic"]
+  },
+  {
+    "en": "application",
+    "bn": ["আবেদন", "প্রয়োগ"],
+    "def": ["A formal request to an authority; or the action of putting something into operation."],
+    "syn": ["request", "implementation"],
+    "ant": []
+  },
+  {
+    "en": "apply",
+    "bn": ["প্রয়োগ করা", "আবেদন করা"],
+    "def": ["To make a formal request; to put into operation or use."],
+    "syn": ["implement", "request"],
+    "ant": ["withdraw", "remove"]
+  },
+  {
+    "en": "artificial",
+    "bn": ["কৃত্রিম"],
+    "def": ["Made or produced by human beings rather than occurring naturally."],
+    "syn": ["synthetic", "man-made"],
+    "ant": ["natural", "genuine"]
+  },
+  {
+    "en": "assist",
+    "bn": ["সাহায্য করা"],
+    "def": ["To help someone."],
+    "syn": ["help", "aid"],
+    "ant": ["hinder", "obstruct"]
+  },
+  {
+    "en": "assistant",
+    "bn": ["সহকারী"],
+    "def": ["A person who helps in particular work."],
+    "syn": ["helper", "aide"],
+    "ant": ["boss", "supervisor"]
+  },
+  {
+    "en": "assumptions",
+    "bn": ["অনুমান", "ধারণা"],
+    "def": ["Things that are accepted as true or as certain to happen, without proof."],
+    "syn": ["presumptions", "suppositions"],
+    "ant": ["facts", "certainties"]
+  },
+  {
+    "en": "available",
+    "bn": ["উপলব্ধ"],
+    "def": ["Able to be used or obtained; at someone's disposal."],
+    "syn": ["accessible", "obtainable"],
+    "ant": ["unavailable", "inaccessible"]
+  },
+  {
+    "en": "avoid",
+    "bn": ["এড়িয়ে চলা"],
+    "def": ["To keep away from or stop oneself from doing something."],
+    "syn": ["evade", "shun"],
+    "ant": ["confront", "seek"]
+  },
+  {
+    "en": "beliefs",
+    "bn": ["বিশ্বাস"],
+    "def": ["Mental acceptance or conviction that something is true or real."],
+    "syn": ["convictions", "faith"],
+    "ant": ["disbelief", "doubt"]
+  },
+  {
+    "en": "bias",
+    "bn": ["পক্ষপাত", "অপ偏向"],
+    "def": ["Inclination or prejudice for or against one person or group."],
+    "syn": ["prejudice", "partiality"],
+    "ant": ["impartiality", "fairness"]
+  },
+  {
+    "en": "career",
+    "bn": ["পেশা", "কর্মজীবন"],
+    "def": ["An occupation undertaken for a significant period of a person's life."],
+    "syn": ["profession", "vocation"],
+    "ant": []
+  },
+  {
+    "en": "cause",
+    "bn": ["কারণ", "সৃষ্টি করা"],
+    "def": ["A person or thing that gives rise to an action, phenomenon, or condition."],
+    "syn": ["source", "reason"],
+    "ant": ["effect", "result"]
+  },
+  {
+    "en": "challenge",
+    "bn": ["চ্যালেঞ্জ"],
+    "def": ["A task or situation that tests someone's abilities."],
+    "syn": ["test", "difficulty"],
+    "ant": ["simplicity", "ease"]
+  },
+  {
+    "en": "circumstances",
+    "bn": ["পরিস্থিতি"],
+    "def": ["A fact or condition connected with or relevant to an event or action."],
+    "syn": ["situation", "conditions"],
+    "ant": []
+  },
+  {
+    "en": "coherent",
+    "bn": ["সুসঙ্গত"],
+    "def": ["Logical and consistent."],
+    "syn": ["logical", "consistent"],
+    "ant": ["incoherent", "illogical"]
+  },
+  {
+    "en": "colleagues",
+    "bn": ["সহকর্মী"],
+    "def": ["People with whom one works, especially in a profession or business."],
+    "syn": ["co-workers", "associates"],
+    "ant": []
+  },
+  {
+    "en": "collect",
+    "bn": ["সংগ্রহ করা"],
+    "def": ["To bring or gather together."],
+    "syn": ["gather", "assemble"],
+    "ant": ["disperse", "scatter"]
+  },
+  {
+    "en": "comfortable",
+    "bn": ["আরামদায়ক"],
+    "def": ["Providing physical ease and relaxation."],
+    "syn": ["cozy", "relaxing"],
+    "ant": ["uncomfortable", "awkward"]
+  },
+  {
+    "en": "commit",
+    "bn": ["অঙ্গীকার করা"],
+    "def": ["To pledge or bind to a certain course or policy."],
+    "syn": ["dedicate", "pledge"],
+    "ant": ["withdraw", "neglect"]
+  },
+  {
+    "en": "common",
+    "bn": ["সাধারণ", "সাধারণ্য"],
+    "def": ["Occurring, found, or done often; prevalent."],
+    "syn": ["usual", "prevalent"],
+    "ant": ["uncommon", "rare"]
+  },
+  {
+    "en": "compensate",
+    "bn": ["ক্ষতিপূরণ করা"],
+    "def": ["To give someone something, typically money, in recognition of loss, suffering, or injury."],
+    "syn": ["reimburse", "recompense"],
+    "ant": ["deprive", "fine"]
+  },
+  {
+    "en": "competitors",
+    "bn": ["প্রতিযোগী"],
+    "def": ["An organization or country that is engaged in commercial or economic competition with others."],
+    "syn": ["rivals", "contestants"],
+    "ant": ["allies", "partners"]
+  },
+  {
+    "en": "complete",
+    "bn": ["সম্পূর্ণ", "সমাপ্ত করা"],
+    "def": ["Having all the necessary or appropriate parts; to finish making or doing."],
+    "syn": ["entire", "finish"],
+    "ant": ["incomplete", "start"]
+  },
+  {
+    "en": "complexity",
+    "bn": ["জটিলতা"],
+    "def": ["The state or quality of being intricate or complicated."],
+    "syn": ["complication", "intricacy"],
+    "ant": ["simplicity", "clarity"]
+  },
+  {
+    "en": "comprehensive",
+    "bn": ["সম্পূর্ণ", "বিস্তৃত"],
+    "def": ["Including or dealing with all or nearly all elements or aspects of something."],
+    "syn": ["thorough", "exhaustive"],
+    "ant": ["partial", "limited"]
+  },
+  {
+    "en": "computer",
+    "bn": ["কম্পিউটার"],
+    "def": ["An electronic device for storing and processing data."],
+    "syn": ["PC", "machine"],
+    "ant": []
+  },
+  {
+    "en": "confident",
+    "bn": ["আত্মবিশ্বাসী"],
+    "def": ["Feeling or showing certainty about something."],
+    "syn": ["assured", "self-reliant"],
+    "ant": ["unsure", "insecure"]
+  },
+  {
+    "en": "conscious",
+    "bn": ["সচেতন"],
+    "def": ["Aware of and responding to one's surroundings."],
+    "syn": ["aware", "awake"],
+    "ant": ["unconscious", "unaware"]
+  },
+  {
+    "en": "consider",
+    "bn": ["বিবেচনা করা"],
+    "def": ["To think carefully about something."],
+    "syn": ["ponder", "contemplate"],
+    "ant": ["disregard", "ignore"]
+  },
+  {
+    "en": "constant",
+    "bn": ["ধ্রুব", "স্থির"],
+    "def": ["Occurring continuously over a period of time."],
+    "syn": ["continuous", "steady"],
+    "ant": ["variable", "intermittent"]
+  },
+  {
+    "en": "construct",
+    "bn": ["গঠন করা"],
+    "def": ["To build or make something."],
+    "syn": ["build", "create"],
+    "ant": ["demolish", "destroy"]
+  },
+  {
+    "en": "contemporary",
+    "bn": ["সমসাময়িক"],
+    "def": ["Living or occurring at the same time."],
+    "syn": ["modern", "current"],
+    "ant": ["old-fashioned", "historical"]
+  },
+  {
+    "en": "contribution",
+    "bn": ["অবদান"],
+    "def": ["A gift or payment to a common fund or collection."],
+    "syn": ["donation", "input"],
+    "ant": ["withdrawal", "loss"]
+  },
+  {
+    "en": "control",
+    "bn": ["নিয়ন্ত্রণ"],
+    "def": ["The power to influence or direct people's behavior or the course of events."],
+    "syn": ["command", "authority"],
+    "ant": ["chaos", "anarchy"]
+  },
+  {
+    "en": "convince",
+    "bn": ["প্রত্যয় জন্মানো"],
+    "def": ["To cause someone to believe firmly in the truth of something."],
+    "syn": ["persuade", "assure"],
+    "ant": ["deter", "discourage"]
+  },
+  {
+    "en": "cooperation",
+    "bn": ["সহযোগিতা"],
+    "def": ["The process of working together to the same end."],
+    "syn": ["collaboration", "teamwork"],
+    "ant": ["opposition", "resistance"]
+  },
+  {
+    "en": "correlation",
+    "bn": ["সহসম্বন্ধ"],
+    "def": ["A mutual relationship or connection between two or more things."],
+    "syn": ["connection", "link"],
+    "ant": ["dissociation", "disconnect"]
+  },
+  {
+    "en": "counterintuitive",
+    "bn": ["প্রতিকূল-স্বজ্ঞাত"],
+    "def": ["Contrary to intuition or common-sense expectation."],
+    "syn": ["unexpected", "paradoxical"],
+    "ant": ["intuitive", "obvious"]
+  },
+  {
+    "en": "courteous",
+    "bn": ["বিনয়ী", "শিষ্ট"],
+    "def": ["Polite, respectful, or considerate in manner."],
+    "syn": ["polite", "respectful"],
+    "ant": ["rude", "discourteous"]
+  },
+  {
+    "en": "crucial",
+    "bn": ["অত্যন্ত গুরুত্বপূর্ণ"],
+    "def": ["Decisive or critical, especially in the success or failure of something."],
+    "syn": ["vital", "essential"],
+    "ant": ["minor", "insignificant"]
+  },
+  {
+    "en": "currently",
+    "bn": ["বর্তমানে"],
+    "def": ["At the present time."],
+    "syn": ["presently", "now"],
+    "ant": ["formerly", "previously"]
+  },
+  {
+    "en": "debate",
+    "bn": ["বিতর্ক"],
+    "def": ["A formal discussion on a particular topic."],
+    "syn": ["discussion", "argument"],
+    "ant": ["agreement", "consensus"]
+  },
+  {
+    "en": "decade",
+    "bn": ["দশক"],
+    "def": ["A period of ten years."],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "decide",
+    "bn": ["সিদ্ধান্ত নেওয়া"],
+    "def": ["To come to a resolution in the mind as a result of consideration."],
+    "syn": ["determine", "resolve"],
+    "ant": ["hesitate", "waver"]
+  },
+  {
+    "en": "decision",
+    "bn": ["সিদ্ধান্ত"],
+    "def": ["A conclusion or resolution reached after consideration."],
+    "syn": ["conclusion", "resolution"],
+    "ant": ["indecision", "hesitation"]
+  },
+  {
+    "en": "deduction",
+    "bn": ["কাটা", "অনুমান"],
+    "def": ["The action of deducting or subtracting something; or a method of reasoning from general principles to specific cases."],
+    "syn": ["subtraction", "inference"],
+    "ant": ["addition", "induction"]
+  },
+  {
+    "en": "deductive",
+    "bn": ["ন্যায়িক"],
+    "def": ["Characterized by or based on the inference of particular instances from a general law."],
+    "syn": ["inferential", "logical"],
+    "ant": ["inductive", "illogical"]
+  },
+  {
+    "en": "defend",
+    "bn": ["প্রতিরক্ষা করা"],
+    "def": ["To resist an attack made on someone or something; protect from harm or danger."],
+    "syn": ["protect", "guard"],
+    "ant": ["attack", "assault"]
+  },
+  {
+    "en": "deliberate",
+    "bn": ["ইচ্ছাকৃত", "সচেতন"],
+    "def": ["Done consciously and intentionally."],
+    "syn": ["intentional", "conscious"],
+    "ant": ["accidental", "unintentional"]
+  },
+  {
+    "en": "demonstrate",
+    "bn": ["প্রদর্শন করা"],
+    "def": ["To show clearly by giving proof or evidence."],
+    "syn": ["show", "prove"],
+    "ant": ["conceal", "hide"]
+  },
+  {
+    "en": "department",
+    "bn": ["বিভাগ"],
+    "def": ["A division of a large organization or building."],
+    "syn": ["section", "unit"],
+    "ant": []
+  },
+  {
+    "en": "depth",
+    "bn": ["গভীরতা"],
+    "def": ["The distance from the top or surface to the bottom of something."],
+    "syn": ["deepness", "profundity"],
+    "ant": ["shallowness", "surface"]
+  },
+  {
+    "en": "describe",
+    "bn": ["বর্ণনা করা"],
+    "def": ["To give a detailed account in words of."],
+    "syn": ["explain", "narrate"],
+    "ant": ["confuse", "misrepresent"]
+  },
+  {
+    "en": "description",
+    "bn": ["বর্ণনা"],
+    "def": ["A spoken or written account of a person, object, or event."],
+    "syn": ["account", "explanation"],
+    "ant": []
+  },
+  {
+    "en": "designed",
+    "bn": ["নকশাকৃত"],
+    "def": ["Planned or conceived in detail or for a specific purpose."],
+    "syn": ["planned", "created"],
+    "ant": ["random", "accidental"]
+  },
+  {
+    "en": "detached",
+    "bn": ["বিচ্ছিন্ন", "নিরপেক্ষ"],
+    "def": ["Separate or disconnected; impartial."],
+    "syn": ["separate", "impartial"],
+    "ant": ["attached", "biased"]
+  },
+  {
+    "en": "detective",
+    "bn": ["গোয়েন্দা"],
+    "def": ["A person, especially a police officer, whose occupation is to investigate and solve crimes."],
+    "syn": ["investigator", "sleuth"],
+    "ant": []
+  },
+  {
+    "en": "develop",
+    "bn": ["বিকাশ করা"],
+    "def": ["To grow or cause to grow and become more mature, advanced, or elaborate."],
+    "syn": ["evolve", "advance"],
+    "ant": ["deteriorate", "regress"]
+  },
+  {
+    "en": "diagnosis",
+    "bn": ["রোগ নির্ণয়"],
+    "def": ["The identification of the nature of an illness or other problem by examination of the symptoms."],
+    "syn": ["identification", "analysis"],
+    "ant": []
+  },
+  {
+    "en": "digital",
+    "bn": ["ডিজিটাল"],
+    "def": ["Relating to or using signals or information represented as discrete digits."],
+    "syn": ["numerical", "electronic"],
+    "ant": ["analog", "manual"]
+  },
+  {
+    "en": "disappoint",
+    "bn": ["হতাশ করা"],
+    "def": ["To fail to fulfill the hopes or expectations of someone."],
+    "syn": ["let down", "dissatisfy"],
+    "ant": ["satisfy", "please"]
+  },
+  {
+    "en": "discover",
+    "bn": ["আবিষ্কার করা"],
+    "def": ["To find something or someone unexpectedly or in the course of a search."],
+    "syn": ["find", "uncover"],
+    "ant": ["conceal", "hide"]
+  },
+  {
+    "en": "dynamic",
+    "bn": ["গতিশীল"],
+    "def": ["Characterized by constant change, activity, or progress."],
+    "syn": ["energetic", "active"],
+    "ant": ["static", "inactive"]
+  },
+  {
+    "en": "educated",
+    "bn": ["শিক্ষিত"],
+    "def": ["Having been educated; resulting from a good or high standard of education."],
+    "syn": ["learned", "knowledgeable"],
+    "ant": ["uneducated", "ignorant"]
+  },
+  {
+    "en": "effects",
+    "bn": ["প্রভাব"],
+    "def": ["A change which is a result or consequence of an action or other cause."],
+    "syn": ["results", "consequences"],
+    "ant": ["causes", "origins"]
+  },
+  {
+    "en": "effortless",
+    "bn": ["নিষ্ক্লেশ", "সহজ"],
+    "def": ["Requiring no physical or mental exertion."],
+    "syn": ["easy", "simple"],
+    "ant": ["strenuous", "difficult"]
+  },
+  {
+    "en": "eliminate",
+    "bn": ["বাদ দেওয়া", "দূর করা"],
+    "def": ["To completely remove or get rid of something."],
+    "syn": ["remove", "eradicate"],
+    "ant": ["include", "add"]
+  },
+  {
+    "en": "embrace",
+    "bn": ["আলিঙ্গন করা", "গ্রহণ করা"],
+    "def": ["To hold someone closely in one's arms; or to accept or support a belief, theory, or change willingly and enthusiastically."],
+    "syn": ["hug", "adopt"],
+    "ant": ["reject", "exclude"]
+  },
+  {
+    "en": "emerging",
+    "bn": ["উদীয়মান"],
+    "def": ["Becoming apparent, important, or prominent."],
+    "syn": ["developing", "arising"],
+    "ant": ["declining", "disappearing"]
+  },
+  {
+    "en": "empathic",
+    "bn": ["সহানুভূতিশীল"],
+    "def": ["Showing an ability to understand and share the feelings of another."],
+    "syn": ["compassionate", "understanding"],
+    "ant": ["unfeeling", "indifferent"]
+  },
+  {
+    "en": "employee",
+    "bn": ["কর্মচারী"],
+    "def": ["A person employed for wages or salary, especially at non-executive level."],
+    "syn": ["worker", "staff"],
+    "ant": ["employer", "boss"]
+  },
+  {
+    "en": "empowered",
+    "bn": ["ক্ষমতাপ্রাপ্ত"],
+    "def": ["Given the authority or power to do something."],
+    "syn": ["authorized", "enabled"],
+    "ant": ["powerless", "disabled"]
+  },
+  {
+    "en": "enable",
+    "bn": ["সক্ষম করা"],
+    "def": ["To give someone the authority or means to do something."],
+    "syn": ["authorize", "allow"],
+    "ant": ["prevent", "disable"]
+  },
+  {
+    "en": "encourage",
+    "bn": ["উৎসাহিত করা"],
+    "def": ["To give support, confidence, or hope to someone."],
+    "syn": ["motivate", "inspire"],
+    "ant": ["discourage", "dissuade"]
+  },
+  {
+    "en": "engage",
+    "bn": ["নিযুক্ত করা", "জড়িত করা"],
+    "def": ["To occupy, attract, or involve someone's interest or attention."],
+    "syn": ["involve", "occupy"],
+    "ant": ["disengage", "release"]
+  },
+  {
+    "en": "environment",
+    "bn": ["পরিবেশ"],
+    "def": ["The surroundings or conditions in which a person, animal, or plant lives or operates."],
+    "syn": ["surroundings", "atmosphere"],
+    "ant": []
+  },
+  {
+    "en": "episode",
+    "bn": ["পর্ব"],
+    "def": ["An event or a group of events occurring as part of a sequence."],
+    "syn": ["incident", "occurrence"],
+    "ant": []
+  },
+  {
+    "en": "establish",
+    "bn": ["প্রতিষ্ঠা করা"],
+    "def": ["To set up on a firm or permanent basis."],
+    "syn": ["found", "set up"],
+    "ant": ["abolish", "demolish"]
+  },
+  {
+    "en": "ethical",
+    "bn": ["নৈতিক"],
+    "def": ["Relating to moral principles or the branch of knowledge dealing with these."],
+    "syn": ["moral", "principled"],
+    "ant": ["unethical", "immoral"]
+  },
+  {
+    "en": "evaluate",
+    "bn": ["মূল্যায়ন করা"],
+    "def": ["To form an idea of the amount, number, or value of; assess."],
+    "syn": ["assess", "appraise"],
+    "ant": ["ignore", "guess"]
+  },
+  {
+    "en": "exaggerated",
+    "bn": ["অতিরঞ্জিত"],
+    "def": ["Represented as larger, better, or worse than in reality."],
+    "syn": ["overstated", "amplified"],
+    "ant": ["understated", "minimized"]
+  },
+  {
+    "en": "examine",
+    "bn": ["পরীক্ষা করা"],
+    "def": ["To inspect someone or something in detail to determine their nature or condition."],
+    "syn": ["inspect", "scrutinize"],
+    "ant": ["overlook", "ignore"]
+  },
+  {
+    "en": "exclude",
+    "bn": ["বাদ দেওয়া"],
+    "def": ["To deny someone access to or bar from a place, group, or privilege."],
+    "syn": ["omit", "leave out"],
+    "ant": ["include", "admit"]
+  },
+  {
+    "en": "existing",
+    "bn": ["বিদ্যমান"],
+    "def": ["Currently in being or operation."],
+    "syn": ["current", "present"],
+    "ant": ["non-existent", "future"]
+  },
+  {
+    "en": "expect",
+    "bn": ["আশা করা"],
+    "def": ["To regard something as likely to happen."],
+    "syn": ["anticipate", "predict"],
+    "ant": ["doubt", "despair"]
+  },
+  {
+    "en": "expert",
+    "bn": ["বিশেষজ্ঞ"],
+    "def": ["A person who has a comprehensive and authoritative knowledge of or skill in a particular area."],
+    "syn": ["specialist", "authority"],
+    "ant": ["amateur", "novice"]
+  },
+  {
+    "en": "explain",
+    "bn": ["ব্যাখ্যা করা"],
+    "def": ["To make an idea, situation, or problem clear to someone by describing it in more detail or revealing relevant facts."],
+    "syn": ["clarify", "elucidate"],
+    "ant": ["confuse", "obscure"]
+  },
+  {
+    "en": "explore",
+    "bn": ["অন্বেষণ করা"],
+    "def": ["To travel through an unfamiliar area in order to learn about it."],
+    "syn": ["investigate", "research"],
+    "ant": ["ignore", "neglect"]
+  },
+  {
+    "en": "factors",
+    "bn": ["উপাদান", "কারক"],
+    "def": ["A circumstance, fact, or influence that contributes to a result."],
+    "syn": ["elements", "components"],
+    "ant": []
+  },
+  {
+    "en": "failed",
+    "bn": ["ব্যর্থ"],
+    "def": ["Unsuccessful in achieving a goal."],
+    "syn": ["unsuccessful", "futile"],
+    "ant": ["successful", "effective"]
+  },
+  {
+    "en": "familiar",
+    "bn": ["পরিচিত"],
+    "def": ["Well known from long or close association."],
+    "syn": ["known", "recognizable"],
+    "ant": ["unfamiliar", "strange"]
+  },
+  {
+    "en": "fictional",
+    "bn": ["কাল্পনিক"],
+    "def": ["Relating to or occurring in fiction; invented for a story."],
+    "syn": ["imaginary", "invented"],
+    "ant": ["real", "factual"]
+  },
+  {
+    "en": "focus",
+    "bn": ["ফোকাস", "কেন্দ্রবিন্দু"],
+    "def": ["The center of interest or activity."],
+    "syn": ["center", "core"],
+    "ant": ["periphery", "margin"]
+  },
+  {
+    "en": "forecast",
+    "bn": ["পূর্বাভাস"],
+    "def": ["A prediction or estimate of future events, especially coming weather or a financial trend."],
+    "syn": ["prediction", "projection"],
+    "ant": []
+  },
+  {
+    "en": "forensic",
+    "bn": ["ফরেনসিক"],
+    "def": ["Relating to or denoting the application of scientific methods and techniques to the investigation of crime."],
+    "syn": ["criminalistic", "investigative"],
+    "ant": []
+  },
+  {
+    "en": "formulate",
+    "bn": ["সূত্রবদ্ধ করা"],
+    "def": ["To create or prepare methodically."],
+    "syn": ["devise", "create"],
+    "ant": ["destroy", "disorganize"]
+  },
+  {
+    "en": "fragile",
+    "bn": ["ভঙ্গুর"],
+    "def": ["Easily broken or damaged."],
+    "syn": ["delicate", "breakable"],
+    "ant": ["durable", "robust"]
+  },
+  {
+    "en": "framework",
+    "bn": ["কাঠামো"],
+    "def": ["A basic structure underlying a system, concept, or text."],
+    "syn": ["structure", "skeleton"],
+    "ant": []
+  },
+  {
+    "en": "fundamentally",
+    "bn": ["মৌলিকভাবে"],
+    "def": ["In central or primary respects."],
+    "syn": ["basically", "essentially"],
+    "ant": ["superficially", "secondarily"]
+  },
+  {
+    "en": "gap",
+    "bn": ["ফাঁক", "ব্যবধান"],
+    "def": ["A break or hole in an object or between two objects."],
+    "syn": ["opening", "breach"],
+    "ant": ["continuity", "connection"]
+  },
+  {
+    "en": "generally",
+    "bn": ["সাধারণত"],
+    "def": ["In most cases; usually."],
+    "syn": ["usually", "typically"],
+    "ant": ["rarely", "exceptionally"]
+  },
+  {
+    "en": "hypothetical",
+    "bn": ["অনুমানমূলক"],
+    "def": ["Based on or serving as a hypothesis."],
+    "syn": ["theoretical", "speculative"],
+    "ant": ["actual", "real"]
+  },
+  {
+    "en": "identify",
+    "bn": ["শনাক্ত করা"],
+    "def": ["To establish or indicate who or what someone or something is."],
+    "syn": ["recognize", "distinguish"],
+    "ant": ["mistake", "confuse"]
+  },
+  {
+    "en": "image",
+    "bn": ["ছবি", "ইমেজ"],
+    "def": ["A representation of the external form of a person or thing."],
+    "syn": ["picture", "portrayal"],
+    "ant": []
+  },
+  {
+    "en": "imagine",
+    "bn": ["কল্পনা করা"],
+    "def": ["To form a mental image or concept of."],
+    "syn": ["visualize", "envisage"],
+    "ant": ["know", "disbelieve"]
+  },
+  {
+    "en": "implement",
+    "bn": ["বাস্তবায়ন করা", "যন্ত্র"],
+    "def": ["To put a decision, plan, or agreement into effect."],
+    "syn": ["execute", "apply"],
+    "ant": ["cancel", "abandon"]
+  },
+  {
+    "en": "imply",
+    "bn": ["ইঙ্গিত করা"],
+    "def": ["To strongly suggest the truth or existence of something not expressly stated."],
+    "syn": ["suggest", "hint"],
+    "ant": ["state", "declare"]
+  },
+  {
+    "en": "impression",
+    "bn": ["ছাপ", "ধারণা"],
+    "def": ["An idea, feeling, or opinion about something or someone."],
+    "syn": ["notion", "perception"],
+    "ant": ["fact", "certainty"]
+  },
+  {
+    "en": "improve",
+    "bn": ["উন্নতি করা"],
+    "def": ["To make or become better."],
+    "syn": ["enhance", "better"],
+    "ant": ["worsen", "deteriorate"]
+  },
+  {
+    "en": "incident",
+    "bn": ["ঘটনা"],
+    "def": ["An event or occurrence."],
+    "syn": ["event", "occurrence"],
+    "ant": []
+  },
+  {
+    "en": "include",
+    "bn": ["অন্তর্ভুক্ত করা"],
+    "def": ["To comprise or contain as part of a whole."],
+    "syn": ["incorporate", "contain"],
+    "ant": ["exclude", "omit"]
+  },
+  {
+    "en": "incomplete",
+    "bn": ["অসম্পূর্ণ"],
+    "def": ["Not having all the necessary or appropriate parts."],
+    "syn": ["unfinished", "partial"],
+    "ant": ["complete", "whole"]
+  },
+  {
+    "en": "independent",
+    "bn": ["স্বাধীন"],
+    "def": ["Free from outside control; not subject to another's authority."],
+    "syn": ["autonomous", "self-governing"],
+    "ant": ["dependent", "reliant"]
+  },
+  {
+    "en": "individual",
+    "bn": ["ব্যক্তিগত", "স্বতন্ত্র"],
+    "def": ["Single; separate; pertaining to a single person or thing."],
+    "syn": ["single", "personal"],
+    "ant": ["collective", "group"]
+  },
+  {
+    "en": "inherent",
+    "bn": ["সহজাত"],
+    "def": ["Existing in something as a permanent, essential, or characteristic attribute."],
+    "syn": ["intrinsic", "innate"],
+    "ant": ["extrinsic", "acquired"]
+  },
+  {
+    "en": "initial",
+    "bn": ["প্রাথমিক"],
+    "def": ["Existing or occurring at the beginning."],
+    "syn": ["first", "primary"],
+    "ant": ["final", "last"]
+  },
+  {
+    "en": "inquiry",
+    "bn": ["অনুসন্ধান"],
+    "def": ["An act of asking for information."],
+    "syn": ["investigation", "query"],
+    "ant": ["answer", "response"]
+  },
+  {
+    "en": "intelligence",
+    "bn": ["বুদ্ধিমত্তা"],
+    "def": ["The ability to acquire and apply knowledge and skills."],
+    "syn": ["intellect", "brainpower"],
+    "ant": ["stupidity", "ignorance"]
+  },
+  {
+    "en": "interconnected",
+    "bn": ["আন্তঃসংযুক্ত"],
+    "def": ["Having all constituent parts linked or connected."],
+    "syn": ["linked", "networked"],
+    "ant": ["separate", "disconnected"]
+  },
+  {
+    "en": "interpretation",
+    "bn": ["ব্যাখ্যা"],
+    "def": ["The action of explaining the meaning of something."],
+    "syn": ["explanation", "analysis"],
+    "ant": ["misinterpretation", "confusion"]
+  },
+  {
+    "en": "interview",
+    "bn": ["সাক্ষাৎকার"],
+    "def": ["A meeting of people face to face, especially for consultation."],
+    "syn": ["meeting", "discussion"],
+    "ant": []
+  },
+  {
+    "en": "invalid",
+    "bn": ["অবৈধ", "অকার্যকর"],
+    "def": ["Not valid, in particular."],
+    "syn": ["void", "null"],
+    "ant": ["valid", "legal"]
+  },
+  {
+    "en": "invaluable",
+    "bn": ["অমূল্য"],
+    "def": ["Extremely useful; indispensable."],
+    "syn": ["priceless", "precious"],
+    "ant": ["worthless", "useless"]
+  },
+  {
+    "en": "investigate",
+    "bn": ["তদন্ত করা"],
+    "def": ["To carry out a systematic or formal inquiry to discover and examine the facts of an incident."],
+    "syn": ["examine", "probe"],
+    "ant": ["ignore", "overlook"]
+  },
+  {
+    "en": "investigation",
+    "bn": ["তদন্ত"],
+    "def": ["The formal or systematic examination or research."],
+    "syn": ["inquiry", "examination"],
+    "ant": []
+  },
+  {
+    "en": "involve",
+    "bn": ["জড়িত করা"],
+    "def": ["To have or include as a necessary part or result."],
+    "syn": ["include", "entail"],
+    "ant": ["exclude", "prevent"]
+  },
+  {
+    "en": "logical",
+    "bn": ["যুক্তিসঙ্গত"],
+    "def": ["Of or according to the rules of logic or formal argument."],
+    "syn": ["rational", "reasonable"],
+    "ant": ["illogical", "irrational"]
+  },
+  {
+    "en": "management",
+    "bn": ["ব্যবস্থাপনা"],
+    "def": ["The process of dealing with or controlling things or people."],
+    "syn": ["administration", "control"],
+    "ant": ["mismanagement", "chaos"]
+  },
+  {
+    "en": "methodical",
+    "bn": ["পদ্ধতিগত"],
+    "def": ["Done according to a systematic or established procedure."],
+    "syn": ["systematic", "orderly"],
+    "ant": ["disorganized", "chaotic"]
+  },
+  {
+    "en": "mindset",
+    "bn": ["মানসিকতা"],
+    "def": ["The established set of attitudes held by someone."],
+    "syn": ["attitude", "mentality"],
+    "ant": []
+  },
+  {
+    "en": "motivation",
+    "bn": ["প্রেরণা"],
+    "def": ["A reason or reasons for acting or behaving in a particular way."],
+    "syn": ["incentive", "drive"],
+    "ant": ["discouragement", "deterrent"]
+  },
+  {
+    "en": "multifaceted",
+    "bn": ["বহুমুখী"],
+    "def": ["Having many facets or aspects."],
+    "syn": ["versatile", "complex"],
+    "ant": ["one-dimensional", "simple"]
+  },
+  {
+    "en": "navigate",
+    "bn": ["নেভিগেট করা"],
+    "def": ["To plan and direct the route or course of a ship, aircraft, or other form of transportation."],
+    "syn": ["steer", "guide"],
+    "ant": ["drift", "wander"]
+  },
+  {
+    "en": "objective",
+    "bn": ["উদ্দেশ্য", "নিরপেক্ষ"],
+    "def": ["A thing aimed at or sought; a goal. Or, not influenced by personal feelings or opinions."],
+    "syn": ["goal", "impartial"],
+    "ant": ["subjective", "biased"]
+  },
+  {
+    "en": "obvious",
+    "bn": ["সুস্পষ্ট"],
+    "def": ["Easily perceived or understood; clear, self-evident, or apparent."],
+    "syn": ["clear", "evident"],
+    "ant": ["obscure", "unclear"]
+  },
+  {
+    "en": "opinion",
+    "bn": ["মতামত"],
+    "def": ["A view or judgment formed about something, not necessarily based on fact or knowledge."],
+    "syn": ["view", "belief"],
+    "ant": ["fact", "truth"]
+  },
+  {
+    "en": "opposition",
+    "bn": ["বিরোধিতা"],
+    "def": ["Resistance or dissent, expressed in action or argument."],
+    "syn": ["resistance", "hostility"],
+    "ant": ["agreement", "support"]
+  },
+  {
+    "en": "option",
+    "bn": ["বিকল্প"],
+    "def": ["A thing that is or may be chosen."],
+    "syn": ["choice", "alternative"],
+    "ant": ["requirement", "necessity"]
+  },
+  {
+    "en": "organized",
+    "bn": ["সুসংগঠিত"],
+    "def": ["Arranged in a systematic way, especially on a large scale."],
+    "syn": ["systematic", "ordered"],
+    "ant": ["disorganized", "messy"]
+  },
+  {
+    "en": "outline",
+    "bn": ["রূপরেখা"],
+    "def": ["A general description or plan showing the essential features of something but not the detail."],
+    "syn": ["summary", "sketch"],
+    "ant": ["detail", "elaboration"]
+  },
+  {
+    "en": "overcome",
+    "bn": ["কাটিয়ে ওঠা"],
+    "def": ["To succeed in dealing with a problem or difficulty."],
+    "syn": ["conquer", "defeat"],
+    "ant": ["surrender", "yield"]
+  },
+  {
+    "en": "overconfidence",
+    "bn": ["অত্যধিক আত্মবিশ্বাস"],
+    "def": ["Excessive confidence or overoptimism about one's own abilities or judgment."],
+    "syn": ["cockiness", "arrogance"],
+    "ant": ["modesty", "diffidence"]
+  },
+  {
+    "en": "overlooked",
+    "bn": ["উপেক্ষিত"],
+    "def": ["Failed to notice or consider something."],
+    "syn": ["missed", "ignored"],
+    "ant": ["noticed", "observed"]
+  },
+  {
+    "en": "overwhelm",
+    "bn": ["অভিভূত করা"],
+    "def": ["To bury or drown beneath a huge mass of something, especially water."],
+    "syn": ["overpower", "overcome"],
+    "ant": ["underwhelm", "unaffected"]
+  },
+  {
+    "en": "perspective",
+    "bn": ["দৃষ্টিভঙ্গি"],
+    "def": ["A particular attitude towards or way of regarding something; a point of view."],
+    "syn": ["viewpoint", "outlook"],
+    "ant": []
+  },
+  {
+    "en": "phenomena",
+    "bn": ["ঘটনা", "প্রপঞ্চ"],
+    "def": ["Observable facts or events."],
+    "syn": ["occurrences", "events"],
+    "ant": []
+  },
+  {
+    "en": "potential",
+    "bn": ["সম্ভাব্য", "সামর্থ্য"],
+    "def": ["Having or showing the capacity to develop into something in the future."],
+    "syn": ["possible", "likely"],
+    "ant": ["unlikely", "impossible"]
+  },
+  {
+    "en": "practical",
+    "bn": ["ব্যবহারিক"],
+    "def": ["Of or concerned with the actual doing or use of something rather than with theory and ideas."],
+    "syn": ["functional", "useful"],
+    "ant": ["theoretical", "impractical"]
+  },
+  {
+    "en": "practice",
+    "bn": ["অনুশীলন", "চর্চা"],
+    "def": ["The actual application or use of an idea, belief, or method, as opposed to theories about such application or use."],
+    "syn": ["exercise", "training"],
+    "ant": ["theory", "neglect"]
+  },
+  {
+    "en": "prediction",
+    "bn": ["ভবিষ্যদ্বাণী"],
+    "def": ["A thing predicted; a forecast."],
+    "syn": ["forecast", "prophecy"],
+    "ant": []
+  },
+  {
+    "en": "premature",
+    "bn": ["অকাল"],
+    "def": ["Occurring or done before the usual or proper time; too early."],
+    "syn": ["early", "untimely"],
+    "ant": ["late", "overdue"]
+  },
+  {
+    "en": "presentation",
+    "bn": ["উপস্থাপনা"],
+    "def": ["The giving of something to someone, especially as part of a formal ceremony."],
+    "syn": ["demonstration", "display"],
+    "ant": []
+  },
+  {
+    "en": "prone",
+    "bn": ["প্রবণ"],
+    "def": ["Likely or liable to suffer from, do, or experience something, typically something regrettable or unwelcome."],
+    "syn": ["susceptible", "liable"],
+    "ant": ["resistant", "immune"]
+  },
+  {
+    "en": "psychological",
+    "bn": ["মানসিক"],
+    "def": ["Of, affecting, or arising in the mind; related to the mental and emotional state of a person."],
+    "syn": ["mental", "emotional"],
+    "ant": ["physical", "bodily"]
+  },
+  {
+    "en": "psychology",
+    "bn": ["মনোবিজ্ঞান"],
+    "def": ["The scientific study of the human mind and its functions."],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "puzzle",
+    "bn": ["ধাঁধা"],
+    "def": ["A game, toy, or problem designed to test ingenuity or knowledge."],
+    "syn": ["riddle", "mystery"],
+    "ant": ["solution", "answer"]
+  },
+  {
+    "en": "quality",
+    "bn": ["গুণমান"],
+    "def": ["The standard of something as measured against other things of a similar kind; the degree of excellence of something."],
+    "syn": ["standard", "caliber"],
+    "ant": ["inferiority", "mediocrity"]
+  },
+  {
+    "en": "rationalist",
+    "bn": ["যুক্তিবাদী"],
+    "def": ["A person who bases their opinions and actions on reason and knowledge rather than on religious belief or emotional response."],
+    "syn": ["reasoner", "logician"],
+    "ant": ["mystic", "irrationalist"]
+  },
+  {
+    "en": "reality",
+    "bn": ["বাস্তবতা"],
+    "def": ["The state of things as they actually exist, as opposed to an idealistic or notional idea of them."],
+    "syn": ["actuality", "truth"],
+    "ant": ["fantasy", "illusion"]
+  },
+  {
+    "en": "reasoning",
+    "bn": ["যুক্তি"],
+    "def": ["The action of thinking about something in a logical, sensible way."],
+    "syn": ["logic", "deduction"],
+    "ant": ["irrationality", "illogicality"]
+  },
+  {
+    "en": "recent",
+    "bn": ["সাম্প্রতিক"],
+    "def": ["Having happened, begun, or been done not long ago or not long before; belonging to a past period comparatively close to the present."],
+    "syn": ["new", "latest"],
+    "ant": ["old", "former"]
+  },
+  {
+    "en": "recognize",
+    "bn": ["চিনতে পারা", "স্বীকৃতি দেওয়া"],
+    "def": ["To identify someone or something from having encountered them before; to know again."],
+    "syn": ["identify", "acknowledge"],
+    "ant": ["forget", "ignore"]
+  },
+  {
+    "en": "reduce",
+    "bn": ["হ্রাস করা"],
+    "def": ["To make smaller or less in amount, degree, or size."],
+    "syn": ["decrease", "lessen"],
+    "ant": ["increase", "enlarge"]
+  },
+  {
+    "en": "relevant",
+    "bn": ["প্রাসঙ্গিক"],
+    "def": ["Closely connected or appropriate to what is being done or considered."],
+    "syn": ["pertinent", "applicable"],
+    "ant": ["irrelevant", "inapplicable"]
+  },
+  {
+    "en": "remaining",
+    "bn": ["অবশিষ্ট"],
+    "def": ["Still to be present after others have been removed or dealt with."],
+    "syn": ["left", "outstanding"],
+    "ant": ["depleted", "finished"]
+  },
+  {
+    "en": "require",
+    "bn": ["প্রয়োজন"],
+    "def": ["To need for a particular purpose; to depend on for the fulfillment of something."],
+    "syn": ["need", "demand"],
+    "ant": ["dispense with", "forgo"]
+  },
+  {
+    "en": "resist",
+    "bn": ["প্রতিরোধ করা"],
+    "def": ["To withstand the action or effect of."],
+    "syn": ["oppose", "withstand"],
+    "ant": ["accept", "surrender"]
+  },
+  {
+    "en": "resource",
+    "bn": ["সম্পদ"],
+    "def": ["A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization in order to function effectively."],
+    "syn": ["asset", "supply"],
+    "ant": ["deficit", "lack"]
+  },
+  {
+    "en": "retired",
+    "bn": ["অবসরপ্রাপ্ত"],
+    "def": ["Having left one's job and ceased to work."],
+    "syn": ["pensioned", "former"],
+    "ant": ["working", "employed"]
+  },
+  {
+    "en": "revolution",
+    "bn": ["বিপ্লব"],
+    "def": ["A forcible overthrow of a government or social order, in favor of a new system."],
+    "syn": ["uprising", "revolt"],
+    "ant": ["counter-revolution", "reaction"]
+  },
+  {
+    "en": "risk",
+    "bn": ["ঝুঁকি"],
+    "def": ["A situation involving exposure to danger."],
+    "syn": ["danger", "hazard"],
+    "ant": ["safety", "security"]
+  },
+  {
+    "en": "role",
+    "bn": ["ভূমিকা"],
+    "def": ["The function assumed or part played by a person or thing in a particular situation."],
+    "syn": ["part", "function"],
+    "ant": []
+  },
+  {
+    "en": "sceptical",
+    "bn": ["সংশয়বাদী"],
+    "def": ["Not easily convinced; having doubts or reservations."],
+    "syn": ["doubtful", "questioning"],
+    "ant": ["convinced", "trusting"]
+  },
+  {
+    "en": "scientific",
+    "bn": ["বৈজ্ঞানিক"],
+    "def": ["Based on or characterized by the methods and principles of science."],
+    "syn": ["systematic", "methodical"],
+    "ant": ["unscientific", "anecdotal"]
+  },
+  {
+    "en": "separate",
+    "bn": ["আলাদা করা"],
+    "def": ["To cause to move or be apart."],
+    "syn": ["divide", "split"],
+    "ant": ["join", "unite"]
+  },
+  {
+    "en": "serious",
+    "bn": ["গম্ভীর", "গুরুতর"],
+    "def": ["Demanding or characterized by careful consideration or application."],
+    "syn": ["solemn", "grave"],
+    "ant": ["frivolous", "lighthearted"]
+  },
+  {
+    "en": "service",
+    "bn": ["সেবা"],
+    "def": ["The action of helping or doing work for someone."],
+    "syn": ["assistance", "help"],
+    "ant": ["disservice", "hindrance"]
+  },
+  {
+    "en": "significant",
+    "bn": ["গুরুত্বপূর্ণ"],
+    "def": ["Sufficiently great or important to be worthy of attention; noteworthy."],
+    "syn": ["important", "notable"],
+    "ant": ["insignificant", "unimportant"]
+  },
+  {
+    "en": "skill",
+    "bn": ["দক্ষতা"],
+    "def": ["The ability to do something well; expertise."],
+    "syn": ["expertise", "proficiency"],
+    "ant": ["incompetence", "inability"]
+  },
+  {
+    "en": "solution",
+    "bn": ["সমাধান"],
+    "def": ["A means of solving a problem or dealing with a difficult situation."],
+    "syn": ["answer", "resolution"],
+    "ant": ["problem", "question"]
+  },
+  {
+    "en": "solve",
+    "bn": ["সমাধান করা"],
+    "def": ["To find an answer to, explanation for, or means of effectively dealing with a problem or mystery."],
+    "syn": ["resolve", "crack"],
+    "ant": ["complicate", "confuse"]
+  },
+  {
+    "en": "source",
+    "bn": ["উৎস"],
+    "def": ["A place, person, or thing from which something comes or can be obtained."],
+    "syn": ["origin", "root"],
+    "ant": ["result", "outcome"]
+  },
+  {
+    "en": "strategy",
+    "bn": ["কৌশল"],
+    "def": ["A plan of action designed to achieve a long-term or overall aim."],
+    "syn": ["plan", "approach"],
+    "ant": ["improvisation", "tactic"]
+  },
+  {
+    "en": "subsequently",
+    "bn": ["পরবর্তীতে"],
+    "def": ["After a particular thing has happened; afterward."],
+    "syn": ["later", "afterwards"],
+    "ant": ["previously", "before"]
+  },
+  {
+    "en": "successful",
+    "bn": ["সফল"],
+    "def": ["Accomplishing a desired aim or result."],
+    "syn": ["triumphant", "victorious"],
+    "ant": ["unsuccessful", "failed"]
+  },
+  {
+    "en": "superficial",
+    "bn": ["উপরি উপরি", "অগভীর"],
+    "def": ["Existing or occurring at or on the surface."],
+    "syn": ["surface", "shallow"],
+    "ant": ["deep", "profound"]
+  },
+  {
+    "en": "suppose",
+    "bn": ["ধরে নেওয়া"],
+    "def": ["To assume that something is the case on the basis of evidence or probability but without proof or certain knowledge."],
+    "syn": ["assume", "presume"],
+    "ant": ["know", "prove"]
+  },
+  {
+    "en": "suspect",
+    "bn": ["সন্দেহ করা"],
+    "def": ["To have an idea or impression of the existence, presence, or truth of something without certain proof."],
+    "syn": ["distrust", "doubt"],
+    "ant": ["trust", "believe"]
+  },
+  {
+    "en": "systematic",
+    "bn": ["পদ্ধতিগত"],
+    "def": ["Done or acting according to a fixed plan or system; methodical."],
+    "syn": ["methodical", "organized"],
+    "ant": ["unsystematic", "disorganized"]
+  },
+  {
+    "en": "talent",
+    "bn": ["প্রতিভা"],
+    "def": ["Natural aptitude or skill."],
+    "syn": ["gift", "flair"],
+    "ant": ["inability", "ineptitude"]
+  },
+  {
+    "en": "technique",
+    "bn": ["কৌশল"],
+    "def": ["A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure."],
+    "syn": ["method", "approach"],
+    "ant": []
+  },
+  {
+    "en": "tendency",
+    "bn": ["প্রবণতা"],
+    "def": ["An inclination towards a particular characteristic or type of behavior."],
+    "syn": ["inclination", "propensity"],
+    "ant": ["aversion", "disinclination"]
+  },
+  {
+    "en": "theoretical",
+    "bn": ["তাত্ত্বিক"],
+    "def": ["Concerned with or involving the theory of a subject or area of study rather than its practical application."],
+    "syn": ["abstract", "conceptual"],
+    "ant": ["practical", "applied"]
+  },
+  {
+    "en": "theory",
+    "bn": ["তত্ত্ব"],
+    "def": ["A supposition or a system of ideas intended to explain something, especially one based on general principles independent of the thing to be explained."],
+    "syn": ["hypothesis", "concept"],
+    "ant": ["practice", "fact"]
+  },
+  {
+    "en": "thorough",
+    "bn": ["সম্পূর্ণ", "পুঙ্খানুপুঙ্খ"],
+    "def": ["Complete with regard to every detail; not superficial or partial."],
+    "syn": ["exhaustive", "comprehensive"],
+    "ant": ["superficial", "cursory"]
+  },
+  {
+    "en": "transform",
+    "bn": ["রূপান্তর করা"],
+    "def": ["To make a thorough or dramatic change in the form, appearance, or character of."],
+    "syn": ["change", "convert"],
+    "ant": ["preserve", "maintain"]
+  },
+  {
+    "en": "trial",
+    "bn": ["পরীক্ষা", "বিচার"],
+    "def": ["A formal examination of evidence by a judge, typically before a jury, to decide guilt in a case of criminal or civil proceedings."],
+    "syn": ["test", "experiment"],
+    "ant": []
+  },
+  {
+    "en": "typical",
+    "bn": ["সাধারণ", "স্বাভাবিক"],
+    "def": ["Having the distinctive qualities of a particular type of person or thing."],
+    "syn": ["characteristic", "normal"],
+    "ant": ["atypical", "unusual"]
+  },
+  {
+    "en": "unique",
+    "bn": ["অনন্য"],
+    "def": ["Being the only one of its kind; unlike anything else."],
+    "syn": ["distinctive", "singular"],
+    "ant": ["common", "ordinary"]
+  },
+  {
+    "en": "valid",
+    "bn": ["বৈধ"],
+    "def": ["Actually supporting the intended point or claim; legally or officially acceptable."],
+    "syn": ["sound", "legitimate"],
+    "ant": ["invalid", "void"]
+  },
+  {
+    "en": "violence",
+    "bn": ["হিংসা"],
+    "def": ["Behavior involving physical force intended to hurt, damage, or kill someone or something."],
+    "syn": ["brutality", "force"],
+    "ant": ["peace", "non-violence"]
+  },
+  {
+    "en": "volunteer",
+    "bn": ["স্বেচ্ছাসেবক"],
+    "def": ["A person who freely offers to take part in an enterprise or undertake a task."],
+    "syn": [],
+    "ant": ["conscript", "employee"]
+  },
+  {
+    "en": "weakness",
+    "bn": ["দুর্বলতা"],
+    "def": ["The state or condition of lacking strength."],
+    "syn": ["frailty", "failing"],
+    "ant": ["strength", "power"]
+  },
+  {
     "en": "advances",
     "bn": ["অগ্রগতি", "উন্নতি"],
     "def": ["Forward movement or progress in development."],
