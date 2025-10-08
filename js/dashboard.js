@@ -283,6 +283,9 @@ window.setWordOfDay = function () {
                         <p class="pronunciation">${phonetics}</p>
                         ${highlightAccuracy ? `<p class="accuracy-note">⚡ Weak Word – Accuracy: <b>${highlightAccuracy}%</b></p>` : ''}
                     </div>
+                <div class="word-definition">
+                    <p class="example">${wordofday.bn || ''}</p>
+                </div>
 
                     <div class="word-definition">
                         <h4>Definitions</h4>
@@ -457,7 +460,7 @@ window.intialQuestions = async function (QNo, limit, mood) {
         return; // Exit for unlimited practice
     }
     document.getElementById("btnNext").setAttribute("onclick", `intialQuestions(${QNo + 1}, ${limit}, "${mood}")`);
-    
+
     limit = parseInt(limit)
     document.getElementById("progressText").innerHTML = `Question ${QNo + 1}/<span id='Qlimit'>${limit}</span>`;
     document.getElementById("quizProgress").style.width = `${((QNo + 1) / limit) * 100}%`;
@@ -1156,7 +1159,7 @@ window.showWordDtls = async function (wordDetails) {
 
         const allDefinitions = `
             <ul>
-              <li>${customDef} <br><i>${customBn}</i></li>
+              <li>${customDef} <br></li>
               ${apiDefinitions}
             </ul>`;
 
@@ -1174,6 +1177,9 @@ window.showWordDtls = async function (wordDetails) {
                 <p class="pronunciation">${apiEntry.phonetic || 'N/A'}</p>
                 <p class="word-type">${meanings[0]?.partOfSpeech || 'N/A'}</p>
               </div>
+            <div class="word-definition">
+              <p class="example">"${customBn}"</p>
+            </div>
 
               <div class="word-definition">
                 <h3><i class="fa fa-book"></i> Definitions</h3>
@@ -1745,10 +1751,10 @@ window.showDetailedProgress = async function () {
     progressItems.sort((a, b) => b.accuracy - a.accuracy);
 
     progressItems.forEach(item => {
-        const barColor = item.accuracy <= 0.5 ? '#e74c3c' : 
-                         item.accuracy <= 0.8 ? '#f39c12' : '#27ae5fdc';
-        const practiceLevel = item.accuracy <= 0.5 ? 'needs-practice' : 
-                              item.accuracy <= 0.8 ? 'getting-better' : 'mastered';
+        const barColor = item.accuracy <= 0.5 ? '#e74c3c' :
+            item.accuracy <= 0.8 ? '#f39c12' : '#27ae5fdc';
+        const practiceLevel = item.accuracy <= 0.5 ? 'needs-practice' :
+            item.accuracy <= 0.8 ? 'getting-better' : 'mastered';
 
         content += `
             <div class="progress-item ${practiceLevel}" data-accuracy="${item.accuracy}" data-attempts="${item.total}" data-word="${item.word.toLowerCase()}">
@@ -1759,7 +1765,7 @@ window.showDetailedProgress = async function () {
                     <span class="practice-date" style="color: #ddd; width: 100%; text-align: right;">${item.practiceData}</span>
                     </div>
                     <div class="progress-bar-wrapper" style=" background-color: #27ae5fdc;display: flex;flex-direction: row-reverse;">
-                        <div class="overall-progress-bar" style="width:${100-item.accuracyPercent}%; background:${barColor};">
+                        <div class="overall-progress-bar" style="width:${100 - item.accuracyPercent}%; background:${barColor};">
                     <div class="progress-tooltip">${item.accuracyPercent}% accuracy</div>
                     </div>
                 </div>
@@ -1892,7 +1898,7 @@ function sortProgressItems() {
         const aWord = a.getAttribute('data-word');
         const bWord = b.getAttribute('data-word');
 
-        switch(sortValue) {
+        switch (sortValue) {
             case 'accuracy-desc': return bAcc - aAcc;
             case 'accuracy-asc': return aAcc - bAcc;
             case 'attempts-desc': return bAtt - aAtt;
