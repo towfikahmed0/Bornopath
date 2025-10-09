@@ -1,5 +1,180 @@
 [
   {
+    "en": "abundant",
+    "bn": ["প্রচুর", "অফুরান"],
+    "def": ["Existing or available in large quantities; plentiful."],
+    "syn": ["plentiful", "copious", "ample"],
+    "ant": ["scarce", "rare", "sparse"]
+  },
+  {
+    "en": "adopted",
+    "bn": ["দত্তক", "গৃহীত"],
+    "def": ["Legally taken by someone else as one's own child.", "Chosen or taken as one's own."],
+    "syn": ["embraced", "accepted"],
+    "ant": ["abandoned", "rejected"]
+  },
+  {
+    "en": "adorn",
+    "bn": ["সজ্জিত করা", "সাজানো"],
+    "def": ["To make more beautiful or attractive; to decorate."],
+    "syn": ["decorate", "embellish", "ornament"],
+    "ant": ["disfigure", "mar", "strip"]
+  },
+  {
+    "en": "aesthetic",
+    "bn": ["নান্দনিক", "সৌন্দর্যবোধসম্পন্ন"],
+    "def": ["Concerned with beauty or the appreciation of beauty.", "Having a pleasing appearance."],
+    "syn": ["artistic", "decorative", "beautiful"],
+    "ant": ["unattractive", "ugly"]
+  },
+  {
+    "en": "affected",
+    "bn": ["প্রভাবিত", "কৃত্রিম"],
+    "def": ["Influenced or touched by an external factor.", "Behaving in an artificial or pretentious way."],
+    "syn": ["influenced", "touched", "pretentious"],
+    "ant": ["unaffected", "natural", "genuine"]
+  },
+  {
+    "en": "align",
+    "bn": ["সারিবদ্ধ করা", "একমত হওয়া"],
+    "def": ["To place or arrange things in a straight line.", "To bring oneself into agreement or alliance with a group."],
+    "syn": ["line up", "arrange", "ally"],
+    "ant": ["disarrange", "misalign"]
+  },
+  {
+    "en": "allure",
+    "bn": ["মোহ", "আকর্ষণ"],
+    "def": ["The quality of being powerfully and mysteriously attractive or fascinating."],
+    "syn": ["attraction", "appeal", "charm"],
+    "ant": ["repulsion", "repellence"]
+  },
+  {
+    "en": "analysis",
+    "bn": ["বিশ্লেষণ", "পরীক্ষা"],
+    "def": ["Detailed examination of the elements or structure of something."],
+    "syn": ["examination", "investigation", "study"],
+    "ant": ["synthesis", "combination"]
+  },
+  {
+    "en": "angular",
+    "bn": ["কৌণিক", "হাড্ডিসার"],
+    "def": ["Having sharp corners or many angles.", "(of a person) Lean and having a prominent bone structure."],
+    "syn": ["sharp-cornered", "bony", "gaunt"],
+    "ant": ["curved", "rounded", "plump"]
+  },
+  {
+    "en": "anxious",
+    "bn": ["উদ্বিগ্ন", "আগ্রহী"],
+    "def": ["Feeling or showing worry, nervousness, or unease.", "Strongly wanting something."],
+    "syn": ["worried", "nervous", "eager"],
+    "ant": ["calm", "relaxed", "unconcerned"]
+  },
+  {
+    "en": "appeal",
+    "bn": ["আবেদন", "আপিল"],
+    "def": ["The quality of being attractive or interesting.", "A serious or urgent request.", "An application to a higher court to review a legal decision."],
+    "syn": ["attraction", "plea", "petition"],
+    "ant": ["repulsiveness", "unattractiveness"]
+  },
+  {
+    "en": "attractive",
+    "bn": ["আকর্ষণীয়", "মনোরম"],
+    "def": ["Pleasing or appealing to the senses."],
+    "syn": ["appealing", "charming", "alluring", "beautiful"],
+    "ant": ["unattractive", "repulsive", "ugly"]
+  },
+  {
+    "en": "autonomy",
+    "bn": ["স্বায়ত্তশাসন", "স্বাধীনতা"],
+    "def": ["The right or condition of self-government.", "Freedom from external control or influence."],
+    "syn": ["independence", "self-rule", "sovereignty"],
+    "ant": ["dependence", "subjugation"]
+  },
+  {
+    "en": "average",
+    "bn": ["গড়", "সাধারণ"],
+    "def": ["A number expressing the central or typical value in a set of data.", "Usual or ordinary."],
+    "syn": ["mean", "median", "normal", "typical"],
+    "ant": ["exceptional", "extraordinary"]
+  },
+  {
+    "en": "characteristic",
+    "bn": ["বৈশিষ্ট্য", "স্বভাবজাত"],
+    "def": ["A feature or quality typical of a person, place, or thing."],
+    "syn": ["attribute", "trait", "feature", "quality"],
+    "ant": ["atypicality"]
+  },
+  {
+    "en": "compatible",
+    "bn": ["সামঞ্জস্যপূর্ণ", "উপযুক্ত"],
+    "def": ["Able to exist or be used together without conflict."],
+    "syn": ["harmonious", "well-matched", "suited"],
+    "ant": ["incompatible", "clashing", "unsuited"]
+  },
+  {
+    "en": "concept",
+    "bn": ["ধারণা", "অভিমত"],
+    "def": ["An abstract idea; a general notion."],
+    "syn": ["idea", "notion", "conception"],
+    "ant": ["reality", "fact"]
+  },
+  {
+    "en": "contribute",
+    "bn": ["অবদান রাখা", "ভাগ দেত্তয়া"],
+    "def": ["To give (something, such as time, money, or ideas) to a common purpose or fund."],
+    "syn": ["donate", "give", "provide"],
+    "ant": ["withhold", "deprive"]
+  },
+  {
+    "en": "covet",
+    "bn": ["লালসা করা", "লোভ করা"],
+    "def": ["To yearn to possess something, especially something belonging to someone else."],
+    "syn": ["desire", "crave", "yearn for"],
+    "ant": ["renounce", "disdain"]
+  },
+  {
+    "en": "drastic",
+    "bn": ["নাটকীয়", "প্রবল"],
+    "def": ["Likely to have a strong or far-reaching effect; radical and extreme."],
+    "syn": ["extreme", "severe", "radical"],
+    "ant": ["moderate", "mild", "conservative"]
+  },
+  {
+    "en": "emphasize",
+    "bn": ["গুরুত্ব দেওয়া", "জোর দেত্তয়া"],
+    "def": ["To give special importance or prominence to something in speaking or writing."],
+    "syn": ["highlight", "stress", "accentuate"],
+    "ant": ["understate", "downplay"]
+  },
+  {
+    "en": "endow",
+    "bn": ["প্রদান করা", "ভরপূর করা"],
+    "def": ["To provide with a quality, ability, or asset.", "To give a large sum of money to an institution."],
+    "syn": ["give", "grant", "bestow", "furnish"],
+    "ant": ["deprive", "strip"]
+  },
+  {
+    "en": "engrained",
+    "bn": ["গভীরভাবে প্রোথিত", "বদ্ধমূল"],
+    "def": ["Firmly fixed or established; difficult to change."],
+    "syn": ["ingrained", "entrenched", "deep-seated"],
+    "ant": ["superficial", "temporary"]
+  },
+  {
+    "en": "enhance",
+    "bn": ["বর্ধিত করা", "উন্নত করা"],
+    "def": ["To intensify, increase, or further improve the quality, value, or extent of."],
+    "syn": ["improve", "strengthen", "boost"],
+    "ant": ["diminish", "reduce", "mar"]
+  },
+  {
+    "en": "entail",
+    "bn": ["অপত্যক্রমিক করা", "অবশ্যম্ভাবী করা"],
+    "def": ["To involve something as a necessary or inevitable part or consequence."],
+    "syn": ["involve", "require", "necessitate"],
+    "ant": ["exclude", "eliminate"]
+  },
+  {
     "en": "academy",
     "bn": ["একাডেমি", "শিক্ষাপ্রতিষ্ঠান"],
     "def": ["A society or institution of learned individuals, or a school for special training."],
