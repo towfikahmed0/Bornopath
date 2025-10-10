@@ -1,5 +1,9432 @@
 [
   {
+    "en": "above",
+    "bn": [
+      "উপরে",
+      "কাহারও অপেক্ষা ঊর্ধ্বে",
+      "অধিকতর",
+      "ছাড়াইয়া"
+    ],
+    "def": [
+      "Heaven."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "abused",
+    "bn": [
+      "কুট্টিত"
+    ],
+    "def": [
+      "To put to a wrong use; to misapply; to use improperly; to misuse; to use for a wrong purpose or end; to pervert"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "achieve",
+    "bn": [
+      "অর্জন করা",
+      "সাধন করা",
+      "সম্পাদন করা"
+    ],
+    "def": [
+      "To succeed in something, now especially in academic performance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "adults",
+    "bn": [
+      "বয়স্ক",
+      "সাবালক",
+      "প্রাপ্তব্যবহার",
+      "বয়স্ক",
+      "প্রাপ্তবয়স্ক",
+      "বয়প্রাপ্ত লোক"
+    ],
+    "def": [
+      "A fully grown human or animal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ages",
+    "bn": [
+      "বয়স",
+      "যুগ",
+      "বার্ধক্য",
+      "কাল",
+      "আমল",
+      "আয়ু",
+      "সাবালকত্ব",
+      "দীর্ঘকাল",
+      "পরমায়ু",
+      "বয়",
+      "উমর",
+      "প্রাচীনতা",
+      "সময়",
+      "প্রবীণা",
+      "প্রবীণতা",
+      "প্রবীণত্ব"
+    ],
+    "def": [
+      "The whole duration of a being, whether animal, plant, or other kind, being alive."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "alloy",
+    "bn": [
+      "সঙ্কর বা মিশ্র ধাতু"
+    ],
+    "def": [
+      "A metal that is a combination of two or more elements, at least one of which is a metal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "alloys",
+    "bn": [
+      "খাদ",
+      "পাইন",
+      "সঙ্কর ধাতু",
+      "নিকৃষ্ট বস্তর মিশ্রণ",
+      "মান",
+      "পান"
+    ],
+    "def": [
+      "A metal that is a combination of two or more elements, at least one of which is a metal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "amorphous",
+    "bn": [
+      "নির্দিষ্ট আকারহীন"
+    ],
+    "def": [
+      "Lacking a definite form or clear shape."
+    ],
+    "syn": [
+      "formless",
+      "shapeless"
+    ],
+    "ant": []
+  },
+  {
+    "en": "appliances",
+    "bn": [
+      "যন্ত্রপাতি",
+      "প্রয়োগ"
+    ],
+    "def": [
+      "An implement, an instrument or apparatus designed (or at least used) as a means to a specific end (often specified), especially:"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "approaches",
+    "bn": [
+      "অভিগমন",
+      "পথ",
+      "অভিমুখ",
+      "প্রবেশপথ",
+      "সান্নিধ্য",
+      "অভ্যাগম",
+      "অভ্যাগমন",
+      "উপাগম",
+      "নিকটবর্তিতা",
+      "দ্বার",
+      "ধার",
+      "উপান্ত"
+    ],
+    "def": [
+      "The act of drawing near; a coming or advancing near."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "articles",
+    "bn": [
+      "জিনিসপত্র",
+      "নিয়মাবলী",
+      "শর্তাদি"
+    ],
+    "def": [
+      "A piece of nonfictional writing such as a story, report, opinion piece, or entry in a newspaper, magazine, journal, dictionary, encyclopedia, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "atoms",
+    "bn": [
+      "অ্যাটম",
+      "পরমাণু",
+      "অণু",
+      "কণা",
+      "কণিকা",
+      "অতি ক্ষুদ্র কোন পদার্থ",
+      "অতি ক্ষুদ্র কোন পদার্থের অংশ"
+    ],
+    "def": [
+      "The smallest possible amount of matter which still retains its identity as a chemical element, now known to consist of a nucleus surrounded by electrons."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "award",
+    "bn": [
+      "বিচার পূর্বক"
+    ],
+    "def": [
+      "A judgment, sentence, or final decision. Specifically: The decision of arbitrators in a case submitted."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "away",
+    "bn": [
+      "দূরে",
+      "নাগালের বাইরে"
+    ],
+    "def": [
+      "To depart; to go to another place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "back",
+    "bn": [
+      "পিঠ",
+      "পশ্চাদ্দিক"
+    ],
+    "def": [
+      "The rear of the body, especially the part between the neck and the end of the spine and opposite the chest and belly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "badly",
+    "bn": [
+      "খারাপভাবে",
+      "মন্দভাবে",
+      "কুভাবে",
+      "অপকৃষ্টভাবে",
+      "অন্যায়রূপে",
+      "অত্যন্ত",
+      "মন্দরূপে",
+      "ভুলভাবে",
+      "সাংঘাতিকভাবে",
+      "গুরুতরভাবে"
+    ],
+    "def": [
+      "Ill, unwell."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "balance",
+    "bn": [
+      "দাড়ি পাল্লা",
+      "ভারসাম্য",
+      "জমাখরচের পূর্ণ সমতা"
+    ],
+    "def": [
+      "A state in which opposing forces harmonise; equilibrium."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "balanced",
+    "bn": [
+      "সুষম",
+      "সমতাবিধায়ক"
+    ],
+    "def": [
+      "To bring (items) to an equipoise, as the scales of a balance by adjusting the weights."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bar",
+    "bn": [
+      "হুকড়া",
+      "বাধা"
+    ],
+    "def": [
+      "A solid, more or less rigid object of metal or wood with a uniform cross-section smaller than its length."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bare",
+    "bn": [
+      "অনাবৃত",
+      "উলঙ্গ",
+      "কেবলমাত্র"
+    ],
+    "def": [
+      "(‘the bare’) The surface, the (bare) skin."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bars",
+    "bn": [
+      "বার",
+      "বাধা",
+      "অন্তরায়",
+      "অর্গল",
+      "প্রতিবন্ধক",
+      "খিল",
+      "শুঁড়িখানা",
+      "রঙের সরু রেখা",
+      "কিছুর লম্বা টুকরা",
+      "হুড়কা",
+      "গরাদ",
+      "গরাদে",
+      "গরাদে ঘেরা স্থান",
+      "উকিলসভা",
+      "ত্তকালতি",
+      "আটক",
+      "মদখানা",
+      "ডাণ্ডা",
+      "রঙের সরু ডোরা",
+      "মদের দোকান",
+      "আলো",
+      "উকিলসম্প্রদায়",
+      "নদীর পোতাশ্রয়ে বালির চড়া",
+      "নদীর মোহানায় চড়া"
+    ],
+    "def": [
+      "A solid, more or less rigid object of metal or wood with a uniform cross-section smaller than its length."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "base",
+    "bn": [
+      "বনিয়াদ",
+      "ভিত্তি",
+      "মূলঘাঁটি"
+    ],
+    "def": [
+      "Something from which other things extend; a foundation."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "basic",
+    "bn": [
+      "মৌলিক",
+      "প্রাথমিক",
+      "ভিত্তিস্বরূপ"
+    ],
+    "def": [
+      "A necessary commodity, a staple requirement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "battery",
+    "bn": [
+      "গোলন্দাজ বাহিনী"
+    ],
+    "def": [
+      "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "beam",
+    "bn": [
+      "কড়ি কাঠ",
+      "আলোক রশ্মি"
+    ],
+    "def": [
+      "Any large piece of timber or iron long in proportion to its thickness, and prepared for use."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "beginning",
+    "bn": [
+      "আরম্ভ",
+      "শুরু",
+      "প্রাত",
+      "প্রারম্ভ",
+      "আদি",
+      "উপক্রমণিকা",
+      "অঙ্কুর",
+      "অঙ্কুরোদ্গম",
+      "গোড়াপত্তন",
+      "গোড়াগুড়ি",
+      "গোড়া",
+      "মূল",
+      "অনুষ্ঠান",
+      "উপারম্ভ",
+      "সূত্রপাত",
+      "উপোদ্ঘাত",
+      "উপক্রম",
+      "উদ্ভব"
+    ],
+    "def": [
+      "The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "begins",
+    "bn": [
+      "লাগা",
+      "শুরু করা",
+      "আরম্ভ করা",
+      "আরম্ভ হত্তয়া",
+      "বলিতে আরম্ভ করা",
+      "শুরু হত্তয়া",
+      "উদ্ভূত হত্তয়া",
+      "উদ্ভূত করা",
+      "সূত্রপাত করা",
+      "সূত্রপাত হত্তয়া",
+      "আসা",
+      "পড়া",
+      "পত্তন করা",
+      "জুড়া",
+      "চলা"
+    ],
+    "def": [
+      "To start, to initiate or take the first step into something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "behave",
+    "bn": [
+      "ভদ্র আচরন করা"
+    ],
+    "def": [
+      "To conduct (oneself) well, or in a given way."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "behind",
+    "bn": [
+      "পশ্চাতে",
+      "পিছনের দিকে",
+      "অতিক্রম করে"
+    ],
+    "def": [
+      "The rear, back-end"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "below",
+    "bn": [
+      "নিচে",
+      "নিচের দিকে"
+    ],
+    "def": [
+      "In a lower place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "big",
+    "bn": [
+      "বড়",
+      "বিশাল"
+    ],
+    "def": [
+      "Someone or something that is large in stature"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bigger",
+    "bn": [
+      "বিশাল",
+      "বৃহৎ",
+      "মস্ত",
+      "প্রধান",
+      "উদার",
+      "গর্ভবতী",
+      "বৃহদাকার",
+      "আড়ম্বরপূর্ণ",
+      "মহৎ",
+      "ডাগর",
+      "গর্ভিণী",
+      "অত্যন্ত লাভজনক",
+      "অত্যন্ত জটিল",
+      "উচ্চধ্বনিযুক্ত",
+      "ধেড়ে",
+      "দম্ভপূর্ণ",
+      "বিস্তৃত",
+      "গুরুত্বপূর্ণ",
+      "অত্যন্ত লোভনীয়",
+      "বয়প্রাপ্ত"
+    ],
+    "def": [
+      "Of great size, large."
+    ],
+    "syn": [
+      "ample",
+      "huge",
+      "jumbo",
+      "large",
+      "massive",
+      "sizeable",
+      "stoor"
+    ],
+    "ant": [
+      "little",
+      "miniature",
+      "minuscule",
+      "minute",
+      "small",
+      "tiny"
+    ]
+  },
+  {
+    "en": "blind",
+    "bn": [
+      "অন্ধ"
+    ],
+    "def": [
+      "A covering for a window to keep out light. The covering may be made of cloth or of narrow slats that can block light or allow it to pass."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "block",
+    "bn": [
+      "কাট খন্ড বা পাথর খন্ড"
+    ],
+    "def": [
+      "A substantial, often approximately cuboid, piece of any substance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "blow",
+    "bn": [
+      "আঘাত",
+      "বায়ু প্রবাহ"
+    ],
+    "def": [
+      "A strong wind."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "blown",
+    "bn": [
+      "প্রস্ফুটিত",
+      "দূষিত",
+      "আধ্মাত",
+      "ক্লান্ত",
+      "স্ফীত"
+    ],
+    "def": [
+      "To produce an air current."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "blows",
+    "bn": [
+      "গাট্টা",
+      "ঘা",
+      "আঘাত",
+      "চড়",
+      "ঘুষি",
+      "করাঘাত",
+      "বায়ুপ্রবাহ",
+      "ঘুসি",
+      "আহতি",
+      "ঘাত",
+      "দুর্বিপাক",
+      "আকস্মিক দুর্ভাগ্য",
+      "আকস্মিক দুর্দশা",
+      "চাপড়",
+      "ঘাতন",
+      "ঘুসা",
+      "ঘাই",
+      "উদ্ঘাত",
+      "কিল",
+      "উপঘাত",
+      "অভিঘাত",
+      "ঘুষা",
+      "চোট"
+    ],
+    "def": [
+      "A strong wind."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "blue",
+    "bn": [
+      "নীল রং"
+    ],
+    "def": [
+      "The colour of the clear sky or the deep sea, between green and violet in the visible spectrum, and one of the primary additive colours for transmitted light; the colour obtained by subtracting red and green from white light using magenta and cyan filters; or any colour resembling this."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "boiling",
+    "bn": [
+      "ফুটন্ত"
+    ],
+    "def": [
+      "(of liquids) To heat to the point where it begins to turn into a gas."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "boils",
+    "bn": [
+      "ফুটান",
+      "ফুটন্ত জলে সিদ্ধ করা",
+      "ফুটিয়া উঠা",
+      "সিদ্ধ করা",
+      "সিদ্ধ হত্তয়া",
+      "অত্যন্ত উত্তেজিত হত্তয়া",
+      "অত্যন্ত ক্রুদ্ধ হত্তয়া"
+    ],
+    "def": [
+      "A localized accumulation of pus in the skin, resulting from infection."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bonded",
+    "bn": [
+      "জোড়া"
+    ],
+    "def": [
+      "To connect, secure or tie with a bond; to bind."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bookmark",
+    "bn": [
+      "ভবিষ্যতে কোন ওয়েব সাইটে দ্রুত প্রবেশের জন্য উক্ত লিঙ্ক বা ঠিকানাটি ব্রাউজারে সেইভ করে রাখা",
+      "পুস্তকনিশানা",
+      "পুস্তক চিহ্ন"
+    ],
+    "def": [
+      "A strip of material used to mark a place in a book."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "breaks",
+    "bn": [
+      "ভাঙ্গা",
+      "ভঙ্গ করা",
+      "আবির্ভূত হত্তয়া",
+      "ভাঙ্গা যাত্তয়া",
+      "ব্যক্ত করা",
+      "ভাঙ্গিয়া যাত্তয়া",
+      "ভাঙ্গন ধরান",
+      "ভাঙ্গন ধরা",
+      "ভগ্ন করা",
+      "টুটান",
+      "চটান",
+      "আটখানা করা",
+      "প্রকাশিত হত্তয়া",
+      "ছিন্ন করা",
+      "ব্যাঘাত ঘটান",
+      "ব্যাঘাত ঘটা",
+      "তেজ চূর্ণ করা",
+      "তেজ চূর্ণ হত্তয়া",
+      "প্রকাশ করা",
+      "খণ্ডিত করা",
+      "খেলাপ করা",
+      "লঙ্ঘন করা",
+      "দমন করা",
+      "বশ মানান",
+      "দেউলিয়া হত্তয়া",
+      "দেউলিয়া করা",
+      "অবসান হত্তয়া",
+      "অবসান করা",
+      "ছুটি হত্তয়া",
+      "ছুটান",
+      "সাময়িকভাবে ছুটি দেত্তয়া",
+      "স্থগিত থাকা",
+      "স্থগিত রাখা",
+      "সহসা আরম্ভ করা",
+      "বিদিত হত্তয়া"
+    ],
+    "def": [
+      "An instance of breaking something into two or more pieces."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "brilliant",
+    "bn": [
+      "উজ্জ্বল"
+    ],
+    "def": [
+      "A finely cut gemstone, especially a diamond, cut in a particular form with numerous facets so as to maximize light return through the top (called \"table\") of the stone."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "broadly",
+    "bn": [
+      "বিস্তৃতভাবে",
+      "ব্যাপকভাবে",
+      "বিস্তীর্ণরুপে",
+      "মোটামুটি"
+    ],
+    "def": [
+      "Widely and openly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "buildings",
+    "bn": [
+      "ভবন",
+      "নির্মাণ",
+      "স্থাপন",
+      "ঘর",
+      "ইমারত",
+      "অট্টালিকা",
+      "গড়ন",
+      "রচন",
+      "নির্মিত বস্তু",
+      "শালা",
+      "কুঠী",
+      "রচনা"
+    ],
+    "def": [
+      "The act or process by which something is built; construction."
+    ],
+    "syn": [
+      "construction"
+    ],
+    "ant": []
+  },
+  {
+    "en": "built",
+    "bn": [
+      "নির্মিত",
+      "গঠিত",
+      "গড়া",
+      "রচিত",
+      "কৃত"
+    ],
+    "def": [
+      "To form (something) by combining materials or parts."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "bulb",
+    "bn": [
+      "কন্দ"
+    ],
+    "def": [
+      "Any solid object rounded at one end and tapering on the other, possibly attached to a larger object at the tapered end."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "burn",
+    "bn": [
+      "পোড়ানো"
+    ],
+    "def": [
+      "A physical injury caused by heat, cold, electricity, radiation or caustic chemicals."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "calculate",
+    "bn": [
+      "গণনা করা",
+      "গণনা দ্বারা নিরূপণ করা",
+      "হিসাব করা"
+    ],
+    "def": [
+      "To determine the value of something or the solution to something by a mathematical process."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "calculation",
+    "bn": [
+      "গণান",
+      "হিসাব নিরূপণ"
+    ],
+    "def": [
+      "The act or process of calculating."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "carriers",
+    "bn": [
+      "বাহক",
+      "সংবাহক",
+      "গাড়ী",
+      "মুটে",
+      "বেয়ারা",
+      "ধারয়িতা",
+      "বরদার"
+    ],
+    "def": [
+      "A person or object that carries someone or something else."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "carry",
+    "bn": [
+      "বহন করা",
+      "সঙ্গে নিয়ে যাওয়া"
+    ],
+    "def": [
+      "A manner of transporting or lifting something; the grip or position in which something is carried."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "case",
+    "bn": [
+      "আধার",
+      "বাক্স খাপ",
+      "কোষ ঘটনা",
+      "মকদ্দমা",
+      "আদালতে নালিশ",
+      "ব্যা কারক"
+    ],
+    "def": [
+      "An actual event, situation, or fact."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cave",
+    "bn": [
+      "গুহা",
+      "গহ্বর"
+    ],
+    "def": [
+      "A large, naturally-occurring cavity formed underground or in the face of a cliff or a hillside."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ceramic",
+    "bn": [
+      "মৃৎশিল্প বিষয়ক"
+    ],
+    "def": [
+      "A hard, brittle, inorganic, nonmetallic material, usually made from a materal, such as clay, then firing it at a high tempature."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ceramics",
+    "bn": [
+      "মৃত্শিল্প",
+      "মৃৎনির্মাণবিদ্যা"
+    ],
+    "def": [
+      "A hard, brittle, inorganic, nonmetallic material, usually made from a materal, such as clay, then firing it at a high tempature."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "children",
+    "bn": [
+      "সন্তানরা",
+      "শিশুরা"
+    ],
+    "def": [
+      "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "choice",
+    "bn": [
+      "পছন্দ",
+      "মনোনয়ন শক্তি",
+      "বাছাই করা বস্তু বা ব্যক্তি"
+    ],
+    "def": [
+      "An option; a decision; an opportunity to choose or select something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "chromium",
+    "bn": [
+      "ক্রোমিয়ম",
+      "ক্রৌমিয়াম"
+    ],
+    "def": [
+      "A chemical element (symbol Cr) with an atomic number of 24: a steely-grey, lustrous, hard and brittle transition metal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cigarettes",
+    "bn": [
+      "সিগারেট",
+      "ক্ষুদ্র চুরূট"
+    ],
+    "def": [
+      "Tobacco or other substances, in a thin roll wrapped with paper, intended to be smoked."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "circuit",
+    "bn": [
+      "ভিন্ন ভিন্ন স্থানে ঘুরে বেড়ান"
+    ],
+    "def": [
+      "The act of moving or revolving around, or as in a circle or orbit; a revolution"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "circular",
+    "bn": [
+      "বৃত্তাকার",
+      "গোল"
+    ],
+    "def": [
+      "Short for circular letter."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "civil",
+    "bn": [
+      "অসামরিক"
+    ],
+    "def": [
+      "Having to do with people and government office as opposed to the military or religion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "clean",
+    "bn": [
+      "নিমল",
+      "পরিস্কার"
+    ],
+    "def": [
+      "Removal of dirt."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "clearly",
+    "bn": [
+      "পরিষ্কারভাবে",
+      "স্পষ্ট",
+      "স্পষ্টভাবে",
+      "স্পষ্টতই",
+      "নিঃসন্দেহে"
+    ],
+    "def": [
+      "(manner) In a clear manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "clockwise",
+    "bn": [
+      "দক্ষিণাভিমুখে",
+      "দক্ষিণাবর্তে"
+    ],
+    "def": [
+      "Moving clockwise; having rotary motion in the manner of a clock."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "close",
+    "bn": [
+      "বন্ধ করা বা হওয়া"
+    ],
+    "def": [
+      "An end or conclusion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "closer",
+    "bn": [
+      "ঘনিষ্ঠ",
+      "নিকট",
+      "রূদ্ধ",
+      "কাছাকাছি",
+      "বদ্ধ",
+      "আঁটসাঁট",
+      "গুপ্ত",
+      "ঘেঁষাঘেঁষি",
+      "নিকটস্থ",
+      "আবদ্ধ",
+      "অবিকল",
+      "নিরূদ্ধ",
+      "সুসম্বদ্ধ",
+      "নিভৃত",
+      "ঠাস",
+      "লুক্কায়িত",
+      "ঘেঁষ",
+      "ঘন",
+      "নির্বাত",
+      "সংক্ষিপ্ত",
+      "উত্সাহী",
+      "অন্তিক",
+      "গাঢ়",
+      "জনপূর্ণ",
+      "অদূর",
+      "পরিচিত",
+      "ঠিক",
+      "মৌনী",
+      "মনোযোগী"
+    ],
+    "def": [
+      "Closed, shut."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "closeup",
+    "bn": [
+      "নিকটচিত্র",
+      "খুব নিকট হইতে গৃহীত ছবি"
+    ],
+    "def": [
+      "A video or film recording made with the camera positioned close to an actor, often so that only the head or face is visible."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "clothes",
+    "bn": [
+      "বস্ত্র",
+      "পরিচ্ছদ",
+      "পোষাক",
+      "আচ্ছাদন",
+      "পরিধেয়",
+      "পরিধানবস্ত্র",
+      "শাট",
+      "পোশাক পরিচ্ছদ",
+      "জামাকাপড়"
+    ],
+    "def": [
+      "A woven fabric such as used in dressing, decorating, cleaning or other practical use."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "coal",
+    "bn": [
+      "কয়লা",
+      "অঙ্গার"
+    ],
+    "def": [
+      "A black rock formed from prehistoric plant remains, composed largely of carbon and burned as a fuel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "coil",
+    "bn": [
+      "গুটানো কুন্ডলী পাকানো"
+    ],
+    "def": [
+      "Something wound in the form of a helix or spiral."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "coiled",
+    "bn": [
+      "কুণ্ডলিত"
+    ],
+    "def": [
+      "To wind or reel e.g. a wire or rope into regular rings, often around a centerpiece."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "coils",
+    "bn": [
+      "কুণ্ডলী",
+      "কুণ্ডলীর এক পাক",
+      "পেঁচ",
+      "অকারণ হৈচৈ",
+      "পাক"
+    ],
+    "def": [
+      "Something wound in the form of a helix or spiral."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cold",
+    "bn": [
+      "শীতল",
+      "ঠান্ড"
+    ],
+    "def": [
+      "(of a thing) Having a low temperature."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "colored",
+    "bn": [
+      "রঙ্গিন",
+      "রঙবিশিষ্ট",
+      "রঁজিত",
+      "অতিরঁজিত",
+      "চুনূরি",
+      "অনুরঁজিত",
+      "রংকরা"
+    ],
+    "def": [
+      "To give something color."
+    ],
+    "syn": [
+      "dye",
+      "paint",
+      "shade",
+      "stain",
+      "tinge",
+      "tint"
+    ],
+    "ant": []
+  },
+  {
+    "en": "combination",
+    "bn": [
+      "সম্মেলন",
+      "সংযুক্তি"
+    ],
+    "def": [
+      "The act of combining, the state of being combined or the result of combining."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "completely",
+    "bn": [
+      "সম্পূর্ণরূপে"
+    ],
+    "def": [
+      "(manner) In a complete manner"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "component",
+    "bn": [
+      "উপাদান",
+      "অঙ্গ"
+    ],
+    "def": [
+      "A smaller, self-contained part of a larger entity. Often refers to a manufactured object that is part of a larger device."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "compositions",
+    "bn": [
+      "রচনা",
+      "গঠন",
+      "রচন",
+      "রফা",
+      "কৃতি",
+      "সংকলন",
+      "সংযোজন",
+      "গ্রথন",
+      "সাহিত্য",
+      "প্রবন্ধ",
+      "অক্ষরবিন্যাস",
+      "মিশ্রণ",
+      "বন্দোবস্ত",
+      "মীমাংসা",
+      "গাঁথন",
+      "সন্ধি"
+    ],
+    "def": [
+      "The act of putting together; assembly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "concealed",
+    "bn": [
+      "প্রচ্ছন্ন",
+      "অবগুণ্ঠিত",
+      "নিগূঢ়",
+      "গুপ্ত",
+      "লুক্কায়িত",
+      "গুম",
+      "গুহ্য",
+      "অপবারিত",
+      "অপ্রকট",
+      "গোপন",
+      "গোপিত",
+      "ধামাচাপা",
+      "লুকোনো"
+    ],
+    "def": [
+      "To hide something from view or from public knowledge, to try to keep something secret."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "concentrate",
+    "bn": [
+      "কেন্দ্রীভূত করা"
+    ],
+    "def": [
+      "A substance that is in a condensed form."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "concentric",
+    "bn": [
+      "এককেন্দ্রিক",
+      "সমকেন্দ্র"
+    ],
+    "def": [
+      "Having a common center."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "conductor",
+    "bn": [
+      "পরিচালক"
+    ],
+    "def": [
+      "One who conducts or leads; a guide; a director."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "conductors",
+    "bn": [
+      "কন্ডাকটর",
+      "পথপ্রদর্শক",
+      "পরিবাহী",
+      "পরিচালক",
+      "নায়ক",
+      "নেতা",
+      "বিজলীদণ্ড",
+      "বিজলিদণ্ড"
+    ],
+    "def": [
+      "One who conducts or leads; a guide; a director."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "confusing",
+    "bn": [
+      "বিভ্রান্তিকর",
+      "বিভ্রান্তকর",
+      "গোলমেলে",
+      "ঠকানে"
+    ],
+    "def": [
+      "To puzzle, perplex, baffle, bewilder (somebody)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "connections",
+    "bn": [
+      "সংযোগ",
+      "সম্পর্ক",
+      "সূত্র",
+      "সংস্রব",
+      "সংলগ্নতা",
+      "অনুষঙ্গ",
+      "সম্পৃক্তি",
+      "সুবাদ",
+      "কুটুম্বিতা",
+      "সম্বন্ধ",
+      "যোগ"
+    ],
+    "def": [
+      "The act of connecting."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "considerations",
+    "bn": [
+      "বিবেচনা",
+      "চিন্তা",
+      "গুরুত্ব",
+      "কারণ",
+      "বিচার",
+      "জ্ঞান",
+      "প্রতর্ক",
+      "চিন্তন",
+      "মন",
+      "গণনা",
+      "পরিগণনা",
+      "অবধান",
+      "প্রণিধান",
+      "তর্ক",
+      "উদ্দেশ্য",
+      "ক্ষতিপূরণ",
+      "বখশিশ",
+      "পারিশ্রমিক",
+      "আলোচনা",
+      "আলোচন"
+    ],
+    "def": [
+      "The thought process of considering, of taking multiple or specified factors into account (with of being the main corresponding adposition)."
+    ],
+    "syn": [
+      "deliberation",
+      "thought"
+    ],
+    "ant": []
+  },
+  {
+    "en": "consists",
+    "bn": [
+      "গঠন"
+    ],
+    "def": [
+      "To be."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "consumed",
+    "bn": [
+      "ক্ষয়প্রাপ্ত",
+      "খাত্তয়া"
+    ],
+    "def": [
+      "To use up."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "consumes",
+    "bn": [
+      "গ্রাস করা",
+      "ভক্ষণ করা",
+      "ব্যয় করা",
+      "খরচ করা",
+      "দগ্ধ করা",
+      "খাত্তয়া",
+      "সাবাড় করা",
+      "পাচার করা",
+      "টানা",
+      "ক্ষয়প্রাপ্ত হত্তয়া"
+    ],
+    "def": [
+      "To use up."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "contacts",
+    "bn": [
+      "সম্পর্ক"
+    ],
+    "def": [
+      "The act of touching physically; being in close association."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "continuous",
+    "bn": [
+      "অবিচ্ছিন্ন",
+      "একটানা",
+      "লাগাতার"
+    ],
+    "def": [
+      "Without stopping; without a break, cessation, or interruption"
+    ],
+    "syn": [
+      "nonstop",
+      "perpetual"
+    ],
+    "ant": []
+  },
+  {
+    "en": "convection",
+    "bn": [
+      "পরিচলন",
+      "বস্তুকণার স্থানান্তরের মাধ্যমে তাপ সঞ্চার"
+    ],
+    "def": [
+      "The process of conveying something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "convenience",
+    "bn": [
+      "সুবিধা",
+      "উপযোগিতা"
+    ],
+    "def": [
+      "The quality of being convenient."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "convenient",
+    "bn": [
+      "উপযুক্ত",
+      "সুবিধাজনক"
+    ],
+    "def": [
+      "Serving to reduce a difficulty, or accessible with minimum difficulty; expedient."
+    ],
+    "syn": [
+      "easy",
+      "expedient",
+      "simple"
+    ],
+    "ant": [
+      "inconvenient"
+    ]
+  },
+  {
+    "en": "converted",
+    "bn": [
+      "রূপান্তরিত",
+      "ধর্মান্তরিত"
+    ],
+    "def": [
+      "To transform or change (something) into another form, substance, state, or product."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "converting",
+    "bn": [
+      "পরিবর্তনশীল"
+    ],
+    "def": [
+      "To transform or change (something) into another form, substance, state, or product."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "converts",
+    "bn": [
+      "ধর্মান্তরিত ব্যক্তি",
+      "পরিবর্তিত ব্যক্তি"
+    ],
+    "def": [
+      "A person who has converted to a religion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cooking",
+    "bn": [
+      "রন্ধন",
+      "রান্না",
+      "রন্ধনকার্য",
+      "রাঁধা",
+      "পচন",
+      "পাক"
+    ],
+    "def": [
+      "To prepare (food) for eating by heating it, often by combining it with other ingredients."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cool",
+    "bn": [
+      "শীতল",
+      "ঠান্ডা",
+      "উদ্াসীন"
+    ],
+    "def": [
+      "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cooling",
+    "bn": [
+      "শীতলকারী"
+    ],
+    "def": [
+      "To lose heat, to get colder."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cope",
+    "bn": [
+      "এঁটে ওঠা",
+      "প্রতিযোগিতা করা"
+    ],
+    "def": [
+      "To deal effectively with something, especially if difficult."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "coping",
+    "bn": [
+      "প্রাচীরশীর্ষস্থ ঢাল",
+      "প্রাচীরের ওপরের গাঁথনি"
+    ],
+    "def": [
+      "To deal effectively with something, especially if difficult."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "copper",
+    "bn": [
+      "তামা"
+    ],
+    "def": [
+      "A reddish-brown, malleable, ductile metallic element with high electrical and thermal conductivity, symbol Cu, and atomic number 29."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "copy",
+    "bn": [
+      "অনুলিপি",
+      "প্রতিলিপি",
+      "নকল",
+      "অনুকরণ"
+    ],
+    "def": [
+      "The result of copying; an identical duplicate of an original."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "copying",
+    "bn": [
+      "নকল",
+      "নকলনবিসি",
+      "নকলকরণ"
+    ],
+    "def": [
+      "To produce an object identical to a given object."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "corporate",
+    "bn": [
+      "মিলিত",
+      "যৌথ"
+    ],
+    "def": [
+      "A bond issued by a corporation."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "corrugated",
+    "bn": [
+      "ঢেউখেলান",
+      "ঢেউতোলা"
+    ],
+    "def": [
+      "(of the skin) To wrinkle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "covered",
+    "bn": [
+      "আচ্ছাদিত",
+      "আবৃত",
+      "ঢাকা",
+      "অন্তর্ভুক্ত",
+      "গুণ্ঠিত",
+      "বৃত",
+      "আচ্ছন্ন",
+      "প্রচ্ছন্ন",
+      "ছন্ন",
+      "ছাত্তয়া",
+      "অবগুণ্ঠিত",
+      "অনগ্ন",
+      "সাজান",
+      "ভূষিত",
+      "অবতীর্ণ",
+      "পর্যাপ্ত"
+    ],
+    "def": [
+      "To place something over or upon, as to conceal or protect."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "covering",
+    "bn": [
+      "ঢাকনা",
+      "আবরণ",
+      "আচ্ছাদন"
+    ],
+    "def": [
+      "To place something over or upon, as to conceal or protect."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "covers",
+    "bn": [
+      "আবরণ",
+      "চাপা",
+      "আচ্ছাদন",
+      "ঢাকনা",
+      "খাম",
+      "আড়াল",
+      "ছদ্মবেশ",
+      "আবরক",
+      "প্রচ্ছদপট",
+      "ত্তড়",
+      "প্রাবরণ",
+      "টুপির ন্যায় ঢাকনা",
+      "ঢাক",
+      "গেলাপ",
+      "গুণ্ঠন",
+      "আড়",
+      "ছল",
+      "কোষ",
+      "খোল",
+      "ঝোপঝোড়"
+    ],
+    "def": [
+      "A lid."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "criminal",
+    "bn": [
+      "অপরাধী ব্যক্তি"
+    ],
+    "def": [
+      "A person who is guilty of a crime, notably breaking the law."
+    ],
+    "syn": [
+      "lawbreaker",
+      "offender",
+      "perpetrator"
+    ],
+    "ant": []
+  },
+  {
+    "en": "curling",
+    "bn": [
+      "কুঁচিতকরণ",
+      "কুঁচন"
+    ],
+    "def": [
+      "To cause to move in a curve."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "current",
+    "bn": [
+      "প্রবাহমান",
+      "চলতি",
+      "বর্তমান"
+    ],
+    "def": [
+      "The generally unidirectional movement of a gas or fluid."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "curving",
+    "bn": [
+      "কুঁচন"
+    ],
+    "def": [
+      "To bend; to crook."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cycle",
+    "bn": [
+      "বৃত্তাকারে আবর্তন",
+      "সাইকেল গাড়ি"
+    ],
+    "def": [
+      "An interval of space or time in which one set of events or phenomena is completed."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "d",
+    "bn": [
+      "ইংরেজী বর্ণমালার চতুর্থ বর্ণ"
+    ],
+    "def": [
+      "Abbreviation of declare."
+    ],
+    "syn": [
+      "dec"
+    ],
+    "ant": []
+  },
+  {
+    "en": "damage",
+    "bn": [
+      "ক্ষতি",
+      "লোকসান"
+    ],
+    "def": [
+      "Injury or harm; the condition or measure of something not being intact."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "damaged",
+    "bn": [
+      "ক্ষতিগ্রস্ত"
+    ],
+    "def": [
+      "To impair the soundness, goodness, or value of; to harm or cause destruction."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "damp",
+    "bn": [
+      "সঁ্যাতসেঁতে"
+    ],
+    "def": [
+      "Moisture; humidity; dampness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dangerous",
+    "bn": [
+      "বিপজ্জনক",
+      "ভয়ানক"
+    ],
+    "def": [
+      "Full of danger."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "date",
+    "bn": [
+      "তারিখ",
+      "সময়",
+      "খেজুর"
+    ],
+    "def": [
+      "The fruit of the date palm, Phoenix dactylifera, somewhat in the shape of an olive, containing a soft, sweet pulp and enclosing a hard kernel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "deal",
+    "bn": [
+      "অংশ",
+      "মাত্রা",
+      "তাসবিলি"
+    ],
+    "def": [
+      "A division, a portion, a share."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dear",
+    "bn": [
+      "প্রিয়",
+      "মহার্ঘ"
+    ],
+    "def": [
+      "A very kind, loving person."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "described",
+    "bn": [
+      "বর্ণিত",
+      "কথিত",
+      "অঙ্কিত",
+      "আঁকা"
+    ],
+    "def": [
+      "To represent in words."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "design",
+    "bn": [
+      "নকশা আকা",
+      "অভিসন্ধি করা"
+    ],
+    "def": [
+      "A specification of an object or process, referring to requirements to be satisfied and thus conditions to be met for them to solve a problem."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "designing",
+    "bn": [
+      "মতলববাজ",
+      "কুমন্ত্রনাকারী"
+    ],
+    "def": [
+      "To plan and carry out (a picture, work of art, construction etc.)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "determined",
+    "bn": [
+      "দৃঢ়প্রতিজ্ঞ"
+    ],
+    "def": [
+      "To set the boundaries or limits of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "devices",
+    "bn": [
+      "নকশা"
+    ],
+    "def": [
+      "Any piece of equipment made for a particular purpose, especially a mechanical or electrical one."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dial",
+    "bn": [
+      "ডায়াল করা"
+    ],
+    "def": [
+      "A graduated, circular scale over which a needle moves to show a measurement (such as speed)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "diameter",
+    "bn": [
+      "বৃত্তের ব্যাস"
+    ],
+    "def": [
+      "Any straight line between two points on the circumference of a circle that passes through the centre/center of the circle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "did",
+    "bn": [
+      "করা",
+      "কাজ করা",
+      "আচরণ করা",
+      "শেষ করা",
+      "পারা",
+      "অভিনয় করা",
+      "কাটান"
+    ],
+    "def": [
+      "(auxiliary) A syntactic marker."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dimensions",
+    "bn": [
+      "ত্রিমাত্রা"
+    ],
+    "def": [
+      "A single aspect of a given thing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "directions",
+    "bn": [
+      "অভিমুখ",
+      "ঠিকানা",
+      "নেতৃত্ব",
+      "দিক্",
+      "তরফ",
+      "উদ্দেশ",
+      "নিদেশ",
+      "ভিত",
+      "পক্ষ",
+      "ব্যবস্থাপন",
+      "প্রাপকের নামঠিকানা",
+      "পরিচালকগোষ্ঠী"
+    ],
+    "def": [
+      "A theoretical line (physically or mentally) followed from a point of origin or towards a destination. May be relative (e.g. up, left, outbound, dorsal), geographical (e.g. north), rotational (e.g. clockwise), or with respect to an object or location (e.g. toward Boston)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "directly",
+    "bn": [
+      "সোজাসুজি",
+      "অবিলম্বে"
+    ],
+    "def": [
+      "In a direct manner; in a straight line or course."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "disastrous",
+    "bn": [
+      "সর্বনাশা",
+      "দুর্দশাজনক"
+    ],
+    "def": [
+      "Of the nature of a disaster; calamitous."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dissipated",
+    "bn": [
+      "লম্পট"
+    ],
+    "def": [
+      "To drive away, disperse."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "do",
+    "bn": [
+      "করা"
+    ],
+    "def": [
+      "A party, celebration, social function."
+    ],
+    "syn": [
+      "get-together"
+    ],
+    "ant": []
+  },
+  {
+    "en": "donation",
+    "bn": [
+      "চাঁদা হিসাবে টাকা বা জিনিস পত্র"
+    ],
+    "def": [
+      "A voluntary gift or contribution for a specific cause."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dot",
+    "bn": [
+      "বিন্দ্র বা ফুটকি"
+    ],
+    "def": [
+      "A small, round spot."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "double",
+    "bn": [
+      "যুগ্ন"
+    ],
+    "def": [
+      "Twice the number, amount, size, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "down",
+    "bn": [
+      "নিচের দিকে"
+    ],
+    "def": [
+      "A negative aspect; a downer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dozens",
+    "bn": [
+      "বারো",
+      "দ্বাদশ"
+    ],
+    "def": [
+      "A set of twelve."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "draped",
+    "bn": [
+      "সাজান"
+    ],
+    "def": [
+      "To cover or adorn with drapery or folds of cloth, or as with drapery"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "draws",
+    "bn": [
+      "আঁকা",
+      "ছবি আঁকা",
+      "চলা",
+      "টানা",
+      "টানিয়া ফেরান",
+      "সঙ্কুচিত করা",
+      "আকর্ষণ করা",
+      "প্রলুব্ধ করা",
+      "লটারিতে পাত্তয়া",
+      "নিসারিত করা",
+      "সিদ্ধান্ত করা",
+      "প্রলম্বিত করা",
+      "বাড়ান",
+      "রচনা করা",
+      "অঙ্কিত করা",
+      "অঙ্কন করা",
+      "নড়া",
+      "নিকটে হত্তয়া",
+      "আশ্রয় লত্তয়া",
+      "লেখা করা"
+    ],
+    "def": [
+      "The result of a contest that neither side has won; a tie."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dryer",
+    "bn": [
+      "যে ধাত্রী স্তন পান না করাইয়া শিশু পালন করেন"
+    ],
+    "def": [
+      "One who, or that which, dries; a desiccative."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dryers",
+    "bn": [
+      "ড্রায়ার"
+    ],
+    "def": [
+      "One who, or that which, dries; a desiccative."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "durable",
+    "bn": [
+      "স্থায়ী"
+    ],
+    "def": [
+      "A durable thing, one useful over more than one period, especially a year."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "during",
+    "bn": [
+      "যাবৎ"
+    ],
+    "def": [
+      "To last, continue, endure."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "dwellers",
+    "bn": [
+      "অধিষ্ঠাতা"
+    ],
+    "def": [
+      "An inhabitant of a specific place; an inhabitant or denizen."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "each",
+    "bn": [
+      "প্রত্যেক",
+      "প্রত্যেকে"
+    ],
+    "def": [
+      "(operations) An individual item: the least quantitative unit in a grouping."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "earliest",
+    "bn": [
+      "আশু",
+      "আসন্ন",
+      "যথাসময়ের পূর্বকালীন",
+      "বহুপ্রাচীন",
+      "সেকেলে",
+      "নব",
+      "গোড়ার দিকের",
+      "ভোরবেলার"
+    ],
+    "def": [
+      "At a time in advance of the usual or expected event."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "easily",
+    "bn": [
+      "অনায়াসে"
+    ],
+    "def": [
+      "Comfortably, without discomfort or anxiety."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "easy",
+    "bn": [
+      "সহজ",
+      "সরল",
+      "আরামপূর্ণ",
+      "অবাধ"
+    ],
+    "def": [
+      "Something that is easy"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "economical",
+    "bn": [
+      "মিতব্যয়ী",
+      "অর্থবিদ্যা সংক্রান্ত"
+    ],
+    "def": [
+      "Careful with money so as not to spend too much; prudent; thrifty."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "editor",
+    "bn": [
+      "সম্পাদক",
+      "পত্রিকাসম্পাদক"
+    ],
+    "def": [
+      "A person who edits or makes changes to documents."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "effectively",
+    "bn": [
+      "কার্যকরীভাবে",
+      "সাফল্যের সঙ্গে"
+    ],
+    "def": [
+      "In an efficient or effective manner; with powerful effect."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "efficient",
+    "bn": [
+      "দক্ষ",
+      "কার্যকর",
+      "ক্রিয়াশীল",
+      "ফলপ্রদ",
+      "কার্যক্ষম",
+      "সক্ষম",
+      "কর্মদক্ষ",
+      "কর্মী",
+      "পটু",
+      "করিতকর্মা",
+      "যোগ্য",
+      "কেজো"
+    ],
+    "def": [
+      "A cause; something that causes an effect"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "either",
+    "bn": [
+      "দুএর মধ্যে যেকোনটি বা যে কেউ",
+      "অন্যতর",
+      "দুএর মধ্যে প্রত্যেকটি"
+    ],
+    "def": [
+      "(after a negative) As well."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "electric",
+    "bn": [
+      "বৈদু্যতিক",
+      "তাড়িত",
+      "তড়িৎ সম্বন্ধীয়"
+    ],
+    "def": [
+      "(usually with definite article) Electricity; the electricity supply."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "electrical",
+    "bn": [
+      "বৈদ্যুতিক",
+      "বিদ্যুত্সংক্রান্ত",
+      "বিদ্যুত্সঁচারিত",
+      "তাড়িত",
+      "ইলেকট্রি",
+      "রোমাঁচকর"
+    ],
+    "def": [
+      "An electrical engineer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "electricity",
+    "bn": [
+      "বিদু্যৎ",
+      "তড়িৎ",
+      "বিজলী"
+    ],
+    "def": [
+      "Originally, a property of amber and certain other nonconducting substances to attract lightweight material when rubbed, or the cause of this property; now understood to be a phenomenon caused by the distribution and movement of charged subatomic particles and their interaction with the electromagnetic field."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "electrocution",
+    "bn": [
+      "তড়িতাহত হয়ে মৃত্যু"
+    ],
+    "def": [
+      "The accidental death or suicide by electric shock."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "electronic",
+    "bn": [
+      "বিদু্যতিন সংক্রান্ত"
+    ],
+    "def": [
+      ": Of or pertaining to an electron or electrons."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "elements",
+    "bn": [
+      "আবহাত্তয়া",
+      "প্রকৃতির শক্তি",
+      "শাস্ত্রের প্রাথমিক তত্ত্ব"
+    ],
+    "def": [
+      "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "else",
+    "bn": [
+      "নতুবা",
+      "নচেৎ",
+      "অন্যথায়",
+      "এতদভিন্ন"
+    ],
+    "def": [
+      "(used only with indefinite or interrogative pronouns) Other; in addition to previously mentioned items."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "email",
+    "bn": [
+      "ইমেল"
+    ],
+    "def": [
+      "A system for transferring messages from one computer to another, usually through a network."
+    ],
+    "syn": [],
+    "ant": [
+      "snail mail"
+    ]
+  },
+  {
+    "en": "embedded",
+    "bn": [
+      "খচিত",
+      "অনুবিদ্ধ"
+    ],
+    "def": [
+      "To lay as in a bed; to lay in surrounding matter; to bed."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ends",
+    "bn": [
+      "শেষ",
+      "অবসান",
+      "সমাপ্তি",
+      "পরিসমাপ্তি",
+      "প্রান্ত",
+      "পরিণাম",
+      "সীমা",
+      "ধ্বংস",
+      "অন্ত",
+      "খতম",
+      "আগা",
+      "লক্ষ্য",
+      "উপসংহার",
+      "ডগা",
+      "অন্তর",
+      "অস্ত",
+      "মৃতু্য",
+      "অগ্রভাগ",
+      "অগ্র",
+      "ইস্তাফা",
+      "অবধি",
+      "আসান",
+      "চরম",
+      "পরিশেষ",
+      "পালি",
+      "টুকরা",
+      "আরতি",
+      "অসকাল",
+      "পার্শ্ব",
+      "কূল",
+      "ত্তর",
+      "অঙ্কুর",
+      "ইস্তফা",
+      "আখের",
+      "নিকাশ",
+      "মাথা",
+      "নির্বাণ",
+      "কোটি"
+    ],
+    "def": [
+      "The terminal point of something in space or time."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "energy",
+    "bn": [
+      "কর্মশক্তি",
+      "উদ্যম",
+      "শক্তি বা তেজা"
+    ],
+    "def": [
+      "The impetus behind all motion and all activity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "engineers",
+    "bn": [
+      "যন্ত্রবিদ",
+      "বাস্তুকার"
+    ],
+    "def": [
+      "A person who is qualified or professionally engaged in any branch of engineering."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "engines",
+    "bn": [
+      "ইঞ্জিন",
+      "যন্ত্র",
+      "এনজিন",
+      "রেলগাড়ি",
+      "কল",
+      "চালকযন্ত্র",
+      "উপায়"
+    ],
+    "def": [
+      "A large construction used in warfare, such as a battering ram, catapult etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "enjoyed",
+    "bn": [
+      "আস্বাদিত",
+      "ভুক্ত",
+      "উপভুক্ত"
+    ],
+    "def": [
+      "To receive pleasure or satisfaction from something"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "enough",
+    "bn": [
+      "যথেষ্ট বা পর্যাপ্ত পরিমাণে"
+    ],
+    "def": [
+      "Sufficiently."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "equal",
+    "bn": [
+      "সমান",
+      "সম",
+      "সমকক্ষ",
+      "নিরপেক্ষ",
+      "ন্যায়সঙ্গত",
+      "তুল্যমূল্য",
+      "অবিশেষ",
+      "নির্বিশেষ",
+      "অবিভিন্ন",
+      "উপযুক্ত",
+      "সোসর"
+    ],
+    "def": [
+      "A person or thing of equal status to others."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "equations",
+    "bn": [
+      "সমীকরণ",
+      "সমান করার ক্রিয়া",
+      "সমান করার প্রক্রিয়া",
+      "দ্বিপদসমীকরণ"
+    ],
+    "def": [
+      "The act or process of equating two or more things, or the state of those things being equal (that is, identical)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "essence",
+    "bn": [
+      "সত্তা",
+      "সারভাগ",
+      "নির্যাস",
+      "সুগন্ধসার"
+    ],
+    "def": [
+      "The inherent nature of a thing or idea."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "essentially",
+    "bn": [
+      "মূলত",
+      "সারত",
+      "অপরিহায্র্যরূপে",
+      "সারবানরূপে",
+      "অপরিহার্যরূপে",
+      "সারতঃ",
+      "মূলতঃ"
+    ],
+    "def": [
+      "In an essential manner; in essence"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "et",
+    "bn": [
+      "এবং"
+    ],
+    "def": [
+      "To ingest; to be ingested."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ever",
+    "bn": [
+      "সর্বদা",
+      "চিরকাল"
+    ],
+    "def": [
+      "Occurring at any time, occurring even but once during a timespan."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "everyday",
+    "bn": [
+      "প্রতিদিনকার",
+      "নিত্য",
+      "সাধারণ"
+    ],
+    "def": [
+      "(rare) the ordinary or routine day or occasion"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "everything",
+    "bn": [
+      "প্রত্যেক বস্তু"
+    ],
+    "def": [
+      "All the things under discussion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "exactly",
+    "bn": [
+      "যথাযথভাবে",
+      "নির্ভুলভাবে",
+      "ঠিকভাবে"
+    ],
+    "def": [
+      "(manner) without approximation; precisely."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "example",
+    "bn": [
+      "আদর্শ",
+      "দৃষ্টান্ত",
+      "উদাহরণ",
+      "নমুনা"
+    ],
+    "def": [
+      "Something that is representative of all such things in a group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "examples",
+    "bn": [
+      "উদাহরণ",
+      "দৃষ্টান্ত",
+      "আদর্শ",
+      "নমুনা",
+      "নজির",
+      "নিদর্শন",
+      "সতর্কীকরণ",
+      "অনুকরণীয় উদাহরণ",
+      "আদর্শ ব্যক্তি",
+      "আদর্শ বস্তু",
+      "পূর্বদৃষ্টান্ত",
+      "অনুশীলনী"
+    ],
+    "def": [
+      "Something that is representative of all such things in a group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "excellent",
+    "bn": [
+      "পরমোৎকৃষ্ট",
+      "চমৎকার"
+    ],
+    "def": [
+      "Having excelled, having surpassed."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "expand",
+    "bn": [
+      "বিস্তৃত করা",
+      "সম্প্রসারিত করা"
+    ],
+    "def": [
+      "To change (something) from a smaller form and/or size to a larger one; to spread out or lay open."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "explained",
+    "bn": [
+      "বিবৃত"
+    ],
+    "def": [
+      "To make plain, manifest, or intelligible; to clear of obscurity; to illustrate the meaning of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "extreme",
+    "bn": [
+      "শেষসীমা",
+      "প্রান্ত"
+    ],
+    "def": [
+      "The greatest or utmost point, degree or condition."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "extremes",
+    "bn": [
+      "প্রান্ত",
+      "ডগা",
+      "আগা",
+      "চরমসীমা",
+      "চরম পরিমাণ",
+      "শেষ"
+    ],
+    "def": [
+      "The greatest or utmost point, degree or condition."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "factor",
+    "bn": [
+      "গুণনীয়ক",
+      "উৎপাদক",
+      "অন্যতম হেতু"
+    ],
+    "def": [
+      "A doer, maker; a person who does things for another person or organization."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fairly",
+    "bn": [
+      "সুন্দররুপে",
+      "সম্পূর্ণরূপে"
+    ],
+    "def": [
+      "(manner) In a fair manner; fair; not biased or skewed or favouring a certain party"
+    ],
+    "syn": [
+      "frankly",
+      "justly"
+    ],
+    "ant": []
+  },
+  {
+    "en": "fan",
+    "bn": [
+      "পাখা",
+      "উগ্র অনুরাগী"
+    ],
+    "def": [
+      "A hand-held device consisting of concertinaed material, or slats of material, gathered together at one end, that may be opened out into the shape of a sector of a circle and waved back and forth in order to move air towards oneself and cool oneself."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fans",
+    "bn": [
+      "ফ্যান",
+      "পাখা",
+      "কুলা",
+      "ডানা",
+      "গোঁড়া ভক্ত"
+    ],
+    "def": [
+      "A hand-held device consisting of concertinaed material, or slats of material, gathered together at one end, that may be opened out into the shape of a sector of a circle and waved back and forth in order to move air towards oneself and cool oneself."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fantastic",
+    "bn": [
+      "অদ্ভুত",
+      "আজগুবি",
+      "কাল্পনিক"
+    ],
+    "def": [
+      "A fanciful or whimsical person."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "far",
+    "bn": [
+      "দূর",
+      "দূরবর্তী"
+    ],
+    "def": [
+      "Distant; remote in space."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "favorite",
+    "bn": [
+      "প্রিয়",
+      "সমাদৃত"
+    ],
+    "def": [
+      "A person or thing who enjoys special regard or favour."
+    ],
+    "syn": [],
+    "ant": [
+      "unfavorite",
+      "unfavourite"
+    ]
+  },
+  {
+    "en": "feeble",
+    "bn": [
+      "ক্ষীণ",
+      "নিস্তেজ",
+      "দুর্বল"
+    ],
+    "def": [
+      "To make feeble; to enfeeble."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "feed",
+    "bn": [
+      "খাওয়ানো"
+    ],
+    "def": [
+      "Food given to (especially herbivorous) animals."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "feel",
+    "bn": [
+      "স্পর্শকরা",
+      "অনুভব করা"
+    ],
+    "def": [
+      "A quality of an object experienced by touch."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "feels",
+    "bn": [
+      "অনুভব করা",
+      "স্পর্শদ্বারা অনুভব করা",
+      "স্পর্শদ্বারা উপলদ্ধি করা",
+      "উপলব্ধি করা",
+      "বোধ করা",
+      "জ্ঞান করা",
+      "টের পাত্তয়া",
+      "স্পর্শ করিয়া দেখা",
+      "মনে হত্তয়া",
+      "অনুভূতিসম্পন্ন হত্তয়া",
+      "অনুভূতি লাভ করা",
+      "মনে লত্তয়া",
+      "ধারণা করা",
+      "মালুম করা",
+      "মালুম পাত্তয়া"
+    ],
+    "def": [
+      "Of or relating to the emotions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "few",
+    "bn": [
+      "অল্পসংখ্যক",
+      "কয়েকজন"
+    ],
+    "def": [
+      "Few people, few things."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "filament",
+    "bn": [
+      "সুক্ষ",
+      "ধাতব তন্তু বা তার"
+    ],
+    "def": [
+      "A fine thread or wire."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fills",
+    "bn": [
+      "পূর্ণ করা",
+      "পূরণ করা",
+      "ভরাট করা",
+      "ভরা",
+      "ভর্তি করা",
+      "পরিপূর্ণ করা",
+      "শূন্যস্থান পূর্ণ করা",
+      "পরিপূর্ণ হত্তয়া",
+      "সরবরাহ করা",
+      "তৃপ্ত করা",
+      "কর্তব্যপ্রলন করা",
+      "পরিতৃপ্ত হত্তয়া",
+      "পুরা",
+      "ভর করা",
+      "ভরতি করা",
+      "আকণ্ঠ ভোজন করান"
+    ],
+    "def": [
+      "To occupy fully, to take up all of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fire",
+    "bn": [
+      "আগুন",
+      "শিখা",
+      "গোলাগুলি নিক্ষেপণ"
+    ],
+    "def": [
+      "A (usually self-sustaining) chemical reaction involving the bonding of oxygen with carbon or other fuel, with the production of heat and the presence of flame or smouldering."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fired",
+    "bn": [
+      "জ্বালান",
+      "দাগা",
+      "গুলি করা",
+      "গুলিবর্ষণ করা",
+      "ইন্ধন দেত্তয়া",
+      "তাপে রাখা",
+      "তাপ দেত্তয়া",
+      "আগুনে সেঁকা",
+      "দাহন করা",
+      "উদ্দীপ্ত করা",
+      "জ্বলিয়া ত্তঠা",
+      "জ্বলিতে থাকা",
+      "বন্দুকাদি দাগা",
+      "ছুড়া",
+      "সাগ্রহ হত্তয়া",
+      "পোড়ান",
+      "বিস্ফোরিত করা",
+      "গোলাবর্ষণ করা",
+      "গোলা চালানো",
+      "গুলি চালানো",
+      "অগ্নিসংযোগ করা"
+    ],
+    "def": [
+      "To set (something, often a building) on fire."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fit",
+    "bn": [
+      "উপযুক্ত",
+      "যোগ্য"
+    ],
+    "def": [
+      "The degree to which something fits."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "flames",
+    "bn": [
+      "শিখা",
+      "অগ্নিশিখা",
+      "আগুনের ঝলক",
+      "জ্বালা",
+      "জ্বাল",
+      "জ্বলজ্বল",
+      "আবেগ",
+      "অনুরাগ পাত্র",
+      "অনুরাগের পাত্র",
+      "অর্চি",
+      "উজ্জ্বল আলোক",
+      "রোষ"
+    ],
+    "def": [
+      "The visible part of fire; a stream of burning vapour or gas, emitting light and heat."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "flow",
+    "bn": [
+      "প্রবাহিত হওয়া"
+    ],
+    "def": [
+      "A movement in people or things with a particular way in large numbers or amounts"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "flowing",
+    "bn": [
+      "প্রবাহিত",
+      "সাবলীল",
+      "বহতা",
+      "প্রবাহী",
+      "প্রবহমাণ",
+      "স্বচ্ছন্দগতি"
+    ],
+    "def": [
+      "To move as a fluid from one position to another."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "flows",
+    "bn": [
+      "প্রবাহ",
+      "ধারা",
+      "প্রবহণ",
+      "প্রচুর সরবরাহ",
+      "ধার",
+      "প্রবহ",
+      "স্রোত",
+      "জোয়ারের আরম্ভ",
+      "জোয়ার",
+      "জোয়ারের সময়"
+    ],
+    "def": [
+      "A movement in people or things with a particular way in large numbers or amounts"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fluorescent",
+    "bn": [
+      "প্রতিপ্রভ",
+      "উজ্বল আভাযুক্ত"
+    ],
+    "def": [
+      "A fluorescent light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "foolish",
+    "bn": [
+      "বোকা",
+      "নির্বোধ"
+    ],
+    "def": [
+      "(of a person, an action, etc.) Lacking good sense or judgement; unwise."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "force",
+    "bn": [
+      "সশস্ত্রবাহিনী"
+    ],
+    "def": [
+      "Strength or energy of body or mind; active power; vigour; might; capacity of exercising an influence or producing an effect."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "forcing",
+    "bn": [
+      "অত্যাচার",
+      "বলপ্রয়োগ",
+      "নিয্র্যাতন",
+      "ধর্ষণ"
+    ],
+    "def": [
+      "To violate (a woman); to rape."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "forget",
+    "bn": [
+      "ভুলে যাওয়া"
+    ],
+    "def": [
+      "To lose remembrance of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "forward",
+    "bn": [
+      "সম্মুখস্থ",
+      "অগ্রবর্তী"
+    ],
+    "def": [
+      "One of the eight players (comprising two props, one hooker, two locks, two flankers and one number eight, collectively known as the pack) whose primary task is to gain and maintain possession of the ball (compare back)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "four",
+    "bn": [
+      "চার"
+    ],
+    "def": [
+      "The digit or figure 4; an occurrence thereof."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "friends",
+    "bn": [
+      "বন্ধু",
+      "মিত্র",
+      "বান্ধব",
+      "স্বজন",
+      "পরিজন",
+      "হিতাকাঙ্ক্ষী",
+      "ভাই",
+      "আত্মীয়",
+      "ইয়ার",
+      "মিতা",
+      "বেরাদর",
+      "ভায়া",
+      "সুহৃৎ",
+      "সখা",
+      "শুভার্থী",
+      "অনুগ্রহকারী",
+      "দোস্ত"
+    ],
+    "def": [
+      "A person other than a family member, spouse or lover whose company one enjoys and towards whom one feels affection."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "front",
+    "bn": [
+      "সামনে",
+      "সম্মুখভাগে"
+    ],
+    "def": [
+      "The foremost side of something or the end that faces the direction it normally moves."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "frost",
+    "bn": [
+      "তুষারকণা",
+      "ঠান্ডায় জমে যাওয়া অবস্থা"
+    ],
+    "def": [
+      "A cover of minute ice crystals on objects that are exposed to the air. Frost is formed by the same process as dew, except that the temperature of the frosted object is below freezing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "full",
+    "bn": [
+      "পূর্নতাপ্রাপ্ত",
+      "পরিণত"
+    ],
+    "def": [
+      "Containing the maximum possible amount that can fit in the space available."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "generate",
+    "bn": [
+      "উৎপাদন করা"
+    ],
+    "def": [
+      "To bring into being; give rise to."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "generates",
+    "bn": [
+      "উত্পাদন করা",
+      "সৃষ্টি করা",
+      "জন্মান",
+      "উদ্ভূত করান",
+      "উপজা",
+      "জন্মদান দেত্তয়া",
+      "জন্ম দেত্তয়া",
+      "উদ্ভূত করা"
+    ],
+    "def": [
+      "To bring into being; give rise to."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "get",
+    "bn": [
+      "পাওয়া",
+      "অর্জন করা",
+      "আনা"
+    ],
+    "def": [
+      "Offspring."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "gets",
+    "bn": [
+      "হত্তয়া",
+      "ধরা",
+      "পাত্তয়া",
+      "অর্জন করা",
+      "বুঝিতে পারা",
+      "চালান",
+      "লাভ করা",
+      "আঘাত করা",
+      "প্রাপ্ত হত্তয়া",
+      "শেখা",
+      "মুখস্থ করা",
+      "আনিয়া দেত্তয়া",
+      "পাত্তয়া করা",
+      "জুটান",
+      "সংগ্রহ করা",
+      "গ্রেপ্তার করা",
+      "আকৃষ্ট করা",
+      "আবিষ্কার করা",
+      "দেখিতে পাত্তয়া",
+      "পরাভূত করা",
+      "সংগ্রাম করা",
+      "উত্ত্যক্ত করা",
+      "হত্তয়ান",
+      "অধিকতর সমৃদ্ধ হত্তয়া",
+      "অবলম্বন করা",
+      "জন্ম দেত্তয়া",
+      "উপনীত হত্তয়া",
+      "আয়ত্তে আনা",
+      "আনা",
+      "যোগাযোগ স্থাপন করা",
+      "সংযোগ স্থাপন করা",
+      "প্ররোচিত করা",
+      "জোটান"
+    ],
+    "def": [
+      "Offspring."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "getting",
+    "bn": [
+      "প্রাপ্তি"
+    ],
+    "def": [
+      "(ditransitive) To obtain; to acquire."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "give",
+    "bn": [
+      "দেওয়া",
+      "প্রদান করা"
+    ],
+    "def": [
+      "The amount of bending that something undergoes when a force is applied to it; a tendency to yield under pressure; resilence."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "gives",
+    "bn": [
+      "দেত্তয়া",
+      "প্রদান করা",
+      "দান করা",
+      "দান দেত্তয়া",
+      "সম্প্রদান করা",
+      "প্রতিদান করা",
+      "অর্পণ করা",
+      "ন্যস্ত করা",
+      "সরবরাহ করা",
+      "ছাড়িয়া দেত্তয়া",
+      "ঘোষণা করা",
+      "নিসৃত করা",
+      "বিচ্ছুরিত করা",
+      "গলিতে আরম্ভ করা",
+      "সমর্পণ করা",
+      "যোগান",
+      "ঔষধ খাত্তয়ান",
+      "অনুমোদন করা",
+      "অনুমতি দেত্তয়া",
+      "স্বীকার করা",
+      "মানিয়া লত্তয়া",
+      "শাস্তি দেত্তয়া",
+      "কথা দেত্তয়া",
+      "সংবাদ জানান",
+      "কারণ হত্তয়া",
+      "উত্পাদন করা",
+      "চাপে খুলিয়া যাত্তয়া",
+      "চাপে পড়িয়া হার মানা",
+      "নরম হত্তয়া"
+    ],
+    "def": [
+      "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "glass",
+    "bn": [
+      "কাঁচ",
+      "আয়না",
+      "দর্পণ কাঁচের গেলাস"
+    ],
+    "def": [
+      "To apply fibreglass to."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "glowed",
+    "bn": [
+      "ঝলকাইয়া ত্তঠা",
+      "ধক্ধক্ করা",
+      "জ্বলা",
+      "স্ফুরিত হত্তয়া",
+      "শ্বেতোত্তাপে উজ্জ্বল করা"
+    ],
+    "def": [
+      "To give off light from heat or to emit light as if heated."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "glowing",
+    "bn": [
+      "প্রদীপ্ত",
+      "উদ্যমী",
+      "উদ্যমশীল",
+      "স্ফুরিত",
+      "উজ্জ্বল",
+      "প্রখর দীপ্তিপিূর্ণ",
+      "ভাসমান",
+      "দ্যুতিমান",
+      "ভাবাবেগপূর্ণ",
+      "আলোকিত",
+      "উত্সাহপূর্ণ"
+    ],
+    "def": [
+      "To give off light from heat or to emit light as if heated."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "glows",
+    "bn": [
+      "ঝলকাইয়া ত্তঠা",
+      "ধক্ধক্ করা",
+      "জ্বলা",
+      "স্ফুরিত হত্তয়া",
+      "শ্বেতোত্তাপে উজ্জ্বল করা"
+    ],
+    "def": [
+      "The state of a glowing object."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "going",
+    "bn": [
+      "গমন",
+      "প্রস্থান"
+    ],
+    "def": [
+      "To move:"
+    ],
+    "syn": [
+      "cross",
+      "draw",
+      "drift",
+      "fare",
+      "move",
+      "tread",
+      "wend"
+    ],
+    "ant": [
+      "freeze",
+      "halt",
+      "remain",
+      "stand still",
+      "stay",
+      "stop"
+    ]
+  },
+  {
+    "en": "good",
+    "bn": [
+      "ভালো",
+      "সন্তোষজনক",
+      "দোষশূন্য",
+      "সুন্দর",
+      "যথোচিত",
+      "শুভ",
+      "উপযুক্ত",
+      "প্রেয়",
+      "শ্রেয়",
+      "শিব",
+      "মঙ্গলকর",
+      "অনুকূল",
+      "সহায়ক",
+      "ধার্মিক",
+      "সাধু",
+      "সুশীল",
+      "খ্যাতির যোগ্য",
+      "দৃঢ়",
+      "যোগ্য",
+      "প্রশংসনীয়",
+      "পর্যাপ্ত",
+      "যুক্তিসিদ্ধ",
+      "প্রগাঢ়",
+      "ব্যবহার্য",
+      "খাঁটি",
+      "মনোরম",
+      "আচ্ছা",
+      "প্রচুর"
+    ],
+    "def": [
+      "(of people)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "got",
+    "bn": [
+      "ধরা"
+    ],
+    "def": [
+      "(ditransitive) To obtain; to acquire."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "governed",
+    "bn": [
+      "শাসিত",
+      "শাসনাধীন",
+      "অধীন"
+    ],
+    "def": [
+      "To make and administer the public policy and affairs of; to exercise sovereign authority in."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "graphite",
+    "bn": [
+      "কৃষ্ণসীসনামক ধাতু"
+    ],
+    "def": [
+      "An allotrope of carbon, consisting of planes of carbon atoms arranged in hexagonal arrays with the planes stacked loosely, that is used as a dry lubricant and in \"lead\" pencils."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "great",
+    "bn": [
+      "মহৎ",
+      "মহান",
+      "গুরুত্বপূৃর্ণ",
+      "বিখ্যাত"
+    ],
+    "def": [
+      "A person of major significance, accomplishment or acclaim."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "greatest",
+    "bn": [
+      "শ্রেষ্ঠ",
+      "গরিষ্ঠ",
+      "সর্বাধিক",
+      "বর",
+      "বরিষ্ঠ"
+    ],
+    "def": [
+      "Relatively large in scale, size, extent, number (i.e. having many parts or members) or duration (i.e. relatively long); very big."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "green",
+    "bn": [
+      "সবুজ",
+      "শ্যামল",
+      "টাটকা",
+      "কাচা"
+    ],
+    "def": [
+      "Having green as its color."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "grid",
+    "bn": [
+      "ঝাজরি"
+    ],
+    "def": [
+      "A rectangular array of squares or rectangles of equal size, such as in a crossword puzzle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hair",
+    "bn": [
+      "চুল",
+      "কেশ",
+      "লোম"
+    ],
+    "def": [
+      "A pigmented filament of keratin which grows from a follicle on the skin of humans and other mammals."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "handful",
+    "bn": [
+      "একমুষ্টি",
+      "অল্প পরিমাণ"
+    ],
+    "def": [
+      "The amount that a hand will grasp or contain."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "handy",
+    "bn": [
+      "কৌশলী",
+      "সুবিধাজনক"
+    ],
+    "def": [
+      "Easy to use, useful."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "happening",
+    "bn": [
+      "যাহা কিছু ঘটে",
+      "ঘটনা"
+    ],
+    "def": [
+      "To occur or take place."
+    ],
+    "syn": [
+      "come to pass"
+    ],
+    "ant": []
+  },
+  {
+    "en": "hardly",
+    "bn": [
+      "কদাচিৎ কষ্টে",
+      "কঠোরভাবে"
+    ],
+    "def": [
+      "(manner) Firmly, vigorously, with strength or exertion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "has",
+    "bn": [
+      "সহ্য করা",
+      "পাত্তয়া",
+      "অধিকারে পাত্তয়া",
+      "আয়ত্তে পাত্তয়া",
+      "অভ্যন্তরে ধারণ করা",
+      "অভিজ্ঞতা লাভ করা",
+      "উপভোগ করা",
+      "ভোগ করা"
+    ],
+    "def": [
+      "To possess, own."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heart",
+    "bn": [
+      "হৃৎপিন্ড",
+      "হৃদয়",
+      "কেন্দ্রস্থল",
+      "তাসের হরতন"
+    ],
+    "def": [
+      "A muscular organ that pumps blood through the body, traditionally thought to be the seat of emotion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hearth",
+    "bn": [
+      "ঘরের যে অংশে উনান থাকে",
+      "রসই ঘর"
+    ],
+    "def": [
+      "A brick, stone or cement floor to a fireplace or oven."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heat",
+    "bn": [
+      "উত্তাপ",
+      "যে প্রাথমিক প্রতিযোগিতায় জয়ী খেলোয়াড় পরবর্তী খেলায় অংশ গ্রহণ করতে পারে উত্তপ্ত করা"
+    ],
+    "def": [
+      "Thermal energy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heated",
+    "bn": [
+      "উত্তপ্ত",
+      "উত্তেজিত",
+      "উষ্ণ",
+      "উত্তাপিত",
+      "ক্রুদ্ধ",
+      "অত্যন্ত উত্তপ্ত",
+      "সন্তপ্ত",
+      "অত্যুষ্ণ"
+    ],
+    "def": [
+      "To cause an increase in temperature of (an object or space); to cause to become hot (often with \"up\")."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heater",
+    "bn": [
+      "বৈদু্যতিক চুল্লিবিশেষ"
+    ],
+    "def": [
+      "A device that produces and radiates heat, typically to raise the temperature of a room or building."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heaters",
+    "bn": [
+      "উনান"
+    ],
+    "def": [
+      "A device that produces and radiates heat, typically to raise the temperature of a room or building."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heating",
+    "bn": [
+      "উত্তাপন",
+      "গরম করার"
+    ],
+    "def": [
+      "To cause an increase in temperature of (an object or space); to cause to become hot (often with \"up\")."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heats",
+    "bn": [
+      "তাপ",
+      "গরম",
+      "উত্তাপ",
+      "উষ্ণ",
+      "উষ্ণতা",
+      "গ্রীষ্ম",
+      "আঁচ",
+      "উচ্চ তাপ",
+      "গ্রীষ্মকাল",
+      "নিদাঘ",
+      "ত্তজ",
+      "ঔষ্ম",
+      "উষ্মা",
+      "গরমি",
+      "আতশ",
+      "আতস",
+      "প্রতাপ",
+      "অভিতাপ",
+      "ভাপ",
+      "সর্বাপেক্ষা গরম কাল",
+      "আবেগের প্রাবলা",
+      "আবেগের প্রবনুতা",
+      "উদ্দীপনা"
+    ],
+    "def": [
+      "Thermal energy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "high",
+    "bn": [
+      "উঁচু মহৎ খুব বেশী"
+    ],
+    "def": [
+      "A high point or position, literally or figuratively; an elevated place; a superior region; a height; the sky; heaven."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "higher",
+    "bn": [
+      "গরিষ্ঠ সাধারণ গুণনীয়ক",
+      "গসাগু"
+    ],
+    "def": [
+      "Very elevated; extending or being far above a base; tall; lofty."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hire",
+    "bn": [
+      "ভাড়া",
+      "পারিশ্রামক",
+      "মজুরী"
+    ],
+    "def": [
+      "Payment for the temporary use of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hold",
+    "bn": [
+      "ধারণ"
+    ],
+    "def": [
+      "A grasp or grip."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "holes",
+    "bn": [
+      "গর্ত",
+      "ছিদ্র",
+      "ফাঁক",
+      "গুহা",
+      "ছেঁদ",
+      "কূপ",
+      "ঘর",
+      "রন্ধ্র",
+      "ফাটল",
+      "খাদ",
+      "কুহর",
+      "খাই",
+      "অন্ধিসন্ধি",
+      "ঝঁঝাট",
+      "সুরুক",
+      "ফুকর",
+      "খুপরি",
+      "দর",
+      "বিল",
+      "লুকানের স্থান",
+      "আশ্রয়স্থল",
+      "খানা",
+      "বেআইনী কারবারের আড্ডা",
+      "খোঁদল",
+      "নোংরা কারবারের আড্ডা",
+      "নোংরা অন্ধকার বাসাকক্ষ",
+      "নোংরা অন্ধকার বাসা",
+      "কোটর"
+    ],
+    "def": [
+      "A hollow place or cavity; an excavation; a pit; an opening in or through a solid body, a fabric, etc.; a perforation; a rent; a fissure."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hollow",
+    "bn": [
+      "ফাঁপা",
+      "শূন্য গর্ভ"
+    ],
+    "def": [
+      "A small valley between mountains."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hot",
+    "bn": [
+      "গরম",
+      "অগ্নিময়",
+      "ঝাল",
+      "উগ্র",
+      "প্রচন্ড"
+    ],
+    "def": [
+      "(with up) To heat; to make or become hot."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hotter",
+    "bn": [
+      "গরম",
+      "উষ্ণ",
+      "প্রচণ্ড",
+      "খুব গরম",
+      "কামুক",
+      "জ্বলন্ত",
+      "প্রখর",
+      "অত্যুষ্ণ",
+      "ঝাল",
+      "বিপজ্জনক",
+      "অত্যন্ত গরম",
+      "উদ্দীপ্ত",
+      "আতপ্ত",
+      "আগ্রহাম্বিত",
+      "অদম্য",
+      "অদমনীয়",
+      "আগ্রহপূর্ণ",
+      "উচ্চতাপযুক্ত",
+      "সাগ্রহ",
+      "অগ্নিময়",
+      "তিগ্ম",
+      "কড়ুয়া",
+      "ঝাঁজাল",
+      "অগ্নিবৎ",
+      "আগ্রহদীপ্ত",
+      "দুর্দান্ত",
+      "কামোদ্দীপিত"
+    ],
+    "def": [
+      "(of an object) Having a high temperature."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hours",
+    "bn": [
+      "ঘন্টা",
+      "৬০ মিনিট কাল",
+      "নিদিষ্ট সময়"
+    ],
+    "def": [
+      "A time period of sixty minutes; one twenty-fourth of a day."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "household",
+    "bn": [
+      "পরিবার"
+    ],
+    "def": [
+      "Collectively, all the persons who live in a given house; a family including attendants, servants etc.; a domestic or family establishment."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "however",
+    "bn": [
+      "যে কোন প্রকারে",
+      "যে কোন উপায়ে"
+    ],
+    "def": [
+      "Nevertheless; yet, still; in spite of (that)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hundred",
+    "bn": [
+      "একশত সংখ্যা",
+      "একশত",
+      "১০০"
+    ],
+    "def": [
+      "A hundred-dollar bill, or any other note denominated 100 (e.g. a hundred euros)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hundreds",
+    "bn": [
+      "শত",
+      "একশত",
+      "শতক"
+    ],
+    "def": [
+      "A hundred-dollar bill, or any other note denominated 100 (e.g. a hundred euros)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "i",
+    "bn": [
+      "অব",
+      "অপ"
+    ],
+    "def": [
+      "The name of the Latin-script letter I."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "idle",
+    "bn": [
+      "অলস",
+      "কুড়ে",
+      "কর্মহীন"
+    ],
+    "def": [
+      "An idle animation."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "incandescent",
+    "bn": [
+      "জ্বলিয়া শ্বেতবর্ণ ধারন করে এমন"
+    ],
+    "def": [
+      "An incandescent lamp or bulb"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "including",
+    "bn": [
+      "সহ",
+      "সমেত",
+      "সেই সঙ্গে",
+      "সুদ্ধ"
+    ],
+    "def": [
+      "To bring into a group, class, set, or total as a (new) part or member."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "incorporated",
+    "bn": [
+      "একদেহভুক্ত করা",
+      "একদেহভুক্ত হত্তয়া",
+      "সঙ্ঘবদ্ধ করা",
+      "সঙ্ঘবদ্ধ হত্তয়া",
+      "দেহযুক্ত করা",
+      "মিশান"
+    ],
+    "def": [
+      "To include (something) as a part."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "increases",
+    "bn": [
+      "বৃদ্ধি",
+      "অগ্রগতি",
+      "সংখ্যাবৃদ্ধি",
+      "ধনবৃদ্ধি",
+      "উঠ্তি",
+      "বর্ধন",
+      "প্রবর্ধন",
+      "বাড়",
+      "চড়ন",
+      "চড়তি",
+      "আয়তনবৃদ্ধি",
+      "অগ্রগমন",
+      "বলন",
+      "পূরণ",
+      "উত্পাদন",
+      "লাভ",
+      "বংশধর",
+      "সন্তানসন্ততি",
+      "নিচয়",
+      "ঊর্ধ্বগতি"
+    ],
+    "def": [
+      "An amount by which a quantity is increased."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "infinitely",
+    "bn": [
+      "বহু বহু গুণে",
+      "অনন্ত গুণে",
+      "সীমাহীনরূপে"
+    ],
+    "def": [
+      "In an infinite manner; as of anything growing without bounds; endlessly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "infinity",
+    "bn": [
+      "অসীমত্ব",
+      "কল্পনাতীত",
+      "গণনাতীত সংখ্যা"
+    ],
+    "def": [
+      "Endlessness, unlimitedness, absence of a beginning, end or limits to size."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "infringing",
+    "bn": [
+      "অনধিকারপ্রবেশকারী"
+    ],
+    "def": [
+      "Break or violate a treaty, a law, a right etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "inhale",
+    "bn": [
+      "শ্বাসপ্রশ্বাস গ্রহণ করা"
+    ],
+    "def": [
+      "An inhalation."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "insert",
+    "bn": [
+      "সন্নিবিষ্টি করা",
+      "প্রবেশ করানো"
+    ],
+    "def": [
+      "An image inserted into text."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "inside",
+    "bn": [
+      "অভ্যন্ত",
+      "গৃহমধ্যস্থ অংশ"
+    ],
+    "def": [
+      "The interior or inner part."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "institute",
+    "bn": [
+      "সমিতি",
+      "সঙ্ঘ",
+      "শিক্ষা প্রতিষ্ঠান"
+    ],
+    "def": [
+      "An organization founded to promote a cause"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "insulated",
+    "bn": [
+      "আলাদা করিয়া রাখা",
+      "পৃথক্ করিয়া রাখা",
+      "একান্তে রাখা"
+    ],
+    "def": [
+      "To separate, detach, or isolate."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "insulator",
+    "bn": [
+      "অন্তরক",
+      "অপরিবাহী"
+    ],
+    "def": [
+      "A substance that does not transmit heat (thermal insulator), sound (acoustic insulator) or electricity (electrical insulator)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "insulators",
+    "bn": [
+      "অন্তরক",
+      "অপরিবাহী"
+    ],
+    "def": [
+      "A substance that does not transmit heat (thermal insulator), sound (acoustic insulator) or electricity (electrical insulator)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "interested",
+    "bn": [
+      "চিত্তাকর্ষক",
+      "কৌতুহলউদ্দীপক"
+    ],
+    "def": [
+      "To engage the attention of; to awaken interest in; to excite emotion or passion in, in behalf of a person or thing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "interrelated",
+    "bn": [
+      "পারস্পরিক সম্পর্কযুক্ত"
+    ],
+    "def": [
+      "Having a mutual or reciprocal relation or parallelism; correlative."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "into",
+    "bn": [
+      "মধ্যে",
+      "ভিতরে",
+      "অভ্যন্তরে",
+      "গুণিত"
+    ],
+    "def": [
+      "To or towards the inside of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "iron",
+    "bn": [
+      "লোহা",
+      "ইস্তিরি"
+    ],
+    "def": [
+      "A common, inexpensive metal, silvery grey when untarnished, that rusts, is attracted by magnets, and is used in making steel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ironing",
+    "bn": [
+      "ইস্ত্রি করা",
+      "শৃঙ্খলিত করা"
+    ],
+    "def": [
+      "To pass an iron over (clothing or some other item made of cloth) in order to remove creases."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "irons",
+    "bn": [
+      "নিগড়",
+      "লৌহশৃঙ্খল"
+    ],
+    "def": [
+      "A common, inexpensive metal, silvery grey when untarnished, that rusts, is attracted by magnets, and is used in making steel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "jet",
+    "bn": [
+      "তরল পদার্থ বাষ্প বা গ্যাসের ফিন্স বা শিখা জোরে বা বেগে উৎসারিত করা বা হওয়া"
+    ],
+    "def": [
+      "A collimated stream, spurt or flow of liquid or gas from a pressurized container, an engine, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kettle",
+    "bn": [
+      "কেটলি"
+    ],
+    "def": [
+      "A vessel for boiling a liquid or cooking food, usually metal and equipped with a lid."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kettles",
+    "bn": [
+      "কেতলি",
+      "বয়লার",
+      "বড় ডেকচি",
+      "চায়ের কেটলি"
+    ],
+    "def": [
+      "A vessel for boiling a liquid or cooking food, usually metal and equipped with a lid."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kind",
+    "bn": [
+      "দয়ালু",
+      "সদয়",
+      "পরোপকারী"
+    ],
+    "def": [
+      "A type, race or category; a group of entities that have common characteristics such that they may be grouped together."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kindly",
+    "bn": [
+      "সদয় ভাবে",
+      "অনুগ্রহপূর্বক"
+    ],
+    "def": [
+      "Having a kind personality; kind, warmhearted, sympathetic."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kinds",
+    "bn": [
+      "প্রকার",
+      "রকম",
+      "টাইপ",
+      "মৌলিক গুণ",
+      "প্রণালী",
+      "জাত",
+      "প্রজাতি",
+      "জাতি",
+      "বংশ",
+      "জ্ঞাতিবর্গ",
+      "সগোত্র প্রাণিসমূহ",
+      "সগোত্র বস্তুসমূহ"
+    ],
+    "def": [
+      "A type, race or category; a group of entities that have common characteristics such that they may be grouped together."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kitchen",
+    "bn": [
+      "রান্নাঘর"
+    ],
+    "def": [
+      "A room or area for preparing food."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "know",
+    "bn": [
+      "জানা",
+      "অবগত থাকা",
+      "চিনিতে পারা"
+    ],
+    "def": [
+      "Knowledge; the state of knowing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lamp",
+    "bn": [
+      "প্রদীপ",
+      "বাতি"
+    ],
+    "def": [
+      "A device that generates heat, light or other radiation. Especially an electric light bulb."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lamps",
+    "bn": [
+      "ল্যাম্প",
+      "বাতি",
+      "প্রদীপ",
+      "দীপ",
+      "লাইট",
+      "দীপক",
+      "বর্তিকা",
+      "শামা",
+      "আলোক",
+      "আলোর উত্স"
+    ],
+    "def": [
+      "A device that generates heat, light or other radiation. Especially an electric light bulb."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "large",
+    "bn": [
+      "বড়",
+      "বিস্তৃত ব্যাপক"
+    ],
+    "def": [
+      "An old musical note, equal to two longas, four breves, or eight semibreves."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "largely",
+    "bn": [
+      "প্রধানতঃ অংকে পরিমাণে"
+    ],
+    "def": [
+      "In a widespread or large manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "last",
+    "bn": [
+      "সর্বশেষ",
+      "চূড়ান্ত"
+    ],
+    "def": [
+      "Final, ultimate, coming after all others of its kind."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lasted",
+    "bn": [
+      "চালু থাকা",
+      "স্থায়ী হত্তয়া",
+      "টিকা",
+      "টেকা",
+      "টিকে থাকা",
+      "টিকিয়া থাকা",
+      "টেকসই হত্তয়া",
+      "অধিকতর টেকসই হত্তয়া",
+      "তাজা থাকা",
+      "অক্ষত থাকা"
+    ],
+    "def": [
+      "To perform, carry out."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "later",
+    "bn": [
+      "অপেক্ষাকৃত পরবর্তী"
+    ],
+    "def": [
+      "Near the end of a period of time."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "law",
+    "bn": [
+      "নিয়ম",
+      "বিধি",
+      "আইন"
+    ],
+    "def": [
+      "The body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "learn",
+    "bn": [
+      "শিক্ষা করা",
+      "জ্ঞান অর্জন করা"
+    ],
+    "def": [
+      "The act of learning something"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "least",
+    "bn": [
+      "ক্ষুদ্রতম",
+      "সামান্যতম"
+    ],
+    "def": [
+      "Something of the smallest possible extent; an indivisible unit."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "left",
+    "bn": [
+      "বাঁ",
+      "বাঁ দিক"
+    ],
+    "def": [
+      "The left side or direction."
+    ],
+    "syn": [
+      "9 o'clock",
+      "port"
+    ],
+    "ant": []
+  },
+  {
+    "en": "length",
+    "bn": [
+      "দৈর্ঘ্য মাপ"
+    ],
+    "def": [
+      "The distance measured along the longest dimension of an object."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "less",
+    "bn": [
+      "কম",
+      "অল্পতর"
+    ],
+    "def": [
+      "A smaller amount or quantity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "liable",
+    "bn": [
+      "বাধ্য",
+      "দায়ী"
+    ],
+    "def": [
+      "Bound or obliged in law or equity; responsible; answerable."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "light",
+    "bn": [
+      "আলো"
+    ],
+    "def": [
+      "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lights",
+    "bn": [
+      "হালকা",
+      "কুকুর ও বেড়ালের খাদ্য হিসাবে ব্যবহৃত ভেড়া",
+      "শুয়োর",
+      "বলদ প্রভৃতির ফুসফুস"
+    ],
+    "def": [
+      "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lines",
+    "bn": [
+      "রেখা",
+      "সারি",
+      "সীমা",
+      "বংশ",
+      "পদ্ধতি",
+      "পঙ্ক্তি",
+      "পালি",
+      "ভাগ্য",
+      "কুল",
+      "আঁক",
+      "বিবাহের প্রমাণপত্র",
+      "পাঁতি",
+      "পাদ",
+      "বীথি",
+      "পাতি",
+      "পাটি",
+      "নর",
+      "ছত্র",
+      "পরিলেখ",
+      "কবিতার পঙি্ক্ত",
+      "কবিতার চরণ",
+      "অঙ্গরেখা",
+      "পদের শ্রেণী",
+      "পদের বিভাগ",
+      "সৈন্যবূ্যহ",
+      "নকশা",
+      "প্রণালী",
+      "আবলী",
+      "নিরক্ষ",
+      "বংশের পরস্পরা",
+      "নিরক্ষরেখা",
+      "গতিপথ",
+      "বৃত্তি",
+      "নিয়ম",
+      "জাহাজের সারি",
+      "সৈন্যশ্রেণী",
+      "সৈন্যবাহিনী",
+      "বিবাহের সাটিফিকেট",
+      "পেশা",
+      "পথ",
+      "শ্রেণী",
+      "অঙ্ক",
+      "চেহারা",
+      "ছোট চিঠি",
+      "গোত্র",
+      "মোটামুটি রেখাচিত্র"
+    ],
+    "def": [
+      "A path through two or more points (compare ‘segment’); a continuous mark, including as made by a pen; any path, curved or straight."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "link",
+    "bn": [
+      "শিকরের আংটা"
+    ],
+    "def": [
+      "Some text or a graphic in an electronic document that can be activated to display another document or trigger an action."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "links",
+    "bn": [
+      "গফল খেলিবার উপযোগী মাঠ"
+    ],
+    "def": [
+      "Some text or a graphic in an electronic document that can be activated to display another document or trigger an action."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lists",
+    "bn": [
+      "রঙ্গভূমি",
+      "মল্লভূমির চৌহদ্দি",
+      "মল্লভূমির চতুসীমা",
+      "মল্লভূমি"
+    ],
+    "def": [
+      "A strip of fabric, especially from the edge of a piece of cloth."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "locomotives",
+    "bn": [
+      "ভ্রমণে সক্ষম যন্ত্র",
+      "ভ্রমণসহায়ক যন্ত্র",
+      "রেলগাড়ির এনজিন"
+    ],
+    "def": [
+      "The power unit of a train that pulls the coaches or wagons."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "long",
+    "bn": [
+      "দীর্ঘ",
+      "লম্বা",
+      "দুর"
+    ],
+    "def": [
+      "A long vowel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "longer",
+    "bn": [
+      "দীর্ঘতম"
+    ],
+    "def": [
+      "Having much distance from one terminating point on an object or an area to another terminating point (usually applies to horizontal dimensions; see Usage Notes below)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "looking",
+    "bn": [
+      "নেত্রপাত",
+      "নিহারন",
+      "প্রেক্ষণ"
+    ],
+    "def": [
+      "The act of one who looks; a glance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "looped",
+    "bn": [
+      "কর্তিত"
+    ],
+    "def": [
+      "To form something into a loop."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lots",
+    "bn": [
+      "অংশ",
+      "ভাগ্য",
+      "গুচ্ছ",
+      "প্রচুর পরিমাণ",
+      "লটারি",
+      "সুরতি",
+      "নিয়তি",
+      "অদৃষ্ট",
+      "বন্দ",
+      "কিতা",
+      "সমস্তটা",
+      "প্রচুর সংখ্যা",
+      "ভাগ",
+      "গোছা"
+    ],
+    "def": [
+      "A large quantity or number; a great deal."
+    ],
+    "syn": [
+      "load",
+      "mass",
+      "pile"
+    ],
+    "ant": []
+  },
+  {
+    "en": "loudspeaker",
+    "bn": [
+      "লাউড্স্পীকার"
+    ],
+    "def": [
+      "An electromechanical transducer that converts an electrical signal into audible sound."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "love",
+    "bn": [
+      "আনন্দের কাজ",
+      "ভালবাসা",
+      "স্নেহ"
+    ],
+    "def": [
+      "Strong affection."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "low",
+    "bn": [
+      "নীচু অসভীর"
+    ],
+    "def": [
+      "Something that is low; a low point."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "lower",
+    "bn": [
+      "নামানো",
+      "কমানো",
+      "কম হওয়া"
+    ],
+    "def": [
+      "Situated close to, or even below, the ground or another normal reference plane; not high or lofty."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "made",
+    "bn": [
+      "প্রস্তুত",
+      "নির্মিত"
+    ],
+    "def": [
+      "A grub or maggot."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "magnesium",
+    "bn": [
+      "শ্বেতবর্ণ ধাতুবিশেষ"
+    ],
+    "def": [
+      "The chemical element (symbol Mg) with an atomic number of 12. It is a light, easily flammable, silvery-white alkaline earth metal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "make",
+    "bn": [
+      "সৃষ্টি করা",
+      "গঠন",
+      "বা তৈরি করা"
+    ],
+    "def": [
+      "Brand or kind; model."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "makes",
+    "bn": [
+      "করা",
+      "সম্পাদন করা",
+      "বানান",
+      "গড়া",
+      "গঠন করা",
+      "প্রস্তুত করা",
+      "নির্মাণ করা",
+      "রচনা করা",
+      "ঘটান",
+      "সৃজন করা",
+      "সৃষ্টি করা",
+      "তৈয়ারি করা",
+      "উদ্ভাবন করা",
+      "উত্পাদন করা",
+      "প্রবর্তন করা",
+      "স্থাপন করা",
+      "বাধ্য করান",
+      "পরিণত করান",
+      "নিযুক্ত করা",
+      "গণনা করিয়া পাত্তয়া",
+      "পাত্তয়া করা",
+      "অর্জন করা",
+      "লাভ করা",
+      "পূর্ণ করা",
+      "আচরণ করা",
+      "যাত্তয়া",
+      "গমন করা",
+      "যাত্রা করা",
+      "অগ্রসর হত্তয়া",
+      "সিদ্ধান্ত করা"
+    ],
+    "def": [
+      "Brand or kind; model."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "making",
+    "bn": [
+      "নির্মাল",
+      "গঠন",
+      "রচনা"
+    ],
+    "def": [
+      "The act of forming, causing, or constituting; workmanship; construction."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "many",
+    "bn": [
+      "অনেক",
+      "প্রচুর",
+      "বহুসংখ্যক"
+    ],
+    "def": [
+      "A multitude; a great aggregate; a mass of people; the generality; the common herd."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "march",
+    "bn": [
+      "মার্চ মাস"
+    ],
+    "def": [
+      "A formal, rhythmic way of walking, used especially by soldiers, bands and in ceremonies."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "material",
+    "bn": [
+      "বস্ত্র",
+      "উপাদান"
+    ],
+    "def": [
+      "Matter which may be shaped or manipulated, particularly in making something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "materials",
+    "bn": [
+      "উপকরণ",
+      "উপাদান",
+      "মালমসলা",
+      "উপস্কার"
+    ],
+    "def": [
+      "Matter which may be shaped or manipulated, particularly in making something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "math",
+    "bn": [
+      "মাদুর",
+      "পাপোশ"
+    ],
+    "def": [
+      "A mowing; what is gathered from mowing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "matters",
+    "bn": [
+      "ব্যাপার",
+      "বস্তু",
+      "পদার্থ",
+      "বিষয়বস্তু",
+      "জড়",
+      "সমস্যা",
+      "কারণ",
+      "উপাদান",
+      "নিমিত্ত",
+      "হেতু",
+      "মুদ্রিব্য রচনা",
+      "দ্রব্য",
+      "মনোযোগের লক্ষ্য"
+    ],
+    "def": [
+      "Substance, material."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "maximum",
+    "bn": [
+      "সর্বোচ্চ",
+      "পরিমাণ বা মাত্রা",
+      "সর্বাপেক্ষা অধিক সংখ্যা",
+      "সর্বাধিক",
+      "সর্বোচ্চ",
+      "বৃহত্তম",
+      "চরম",
+      "আকাশপাতাল",
+      "গরিষ্ঠ"
+    ],
+    "def": [
+      "The highest limit"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "maybe",
+    "bn": [
+      "সম্ভবতঃ",
+      "বোধহয়",
+      "যত সত্বর সম্ভব"
+    ],
+    "def": [
+      "Something that is possibly true."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "maze",
+    "bn": [
+      "গোলকবাঁধায় ভরা"
+    ],
+    "def": [
+      "A labyrinth; a puzzle consisting of a complicated network of paths or passages, the aim of which is to find one's way."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "melt",
+    "bn": [
+      "গলানো",
+      "গলে যাওয়া"
+    ],
+    "def": [
+      "Molten material, the product of melting."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "melting",
+    "bn": [
+      "গলন",
+      "দ্রবণ",
+      "দ্রাবণ",
+      "দ্রাব",
+      "তরলীকরণ",
+      "ক্ষারণ",
+      "কোমলকরণ"
+    ],
+    "def": [
+      "To change (or to be changed) from a solid state to a liquid state, usually by a gradual heat."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "metal",
+    "bn": [
+      "ধাতু"
+    ],
+    "def": [
+      "(heading) Chemical elements or alloys, and the mines where their ores come from."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "metallic",
+    "bn": [
+      "ধাতব",
+      "ধাতুসংক্রান্ত"
+    ],
+    "def": [
+      "A metallic color."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "metals",
+    "bn": [
+      "ধাতু",
+      "সাহস",
+      "তেজ",
+      "রেলের লাইন",
+      "লোহ"
+    ],
+    "def": [
+      "(heading) Chemical elements or alloys, and the mines where their ores come from."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "meter",
+    "bn": [
+      "পরিমাপক"
+    ],
+    "def": [
+      "(always meter) A device that measures things."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "middle",
+    "bn": [
+      "মধ্যবর্তী",
+      "মাঝামাঝি"
+    ],
+    "def": [
+      "A centre, midpoint."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "might",
+    "bn": [
+      "ক্ষমতা",
+      "মক্তি"
+    ],
+    "def": [
+      "Power, strength, force or influence held by a person or group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mind",
+    "bn": [
+      "মন",
+      "স্মৃতি",
+      "উদ্দেশ্য",
+      "অভিপ্রায়"
+    ],
+    "def": [
+      "The ability for rational thought."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mix",
+    "bn": [
+      "একত্র মেশা বা মেশানো",
+      "সংযুক্ত করা বা হওয়া"
+    ],
+    "def": [
+      "To stir together."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mixture",
+    "bn": [
+      "মিশ্রণ",
+      "মিশ্রিত বস্তু",
+      "বিশ্রিত অবস্থা"
+    ],
+    "def": [
+      "The act of mixing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "most",
+    "bn": [
+      "অধিকতর",
+      "সর্বপেক্ষা"
+    ],
+    "def": [
+      "The greatest amount."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mounted",
+    "bn": [
+      "অরূঢ়",
+      "অশ্বরূঢ়",
+      "স্থাপিত"
+    ],
+    "def": [
+      "To get upon; to ascend; to climb."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "multiple",
+    "bn": [
+      "বহু উপাদানে গঠিত বা বহুগণিত"
+    ],
+    "def": [
+      "A whole number that can be divided by another number with no remainder."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "must",
+    "bn": [
+      "বাধ হওয়া",
+      "অবশ্য করা"
+    ],
+    "def": [
+      "Something that is mandatory or required."
+    ],
+    "syn": [
+      "imperative"
+    ],
+    "ant": [
+      "no-no"
+    ]
+  },
+  {
+    "en": "need",
+    "bn": [
+      "প্রয়োজন",
+      "অভাব"
+    ],
+    "def": [
+      "A requirement for something; something needed."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "needs",
+    "bn": [
+      "অবশ্যই",
+      "অনিবার্যরূপে"
+    ],
+    "def": [
+      "Of necessity; necessarily; indispensably; used with an auxiliary verb (often must), and equivalent to \"of need\"."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "never",
+    "bn": [
+      "কখনও নয়",
+      "কোনোক্রমেই নয়"
+    ],
+    "def": [
+      "At no time; on no occasion; in no circumstance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "nickel",
+    "bn": [
+      "নিকেল করা",
+      "নিকেলের প্রলেপ করা",
+      "নিকেল ধাতু",
+      "নিকেলর প্রলেপ"
+    ],
+    "def": [
+      "A silvery elemental metal with an atomic number of 28 and symbol Ni."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "no",
+    "bn": [
+      "না"
+    ],
+    "def": [
+      "A negating expression; an answer that shows disagreement or disapproval"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "normally",
+    "bn": [
+      "সচরাচর",
+      "স্বাভাবিকভাবে"
+    ],
+    "def": [
+      "Under normal conditions or circumstances; usually; most of the time"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "nothing",
+    "bn": [
+      "শূন্য",
+      "নগণ্য"
+    ],
+    "def": [
+      "Something trifling, or of no consequence or importance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "notice",
+    "bn": [
+      "নাম বিজ্ঞাপন",
+      "বিজ্ঞপ্তি",
+      "ঘোষণা",
+      "লক্ষ্য",
+      "মনোযোগ",
+      "সতর্কীকরণ"
+    ],
+    "def": [
+      "The act of observing; perception."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "notices",
+    "bn": [
+      "বিজ্ঞপ্তি",
+      "উল্লেখ",
+      "সংবাদজ্ঞাপন",
+      "সতর্কীকরণ",
+      "প্রজ্ঞপ্তি",
+      "পর্যবেক্ষণ",
+      "ঘোষণা",
+      "মনোযোগ"
+    ],
+    "def": [
+      "The act of observing; perception."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "numbers",
+    "bn": [
+      "সংখ্যা",
+      "নম্বর",
+      "বচন",
+      "অঙ্ক",
+      "দল"
+    ],
+    "def": [
+      "An abstract entity used to describe quantity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "off",
+    "bn": [
+      "বন্ধ",
+      "বিচ্ছিন্ন",
+      "দূরত্বে",
+      "তফাতে",
+      "দেরিতে",
+      "পরে",
+      "দূরে",
+      "সরিয়া",
+      "স্থানচু্যত হইয়া",
+      "বিযুক্ত হইয়া",
+      "অক্রিয় হইয়া",
+      "ছুটি লইয়া",
+      "বাতিল হইয়া",
+      "বিগত"
+    ],
+    "def": [
+      "(usually in phrases such as 'from the off', 'at the off', etc.) Beginning; starting point."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "offer",
+    "bn": [
+      "প্রস্তাব করা"
+    ],
+    "def": [
+      "A proposal that has been made."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "office",
+    "bn": [
+      "দফতর",
+      "কার্যালয়",
+      "কাজ",
+      "পদাধিকার"
+    ],
+    "def": [
+      "A ceremonial duty or service, particularly:"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "often",
+    "bn": [
+      "প্রায়ই",
+      "প্রায়শ",
+      "পুনপুন",
+      "অনেকবার",
+      "নিয়ত",
+      "বহুবার",
+      "অকসর",
+      "হামেশা",
+      "দণ্ডে দণ্ডে",
+      "ঘনঘন",
+      "ঘড়িঘড়ি",
+      "প্রায়ই",
+      "প্রায়শ",
+      "বারবার"
+    ],
+    "def": [
+      "Frequent."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ohms",
+    "bn": [
+      "বৈদ্যুতিক রোধ পরিমাপের একক"
+    ],
+    "def": [
+      "In the International System of Units, the derived unit of electrical resistance; the electrical resistance of a device across which a potential difference of one volt causes a current of one ampere. Symbol: Ω"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "old",
+    "bn": [
+      "বুড়ো",
+      "বয়স্ক",
+      "প্রবীণ",
+      "প্রাচীন",
+      "জীর্ণ"
+    ],
+    "def": [
+      "(with the, invariable plural only) People who are old; old beings; the older generation, taken as a group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "once",
+    "bn": [
+      "এশবার মাত্র",
+      "একদা"
+    ],
+    "def": [
+      "(frequency) One and only one time."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ones",
+    "bn": [
+      "এক",
+      "একক",
+      "একখানা",
+      "একতা",
+      "একটি বস্তু",
+      "একসংখ্যা",
+      "এক অঙ্ক",
+      "একটি লোক"
+    ],
+    "def": [
+      "The digit or figure 1."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "onto",
+    "bn": [
+      "সম্মুখের দিকে"
+    ],
+    "def": [
+      "(of a function) Assuming each of the values in its codomain; having its range equal to its codomain."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "operate",
+    "bn": [
+      "পরিচালনা করা"
+    ],
+    "def": [
+      "To perform a work or labour; to exert power or strength, physical or mechanical; to act."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "operates",
+    "bn": [
+      "পরিচালনা করা",
+      "কাজ করা",
+      "চিরা",
+      "ফলপ্রসূ করা",
+      "চালু করান",
+      "কাজ করান",
+      "সক্রিয় করান",
+      "সক্রিয় হত্তয়া",
+      "চলা",
+      "চালু হত্তয়া",
+      "কার্যসম্পাদন করা",
+      "কার্যসম্পাদন করান",
+      "অস্ত্র করা",
+      "অপারেশন করা",
+      "ফলপ্রসূ হত্তয়া",
+      "শক্তিপ্রয়োগ করান",
+      "শক্তিপ্রয়োগ করা",
+      "অস্ত্রোপচার করা"
+    ],
+    "def": [
+      "To perform a work or labour; to exert power or strength, physical or mechanical; to act."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "operating",
+    "bn": [
+      "পরিচালনা করা",
+      "কাজ করা",
+      "চিরা",
+      "ফলপ্রসূ করা",
+      "চালু করান",
+      "কাজ করান",
+      "সক্রিয় করান",
+      "সক্রিয় হত্তয়া",
+      "চলা",
+      "চালু হত্তয়া",
+      "কার্যসম্পাদন করা",
+      "কার্যসম্পাদন করান",
+      "অস্ত্র করা",
+      "অপারেশন করা",
+      "ফলপ্রসূ হত্তয়া",
+      "শক্তিপ্রয়োগ করান",
+      "শক্তিপ্রয়োগ করা",
+      "অস্ত্রোপচার করা"
+    ],
+    "def": [
+      "To perform a work or labour; to exert power or strength, physical or mechanical; to act."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "opposite",
+    "bn": [
+      "বিপরীত",
+      "উলটা বা মুখোমুখি"
+    ],
+    "def": [
+      "Something opposite or contrary to something else."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "others",
+    "bn": [
+      "অপর",
+      "অন্য"
+    ],
+    "def": [
+      "An other, another (person, etc), more often rendered as another."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "otherwise",
+    "bn": [
+      "অন্যভাবে",
+      "পক্ষান্তরে"
+    ],
+    "def": [
+      "Other than supposed; different."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "outer",
+    "bn": [
+      "বহিঃস্থ"
+    ],
+    "def": [
+      "An outer part."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "over",
+    "bn": [
+      "ওপর ওপরে",
+      "আড়াআড়ি"
+    ],
+    "def": [
+      "A set of six legal balls bowled."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "overheat",
+    "bn": [
+      "অতিতপ্ত করা",
+      "অতিমাত্রায় গরম করা",
+      "অতিমাত্রায় তপ্ত করা"
+    ],
+    "def": [
+      "A condition of being overheated."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "overheating",
+    "bn": [
+      "অতিমাত্রায় তপ্ত করা"
+    ],
+    "def": [
+      "To heat excessively."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "oxide",
+    "bn": [
+      "অন্য কোনো একটি মৌলের সঙ্গে অক্সিজেনের সংযোগে উত্পন্ন দ্বিমৌল যৌগ",
+      "অম্লজান জারিত পদার্থ"
+    ],
+    "def": [
+      "A binary chemical compound of oxygen with another chemical element."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "oxidize",
+    "bn": [
+      "অক্সিজেনের সঙ্গে রাসায়নিকভাবে যুক্ত হওয়া",
+      "জারিত হওয়া"
+    ],
+    "def": [
+      "To combine with oxygen or otherwise make an oxide."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "p",
+    "bn": [
+      "ইংরেজী বর্ণমালার ষোড়শ বর্ণ"
+    ],
+    "def": [
+      "Abbreviation of penny; pence."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "packs",
+    "bn": [
+      "প্যাঁক্",
+      "ফেটি",
+      "দল",
+      "গাঁটরি",
+      "গাঁট",
+      "রাশি",
+      "গুচ্ছ",
+      "পুঁজ",
+      "কেতা",
+      "বস্তাবন্দীকরণ",
+      "বাক্সবন্দী অবস্থা",
+      "বস্তাবন্দী অবস্থা",
+      "বোঁচকা"
+    ],
+    "def": [
+      "A bundle made up and prepared to be carried; especially, a bundle to be carried on the back, but also a load for an animal, a bale."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "page",
+    "bn": [
+      "বই খাতার বা সংবাপত্রের পৃষ্ঠ"
+    ],
+    "def": [
+      "One of the many pieces of paper bound together within a book or similar document."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pans",
+    "bn": [
+      "চাটু",
+      "কড়া",
+      "ডেকচি",
+      "তাত্তয়া"
+    ],
+    "def": [
+      "A wide, flat receptacle used around the house, especially for cooking."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "passing",
+    "bn": [
+      "চলন্ত",
+      "চলে যাচেছ এমন"
+    ],
+    "def": [
+      "To change place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "past",
+    "bn": [
+      "অতীত",
+      "অুঃপর"
+    ],
+    "def": [
+      "To change place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "patent",
+    "bn": [
+      "আবিষ্কার বা আবিষ্কৃত বস্তু নকল থেকে আইনবলে সংরক্ষণ"
+    ],
+    "def": [
+      "A declaration issued by a government agency declaring someone the inventor of a new invention and having the privilege of stopping others from making, using or selling the claimed invention; a letter patent."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "patents",
+    "bn": [
+      "পেটেণ্ট",
+      "বিশেষ সুবিধা",
+      "বিশেষ অধিকার"
+    ],
+    "def": [
+      "A declaration issued by a government agency declaring someone the inventor of a new invention and having the privilege of stopping others from making, using or selling the claimed invention; a letter patent."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pen",
+    "bn": [
+      "কলম লেখনী"
+    ],
+    "def": [
+      "An enclosure (enclosed area) used to contain domesticated animals, especially sheep or cattle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "penalties",
+    "bn": [
+      "শাস্তি",
+      "জরিমানা",
+      "দণ্ড",
+      "গচ্চা",
+      "শাস্তিবিধান",
+      "অর্থদণ্ড",
+      "গুনাগার",
+      "গুনাগারি",
+      "দণ্ডপ্রদান",
+      "সাজা"
+    ],
+    "def": [
+      "A penalty shootout."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "percent",
+    "bn": [
+      "শতকরা",
+      "প্রতি শতে",
+      "বর্ধিত আয়"
+    ],
+    "def": [
+      "A percentage, a proportion (especially per hundred)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "perfectly",
+    "bn": [
+      "পুরোপুরি",
+      "ঠিকভাবে",
+      "সম্পূর্ণরূপে"
+    ],
+    "def": [
+      "With perfection."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "performance",
+    "bn": [
+      "অভিনয়",
+      "সম্পাদন",
+      "অনুষ্ঠান",
+      "অবদান",
+      "সাধন",
+      "সম্পাদিত কার্য",
+      "নির্বর্তন",
+      "পূর্ণসংসাধন",
+      "প্রতিপাদন",
+      "নিষ্পাদন",
+      "কার্যে পরিণত করা",
+      "কৃতি",
+      "তামাশা",
+      "আঁজাম",
+      "ক্রিয়া",
+      "কার্যোদ্ধার",
+      "ক্রীড়াকৌশল প্রদর্শন",
+      "প্রদর্শিত ক্রীড়াকৌশলাদি",
+      "প্রমোদানুষ্ঠান"
+    ],
+    "def": [
+      "The act of performing; carrying into execution or action; execution; achievement; accomplishment; representation by action."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "permanently",
+    "bn": [
+      "চিরকাল",
+      "স্থায়িভাবে",
+      "সর্বদা",
+      "অবিরত"
+    ],
+    "def": [
+      "In a permanent manner; lastingly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "permission",
+    "bn": [
+      "আদেশ",
+      "অনুমতি"
+    ],
+    "def": [
+      "Authorisation; consent (especially formal consent from someone in authority)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "photo",
+    "bn": [
+      "ফটো"
+    ],
+    "def": [
+      "A photograph."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "physics",
+    "bn": [
+      "পদার্থবিদ্যা"
+    ],
+    "def": [
+      "A medicine or drug, especially a cathartic or purgative."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "picture",
+    "bn": [
+      "চিত্র",
+      "ছবি"
+    ],
+    "def": [
+      "A representation of anything (as a person, a landscape, a building) upon canvas, paper, or other surface, by drawing, painting, printing, photography, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "piece",
+    "bn": [
+      "টুকরো",
+      "খন্ড"
+    ],
+    "def": [
+      "A part of a larger whole, usually in such a form that it is able to be separated from other parts."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pile",
+    "bn": [
+      "স্তূপ",
+      "কাঁড়ি"
+    ],
+    "def": [
+      "A mass of things heaped together; a heap."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pitch",
+    "bn": [
+      "তাঁর বা শিবির গাড়া"
+    ],
+    "def": [
+      "A sticky, gummy substance secreted by trees; sap."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "plastic",
+    "bn": [
+      "নমনীয়",
+      "প্লাস্টিক"
+    ],
+    "def": [
+      "A synthetic, solid, hydrocarbon-based polymer, whether thermoplastic or thermosetting."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "plastics",
+    "bn": [
+      "নমনীয়",
+      "প্লাস্টিক"
+    ],
+    "def": [
+      "A synthetic, solid, hydrocarbon-based polymer, whether thermoplastic or thermosetting."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "plate",
+    "bn": [
+      "থালা",
+      "রেকাব"
+    ],
+    "def": [
+      "A slightly curved but almost flat dish from which food is served or eaten."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "plates",
+    "bn": [
+      "প্লেট",
+      "ফলক",
+      "থালা",
+      "পট্ট",
+      "পট্টিকা",
+      "লেখন",
+      "চেটাল বর্মবিশেষ",
+      "তাত্তয়া"
+    ],
+    "def": [
+      "A slightly curved but almost flat dish from which food is served or eaten."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "please",
+    "bn": [
+      "সন্তষ্টকরা",
+      "খুশি করা"
+    ],
+    "def": [
+      "To make happy or satisfy; to give pleasure to."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "point",
+    "bn": [
+      "বিন্দু",
+      "সূক্ষ্ণীগ্র"
+    ],
+    "def": [
+      "A discrete division of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "poor",
+    "bn": [
+      "গরিব",
+      "দরিদ্র"
+    ],
+    "def": [
+      "(with \"the\") Those who have little or no possessions or money, taken as a group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "positioned",
+    "bn": [
+      "অবস্থান নির্ণয় করা",
+      "যথাস্থানে রাখা"
+    ],
+    "def": [
+      "To put into place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "positively",
+    "bn": [
+      "সুনিশ্চিত",
+      "সুনিশ্চিতভাবে"
+    ],
+    "def": [
+      "(manner) In a positive manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "possible",
+    "bn": [
+      "সম্ভবপর",
+      "কার্যকর",
+      "সম্ভাবনা"
+    ],
+    "def": [
+      "A possible one."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "possibly",
+    "bn": [
+      "সম্ভবত"
+    ],
+    "def": [
+      "(modifying a clause or predicate) Perhaps; indicates that the proposition may be true (is not certainly false) regardless of any facts or circumstances known to, stated by or implied by the speaker."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pots",
+    "bn": [
+      "পাত্র",
+      "মুচি",
+      "ঘট",
+      "পানপাত্র",
+      "ধাতুপাত্র",
+      "সুরাপাত্র",
+      "গলাইবার পাত্র",
+      "বাজির টাকা",
+      "প্রচুর অর্থ",
+      "গাঁজা",
+      "ভাণ্ড",
+      "করঙ্গ"
+    ],
+    "def": [
+      "A flat-bottomed vessel (usually metal) used for cooking food."
+    ],
+    "syn": [
+      "cooking pot",
+      "cookpot"
+    ],
+    "ant": []
+  },
+  {
+    "en": "power",
+    "bn": [
+      "শক্তি",
+      "সামর্থ্য",
+      "বল",
+      "প্রভাব"
+    ],
+    "def": [
+      "Ability to do or undergo something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "powered",
+    "bn": [
+      "যান্ত্রিক শক্তিসম্পন্ন"
+    ],
+    "def": [
+      "To provide power for (a mechanical or electronic device)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "powerful",
+    "bn": [
+      "ক্ষমতাশালী",
+      "শক্তিধর",
+      "প্রবল",
+      "বিশাল",
+      "প্রচণ্ড",
+      "অতীব কার্যকর",
+      "প্রগাঢ়",
+      "জবর",
+      "শক্তিমান্",
+      "শক্ত",
+      "পরাক্রমশালী",
+      "ক্ষমতাবান্",
+      "জোরাল",
+      "বলশালী",
+      "ত্তজস্বল",
+      "প্রতিপত্তিশালী",
+      "প্রতিপত্তিসম্পন্ন",
+      "প্রতিপত্তিশীল",
+      "ক্ষম",
+      "জবরদস্ত",
+      "ঊর্জস্বল",
+      "উদ্দণ্ড",
+      "কুদরতী",
+      "বলবান",
+      "ক্ষমতাবান"
+    ],
+    "def": [
+      "Having, or capable of exerting power, potency or influence."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "prefer",
+    "bn": [
+      "পছন্দ করা বা গুরুত্ব দেওয়া"
+    ],
+    "def": [
+      "To be in the habit of choosing something rather than something else; to favor; to like better."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "prehistoric",
+    "bn": [
+      "প্রাগৈতিহাসিক"
+    ],
+    "def": [
+      "Having lasted from a remote period; having been of long duration; of great age, very old."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "press",
+    "bn": [
+      "চাপ দেওয়া",
+      "নিংড়ানো বা নিস্পেষণ করা"
+    ],
+    "def": [
+      "A device used to apply pressure to an item."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pretty",
+    "bn": [
+      "সুন্দও",
+      "মনোহর"
+    ],
+    "def": [
+      "A pretty person; a term of address to a pretty person."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "problem",
+    "bn": [
+      "জটিল সমস্যা"
+    ],
+    "def": [
+      "A difficulty that has to be resolved or dealt with."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "problems",
+    "bn": [
+      "জটিল সমস্যা"
+    ],
+    "def": [
+      "A difficulty that has to be resolved or dealt with."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "produced",
+    "bn": [
+      "সৃষ্ট",
+      "উদ্গত",
+      "জন্মিত",
+      "উপজাত",
+      "সম্ভূত",
+      "সঁজাত",
+      "জাত",
+      "উত্থিত",
+      "উদ্ভূত",
+      "প্রসূত"
+    ],
+    "def": [
+      "To yield, make or manufacture; to generate."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "produces",
+    "bn": [
+      "উত্পাদন করা",
+      "সম্মুখে আনা",
+      "বাহির করিয়া আনা",
+      "প্রকাশ করা",
+      "প্রসারিত করা",
+      "বাড়াইয়া দেত্তয়া",
+      "জন্মদান করা",
+      "সৃষ্টি করা",
+      "তৈয়ারি করা",
+      "সঁজাত করা",
+      "জন্মদান দেত্তয়া",
+      "বানান",
+      "ঘটান"
+    ],
+    "def": [
+      "To yield, make or manufacture; to generate."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "producing",
+    "bn": [
+      "আবহ"
+    ],
+    "def": [
+      "To yield, make or manufacture; to generate."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "product",
+    "bn": [
+      "উৎপন্ন দ্রব্য",
+      "গুণফল"
+    ],
+    "def": [
+      "A commodity offered for sale."
+    ],
+    "syn": [
+      "goods",
+      "merchandise",
+      "wares"
+    ],
+    "ant": []
+  },
+  {
+    "en": "proportional",
+    "bn": [
+      "আনুপাতিক",
+      "সমানুপাত বিশিষ্ট"
+    ],
+    "def": [
+      "A proportion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pull",
+    "bn": [
+      "টানা",
+      "আকর্ষণ করা"
+    ],
+    "def": [
+      "An act of pulling (applying force)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "purpose",
+    "bn": [
+      "উদ্দেশ্য",
+      "লক্ষ্য"
+    ],
+    "def": [
+      "An objective to be reached; a target; an aim; a goal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "put",
+    "bn": [
+      "রাখা",
+      "স্থাপন করা"
+    ],
+    "def": [
+      "A right to sell something at a predetermined price."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "quadruple",
+    "bn": [
+      "চারগুণ"
+    ],
+    "def": [
+      "To multiply by four."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "quarter",
+    "bn": [
+      "চতুর্থাংশ"
+    ],
+    "def": [
+      "A fourth part of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "quickly",
+    "bn": [
+      "তাড়াতাড়ি",
+      "অবিলম্বে"
+    ],
+    "def": [
+      "Rapidly; with speed; fast."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "quite",
+    "bn": [
+      "পুরোপুরি",
+      "একবারে",
+      "সত্যই",
+      "ঠিক",
+      "সমগ্রভাবে",
+      "পুরাপুরিভাবে",
+      "বাস্তবিকই",
+      "সম্পূর্ণভাবে"
+    ],
+    "def": [
+      "(heading) To the greatest extent or degree; completely, entirely."
+    ],
+    "syn": [
+      "absolutely",
+      "fully",
+      "thoroughly",
+      "totally",
+      "utterly"
+    ],
+    "ant": []
+  },
+  {
+    "en": "radiates",
+    "bn": [
+      "কিরণবর্ষণ করা",
+      "রশ্মি বিকীর্ণ করা",
+      "রশ্মি বিকীর্ণ করান",
+      "দীপ্তি িপাত্তয়া",
+      "দীপ্তি িপাত্তয়ান",
+      "কেঁদ্র হইতে বিকীর্ণ হত্তয়া",
+      "আনন্দ বিকীর্ণ করা",
+      "ঠিকরান",
+      "বিচ্ছুরিত করা",
+      "কিরণ দেত্তয়া"
+    ],
+    "def": [
+      "To extend, send or spread out from a center like radii."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "radiation",
+    "bn": [
+      "তাপ বিকিরণের সরঞ্জাম",
+      "গৃহাদি গরম ও যন্ত্রাদি শীতল করার যন্ত্র"
+    ],
+    "def": [
+      "The shooting forth of anything from a point or surface, like diverging rays of light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "radiators",
+    "bn": [
+      "রশ্মিবিকিরণকর",
+      "ঘর গরম করিবার যন্ত্রবিশেষ",
+      "রেইডিয়াটার"
+    ],
+    "def": [
+      "Anything which radiates or emits rays."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rapidly",
+    "bn": [
+      "দ্রুত ভাবে"
+    ],
+    "def": [
+      "With speed; in a rapid manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reach",
+    "bn": [
+      "পৌছান",
+      "উপনীত হওয়া",
+      "নাগাল পাওয়া"
+    ],
+    "def": [
+      "The act of stretching or extending; extension."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reaches",
+    "bn": [
+      "নাগাল",
+      "লাভ",
+      "পাল্লা",
+      "প্রসারণ",
+      "এলাকা",
+      "লাভ করার ক্ষমতা",
+      "নাগাল ধরার ক্ষমতা",
+      "উপনীতি",
+      "উপনীত হত্তয়ার ক্ষমতা",
+      "পরিসর",
+      "আত্ততা",
+      "লাগ",
+      "প্রসারণের ক্ষমরা",
+      "অধিকার",
+      "পৌঁছানর হত্তয়ার ক্ষমতা",
+      "পৌঁছ",
+      "গোড়া",
+      "ধরাছোঁয়া"
+    ],
+    "def": [
+      "The act of stretching or extending; extension."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "real",
+    "bn": [
+      "অকৃত্রিম",
+      "বাস্তব"
+    ],
+    "def": [
+      "A commodity; see realty."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "really",
+    "bn": [
+      "প্রকৃতপক্ষে",
+      "সত্য সত্যই"
+    ],
+    "def": [
+      "In a way or manner that is real, not unreal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rear",
+    "bn": [
+      "পশ্চাৎভাগ",
+      "শেষ অংশ"
+    ],
+    "def": [
+      "To bring up to maturity, as offspring; to educate; to instruct; to foster."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reasonable",
+    "bn": [
+      "বিচারবুদ্ধিসম্পন্ন",
+      "যুক্তিযুক্ত",
+      "ন্যায়বাদূ",
+      "ন্যায়সঙ্গত"
+    ],
+    "def": [
+      "Having the faculty of reason; rational, reasoning."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reasonably",
+    "bn": [
+      "কারণপূর্ণভাবে"
+    ],
+    "def": [
+      "In accordance with reason."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reasons",
+    "bn": [
+      "যুক্তি",
+      "কারণ",
+      "বুদ্ধি",
+      "উদ্দেশ্য",
+      "তর্ক",
+      "হেতু",
+      "ক্ষমতা",
+      "বিচার",
+      "ন্যায়সঙ্গত আচরণ",
+      "কৃত্য",
+      "প্রয়োজন"
+    ],
+    "def": [
+      "A cause:"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "red",
+    "bn": [
+      "লালরঙ"
+    ],
+    "def": [
+      "Any of a range of colours having the longest wavelengths, 670 nm, of the visible spectrum; a primary additive colour for transmitted light: the colour obtained by subtracting green and blue from white light using magenta and yellow filters; the colour of blood, ripe strawberries, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reduces",
+    "bn": [
+      "কমান",
+      "হ্রাস করা",
+      "ছাঁটা",
+      "সঙ্কুচিত করা",
+      "ছাঁটাই করা",
+      "দমন করা",
+      "অনুবাদ করা",
+      "পরিণত করা",
+      "নিচু করা",
+      "দুর্বল করা",
+      "কৃশ করা",
+      "সংক্ষেপ করা",
+      "খাট করা",
+      "টুটান",
+      "হ্রস্ব করা",
+      "সংক্ষিপ্ত করা",
+      "খর্ব করা",
+      "সংকুচিত করা",
+      "দরিদ্র করা",
+      "উপযোগী করা"
+    ],
+    "def": [
+      "To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "refer",
+    "bn": [
+      "উল্লেখ করা",
+      "বিবেচনা",
+      "অভিমতের জন্য কারও কাছে পাঠানো"
+    ],
+    "def": [
+      "To direct the attention of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "references",
+    "bn": [
+      "উল্লেখ",
+      "প্রসঙ্গ",
+      "সম্পর্কস্থাপন",
+      "উদ্ঘাত",
+      "আরোপ"
+    ],
+    "def": [
+      "A relationship or relation (to something)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reflectors",
+    "bn": [
+      "প্রতিফলক",
+      "নিন্দক"
+    ],
+    "def": [
+      "Something which reflects heat, light or sound, especially something having a reflecting surface."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "registered",
+    "bn": [
+      "নিবন্ধভুক্ত",
+      "নিবদ্ধ",
+      "রেজিষ্ট্রি করা"
+    ],
+    "def": [
+      "To enter in a register."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "related",
+    "bn": [
+      "সম্পর্কিত",
+      "সম্পর্কযুক্ত",
+      "আত্মীয়তাসূত্রে আবদ্ধ",
+      "সংশ্লিষ্ট",
+      "জড়িত",
+      "সম্বন্ধযুক্ত",
+      "অনুবন্ধী",
+      "বর্ণিত",
+      "সংসৃষ্ট",
+      "সম্বদ্ধ",
+      "অনুষঙ্গী"
+    ],
+    "def": [
+      "To tell in a descriptive way."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "relatively",
+    "bn": [
+      "আপেক্ষিকভাবে"
+    ],
+    "def": [
+      "Proportionally, in relation to some larger scale thing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "remind",
+    "bn": [
+      "স্মরণ করিয়ে দেওয়া"
+    ],
+    "def": [
+      "To cause one to experience a memory (of someone or something); to bring to the notice or consideration (of a person)."
+    ],
+    "syn": [
+      "put someone in mind of"
+    ],
+    "ant": []
+  },
+  {
+    "en": "removed",
+    "bn": [
+      "অপসারিত",
+      "স্থানান্তরিত",
+      "উত্সারিত",
+      "উদ্ধৃত",
+      "উন্মুলিত",
+      "ধুত",
+      "স্থানচু্যত",
+      "অপগত",
+      "অপনীত",
+      "অপনোদিত",
+      "ছন্ন",
+      "দমিত",
+      "ক্ষালিত",
+      "নাশিত",
+      "নিরাকৃত",
+      "নির্বাসিত",
+      "নিষ্কাশিত",
+      "অপবাহিত",
+      "প্রতিসারিত"
+    ],
+    "def": [
+      "To move something from one place to another, especially to take away."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "removing",
+    "bn": [
+      "নাশন",
+      "নির্মোচন"
+    ],
+    "def": [
+      "To move something from one place to another, especially to take away."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "repeated",
+    "bn": [
+      "পুনরায় কৃত বা উচ্চারিত"
+    ],
+    "def": [
+      "To do or say again (and again)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reserved",
+    "bn": [
+      "সংরক্ষিত",
+      "মজুত",
+      "গম্ভীর",
+      "স্বল্পভাষী",
+      "সংযত চরিত্রের",
+      "চাপা স্বভাবের",
+      "স্বল্পবাক",
+      "সংযতবাক"
+    ],
+    "def": [
+      "To keep back; to retain."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "resistance",
+    "bn": [
+      "প্রতিরোধ",
+      "সহ্যশক্তি"
+    ],
+    "def": [
+      "The act of resisting, or the capacity to resist."
+    ],
+    "syn": [
+      "opposition"
+    ],
+    "ant": []
+  },
+  {
+    "en": "rest",
+    "bn": [
+      "বিশ্রাম",
+      "বিরাম",
+      "স্থিরতা"
+    ],
+    "def": [
+      "(of a person or animal) Relief from work or activity by sleeping; sleep."
+    ],
+    "syn": [
+      "sleep",
+      "slumber"
+    ],
+    "ant": []
+  },
+  {
+    "en": "retrieved",
+    "bn": [
+      "পুনরূদ্ধার করা",
+      "ত্রাণ করা",
+      "ক্ষতিপূরণ করা",
+      "মেরামত করা",
+      "আরোগ্য করা"
+    ],
+    "def": [
+      "To regain or get back something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ribbon",
+    "bn": [
+      "ফিতা"
+    ],
+    "def": [
+      "A long, narrow strip of timber bent and bolted longitudinally to the ribs of a vessel, to hold them in position and give rigidity to the framework."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ribbons",
+    "bn": [
+      "রাস",
+      "ফিতায় সজ্জিত"
+    ],
+    "def": [
+      "A long, narrow strip of timber bent and bolted longitudinally to the ribs of a vessel, to hold them in position and give rigidity to the framework."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rights",
+    "bn": [
+      "বাস্তবতা"
+    ],
+    "def": [
+      "That which complies with justice, law or reason."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rockets",
+    "bn": [
+      "রকেট",
+      "হাউইবাজি"
+    ],
+    "def": [
+      "A rocket engine."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rod",
+    "bn": [
+      "দন্ড",
+      "ছড়ি"
+    ],
+    "def": [
+      "A straight, round stick, shaft, bar, cane, or staff."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "romance",
+    "bn": [
+      "রোমাঞ্চকর গল্প বা উপন্যাস"
+    ],
+    "def": [
+      "A story relating to chivalry; a story involving knights, heroes, adventures, quests, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "room",
+    "bn": [
+      "ঘর",
+      "কক্ষ",
+      "স্থান"
+    ],
+    "def": [
+      "Opportunity or scope (to do something)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "roughly",
+    "bn": [
+      "মোটামুটি ভাবে"
+    ],
+    "def": [
+      "In a rough manner; without kindness, softness, or gentleness."
+    ],
+    "syn": [
+      "austerely",
+      "harshly",
+      "rudely",
+      "severely"
+    ],
+    "ant": []
+  },
+  {
+    "en": "round",
+    "bn": [
+      "গোল",
+      "গোলাগুলির ঝাক",
+      "গোলাকার"
+    ],
+    "def": [
+      "So as to form a circle or trace a circular path, or approximation thereof."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "running",
+    "bn": [
+      "বহমান",
+      "চলতি বা চালু"
+    ],
+    "def": [
+      "To move swiftly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "safe",
+    "bn": [
+      "নিরাপদ সিন্দুক"
+    ],
+    "def": [
+      "A box, usually made of metal, in which valuables can be locked for safekeeping."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "safety",
+    "bn": [
+      "নিরাপত্তা",
+      "নিবিঘ্নতা"
+    ],
+    "def": [
+      "The condition or feeling of being safe; security; certainty."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sag",
+    "bn": [
+      "অবসন্ন হওয়া",
+      "ঝুলিয়া পড়া",
+      "বসিয়া যাওয়া",
+      "বাঁকানো"
+    ],
+    "def": [
+      "The state of sinking or bending; a droop."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "same",
+    "bn": [
+      "সদৃশ",
+      "অবিভিন্ন",
+      "অনুরূপ",
+      "পূর্বোক্ত"
+    ],
+    "def": [
+      "Not different or other; not another or others; not different as regards self; selfsame; identical."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "school",
+    "bn": [
+      "বিদ্যালয়",
+      "পাঠশালা",
+      "ইস্কুল",
+      "ঝাঁক"
+    ],
+    "def": [
+      "(collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "scripts",
+    "bn": [
+      "লিপি",
+      "বেতারে সন",
+      "মূল দলিল"
+    ],
+    "def": [
+      "A writing; a written document."
+    ],
+    "syn": [
+      "cursive",
+      "hand",
+      "handwriting",
+      "manuscript"
+    ],
+    "ant": []
+  },
+  {
+    "en": "seem",
+    "bn": [
+      "বোধ হওয়া",
+      "প্রতিভাত হওয়া"
+    ],
+    "def": [
+      "To appear; to look outwardly; to be perceived as."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "seen",
+    "bn": [
+      "দৃষ্ট",
+      "প্রেক্ষিত",
+      "নিরীক্ষিত",
+      "নয়নগোচর",
+      "লক্ষিত"
+    ],
+    "def": [
+      "(stative) To perceive or detect with the eyes, or as if by sight."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "series",
+    "bn": [
+      "ধারা",
+      "ধারাবাহিকতা",
+      "পারস্পর্য"
+    ],
+    "def": [
+      "A number of things that follow on one after the other or are connected one after the other."
+    ],
+    "syn": [
+      "chain",
+      "line",
+      "sequence",
+      "stream",
+      "succession"
+    ],
+    "ant": []
+  },
+  {
+    "en": "serves",
+    "bn": [
+      "পরিবেশন করা",
+      "হানা",
+      "চাকরি করা",
+      "চাকর হত্তয়া",
+      "পরিচর্যা করা",
+      "সেবা করা",
+      "কর্মচারী হত্তয়া",
+      "উপাসনা করা",
+      "খিদমত করা",
+      "উপযোগী হত্তয়া",
+      "নোকরি করা",
+      "সরবরাহ করা",
+      "উন্নতিবিধান করা",
+      "পূজা করা",
+      "ভজনা করা",
+      "আচরণ করা",
+      "জারি করা",
+      "বিধিমত জারী করা",
+      "অগ্রসর করান",
+      "পর্যাপ্ত হত্তয়া"
+    ],
+    "def": [
+      "An act of putting the ball or shuttlecock in play in various games."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "set",
+    "bn": [
+      "অস্ত যাওয়া",
+      "স্থাপন করা",
+      "বিন্যস্ত করা"
+    ],
+    "def": [
+      "To put (something) down, to rest."
+    ],
+    "syn": [
+      "lay",
+      "put",
+      "set down"
+    ],
+    "ant": [
+      "pick up"
+    ]
+  },
+  {
+    "en": "several",
+    "bn": [
+      "কতিপয় সামান্য কয়েকটি"
+    ],
+    "def": [
+      "An area of land in private ownership (as opposed to common land)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "severe",
+    "bn": [
+      "কঠোর",
+      "কঠিন",
+      "তীব্র",
+      "প্রচন্ড"
+    ],
+    "def": [
+      "Very bad or intense."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "shape",
+    "bn": [
+      "আকার",
+      "গঠন",
+      "ছাঁচ",
+      "আকৃতি বা আকার দান করা"
+    ],
+    "def": [
+      "The status or condition of something"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sheath",
+    "bn": [
+      "তরবারি ইত্যাদির  খাপ",
+      "কোষ"
+    ],
+    "def": [
+      "A holster for a sword; a scabbard."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "short",
+    "bn": [
+      "খাটো",
+      "বেঁটে",
+      "ছোট",
+      "সংক্ষিপ্ত",
+      "নূ্যন বা উন্"
+    ],
+    "def": [
+      "A short circuit."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "shortening",
+    "bn": [
+      "কমা",
+      "সংক্ষেপ"
+    ],
+    "def": [
+      "To make shorter; to abbreviate."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "showers",
+    "bn": [
+      "ঝরনা",
+      "বর্ষণ",
+      "বৃষ্টি",
+      "পশলা",
+      "ধারাবর্ষণ",
+      "একপশলা বর্ষণ",
+      "বর্ষ",
+      "ধারা",
+      "পতন",
+      "পাত",
+      "ধারাস্নানের যন্ত্র"
+    ],
+    "def": [
+      "A brief fall of precipitation (spell of rain, or a similar fall of snow, sleet, or cascade)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "simple",
+    "bn": [
+      "সহজ",
+      "সরল",
+      "সাদাসিধা"
+    ],
+    "def": [
+      "A herbal preparation made from one plant, as opposed to something made from more than one plant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sites",
+    "bn": [
+      "কোন বিশেষ কাজেনির্বাচিত জমি"
+    ],
+    "def": [
+      "Sorrow, grief."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "size",
+    "bn": [
+      "আকার",
+      "আয়তন"
+    ],
+    "def": [
+      "(obsolete outside dialectal) An assize."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "skyscrapers",
+    "bn": [
+      "অতুচ্চ অট্টালিকা"
+    ],
+    "def": [
+      "A very tall building with a large number of floors."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "smoke",
+    "bn": [
+      "ধোঁয়া",
+      "ধুম",
+      "ধুমপান"
+    ],
+    "def": [
+      "The visible vapor/vapour, gases, and fine particles given off by burning or smoldering material."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "snow",
+    "bn": [
+      "তুষার",
+      "হিমানী"
+    ],
+    "def": [
+      "The frozen, crystalline state of water that falls as precipitation."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "soldering",
+    "bn": [
+      "রাংঝালাই"
+    ],
+    "def": [
+      "To join items together, or to coat them with solder"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "something",
+    "bn": [
+      "কোনকিছু"
+    ],
+    "def": [
+      "An object whose nature is yet to be defined."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sometimes",
+    "bn": [
+      "কখনো সখনো",
+      "কখন কখন",
+      "কখনত্ত কখনত্ত",
+      "কখনসখন"
+    ],
+    "def": [
+      "Former; sometime."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sound",
+    "bn": [
+      "শব্দ",
+      "ধ্বনি"
+    ],
+    "def": [
+      "Healthy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "speak",
+    "bn": [
+      "কথা বলা",
+      "কথোপকথন"
+    ],
+    "def": [
+      "A low class bar, a speakeasy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "specific",
+    "bn": [
+      "বিশেষ ও নির্দিষ্ট"
+    ],
+    "def": [
+      "A distinguishing attribute or quality."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sponsored",
+    "bn": [
+      "বিধিমত প্রতিশ্রুতি দেত্তয়া"
+    ],
+    "def": [
+      "To be a sponsor for."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "spot",
+    "bn": [
+      "ছোট গোলাকার দাগ",
+      "বিন্দু",
+      "কলঙ্ক",
+      "কোন নির্দিষ্ট স্থান"
+    ],
+    "def": [
+      "A round or irregular patch on the surface of a thing having a different color, texture etc. and generally round in shape."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "square",
+    "bn": [
+      "বর্গাকার ক্ষেত্র",
+      "সমচতুর্ভূজ"
+    ],
+    "def": [
+      "A polygon with four sides of equal length and four right angles; an equilateral rectangle; a regular quadrilateral."
+    ],
+    "syn": [
+      "tetragon"
+    ],
+    "ant": []
+  },
+  {
+    "en": "stainless",
+    "bn": [
+      "দাগশূন্য",
+      "যাহাতে মরিচা পড়ে না বা ময়লা ধরে না এমন"
+    ],
+    "def": [
+      "Short for stainless steel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stand",
+    "bn": [
+      "দাঁড়ানো",
+      "নিশ্চল হওয়া",
+      "সহ্য বা বরদাস্ত করা"
+    ],
+    "def": [
+      "The act of standing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "standing",
+    "bn": [
+      "স্থায়ী",
+      "স্থির",
+      "নির্ধারিত"
+    ],
+    "def": [
+      "(heading) To position or be positioned physically."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "states",
+    "bn": [
+      "রাজ্য",
+      "রাষ্ট্র",
+      "প্রদেশ",
+      "অবস্থা",
+      "সরকার",
+      "দশা",
+      "হালচাল",
+      "রাজ",
+      "হাল",
+      "ভাব",
+      "উচ্চপদ",
+      "গতিক",
+      "মর্যাদাক্রম",
+      "মর্যাদার ক্রম",
+      "জাঁকজমক",
+      "ক্ষেত্র"
+    ],
+    "def": [
+      "A condition; a set of circumstances applying at any given time."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "steam",
+    "bn": [
+      "বাস্প",
+      "ধোঁয়া"
+    ],
+    "def": [
+      "The vapor formed when water changes from liquid phase to gas phase."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "steel",
+    "bn": [
+      "ইস্পাত"
+    ],
+    "def": [
+      "An artificial metal produced from iron, harder and more elastic than elemental iron; used figuratively as a symbol of hardness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "step",
+    "bn": [
+      "ঘটা",
+      "পা ফেলা"
+    ],
+    "def": [
+      "An advance or movement made from one foot to the other; a pace."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sticks",
+    "bn": [
+      "টুকুরো খণ্ড",
+      "কয়েকটা"
+    ],
+    "def": [
+      "An elongated piece of wood or similar material, typically put to some use, for example as a wand or baton."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stone",
+    "bn": [
+      "পাথর",
+      "শিলা",
+      "মূল্যবান পাথর বা মণিরত্ন"
+    ],
+    "def": [
+      "A hard earthen substance that can form large rocks."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stopping",
+    "bn": [
+      "বাঁধন",
+      "স্তম্ভন",
+      "নিবর্তন"
+    ],
+    "def": [
+      "To cease moving."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "story",
+    "bn": [
+      "গল্প",
+      "কাহিনী",
+      "বড়ির তলা"
+    ],
+    "def": [
+      "A sequence of real or fictional events; or, an account of such a sequence."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stove",
+    "bn": [
+      "তেলের বা গ্যাসের চুল্লি",
+      "উনান"
+    ],
+    "def": [
+      "A heater, a closed apparatus to burn fuel for the warming of a room."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stoves",
+    "bn": [
+      "চুলা",
+      "আখা",
+      "উনান",
+      "স্টোভ"
+    ],
+    "def": [
+      "A heater, a closed apparatus to burn fuel for the warming of a room."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "straight",
+    "bn": [
+      "সোজা",
+      "খাড়া",
+      "সরল",
+      "অকপট",
+      "সোজাসুজিভাবে"
+    ],
+    "def": [
+      "Something that is not crooked or bent such as a part of a road or track."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "straightforward",
+    "bn": [
+      "সরল"
+    ],
+    "def": [
+      "Proceeding in a straight course or manner; not deviating."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stretch",
+    "bn": [
+      "বিস্তৃত করা বা হওয়া",
+      "টেনেলম্বা করা",
+      "বিস্তৃতি",
+      "ব্যাপ্তি",
+      "নাগাল"
+    ],
+    "def": [
+      "An act of stretching."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "strip",
+    "bn": [
+      "লম্বা ও সরু টুকড়া বা ফালি",
+      "টেনেপোশাকখুলে ফেলা",
+      "নগ্ন করা"
+    ],
+    "def": [
+      "A long, thin piece of land; any long, thin area."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stuff",
+    "bn": [
+      "উপাদান বস্তুু",
+      "ঠেসে ঢুকানো বা গাদানো"
+    ],
+    "def": [
+      "Miscellaneous items or objects; (with possessive) personal effects."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sturdy",
+    "bn": [
+      "মজবুত",
+      "শক্তসমর্থ"
+    ],
+    "def": [
+      "A disease in sheep and cattle, caused by a tapeworm and marked by great nervousness or by dullness and stupor."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "subject",
+    "bn": [
+      "প্রজা",
+      "বলার লেখার বা আলোচনার বিষয়"
+    ],
+    "def": [
+      "Likely to be affected by or to experience something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "suddenly",
+    "bn": [
+      "হঠাৎ",
+      "আকস্মিকভাবে",
+      "অতর্কিতে",
+      "অকস্মাৎ",
+      "আচমকা",
+      "আচকা",
+      "ধাঁ করে",
+      "অপ্রত্যাশিতভাবে",
+      "সহসা",
+      "চড় মারিয়া",
+      "অলক্ষিতভাবে",
+      "দৈবাৎ"
+    ],
+    "def": [
+      "Happening quickly and with little or no warning; in a sudden manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "supply",
+    "bn": [
+      "সরবরাহ করা",
+      "যোগানো"
+    ],
+    "def": [
+      "The act of supplying."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "supplying",
+    "bn": [
+      "সরবরাহ করা",
+      "অনুপূরণ করা",
+      "প্রতিবিধান করা",
+      "জোগান"
+    ],
+    "def": [
+      "To provide (something), to make (something) available for use."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "supported",
+    "bn": [
+      "আশ্রিত",
+      "অনুমোদিত"
+    ],
+    "def": [
+      "To keep from falling."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "supporting",
+    "bn": [
+      "সমর্থক",
+      "পক্ষাবলম্বী",
+      "পরিপোষক",
+      "প্রতিপোষক",
+      "পোষক"
+    ],
+    "def": [
+      "To keep from falling."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sure",
+    "bn": [
+      "নিশ্চিত",
+      "অবশ্যম্ভাবী",
+      "নিরাপদ",
+      "পরীক্ষিত"
+    ],
+    "def": [
+      "Physically secure and certain, non-failing, reliable."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "surface",
+    "bn": [
+      "উপরিভাগ",
+      "বহির্ভাগ",
+      "তল"
+    ],
+    "def": [
+      "The overside or up-side of a flat object such as a table, or of a liquid."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "switch",
+    "bn": [
+      "বিু্যৎপ্রবাহ চালূ করার সুইচ"
+    ],
+    "def": [
+      "A bundle of thin sticks, typically made of wood, sometimes bond in such a way that binding can be moved so that it varies the tightness of the binding."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "synthetic",
+    "bn": [
+      "নানা বস্তুর মিশ্রণে উৎপন্নম সংশ্লিষ্ট"
+    ],
+    "def": [
+      "A synthetic compound."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "systems",
+    "bn": [
+      "পদ্ধতি",
+      "তন্ত্র",
+      "প্রণালী",
+      "নিয়ম",
+      "শৃঙ্খলা",
+      "রীতি",
+      "ধারা",
+      "দৈহিক গঠনতন্ত্র",
+      "নিবন্ধ",
+      "আঁদিসাঁদি",
+      "যৌগিক বস্তু"
+    ],
+    "def": [
+      "A collection of organized things; a whole composed of relationships among its members."
+    ],
+    "syn": [
+      "arrangement",
+      "complex",
+      "composition",
+      "organization",
+      "set up",
+      "structure"
+    ],
+    "ant": []
+  },
+  {
+    "en": "takes",
+    "bn": [
+      "গ্রহণ করা",
+      "লত্তয়া",
+      "নেত্তয়া",
+      "ছিনাইয়া লত্তয়া",
+      "সঙ্গে লইয়া যাত্তয়া",
+      "ধরা",
+      "আত্মসাৎ করা",
+      "আঁকড়াইয়া ধরা",
+      "বলপূর্বক দখল করা",
+      "চুরি করা",
+      "হৃদয়ঙ্গম করা",
+      "খাত্তয়া",
+      "পান করা",
+      "মোহিত করা",
+      "ফোটো তোলা",
+      "অতীপ্সিতি ফলপ্রসূ হত্তয়া",
+      "কার্যকর হত্তয়া",
+      "জনসাধারণের মনোরঁজন করা",
+      "জয় করা",
+      "নিজেকে নিয়োজিত করা",
+      "টোপ ঠোকরান",
+      "সেবন করা"
+    ],
+    "def": [
+      "The or an act of taking."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "talking",
+    "bn": [
+      "বক্বক্কারী",
+      "আলাপআলোচনাকারী",
+      "উচ্চারণকারী",
+      "ভাষণকারী",
+      "বক্তৃতাকারী"
+    ],
+    "def": [
+      "The action of the verb talk."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tank",
+    "bn": [
+      "তরল পদার্থের আধার",
+      "পুকুর",
+      "জলাধার"
+    ],
+    "def": [
+      "A closed container for liquids or gases."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "technical",
+    "bn": [
+      "প্রযুক্তি শিক্ষা ইত্যাদি বিষয়ক",
+      "যন্ত্রবিদ্যা বা যন্ত্রকৌশলসংক্রান্ত"
+    ],
+    "def": [
+      "A pickup truck with a gun mounted on it."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tell",
+    "bn": [
+      "বলা"
+    ],
+    "def": [
+      "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tells",
+    "bn": [
+      "বলা",
+      "জানান",
+      "কথা কাটাকাটি করা",
+      "শুনান",
+      "শোনান",
+      "বর্ণনা করা",
+      "ফাঁস করা",
+      "প্রকাশ করিয়া দেত্তয়া",
+      "কহা",
+      "উচ্চারণ করা",
+      "তারতম্য নির্ণয় করা",
+      "কথা কহা",
+      "গণনা করা",
+      "আদেশ দেত্তয়া",
+      "পরিচালিত করা",
+      "শিক্ষা দেত্তয়া",
+      "নির্দেশ দেত্তয়া",
+      "উপদেশ দেত্তয়া",
+      "বর্ণনা দেত্তয়া",
+      "বলবৎ হত্তয়া",
+      "বোঝাস্বরুপ হত্তয়া",
+      "ভারাক্রান্ত হত্তয়া",
+      "আকর্ষণীয় গল্প তৈয়ারি করা",
+      "বৈশিষ্ট্য নির্ণয় করা"
+    ],
+    "def": [
+      "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "temperature",
+    "bn": [
+      "তাপের বা শৈত্যের মাত্রা"
+    ],
+    "def": [
+      "A measure of cold or heat, often measurable with a thermometer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "temperatures",
+    "bn": [
+      "তাপমাত্রা",
+      "জ্বর",
+      "তাপমান",
+      "তাপ",
+      "উষ্মা"
+    ],
+    "def": [
+      "A measure of cold or heat, often measurable with a thermometer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "temporarily",
+    "bn": [
+      "অচিরস্থায়িভাবে",
+      "অস্থায়িভাবে"
+    ],
+    "def": [
+      "For a limited period of time; not permanently."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tempted",
+    "bn": [
+      "লুব্ধ",
+      "প্রলুব্ধ"
+    ],
+    "def": [
+      "To provoke someone to do wrong, especially by promising a reward; to entice."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "terms",
+    "bn": [
+      "শব্দ",
+      "মেয়াদ",
+      "পরিভাষা",
+      "পদ",
+      "আখ্যা",
+      "শর্তাবলী",
+      "নাম",
+      "পারিশ্রমিক",
+      "অন্ত",
+      "কালবিভাগ",
+      "সীমাবদ্ধ কাল",
+      "সীমিত কাল",
+      "স্থিতিকাল",
+      "স্থায়িত্বের কাল",
+      "অধিবেশনের কাল",
+      "মাসুল",
+      "রাশি",
+      "সূত্রের বিধেয়",
+      "উক্তি",
+      "সীমানা",
+      "সম্পর্ক"
+    ],
+    "def": [
+      "That which limits the extent of anything; limit, extremity, bound, boundary."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "text",
+    "bn": [
+      "পাঠ",
+      "বই এর পাঠ্য অংশ"
+    ],
+    "def": [
+      "A writing consisting of multiple glyphs, characters, symbols or sentences."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "themselves",
+    "bn": [
+      "শতাহারা স্বয়ং"
+    ],
+    "def": [
+      "The reflexive case of they, the third-person plural personal pronoun. The group of people, animals or objects previously mentioned, as the object of a verb or following a preposition (also used for emphasis)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "therefore",
+    "bn": [
+      "অতএব"
+    ],
+    "def": [
+      "For that or this purpose, referring to something previously stated."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thermostat",
+    "bn": [
+      "তাপস্থাপক"
+    ],
+    "def": [
+      "A device that automatically responds to changes in temperature by activating a heating or cooling system to maintain the temperature at a desired setting."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thick",
+    "bn": [
+      "পুরু ও মোটা",
+      "ঘন",
+      "নিবিড়",
+      "ঘনসন্নিবিষ্ট"
+    ],
+    "def": [
+      "The thickest, or most active or intense, part of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thickness",
+    "bn": [
+      "বেধ",
+      "ঘনত্ব",
+      "সান্দ্রতা",
+      "নিবিড়তা",
+      "পুরূতা",
+      "ঘনতা",
+      "ঘনিমা",
+      "ঘনিষ্ঠতা",
+      "স্থূলতা",
+      "গভীরতা",
+      "ভিড়পূর্ণতা",
+      "সমাকীর্ণতা",
+      "জনাকীর্ণতা",
+      "প্রাচুর্য",
+      "বুদ্ধিহীনতা"
+    ],
+    "def": [
+      "The property of being thick (in dimension)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thin",
+    "bn": [
+      "ঘনন নয় এমন",
+      "পাতলা",
+      "হালকা",
+      "সূক্ষ্ণ",
+      "রোগা",
+      "কৃশ"
+    ],
+    "def": [
+      "A loss or tearing of paper from the back of a stamp, although not sufficient to create a complete hole."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thing",
+    "bn": [
+      "পদার্থ",
+      "বস্তু বিষয়",
+      "ব্যাপার"
+    ],
+    "def": [
+      "That which is considered to exist as a separate entity, object, quality or concept."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "things",
+    "bn": [
+      "জিনিসপত্র",
+      "জামাকাপড়",
+      "পোশাক",
+      "বাসনকোসন",
+      "দ্রব্যসামগ্রী"
+    ],
+    "def": [
+      "That which is considered to exist as a separate entity, object, quality or concept."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "think",
+    "bn": [
+      "চিন্তা করা",
+      "ভাবা"
+    ],
+    "def": [
+      "An act of thinking; consideration (of something)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "though",
+    "bn": [
+      "যদিও"
+    ],
+    "def": [
+      "Despite that; however."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "threatening",
+    "bn": [
+      "ভয়প্রদর্শক",
+      "আশঙ্কাজনক"
+    ],
+    "def": [
+      "To make a threat against someone; to use threats."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "three",
+    "bn": [
+      "তিন",
+      "তিনটি"
+    ],
+    "def": [
+      "The digit/figure 3."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "through",
+    "bn": [
+      "দ্বারা",
+      "মারফত",
+      "শেষ পর্যন্ত",
+      "পথ দিয়া",
+      "গুজরৎ",
+      "একস্থান হইতে অন্য স্থানে",
+      "ভিতরে সর্বত্র",
+      "ধরিয়া ব্যাপিয়া",
+      "সম্পূর্ণ শেষ করিয়া",
+      "সাহায্যে",
+      "আগাগোড়া",
+      "এক প্রান্ত হইতে অন্য প্রান্ত পর্যন্ত",
+      "এক দিক হইতে অন্য দিকে",
+      "আদ্যন্ত",
+      "আগাগোড়া"
+    ],
+    "def": [
+      "A large slab of stone laid in a dry-stone wall from one side to the other; a perpend."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "throw",
+    "bn": [
+      "কোনো কিছু নিক্ষেপ করা",
+      "হাতপা ছোড়া",
+      "সজোরে ঠেলে দেওয়া"
+    ],
+    "def": [
+      "To change place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "times",
+    "bn": [
+      "গুণ"
+    ],
+    "def": [
+      "The inevitable progression into the future with the passing of present and past events."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tiny",
+    "bn": [
+      "অতি ক্ষুদ্র",
+      "পুঁচকে",
+      "খুব ছোট",
+      "ছোট",
+      "ক্ষুদ্রকায়",
+      "নেংটি",
+      "খুদি"
+    ],
+    "def": [
+      "A small child; an infant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "toaster",
+    "bn": [
+      "রুটি সেঁকিবার যন্ত্র"
+    ],
+    "def": [
+      "One who toasts (cooks lightly by browning)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "toasters",
+    "bn": [
+      "রুটি সেঁকিবার যন্ত্র"
+    ],
+    "def": [
+      "One who toasts (cooks lightly by browning)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tongs",
+    "bn": [
+      "টিমটা",
+      "সাঁড়াশি"
+    ],
+    "def": [
+      "An instrument or tool used for picking things up without touching them with the hands or fingers, consisting of two slats or grips hinged at the end or in the middle, and sometimes including a spring to open the grips."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "top",
+    "bn": [
+      "লাটিম",
+      "লাট্ট্র",
+      "চুড়া",
+      "শীর্ষ"
+    ],
+    "def": [
+      "The highest or uppermost part of something."
+    ],
+    "syn": [
+      "overside",
+      "peak",
+      "summit"
+    ],
+    "ant": [
+      "base",
+      "bottom",
+      "underside"
+    ]
+  },
+  {
+    "en": "toughened",
+    "bn": [
+      "অদম্য করা",
+      "ঘন হত্তয়া",
+      "ঘন করা",
+      "অদম্য হত্তয়া",
+      "বলিষ্ঠ করা",
+      "বলিষ্ঠ হত্তয়া",
+      "শ্রমসাধ্য করা",
+      "শ্রমসাধ্য হত্তয়া",
+      "নাছোড়বান্দা করা",
+      "নাছোড়বান্দা হত্তয়া"
+    ],
+    "def": [
+      "To make tough."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "trademark",
+    "bn": [
+      "ট্রেড্মার্ক"
+    ],
+    "def": [
+      "A word, symbol, or phrase used to identify a particular company's product and differentiate it from other companies' products."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "train",
+    "bn": [
+      "রেলগাড়ি"
+    ],
+    "def": [
+      "Elongated portion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "trains",
+    "bn": [
+      "পশ্চাদংশ"
+    ],
+    "def": [
+      "Elongated portion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "transport",
+    "bn": [
+      "পরিবহণ করা"
+    ],
+    "def": [
+      "An act of transporting; conveyance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "true",
+    "bn": [
+      "যথার্থ",
+      "সত্য",
+      "বিশ্বস্ত",
+      "খাঁটি",
+      "নির্ভূল"
+    ],
+    "def": [
+      "The state of being in alignment."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tube",
+    "bn": [
+      "চোঙ",
+      "নল"
+    ],
+    "def": [
+      "Anything that is hollow and cylindrical in shape."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tungsten",
+    "bn": [
+      "দুষ্প্রাপ্য ধাতু",
+      "ইস্পাত ইত্যাদি তৈরি করিবার ধাতুবিশেষ"
+    ],
+    "def": [
+      "A rare metallic chemical element (symbol W, from Latin wolframium) with an atomic number of 74."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "turned",
+    "bn": [
+      "পরিণত",
+      "প্রমাণিত",
+      "আবর্তিত",
+      "প্রত্যাবৃত্ত",
+      "কুঁদিত",
+      "নির্দেশিত",
+      "আঘূর্ণিত"
+    ],
+    "def": [
+      "(heading) to make a non-linear physical movement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "turning",
+    "bn": [
+      "বাঁক",
+      "ঘূর্ণন",
+      "মোড়",
+      "কুঁদন",
+      "আবর্তগতি",
+      "আবর্তন",
+      "বিপর্যয়",
+      "অপসরণ",
+      "গঠন",
+      "রাস্তার মোড়"
+    ],
+    "def": [
+      "(heading) to make a non-linear physical movement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "two",
+    "bn": [
+      "দুই"
+    ],
+    "def": [
+      "The digit/figure 2."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "type",
+    "bn": [
+      "মানুষ বস্তু বা ঘটনার আদর্শ",
+      "ধাতুনির্মিত ছাপার হরফ"
+    ],
+    "def": [
+      "A grouping based on shared characteristics; a class."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "typically",
+    "bn": [
+      "প্রতীকস্বরুপে"
+    ],
+    "def": [
+      "In a typical or common manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "unconvincing",
+    "bn": [
+      "প্রত্যয় জাগায় না বা সংশয় দূর করে না এমন",
+      "অপ্রত্যয়যোগ্য"
+    ],
+    "def": [
+      "To cause to abandon a conviction."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "under",
+    "bn": [
+      "তলে",
+      "নিচে",
+      "অধীনে"
+    ],
+    "def": [
+      "Being lower; being beneath something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "underneath",
+    "bn": [
+      "নিচে",
+      "তলায়"
+    ],
+    "def": [
+      "The lower surface or part of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "understanding",
+    "bn": [
+      "অন্তর্দৃষ্টিসম্পন্ন",
+      "বোধশক্তিসম্পন্ন",
+      "বিচারবুদ্ধিযুক্ত",
+      "সহানুভূতিশীল",
+      "বুঝদার",
+      "বুদ্ধিবৃত্তি",
+      "ধারণাশক্তি",
+      "প্রতীতি",
+      "মতের মিল",
+      "উপলব্ধি",
+      "বুদ্ধি",
+      "আক্কেল",
+      "বোধ",
+      "বোধশক্তি",
+      "মেধা",
+      "গ্রাহ",
+      "মনের মিল",
+      "পরম্পর বোঝাপড়া"
+    ],
+    "def": [
+      "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "unlike",
+    "bn": [
+      "অসদৃশ",
+      "প্রতিমুখ"
+    ],
+    "def": [
+      "Something that is not like something else; something different."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "until",
+    "bn": [
+      "পর্যন্ত",
+      "যতক্ষণ পর্যন্ত না",
+      "নাগাদ",
+      "যতক্ষণ না",
+      "যে পর্যন্ত না"
+    ],
+    "def": [
+      "Up to the time of (something happening)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "unusual",
+    "bn": [
+      "অসাধারণ",
+      "উল্লেখযোগ্য"
+    ],
+    "def": [
+      "Something that is unusual; an anomaly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "up",
+    "bn": [
+      "উঁচু",
+      "উঁচুতে",
+      "উচ্চতর স্থানে"
+    ],
+    "def": [
+      "The direction opposed to the pull of gravity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "updated",
+    "bn": [
+      "আধুনিক করা",
+      "হাল নাগাদ করা"
+    ],
+    "def": [
+      "To bring (a thing) up to date."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "used",
+    "bn": [
+      "অভ্যস্ত"
+    ],
+    "def": [
+      "To utilize or employ."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "useful",
+    "bn": [
+      "প্রয়োজনীয়",
+      "দরকারী"
+    ],
+    "def": [
+      "Having a practical or beneficial use."
+    ],
+    "syn": [
+      "noteful",
+      "serviceable",
+      "utilitarian"
+    ],
+    "ant": [
+      "harmful",
+      "unuseful",
+      "useless"
+    ]
+  },
+  {
+    "en": "users",
+    "bn": [
+      "ব্যবহারকারী"
+    ],
+    "def": [
+      "One who uses or makes use of something, a consumer/client or an express or implied licensee (free user) or a trespasser."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "uses",
+    "bn": [
+      "ব্যবহার",
+      "সুবিধা",
+      "অভ্যাস",
+      "প্রযুক্তি",
+      "রীতিনীতি",
+      "উপকারিতা",
+      "প্রথা",
+      "ব্যবহারের ধরন",
+      "রীতি",
+      "আচরণ",
+      "প্রয়োগ",
+      "প্রয়োজন",
+      "প্রয়োগের ধরন",
+      "নিয়োগ"
+    ],
+    "def": [
+      "The act of using."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "using",
+    "bn": [
+      "ব্যবহার করা",
+      "চালান",
+      "অবলম্বন করা",
+      "আচরণ করা",
+      "অভ্যস্ত থাকা",
+      "অভ্যস্ত হত্তয়া",
+      "প্রয়োগ করা",
+      "সুযোগ লত্তয়া"
+    ],
+    "def": [
+      "To utilize or employ."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "usually",
+    "bn": [
+      "সচরাচর"
+    ],
+    "def": [
+      "Most of the time; less than always, but more than occasionally."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "v",
+    "bn": [
+      "ইংরেজি বর্ণমালার দ্বাবিংশ অক্ষর"
+    ],
+    "def": [
+      "A shape resembling the letter v"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "vapors",
+    "bn": [
+      "বাষ্প",
+      "ধূম্র",
+      "ভাপ",
+      "কুয়াশা",
+      "গ্যাস",
+      "কুয়াসা",
+      "ধূম",
+      "স্বেদ",
+      "অসার বস্তু",
+      "অস্থায়ী বস্তু",
+      "ধোঁয়া"
+    ],
+    "def": [
+      "Cloudy diffused matter such as mist, steam or fumes suspended in the air."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "via",
+    "bn": [
+      "পথ দিয়া বা হইয়া"
+    ],
+    "def": [
+      "A main road or highway, especially in ancient Rome. (Mainly used in set phrases, below.)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "view",
+    "bn": [
+      "দৃষ্টি",
+      "দৃশ্য",
+      "কোনো বিষয়ে কারও অভিমত",
+      "উদ্দেশ্য"
+    ],
+    "def": [
+      "(physical) Visual perception."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "virtually",
+    "bn": [
+      "ফলতঃ",
+      "কার্যত"
+    ],
+    "def": [
+      "Almost but not quite."
+    ],
+    "syn": [
+      "as good as"
+    ],
+    "ant": []
+  },
+  {
+    "en": "visible",
+    "bn": [
+      "দৃষ্টিগোচার",
+      "সুস্পষ্ট"
+    ],
+    "def": [
+      "Able to be seen."
+    ],
+    "syn": [
+      "apparent"
+    ],
+    "ant": [
+      "hidden",
+      "invisible"
+    ]
+  },
+  {
+    "en": "voltage",
+    "bn": [
+      "ভোল্ট একক দ্বারা পরিমিত তড়িৎ প্রবাহ"
+    ],
+    "def": [
+      "The difference in electrostatic potential between two points in space, especially between live and neutral conductors or the earth."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "volts",
+    "bn": [
+      "ভোল্ট"
+    ],
+    "def": [
+      "In the International System of Units, the derived unit of electrical potential and electromotive force (voltage); the potential difference across a conductor when a current of one ampere uses one watt of power. Symbol: V"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "volume",
+    "bn": [
+      "পুস্তকের খন্ড",
+      "পুস্তক",
+      "পদার্থের আয়তন",
+      "ঘনফল",
+      "ধ্বনির মাত্রা"
+    ],
+    "def": [
+      "A three-dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "walls",
+    "bn": [
+      "প্রাচীর",
+      "প্রাকার",
+      "পাঁচিল",
+      "দেত্তয়াল",
+      "প্রাচীরপাশ্র্ব",
+      "প্রাচীরগাত্র",
+      "বপ্র",
+      "বেষ্টন",
+      "নিরাপত্তার ব্যবস্থা",
+      "প্রতিবন্ধক",
+      "বিভাজক পরদা",
+      "পার্টিশন",
+      "রক্ষণোপায় ব্যবস্থা"
+    ],
+    "def": [
+      "A rampart of earth, stones etc. built up for defensive purposes."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wanted",
+    "bn": [
+      "প্সিত",
+      "বিহীন",
+      "অনুসনি্ধত",
+      "আবশ্যক",
+      "খোঁজ করা হইয়াছে এমন"
+    ],
+    "def": [
+      "To wish for or desire (something); to feel a need or desire for; to crave or demand."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wasted",
+    "bn": [
+      "বরবাদ",
+      "জল",
+      "ক্ষয়িত",
+      "অপব্যয়িত",
+      "অবচিত",
+      "খুয়া",
+      "ক্ষয়প্রাপ্ত",
+      "অপচিত",
+      "নাশিত"
+    ],
+    "def": [
+      "To devastate, destroy"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wasteful",
+    "bn": [
+      "অযথা",
+      "অপব্যয়ী",
+      "অপচয়ী",
+      "অপরিমিতব্যয়ী",
+      "উড়নচড়ে",
+      "উড়নচণ্ডে",
+      "ডোকলা"
+    ],
+    "def": [
+      "Inclined to waste or squander money or resources."
+    ],
+    "syn": [
+      "prodigal",
+      "profligate"
+    ],
+    "ant": [
+      "unwasteful"
+    ]
+  },
+  {
+    "en": "watts",
+    "bn": [
+      "ত্তঅট্",
+      "বিদ্যুতশক্তির একক",
+      "বিদ্যুতশক্তির মাত্রা"
+    ],
+    "def": [
+      "In the International System of Units, the derived unit of power; the power of a system in which one joule of energy is transferred per second. Symbol: W"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "ways",
+    "bn": [
+      "পথ",
+      "রাস্তা",
+      "উপায়"
+    ],
+    "def": [
+      "(heading) To do with a place or places."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "website",
+    "bn": [
+      "ওয়েবসাইট"
+    ],
+    "def": [
+      "A collection of interlinked web pages on the World Wide Web that are typically accessible from the same base URL and reside on the same server."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "websites",
+    "bn": [
+      "ওয়েবসাইট"
+    ],
+    "def": [
+      "A collection of interlinked web pages on the World Wide Web that are typically accessible from the same base URL and reside on the same server."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "weight",
+    "bn": [
+      "ওজন",
+      "ভার",
+      "বাটখারা"
+    ],
+    "def": [
+      "(physical) Matter, material."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "went",
+    "bn": [
+      "হত্তয়া",
+      "চলা",
+      "যাত্তয়া",
+      "গমন করা",
+      "নড়া",
+      "প্রস্থান করা",
+      "মানানসই হত্তয়া",
+      "ঘটা",
+      "বলবৎ থাকা",
+      "অনুধাবন করা",
+      "বর্তমানে চালু থাকা",
+      "উদ্যত হত্তয়া",
+      "উপক্রম করা",
+      "প্রসারিত হত্তয়া",
+      "অভিমুখ হত্তয়া",
+      "বাজা",
+      "চালু হত্তয়া",
+      "সক্রিয় হত্তয়া",
+      "ধাবন করা",
+      "অগ্রসর হত্তয়া",
+      "গণ্য হত্তয়া",
+      "বিদিত থাকা",
+      "বাজি ধরা",
+      "পথ ছাড়িয়া দেত্তয়া",
+      "অন্তর্ভুক্ত হত্তয়া",
+      "অকৃতকার্য হত্তয়া",
+      "পরিণত হত্তয়া",
+      "পরিপূর্ণ হত্তয়া",
+      "গর্ভবতী হত্তয়া",
+      "ডাক দেত্তয়া",
+      "সচরাচর হত্তয়া",
+      "ঝোঁকা"
+    ],
+    "def": [
+      "To move:"
+    ],
+    "syn": [
+      "cross",
+      "draw",
+      "drift",
+      "fare",
+      "move",
+      "tread",
+      "wend"
+    ],
+    "ant": [
+      "freeze",
+      "halt",
+      "remain",
+      "stand still",
+      "stay",
+      "stop"
+    ]
+  },
+  {
+    "en": "white",
+    "bn": [
+      "সাদা",
+      "শ্বেত",
+      "শুভ্র",
+      "শ্বেতবর্ণ",
+      "নিষ্পাপ",
+      "উজ্জ্বল",
+      "শ্বেতকায়",
+      "শুক্ল",
+      "ধবল",
+      "স্বচ্ছ",
+      "খাঁটি",
+      "বিশুদ্ধ",
+      "সিত",
+      "অবদাত",
+      "শুভ",
+      "তুষারাবৃত",
+      "পক্ব",
+      "ফেকাশে",
+      "পাণ্ডুর",
+      "বিশদ",
+      "নিরপরাধ",
+      "অনুকুল",
+      "শ্বেতপরিচ্ছদধারী",
+      "রক্তশূন্য",
+      "বিশ্বাসী",
+      "মত",
+      "নির্দোষ",
+      "সোনালী",
+      "বিপ্লববিরোধী"
+    ],
+    "def": [
+      "The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "whopping",
+    "bn": [
+      "খুব বড়"
+    ],
+    "def": [
+      "To throw or move (something) quickly, usually with an impact."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wide",
+    "bn": [
+      "প্রশন্ত",
+      "চওড়া",
+      "বিস্তীর্ণ",
+      "দুরপ্রসারিত"
+    ],
+    "def": [
+      "A ball that passes so far from the batsman that the umpire deems it unplayable; the arm signal used by an umpire to signal a wide; the extra run added to the batting side's score"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "width",
+    "bn": [
+      "প্রস্থ",
+      "বিস্তৃতি",
+      "ব্যাপকতা"
+    ],
+    "def": [
+      "The state of being wide."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "window",
+    "bn": [
+      "জানালা",
+      "বাতায়ন"
+    ],
+    "def": [
+      "The inedible parts of a grain-producing plant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wire",
+    "bn": [
+      "ধাতুর তার",
+      "টেলিগ্রাম"
+    ],
+    "def": [
+      "Metal formed into a thin, even thread, now usually by being drawn through a hole in a steel die."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wires",
+    "bn": [
+      "টেলিগ্রাম",
+      "তার",
+      "তারবার্তা",
+      "গুনা"
+    ],
+    "def": [
+      "Metal formed into a thin, even thread, now usually by being drawn through a hole in a steel die."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "without",
+    "bn": [
+      "সীমার বাইরে",
+      "বিনা",
+      "ব্যতীত",
+      "ছাড়া"
+    ],
+    "def": [
+      "Outside, externally. This is still used in the names of some civil parishes in England, e.g. St Cuthbert Without."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "won",
+    "bn": [
+      "ওঁন"
+    ],
+    "def": [
+      "To conquer, defeat."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "words",
+    "bn": [
+      "শব্দ",
+      "কথা",
+      "বাণী",
+      "উক্তি",
+      "জবান",
+      "দলগত সম্কেতশব্দ",
+      "পদ",
+      "আভাস",
+      "বোল",
+      "ঘোষণা"
+    ],
+    "def": [
+      "The smallest unit of language that has a particular meaning and can be expressed by itself; the smallest discrete, meaningful unit of language. (contrast morpheme.)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "works",
+    "bn": [
+      "কারখানা"
+    ],
+    "def": [
+      "(heading) Employment."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "worldwide",
+    "bn": [
+      "বিশ্বব্যাপী",
+      "পৃথিবীব্যাপী",
+      "জগত্ব্যাপী",
+      "ভুবনব্যাপী",
+      "সার্বভৌম"
+    ],
+    "def": [
+      "Spanning the world; global."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wrapped",
+    "bn": [
+      "জড়ান"
+    ],
+    "def": [
+      "To enclose (an object) completely in any flexible, thin material such as fabric or paper."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "writing",
+    "bn": [
+      "লেখা",
+      "লিখন",
+      "লিখিত",
+      "লেখন",
+      "সাহিত্য",
+      "লিপি",
+      "পাতন",
+      "বিরচন",
+      "সাহিত্যরচনা",
+      "রচনা",
+      "লেখার কাজ",
+      "হস্তাক্ষর",
+      "পুস্তক",
+      "লিখিত দলিল"
+    ],
+    "def": [
+      "Graphism of symbols such as letters that express some meaning."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "years",
+    "bn": [
+      "বছর"
+    ],
+    "def": [
+      "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "yellow",
+    "bn": [
+      "হলদে"
+    ],
+    "def": [
+      "The colour of gold, butter, or a lemon; the colour obtained by mixing green and red light, or by subtracting blue from white light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "zero",
+    "bn": [
+      "শূন্য"
+    ],
+    "def": [
+      "The numeric symbol that represents the cardinal number zero."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "zip",
+    "bn": [
+      "বাতাসের মধ্য দিয়ে গুলি ছুটার শব্দের মত শব্দ"
+    ],
+    "def": [
+      "A twist or fold."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "abundant",
     "bn": ["প্রচুর", "অফুরান"],
     "def": ["Existing or available in large quantities; plentiful."],
