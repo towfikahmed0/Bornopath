@@ -455,6 +455,34 @@
     ]
   },
   {
+    "en": "accepts",
+    "bn": [
+      "গ্রহণ করা",
+      "স্বীকার করা",
+      "মানা",
+      "মানিয়া লত্তয়া",
+      "মেনে নেত্তয়া",
+      "মানিয়া চলা",
+      "মানিয়া চলিতে স্বীকার করা",
+      "মঁজুর করা",
+      "গ্রাহ্য করা",
+      "মিটাইতে স্বীকার করা",
+      "নিযুক্ত করা",
+      "অঙ্গীকার করা",
+      "করিতে দেত্তয়া",
+      "পালন করিতে স্বীকার করা",
+      "পরিশোধ করিতে করা",
+      "নেত্তয়া",
+      "সমর্থন করা",
+      "পরিগ্রহ করা"
+    ],
+    "def": [
+      "To receive, especially with a consent, with favour, or with approval."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "access",
     "bn": [
       "প্রবেশ",
@@ -602,6 +630,18 @@
     "ant": []
   },
   {
+    "en": "accordance",
+    "bn": [
+      "ঐকমত",
+      "অনুরূপতা"
+    ],
+    "def": [
+      "Agreement; harmony; conformity; compliance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "according",
     "bn": [
       "অনুসারে"
@@ -723,6 +763,17 @@
       "inaccurate",
       "wrong"
     ]
+  },
+  {
+    "en": "accused",
+    "bn": [
+      "অভিযুক্ত"
+    ],
+    "def": [
+      "To find fault with, blame, censure"
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "accusing",
@@ -1034,6 +1085,28 @@
     ]
   },
   {
+    "en": "activism",
+    "bn": [
+      "সক্রিয়তাবাদ"
+    ],
+    "def": [
+      "The practice of using action to achieve a result, such as political demonstration or a strike in support of or in opposition to an issue."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "activist",
+    "bn": [
+      "সক্রিয় কর্মী"
+    ],
+    "def": [
+      "One who is politically active in the role of a citizen; especially, one who campaigns for change."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "activities",
     "bn": [
       "ক্রিয়াকলাপ",
@@ -1177,6 +1250,17 @@
     "syn": [
       "proportion"
     ],
+    "ant": []
+  },
+  {
+    "en": "adaptation",
+    "bn": [
+      "উপযোগী করা"
+    ],
+    "def": [
+      "The process of adapting something or becoming adapted to a situation; adjustment, modification."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -1430,6 +1514,30 @@
     "ant": []
   },
   {
+    "en": "admirers",
+    "bn": [
+      "প্রণয়ী",
+      "প্রশংসক",
+      "উপাসক"
+    ],
+    "def": [
+      "One who admires."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "admitted",
+    "bn": [
+      "স্বীকৃত"
+    ],
+    "def": [
+      "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "admittedly",
     "bn": [
       "সর্বসম্মতিক্রমে"
@@ -1630,6 +1738,18 @@
     ],
     "def": [
       "Arrival; onset; a time when something first comes or appears"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "adventure",
+    "bn": [
+      "দুঃসাহসিকতা",
+      "ঝুকি"
+    ],
+    "def": [
+      "The encountering of risks; a bold undertaking, in which dangers are likely to be encountered, and the issue is staked upon unforeseen events; a daring feat."
     ],
     "syn": [],
     "ant": []
@@ -2045,6 +2165,17 @@
     ],
     "def": [
       "The whole duration of a being, whether animal, plant, or other kind, being alive."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "agitate",
+    "bn": [
+      "আন্দোলন করা"
+    ],
+    "def": [
+      "To disturb or excite; to perturb or stir up (a person)."
     ],
     "syn": [],
     "ant": []
@@ -2546,6 +2677,28 @@
     ]
   },
   {
+    "en": "alone",
+    "bn": [
+      "একা",
+      "একাকী",
+      "কেবল",
+      "এককভাবে",
+      "একমাত্র",
+      "নিসঙ্গভাবে",
+      "নিসঙ্গ",
+      "মাত্র ইহাই",
+      "একা একা",
+      "নিঃসঙ্গ",
+      "সঙ্গীহীন",
+      "শুধু নিজে"
+    ],
+    "def": [
+      "By oneself, solitary."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "along",
     "bn": [
       "বরাবর",
@@ -2818,6 +2971,19 @@
     ]
   },
   {
+    "en": "amongst",
+    "bn": [
+      "মধ্যে",
+      "অন্তরে",
+      "ভিতরে"
+    ],
+    "def": [
+      "Denotes a mingling or intermixing with distinct or separable objects. See usage note at amidst."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "amorphous",
     "bn": [
       "নির্দিষ্ট আকারহীন"
@@ -3067,6 +3233,19 @@
     ],
     "def": [
       "Someone who analyzes."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "analytic",
+    "bn": [
+      "বিশ্লেষণমূলক",
+      "বিশ্লেষণাত্মক",
+      "যৌক্তিক বিবৃতি"
+    ],
+    "def": [
+      "Of, or relating to any form of analysis, or to analytics."
     ],
     "syn": [],
     "ant": []
@@ -3398,6 +3577,27 @@
       "protagonist",
       "hero"
     ]
+  },
+  {
+    "en": "anthology",
+    "bn": [
+      "সংহিতা",
+      "চয়ন",
+      "সংগ্রহ",
+      "সঁচিতা",
+      "কাছাইকরা কবিতার সঙ্কলনগ্রন্থ",
+      "কাব্যসঁচয়ন",
+      "সাহিত্যসঙ্কলন",
+      "সাহিত্যসংকলন",
+      "রচনাসংগ্রহ",
+      "সঞ্চয়ন",
+      "চয়নিকা"
+    ],
+    "def": [
+      "A collection of literary works, such as poems or short stories, especially a collection from various authors."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "anthropologists",
@@ -4347,6 +4547,21 @@
     ]
   },
   {
+    "en": "aroused",
+    "bn": [
+      "সক্রিয় করা",
+      "জাগা",
+      "জাগান",
+      "সক্রিয় হত্তয়া",
+      "জাগানো"
+    ],
+    "def": [
+      "To stimulate feelings."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "arranged",
     "bn": [
       "সংস্থিত",
@@ -4426,6 +4641,21 @@
     "en": "arrive",
     "bn": [
       "উপস্থিত হওয়া"
+    ],
+    "def": [
+      "To reach; to get to a certain place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "arrived",
+    "bn": [
+      "আগত",
+      "উপস্থিত",
+      "উপগত",
+      "আবির্ভুত",
+      "উপনীত"
     ],
     "def": [
       "To reach; to get to a certain place."
@@ -4728,6 +4958,18 @@
     "ant": []
   },
   {
+    "en": "aspirations",
+    "bn": [
+      "শ্বাসাঘাত",
+      "পূর্ণশ্বাসাঘাতসহ উচ্চারণ করা"
+    ],
+    "def": [
+      "The act of aspiring or ardently desiring; an ardent wish or desire, chiefly after what is elevated or spiritual (with common adjunct adpositions being to and of)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "assassinated",
     "bn": [
       "গুপ্তহত্যা করা"
@@ -4901,6 +5143,20 @@
       "boss",
       "supervisor"
     ]
+  },
+  {
+    "en": "assisted",
+    "bn": [
+      "সহায়তা করা",
+      "সাহায্য করা",
+      "আনুকূল্য করা",
+      "সহযোগিতা করা"
+    ],
+    "def": [
+      "To help."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "associate",
@@ -5121,6 +5377,17 @@
     "ant": []
   },
   {
+    "en": "asylum",
+    "bn": [
+      "অনাথাশ্রম"
+    ],
+    "def": [
+      "A place of safety."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "ate",
     "bn": [
       "খেয়েছিল"
@@ -5325,12 +5592,36 @@
     "ant": []
   },
   {
+    "en": "attention",
+    "bn": [
+      "মনোযোগ দেওয়া"
+    ],
+    "def": [
+      "Mental focus."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "attire",
     "bn": [
       "পোশাক"
     ],
     "def": [
       "(clothing) One's dress; what one wears; one's clothes."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "attracted",
+    "bn": [
+      "আকৃষ্ট",
+      "অনুরাগী",
+      "অনুরক্ত"
+    ],
+    "def": [
+      "To pull toward without touching."
     ],
     "syn": [],
     "ant": []
@@ -5390,6 +5681,17 @@
     ],
     "def": [
       "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "auditorium",
+    "bn": [
+      "প্রেক্ষাগৃহ"
+    ],
+    "def": [
+      "A large room for public meetings or performances."
     ],
     "syn": [],
     "ant": []
@@ -5611,6 +5913,17 @@
       "unavailable",
       "inaccessible"
     ]
+  },
+  {
+    "en": "avenue",
+    "bn": [
+      "প্রশ্বস্ত রাজপথ"
+    ],
+    "def": [
+      "A broad street, especially one bordered by trees."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "average",
@@ -5939,6 +6252,17 @@
     "ant": []
   },
   {
+    "en": "bakery",
+    "bn": [
+      "রুটির কারখানা বা দোকান"
+    ],
+    "def": [
+      "A shop in which bread (and often other baked goods such as cakes) is baked and/or sold."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "balance",
     "bn": [
       "দাড়ি পাল্লা",
@@ -6146,6 +6470,36 @@
     ],
     "def": [
       "(‘the bare’) The surface, the (bare) skin."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "barren",
+    "bn": [
+      "অনুর্বর",
+      "অনুৎপাদী",
+      "ধাতুনির্মিত নল"
+    ],
+    "def": [
+      "An area of low fertility and habitation, a desolate place."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "barriers",
+    "bn": [
+      "বাধা",
+      "অন্তরায়",
+      "প্রতিবন্ধক",
+      "বেড়",
+      "আত্মরক্ষামূলক বেড়া",
+      "আগল",
+      "রেলগেট"
+    ],
+    "def": [
+      "A structure that bars passage."
     ],
     "syn": [],
     "ant": []
@@ -7075,6 +7429,26 @@
     "ant": []
   },
   {
+    "en": "benevolent",
+    "bn": [
+      "হিতৈষী",
+      "সদাশয়",
+      "কল্যাণময়",
+      "বদান্য",
+      "দানশীল",
+      "শুভাকাঙ্ক্ষী",
+      "উপচিকীর্ষু",
+      "উপকর্তা",
+      "পরার্থপর",
+      "পরোপকারেচ্ছু"
+    ],
+    "def": [
+      "Having a disposition to do good."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "bequeathed",
     "bn": [
       "ভারার্পণ করা",
@@ -7359,6 +7733,18 @@
     ]
   },
   {
+    "en": "bigotry",
+    "bn": [
+      "ধর্মান্ধতা",
+      "গোঁড়ামি"
+    ],
+    "def": [
+      "Characteristic qualities of a bigot: (especially religious or racial) intolerant prejudice, opinionatedness, or fanaticism; fanatic intolerance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "bilateral",
     "bn": [
       "দ্বিপাক্ষিক"
@@ -7479,6 +7865,18 @@
     "ant": []
   },
   {
+    "en": "biographical",
+    "bn": [
+      "জীবনীসংক্রান্ত",
+      "জীবনীবিষয়ক"
+    ],
+    "def": [
+      "Of or relating to an account of a person's life"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "biographies",
     "bn": [
       "জীবনীসমূহ"
@@ -7580,6 +7978,17 @@
     ],
     "def": [
       "The process of childbearing; the beginning of life."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "birthday",
+    "bn": [
+      "জম্মদিন"
+    ],
+    "def": [
+      "The anniversary of the day on which someone is born."
     ],
     "syn": [],
     "ant": []
@@ -8303,6 +8712,17 @@
     "ant": []
   },
   {
+    "en": "bosom",
+    "bn": [
+      "অন্তর"
+    ],
+    "def": [
+      "(somewhat obsolete) The breast or chest of a human (or sometimes of another animal)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "both",
     "bn": [
       "উভয়",
@@ -8477,6 +8897,29 @@
     "ant": []
   },
   {
+    "en": "break",
+    "bn": [
+      "ভাঙ্গা"
+    ],
+    "def": [
+      "An instance of breaking something into two or more pieces."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "breaking",
+    "bn": [
+      "ভঙ্গ",
+      "ভাঙ্গন"
+    ],
+    "def": [
+      "To separate into two or more pieces, to fracture or crack, by a process that cannot easily be reversed for reassembly."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "breaks",
     "bn": [
       "ভাঙ্গা",
@@ -8623,6 +9066,17 @@
     "ant": []
   },
   {
+    "en": "bring",
+    "bn": [
+      "আনা"
+    ],
+    "def": [
+      "(ditransitive) To transport toward somebody/somewhere."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "bringing",
     "bn": [
       "আনয়ন",
@@ -8669,6 +9123,33 @@
     ],
     "syn": [],
     "ant": []
+  },
+  {
+    "en": "broadcast",
+    "bn": [
+      "বেতারে প্রচার করা"
+    ],
+    "def": [
+      "A transmission of a radio or television programme intended to be received by anyone with a receiver."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "broadcasting",
+    "bn": [
+      "বেতারে সংবাদাদি পরিবেশন"
+    ],
+    "def": [
+      "To transmit a message or signal through radio waves or electronic means."
+    ],
+    "syn": [
+      "air",
+      "transmit"
+    ],
+    "ant": [
+      "narrowcast"
+    ]
   },
   {
     "en": "broadened",
@@ -8764,6 +9245,43 @@
     ],
     "def": [
       "A naturally occurring or man-made alloy of copper, usually in combination with tin, but also with one or more other metals."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "brother",
+    "bn": [
+      "ভাই"
+    ],
+    "def": [
+      "Son of the same parents as another person."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "brothers",
+    "bn": [
+      "ভাই",
+      "ভ্রাতা",
+      "ভ্রাতৃ",
+      "ভায়া",
+      "সহকর্মী",
+      "বেরাদর",
+      "সত্ভাই",
+      "সদৃশ ব্যক্তি",
+      "সহকারী",
+      "অন্তরঙ্গ বন্ধু",
+      "স্বদেশবাসী",
+      "সহনাগরিক",
+      "সহধর্মী",
+      "গুরুভাই",
+      "সমব্যবসায়ী",
+      "সহোদর ভাই"
+    ],
+    "def": [
+      "Son of the same parents as another person."
     ],
     "syn": [],
     "ant": []
@@ -8989,6 +9507,18 @@
     "ant": []
   },
   {
+    "en": "burial",
+    "bn": [
+      "মৃতদেহ সমাহিতকরণ",
+      "সমাধিকার্য"
+    ],
+    "def": [
+      "The act of burying; interment"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "buried",
     "bn": [
       "নিখাত",
@@ -9114,6 +9644,17 @@
     ],
     "def": [
       "A specific commercial enterprise or establishment."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "butler",
+    "bn": [
+      "মদ পরিবেশক খানসামা"
+    ],
+    "def": [
+      "A manservant having charge of wines and liquors."
     ],
     "syn": [],
     "ant": []
@@ -9405,6 +9946,18 @@
     "ant": []
   },
   {
+    "en": "campus",
+    "bn": [
+      "ইস্কুল",
+      "কলেজ বা বিশ্ববিদ্যালয়ের"
+    ],
+    "def": [
+      "The grounds or property of a school, college, university, business, church, or hospital, often understood to include buildings and other structures."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "cancel",
     "bn": [
       "বিলুপ্ত করা",
@@ -9481,6 +10034,18 @@
     ],
     "def": [
       "A generally accepted principle; a rule."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cantonment",
+    "bn": [
+      "সেনানিবাস",
+      "ছাউনি"
+    ],
+    "def": [
+      "Temporary military living quarters."
     ],
     "syn": [],
     "ant": []
@@ -9680,6 +10245,24 @@
     ]
   },
   {
+    "en": "cared",
+    "bn": [
+      "গ্রাহ্য করা",
+      "উদ্বিগ্ন হত্তয়া",
+      "জিম্মায় লত্তয়া",
+      "অভিভাবকতত্ব করা",
+      "যত্নবান্ করা",
+      "ত্তয়াস্তা",
+      "ইচ্ছুক হত্তয়া",
+      "পরোয়া করা"
+    ],
+    "def": [
+      "To be concerned (about), to have an interest (in); to feel concern (about)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "career",
     "bn": [
       "পেশা",
@@ -9717,6 +10300,21 @@
       "Sorrowfully."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "caretaker",
+    "bn": [
+      "তত্ত্ববধায়ক",
+      "অবধায়ক"
+    ],
+    "def": [
+      "Someone who takes care of a place or thing; someone looking after a place, or responsible for keeping it in good repair."
+    ],
+    "syn": [
+      "concierge",
+      "janitor"
+    ],
     "ant": []
   },
   {
@@ -10008,6 +10606,17 @@
     ],
     "def": [
       "The state or quality of being catholic or universal; catholicity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "cattle",
+    "bn": [
+      "গৃহপালিত গবাদি পশু"
+    ],
+    "def": [
+      "Domesticated bovine animals (cows, bulls, steers etc)."
     ],
     "syn": [],
     "ant": []
@@ -10431,6 +11040,19 @@
     "ant": []
   },
   {
+    "en": "chair",
+    "bn": [
+      "চেয়ার",
+      "আসন",
+      "অধ্যাপককের বা সভাপতির পদ"
+    ],
+    "def": [
+      "An item of furniture used to sit on or in, comprising a seat, legs, back, and sometimes arm rests, for use by one person. Compare stool, couch, sofa, settee, loveseat and bench."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "challenge",
     "bn": [
       "চ্যালেঞ্জ"
@@ -10537,6 +11159,20 @@
     ],
     "def": [
       "A competition to determine a champion, especially the final of a series of competitions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "chance",
+    "bn": [
+      "সুযোগ",
+      "ঝুঁকি",
+      "সৌভাগ্য",
+      "ঝুঁকি নেওয়া"
+    ],
+    "def": [
+      "An opportunity or possibility."
     ],
     "syn": [],
     "ant": []
@@ -10652,6 +11288,18 @@
     ],
     "def": [
       "The act or process of characterizing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "characterised",
+    "bn": [
+      "প্রভেদ করা",
+      "চিহ্নিত করা"
+    ],
+    "def": [
+      "To depict someone or something a particular way (often negative)."
     ],
     "syn": [],
     "ant": []
@@ -10775,6 +11423,35 @@
     ]
   },
   {
+    "en": "charges",
+    "bn": [
+      "ভার",
+      "দায়িত্ব",
+      "মূল্য",
+      "আধান",
+      "আদেশ",
+      "ব্যয়",
+      "দাম",
+      "হুকুম",
+      "আক্রমণ",
+      "কার্যভার",
+      "জিম্মা",
+      "জিম্মাদারি",
+      "তত্ত্বাবধান",
+      "রক্ষণ",
+      "বরাত",
+      "বারুদ",
+      "উপদেশাদি",
+      "বোঝা",
+      "অভিযোগ"
+    ],
+    "def": [
+      "The amount of money levied for a service."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Charisma",
     "bn": [
       "অদম্য প্রতিভা",
@@ -10796,6 +11473,32 @@
       "obnoxiousness",
       "unpleasantness"
     ]
+  },
+  {
+    "en": "charity",
+    "bn": [
+      "ভিক্ষাদান",
+      "দয়ার কাজ",
+      "পরোপকার"
+    ],
+    "def": [
+      "An organization, the objective of which is to carry out a charitable purpose."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "charmers",
+    "bn": [
+      "যাদুকর",
+      "ব্যঙ্গে সুন্দরী রমণী",
+      "বিমোহক"
+    ],
+    "def": [
+      "A charming person; one who charms or seduces; a smoothie."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "charming",
@@ -11120,6 +11823,17 @@
     "ant": []
   },
   {
+    "en": "christ",
+    "bn": [
+      "যীশুখ্রীষ্ট"
+    ],
+    "def": [
+      "A figure or other artistic depiction of Jesus Christ."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "chromium",
     "bn": [
       "ক্রোমিয়ম",
@@ -11268,6 +11982,17 @@
     "ant": []
   },
   {
+    "en": "cite",
+    "bn": [
+      "নজিররূপে উল্লেখ করা"
+    ],
+    "def": [
+      "To quote; to repeat, as a passage from a book, or the words of another."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "cities",
     "bn": [
       "শহর",
@@ -11347,6 +12072,17 @@
     ],
     "def": [
       "Having to do with people and government office as opposed to the military or religion."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "civilian",
+    "bn": [
+      "অসামরিক কাজে নিযুক্ত ব্যক্তি"
+    ],
+    "def": [
+      "A person following the pursuits of civil life, especially one who is not an active member of the armed forces."
     ],
     "syn": [],
     "ant": []
@@ -11546,6 +12282,18 @@
     ],
     "def": [
       "Sorted into classes or categories"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "classmate",
+    "bn": [
+      "সহপাঠী",
+      "সতীর্থ"
+    ],
+    "def": [
+      "A student who is in the same class at school."
     ],
     "syn": [],
     "ant": []
@@ -11992,6 +12740,17 @@
     ],
     "def": [
       "To become foggy or gloomy, or obscured from sight."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "clubs",
+    "bn": [
+      "চিড়িতন রঙের তাস"
+    ],
+    "def": [
+      "An association of members joining together for some common purpose, especially sports or recreation."
     ],
     "syn": [],
     "ant": []
@@ -13556,6 +14315,18 @@
     "ant": []
   },
   {
+    "en": "composer",
+    "bn": [
+      "সুরকার",
+      "সংগীত রচয়িতা্"
+    ],
+    "def": [
+      "One who composes; an author."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "composite",
     "bn": [
       "মিশ্রিত",
@@ -13807,6 +14578,22 @@
     ]
   },
   {
+    "en": "conceptions",
+    "bn": [
+      "ধারণা",
+      "গর্ভধারণ",
+      "ধৃতি",
+      "মনন",
+      "মত",
+      "ধারণাশক্তি"
+    ],
+    "def": [
+      "The act of conceiving."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "concepts",
     "bn": [
       "ধারণা",
@@ -13931,6 +14718,32 @@
     "ant": []
   },
   {
+    "en": "condemnation",
+    "bn": [
+      "নিন্দা",
+      "নিন্দা করা",
+      "দণ্ডাজ্ঞা",
+      "নিন্দন",
+      "দণ্ড",
+      "দণ্ডাদেশ",
+      "ভর্ত্সনা",
+      "দোষারোপ",
+      "দোষারোপ",
+      "দণ্ডিত অবস্থা",
+      "পরিবাদ",
+      "নিন্দিত অবস্থা"
+    ],
+    "def": [
+      "The act of condemning or pronouncing to be wrong"
+    ],
+    "syn": [
+      "blame",
+      "censure",
+      "disapprobation"
+    ],
+    "ant": []
+  },
+  {
     "en": "condemned",
     "bn": [
       "অপরাধী বলে রায় দেওয়া"
@@ -14021,6 +14834,17 @@
     "ant": []
   },
   {
+    "en": "confectionery",
+    "bn": [
+      "মিঠাই"
+    ],
+    "def": [
+      "Foodstuffs that taste very sweet, taken as a group; candies, sweetmeats and confections collectively."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Conference",
     "bn": [
       "সম্মেলন",
@@ -14036,6 +14860,20 @@
       "meeting",
       "round table"
     ],
+    "ant": []
+  },
+  {
+    "en": "conferred",
+    "bn": [
+      "প্রদত্ত",
+      "নিক্ষিপ্ত",
+      "নিহিত",
+      "দত্ত"
+    ],
+    "def": [
+      "To grant as a possession; to bestow."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -14176,6 +15014,17 @@
     ],
     "def": [
       "A cluster of heterogeneous things."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "congress",
+    "bn": [
+      "মহাসভা"
+    ],
+    "def": [
+      "A coming together of two or more people; a meeting."
     ],
     "syn": [],
     "ant": []
@@ -14410,6 +15259,23 @@
     ],
     "def": [
       "In a consecutive manner; without interruption."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "consent",
+    "bn": [
+      "সম্মতি",
+      "অনুমতি",
+      "সায়",
+      "মিলন",
+      "মতের এক্কতা",
+      "অনুজ্ঞা",
+      "অনুমোদন"
+    ],
+    "def": [
+      "Voluntary agreement or permission."
     ],
     "syn": [],
     "ant": []
@@ -15164,6 +16030,19 @@
     "ant": []
   },
   {
+    "en": "contract",
+    "bn": [
+      "চুক্তিবদ্ধ করা",
+      "সঙ্কুচিত করা",
+      "কমানো"
+    ],
+    "def": [
+      "An agreement between two or more parties, to perform a specific job or work order, often temporary or of fixed duration and usually governed by a written agreement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "contrast",
     "bn": [
       "তূলনা করিয়া পার্থক্য দেখান",
@@ -15357,6 +16236,18 @@
     "ant": []
   },
   {
+    "en": "controversy",
+    "bn": [
+      "বিতর্ক",
+      "মতবিরোধ"
+    ],
+    "def": [
+      "A debate or discussion of opposing opinions; (generally) strife."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "convection",
     "bn": [
       "পরিচলন",
@@ -15500,6 +16391,18 @@
       "deter",
       "discourage"
     ]
+  },
+  {
+    "en": "cook",
+    "bn": [
+      "রাঁধুনী",
+      "পাচক"
+    ],
+    "def": [
+      "A person who prepares food."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "cooking",
@@ -15740,6 +16643,19 @@
     "ant": []
   },
   {
+    "en": "corporal",
+    "bn": [
+      "শারীরিক",
+      "দৈহিক",
+      "পাঁচভৌতিক"
+    ],
+    "def": [
+      "Having a physical, tangible body; material, corporeal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "corporate",
     "bn": [
       "মিলিত",
@@ -15919,6 +16835,21 @@
     "ant": []
   },
   {
+    "en": "cottage",
+    "bn": [
+      "কুটির",
+      "ছোট বাড়ি"
+    ],
+    "def": [
+      "A small house."
+    ],
+    "syn": [
+      "cot",
+      "hut"
+    ],
+    "ant": []
+  },
+  {
     "en": "cotton",
     "bn": [
       "তুলা",
@@ -15975,6 +16906,17 @@
     "ant": [
       "uncountable"
     ]
+  },
+  {
+    "en": "counter",
+    "bn": [
+      "গণক"
+    ],
+    "def": [
+      "One who counts"
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "counteract",
@@ -16081,6 +17023,19 @@
     "syn": [
       "triumph"
     ],
+    "ant": []
+  },
+  {
+    "en": "courage",
+    "bn": [
+      "সাহস",
+      "বীরত্ব",
+      "শৌর্য"
+    ],
+    "def": [
+      "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -16632,6 +17587,24 @@
     "ant": []
   },
   {
+    "en": "criticises",
+    "bn": [
+      "নিন্দা করা",
+      "চর্চা করা",
+      "দোষগুণ বিচার করা",
+      "সমালোচনা করা",
+      "কঠোর সমালোচনা করা"
+    ],
+    "def": [
+      "To find fault (with something)."
+    ],
+    "syn": [
+      "censure",
+      "pick at"
+    ],
+    "ant": []
+  },
+  {
     "en": "Criticism",
     "bn": [
       "সমালোচনা"
@@ -16701,6 +17674,21 @@
       "A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "crown",
+    "bn": [
+      "মাথার চাঁদি",
+      "মুকুট"
+    ],
+    "def": [
+      "A royal, imperial or princely headdress; a diadem."
+    ],
+    "syn": [
+      "coronet",
+      "diadem"
+    ],
     "ant": []
   },
   {
@@ -17289,6 +18277,18 @@
     ],
     "def": [
       "Having an absolute or (more often) relative lack of light."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "darling",
+    "bn": [
+      "স্নেহপাত্র",
+      "প্রিয়"
+    ],
+    "def": [
+      "A person who is dear to one."
     ],
     "syn": [],
     "ant": []
@@ -18253,6 +19253,21 @@
     "ant": []
   },
   {
+    "en": "defy",
+    "bn": [
+      "স্পর্ধা করা",
+      "দ্বন্দ্বে আহ্বান করা",
+      "কলা দেখান",
+      "তুচ্ছ করা",
+      "সাহসের সঙ্গে খোলাখুলি বাধা দেওয়া"
+    ],
+    "def": [
+      "A challenge."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Degradation",
     "bn": [
       "অবনতি",
@@ -18515,6 +19530,20 @@
     ]
   },
   {
+    "en": "denouncing",
+    "bn": [
+      "নিন্দা করা",
+      "অভিশাপ দেত্তয়া",
+      "দোষ দেত্তয়া",
+      "সমালোচনা করা"
+    ],
+    "def": [
+      "To make known in a formal manner; to proclaim; to announce; to declare."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "densely",
     "bn": [
       "গহনভাবে"
@@ -18675,6 +19704,22 @@
     "ant": []
   },
   {
+    "en": "depiction",
+    "bn": [
+      "চিত্রণ",
+      "বর্ণন",
+      "চিত্রাঙ্কন",
+      "প্রতিকৃতি",
+      "চিত্র",
+      "রুপায়ণ"
+    ],
+    "def": [
+      "A lifelike image of something, either verbal or visual"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Deploy",
     "bn": [
       "মোতায়েন করা",
@@ -18694,6 +19739,18 @@
       "displace",
       "withhold"
     ]
+  },
+  {
+    "en": "depressed",
+    "bn": [
+      "ঐভগ্নোদ্যম",
+      "অন্নুনত"
+    ],
+    "def": [
+      "To press down."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "Deprive",
@@ -18993,6 +20050,18 @@
     "ant": []
   },
   {
+    "en": "destroyer",
+    "bn": [
+      "ধ্বংশকারী",
+      "যুদ্ধজাহাজ বিশেষ"
+    ],
+    "def": [
+      "That which destroys something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "destroys",
     "bn": [
       "ধ্বংস করা",
@@ -19152,6 +20221,17 @@
     "bn": [
       "ধসা",
       "ভাঙ্গা"
+    ],
+    "def": [
+      "To make worse; to make inferior in quality or value; to impair."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "deteriorating",
+    "bn": [
+      "অধোগামী"
     ],
     "def": [
       "To make worse; to make inferior in quality or value; to impair."
@@ -19473,6 +20553,18 @@
     ],
     "def": [
       "A brief religious service."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "diagnosed",
+    "bn": [
+      "লক্ষণ দেখিয়া নির্ণয় করা",
+      "লক্ষণ দেখিয়া রোগ নির্ণয় করা"
+    ],
+    "def": [
+      "To determine which disease is causing a sick person's signs and symptoms; to find the diagnosis."
     ],
     "syn": [],
     "ant": []
@@ -19818,6 +20910,17 @@
       "easy",
       "simple"
     ]
+  },
+  {
+    "en": "difficulties",
+    "bn": [
+      "কটমটি"
+    ],
+    "def": [
+      "A series of frustrations"
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "dig",
@@ -20444,6 +21547,17 @@
     "ant": []
   },
   {
+    "en": "disobedience",
+    "bn": [
+      "অবাধ্যতা"
+    ],
+    "def": [
+      "Refusal to obey."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "displace",
     "bn": [
       "স্থানচু্যত করা"
@@ -20497,6 +21611,23 @@
     ],
     "def": [
       "A show or spectacle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "displeased",
+    "bn": [
+      "অপ্রসন্ন",
+      "অখুশি",
+      "নাখুশ",
+      "অসন্তুষ্ট",
+      "অসুখী",
+      "নারাজ",
+      "বিরাগী"
+    ],
+    "def": [
+      "To make not pleased; to cause a feeling of disapprobation or dislike in; to be disagreeable to; to vex slightly."
     ],
     "syn": [],
     "ant": []
@@ -20725,6 +21856,18 @@
     ],
     "def": [
       "To bring something out of shape, to misshape."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "distributed",
+    "bn": [
+      "আবণ্টিত",
+      "বণ্টিত"
+    ],
+    "def": [
+      "To divide into portions and dispense."
     ],
     "syn": [],
     "ant": []
@@ -20993,6 +22136,17 @@
     "ant": []
   },
   {
+    "en": "documentaries",
+    "bn": [
+      "প্রকৃত ঘতনাদির চলচ্চিত্র"
+    ],
+    "def": [
+      "A film, TV program, publication etc. which presents a social, political, scientific or historical subject in a factual or informative manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "documentary",
     "bn": [
       "দলিল সংক্রান্ত",
@@ -21139,12 +22293,37 @@
     ]
   },
   {
+    "en": "dominated",
+    "bn": [
+      "অধীন"
+    ],
+    "def": [
+      "To govern, rule or control by superior authority or power"
+    ],
+    "syn": [],
+    "ant": [
+      "obey",
+      "submit"
+    ]
+  },
+  {
     "en": "donation",
     "bn": [
       "চাঁদা হিসাবে টাকা বা জিনিস পত্র"
     ],
     "def": [
       "A voluntary gift or contribution for a specific cause."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "doors",
+    "bn": [
+      "দরজা"
+    ],
+    "def": [
+      "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key."
     ],
     "syn": [],
     "ant": []
@@ -21820,6 +22999,18 @@
     "ant": []
   },
   {
+    "en": "dysfunction",
+    "bn": [
+      "ত্রুটিপূর্ণ ক্রিয়া",
+      "কর্মহীনতা"
+    ],
+    "def": [
+      "A failure to function in an expected or complete manner. Usually refers to a disorder in a bodily organ (e.g. erectile dysfunction), a mental disorder, or the improper behavior of a social group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "e",
     "bn": [
       "ইংরেজি বর্ণমালার পঞ্চম অক্ষর"
@@ -21921,6 +23112,40 @@
     "ant": []
   },
   {
+    "en": "earned",
+    "bn": [
+      "অর্জিত",
+      "উপার্জিত",
+      "উপাত্ত",
+      "পাত্তয়া",
+      "অধিগত",
+      "অভিগত",
+      "লব্ধ",
+      "আহৃত",
+      "অধিকৃত",
+      "কৃত"
+    ],
+    "def": [
+      "To gain (success, reward, recognition) through applied effort or work."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "earning",
+    "bn": [
+      "আদায়",
+      "ধনাগম",
+      "আগম",
+      "রোজগার"
+    ],
+    "def": [
+      "To gain (success, reward, recognition) through applied effort or work."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "earnings",
     "bn": [
       "আয়",
@@ -21941,6 +23166,17 @@
     ],
     "def": [
       "The third planet of the Solar System; the world upon which humans live."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "earthquakes",
+    "bn": [
+      "ভূমিকম্প"
+    ],
+    "def": [
+      "A shaking of the ground, caused by volcanic activity or movement around geologic faults."
     ],
     "syn": [],
     "ant": []
@@ -22284,6 +23520,17 @@
     "ant": []
   },
   {
+    "en": "editorial",
+    "bn": [
+      "সম্পাদকীয়"
+    ],
+    "def": [
+      "An article in a publication giving the opinion of its editors on a given topic or current event."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "educated",
     "bn": [
       "শিক্ষিত"
@@ -22483,6 +23730,24 @@
     "ant": []
   },
   {
+    "en": "egotism",
+    "bn": [
+      "অস্মিতা",
+      "আত্মপ্রাধান্য",
+      "আত্মশ্লাঘা",
+      "অভিমান",
+      "আত্মম্ভরিতা",
+      "অহং",
+      "আত্মাভিমান",
+      "আত্মজাহির"
+    ],
+    "def": [
+      "A tendency to talk excessively about oneself."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "eight",
     "bn": [
       "আট",
@@ -22490,6 +23755,18 @@
     ],
     "def": [
       "The digit/figure 8."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "eighteen",
+    "bn": [
+      "আঠার",
+      "অষ্টাদশ"
+    ],
+    "def": [
+      "The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18."
     ],
     "syn": [],
     "ant": []
@@ -22964,6 +24241,19 @@
     "ant": []
   },
   {
+    "en": "embracing",
+    "bn": [
+      "জাপটাজাপটি"
+    ],
+    "def": [
+      "To clasp (someone or each other) in the arms with affection; to take in the arms; to hug."
+    ],
+    "syn": [
+      "fall on someone's neck"
+    ],
+    "ant": []
+  },
+  {
     "en": "embroidery",
     "bn": [
       "সূচিশিল্প",
@@ -23021,6 +24311,17 @@
       "declining",
       "disappearing"
     ]
+  },
+  {
+    "en": "emeritus",
+    "bn": [
+      "অবৈতনিক পদ ও উপাধি সহকারে কর্ম হইতে অবসর প্রাপ্ত"
+    ],
+    "def": [
+      "A person retired in this sense."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "eminent",
@@ -23482,6 +24783,17 @@
     ]
   },
   {
+    "en": "encouraging",
+    "bn": [
+      "উৎসাহদান"
+    ],
+    "def": [
+      "To mentally support; to motivate, give courage, hope or spirit."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "encyclopedias",
     "bn": [
       "বিদ্যাকল্পদ্রুম",
@@ -23554,6 +24866,30 @@
     "ant": []
   },
   {
+    "en": "ended",
+    "bn": [
+      "শেষ করা",
+      "সমাপ্ত করা",
+      "ধ্বংস করা",
+      "শেষ হত্তয়া",
+      "অবসান করা",
+      "খতম হত্তয়া",
+      "চুকা",
+      "চুকান",
+      "ফুরান",
+      "সায় করা",
+      "উপসংহার করা",
+      "চোকা",
+      "চোকান",
+      "পোহান"
+    ],
+    "def": [
+      "To come to an end"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "endemic",
     "bn": [
       "স্থানীয়",
@@ -23598,6 +24934,20 @@
       "deprive",
       "strip"
     ]
+  },
+  {
+    "en": "endowment",
+    "bn": [
+      "প্রধান",
+      "অর্পণ",
+      "কোন উদ্দেশ্যে চিরকালের জন্য প্রদত্ত সম্পত্তি বা টাকা",
+      "মানসিক গুণ"
+    ],
+    "def": [
+      "Something with which a person or thing is endowed."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "ends",
@@ -23922,6 +25272,22 @@
     "ant": []
   },
   {
+    "en": "enriching",
+    "bn": [
+      "সমৃদ্ধ করা",
+      "বাড়ান",
+      "ধনবান করা",
+      "উর্বর করা",
+      "বৃদ্ধি করা",
+      "উন্নতিসাধন করা"
+    ],
+    "def": [
+      "To enhance."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "enrolled",
     "bn": [
       "ভরতি করা",
@@ -24062,6 +25428,18 @@
     ],
     "def": [
       "To go or come into an enclosed or partially enclosed space."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "enthusiasm",
+    "bn": [
+      "উৎসাহ",
+      "উদ্যম"
+    ],
+    "def": [
+      "Possession by a god; divine inspiration or frenzy."
     ],
     "syn": [],
     "ant": []
@@ -24336,6 +25714,18 @@
     "ant": []
   },
   {
+    "en": "equality",
+    "bn": [
+      "সমতা",
+      "সমভাব"
+    ],
+    "def": [
+      "The fact of being equal."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "equally",
     "bn": [
       "তুল্যরুপে",
@@ -24413,6 +25803,17 @@
     "ant": []
   },
   {
+    "en": "erect",
+    "bn": [
+      "নির্মাণ করা খাড়াভাবে বা সিধাভাবে"
+    ],
+    "def": [
+      "Upright; vertical or reaching broadly upwards."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "erected",
     "bn": [
       "খাড়া করা",
@@ -24450,6 +25851,18 @@
       "addition",
       "accumulation"
     ]
+  },
+  {
+    "en": "erratic",
+    "bn": [
+      "অস্থির প্রকৃতি",
+      "অনিশ্চিতগত"
+    ],
+    "def": [
+      "A rock moved from one location to another, usually by a glacier."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "error",
@@ -24529,6 +25942,21 @@
     ],
     "def": [
       "One who composes essays; a writer of short compositions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "essays",
+    "bn": [
+      "প্রবন্ধ",
+      "প্রচেষ্টা",
+      "নিবন্ধ",
+      "চেষ্টা",
+      "পরীক্ষা"
+    ],
+    "def": [
+      "(authorship) A written composition of moderate length, exploring a particular issue or subject."
     ],
     "syn": [],
     "ant": []
@@ -24669,6 +26097,19 @@
     ],
     "def": [
       "To ingest; to be ingested."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "eternal",
+    "bn": [
+      "চিরস্থায়ী",
+      "শাশ্বত",
+      "অনাদি ও অনন্ত"
+    ],
+    "def": [
+      "One who lives forever; an immortal."
     ],
     "syn": [],
     "ant": []
@@ -24964,6 +26405,19 @@
     ],
     "def": [
       "Of or providing evidence."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "evil",
+    "bn": [
+      "মন্দ",
+      "দুষ্ট",
+      "অসৎ"
+    ],
+    "def": [
+      "Moral badness; wickedness; malevolence; the forces or behaviors that are the opposite or enemy of good."
     ],
     "syn": [],
     "ant": []
@@ -25273,6 +26727,19 @@
     ],
     "def": [
       "The act of excepting or excluding; exclusion; restriction by taking out something which would otherwise be included, as in a class, statement, rule."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "excerpt",
+    "bn": [
+      "উদ্ধুতি",
+      "উদ্ধুত অংশ",
+      "উদ্ধৃত করা"
+    ],
+    "def": [
+      "A clip, snippet, passage or extract from a larger work such as a news article, a film, or a literary composition."
     ],
     "syn": [],
     "ant": []
@@ -26066,6 +27533,18 @@
     "ant": []
   },
   {
+    "en": "exponent",
+    "bn": [
+      "প্রর্দশণ",
+      "ব্যাখ্যা কারক"
+    ],
+    "def": [
+      "One who expounds, represents or advocates."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "exponential",
     "bn": [
       "ব্যাখ্যামূলক",
@@ -26268,6 +27747,21 @@
     "ant": []
   },
   {
+    "en": "extensively",
+    "bn": [
+      "ব্যাপকভাবে",
+      "বিস্তৃতভাবে",
+      "বিস্তীর্ণরুপে",
+      "চত্তড়া হয়ে",
+      "প্রশস্ত হয়ে"
+    ],
+    "def": [
+      "In an extensive manner, widely."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "extent",
     "bn": [
       "ব্যাপ্তি",
@@ -26421,6 +27915,44 @@
     "ant": []
   },
   {
+    "en": "extremism",
+    "bn": [
+      "চরমপন্থা"
+    ],
+    "def": [
+      "Extreme ideas or actions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "eyes",
+    "bn": [
+      "চক্ষু",
+      "নজর",
+      "দৃষ্টি",
+      "নয়ন",
+      "লক্ষ্য",
+      "আঁখি",
+      "দর্শনশক্তি",
+      "বিবেচনা",
+      "অক্ষি",
+      "নয়না",
+      "কনীনিকা",
+      "দৃষ্টির তীক্ষ্ণতা",
+      "নেত্র",
+      "লোচন",
+      "চোখ",
+      "গোল রন্ধ্র",
+      "গোল গর্ত"
+    ],
+    "def": [
+      "An organ through which animals see (perceive surroundings via light)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "eyewitness",
     "bn": [
       "প্রত্যক্ষদর্শী সাক্ষী"
@@ -26473,6 +28005,18 @@
     ],
     "def": [
       "The front part of the head of a human or other animal, featuring the eyes, nose and mouth, and the surrounding area."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "faced",
+    "bn": [
+      "মুখমন্ডল",
+      "মুখোমুখি"
+    ],
+    "def": [
+      "(of a person or animal) To position oneself or itself so as to have one's face closest to (something)."
     ],
     "syn": [],
     "ant": []
@@ -26806,6 +28350,17 @@
     "ant": []
   },
   {
+    "en": "fame",
+    "bn": [
+      "যশঃ খ্যাতি"
+    ],
+    "def": [
+      "What is said or reported; gossip, rumour."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "familiar",
     "bn": [
       "পরিচিত"
@@ -26917,6 +28472,21 @@
     "ant": []
   },
   {
+    "en": "fanaticism",
+    "bn": [
+      "ধর্মান্ধতা",
+      "অন্ধবিশ্বাস",
+      "অন্ধ গোঁড়ামি",
+      "অন্ধ অনুরোগ",
+      "গোঁড়ামি"
+    ],
+    "def": [
+      "The characteristic or practice of being a fanatic."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "fans",
     "bn": [
       "ফ্যান",
@@ -26972,6 +28542,17 @@
       "tragedy",
       "serious drama"
     ]
+  },
+  {
+    "en": "fascinate",
+    "bn": [
+      "মুগ্ধ করা"
+    ],
+    "def": [
+      "To evoke an intense interest or attraction in someone."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "fashion",
@@ -27041,6 +28622,18 @@
     "ant": [
       "loose"
     ]
+  },
+  {
+    "en": "fasting",
+    "bn": [
+      "উপবাস",
+      "অনশনব্রত"
+    ],
+    "def": [
+      "To restrict one’s personal consumption, generally of food, but sometimes other things, in various manners (totally, temporally, by avoiding particular items), often for religious or medical reasons."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "fatal",
@@ -27397,6 +28990,33 @@
     ],
     "def": [
       "Of or relating to the emotions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fees",
+    "bn": [
+      "পারিশ্রমিক",
+      "দর্শনী",
+      "বেতন"
+    ],
+    "def": [
+      "(feudal law) A right to the use of a superior's land, as a stipend for services to be performed; also, the land so held; a fief."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "fell",
+    "bn": [
+      "কাটিয়া ফেলা",
+      "ভূপাতিত করা",
+      "নিষ্ঠুুর",
+      "নৃশংস"
+    ],
+    "def": [
+      "A cutting-down of timber."
     ],
     "syn": [],
     "ant": []
@@ -28277,6 +29897,18 @@
     "ant": []
   },
   {
+    "en": "fleeting",
+    "bn": [
+      "দ্রুত সঞ্চারী",
+      "ক্ষণস্থায়ী"
+    ],
+    "def": [
+      "To float."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "fletcher",
     "bn": [
       "তীর নির্মাতা বা বিক্রেতা"
@@ -28618,6 +30250,17 @@
     "ant": []
   },
   {
+    "en": "folksongs",
+    "bn": [
+      "লোকগীত"
+    ],
+    "def": [
+      "A song, in any folk style, originating among ordinary people, usually non-professional musicians, and handed down by oral tradition."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "follow",
     "bn": [
       "অনুসরণ করা"
@@ -28643,6 +30286,18 @@
     ],
     "def": [
       "To go after; to pursue; to move behind in the same path or direction."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "followers",
+    "bn": [
+      "অনুগামিবৃন্দ",
+      "অনুগামিগণ"
+    ],
+    "def": [
+      "One who follows, comes after another."
     ],
     "syn": [],
     "ant": []
@@ -29205,6 +30860,18 @@
     "ant": []
   },
   {
+    "en": "forsake",
+    "bn": [
+      "পরিত্যাগ করা",
+      "ফেলে যাওয়া"
+    ],
+    "def": [
+      "To abandon, to give up, to leave (permanently), to renounce."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "fort",
     "bn": [
       "দুর্গ",
@@ -29632,6 +31299,17 @@
     "ant": []
   },
   {
+    "en": "frequent",
+    "bn": [
+      "দ্রুত"
+    ],
+    "def": [
+      "Done or occurring often; common."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "freshwater",
     "bn": [
       "বিশুদ্ধ পানি",
@@ -29858,6 +31536,35 @@
     "ant": []
   },
   {
+    "en": "fundamentalism",
+    "bn": [
+      "মৌলবাদ",
+      "প্রাচীন ধর্মীয় শাস্ত্রবিধির প্রতি অন্ধ বিশ্বাস",
+      "অন্ধবিশ্বাস"
+    ],
+    "def": [
+      "The tendency to reduce a religion to its most fundamental tenets, based on strict interpretation of core texts."
+    ],
+    "syn": [
+      "bibliolatry"
+    ],
+    "ant": []
+  },
+  {
+    "en": "fundamentalists",
+    "bn": [
+      "ফ্যানাটিক",
+      "অন্ধবিশ্বাসী"
+    ],
+    "def": [
+      "One who reduces religion to strict interpretation of core or original texts."
+    ],
+    "syn": [
+      "takfiri"
+    ],
+    "ant": []
+  },
+  {
     "en": "fundamentally",
     "bn": [
       "মৌলিকভাবে"
@@ -29878,6 +31585,19 @@
     "en": "funded",
     "bn": [
       "নিহিত"
+    ],
+    "def": [
+      "To pay for."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "funding",
+    "bn": [
+      "টাকা যোগান",
+      "টাকা জোগান",
+      "টাকাকড়ি যোগান"
     ],
     "def": [
       "To pay for."
@@ -30237,6 +31957,28 @@
     ],
     "def": [
       "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "gaze",
+    "bn": [
+      "বদ্ধদৃষ্টিতে তাকিয়ে থাকা"
+    ],
+    "def": [
+      "A fixed look; a look of eagerness, wonder, or admiration; a continued look of attention."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "gazetted",
+    "bn": [
+      "গেজেটে প্রকাশিত করা"
+    ],
+    "def": [
+      "To publish in a gazette."
     ],
     "syn": [],
     "ant": []
@@ -30849,6 +32591,19 @@
     "ant": []
   },
   {
+    "en": "glance",
+    "bn": [
+      "ক্ষণিক দৃষ্টি পাত",
+      "এক পরক দৃষ্টি",
+      "ঝলক"
+    ],
+    "def": [
+      "A brief or cursory look."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "glass",
     "bn": [
       "কাঁচ",
@@ -31016,6 +32771,42 @@
     ],
     "def": [
       "A result that one is attempting to achieve."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "god",
+    "bn": [
+      "দেবতা",
+      "ভক্তির পাত্র"
+    ],
+    "def": [
+      "A being such as a monotheistic God: a single divine creator and ruler of the universe."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "goddess",
+    "bn": [
+      "দেবী"
+    ],
+    "def": [
+      "A female deity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "goddesses",
+    "bn": [
+      "দেবী",
+      "ঠাকুরানী",
+      "ঠাকরূণ"
+    ],
+    "def": [
+      "A female deity."
     ],
     "syn": [],
     "ant": []
@@ -31292,6 +33083,18 @@
     "ant": []
   },
   {
+    "en": "gramophone",
+    "bn": [
+      "কলের গান",
+      "গ্রামাফোন"
+    ],
+    "def": [
+      "A record player."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "grand",
     "bn": [
       "বৃহৎ",
@@ -31471,6 +33274,27 @@
     "ant": []
   },
   {
+    "en": "greatly",
+    "bn": [
+      "ব্যাপকভাবে",
+      "বিশেষভাবে",
+      "প্রবলভাবে",
+      "অতিশয়",
+      "সাতিশয়",
+      "অনেক",
+      "অত্যন্ত",
+      "অতি"
+    ],
+    "def": [
+      "To a great extent or degree."
+    ],
+    "syn": [
+      "drastically",
+      "very"
+    ],
+    "ant": []
+  },
+  {
     "en": "greek",
     "bn": [
       "গ্রীসদেশীয়"
@@ -31560,6 +33384,29 @@
     ],
     "def": [
       "A rectangular array of squares or rectangles of equal size, such as in a crossword puzzle."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "grief",
+    "bn": [
+      "দুঃখ",
+      "শোক"
+    ],
+    "def": [
+      "Suffering, hardship."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "grieved",
+    "bn": [
+      "মনক্ষুণ্ণ"
+    ],
+    "def": [
+      "To cause sorrow or distress to."
     ],
     "syn": [],
     "ant": []
@@ -31911,6 +33758,17 @@
     ],
     "def": [
       "To possess, own."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hadith",
+    "bn": [
+      "হাদিস"
+    ],
+    "def": [
+      "An eyewitness account of a saying or action of Muhammad (or sometimes one of his companions) not otherwise found in the Quran."
     ],
     "syn": [],
     "ant": []
@@ -32343,6 +34201,24 @@
     "ant": []
   },
   {
+    "en": "head",
+    "bn": [
+      "মাথা",
+      "শীর্ষদেশ",
+      "মস্তিষ্ক",
+      "কর্তা",
+      "হিসাবের খাত",
+      "নেতৃত্ব করা",
+      "মাথা দিয়ে বল মারা",
+      "হেড করা"
+    ],
+    "def": [
+      "The part of the body of an animal or human which contains the brain, mouth and main sense organs."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "headline",
     "bn": [
       "শিরনাম",
@@ -32354,6 +34230,17 @@
     "syn": [
       "hed"
     ],
+    "ant": []
+  },
+  {
+    "en": "headmaster",
+    "bn": [
+      "বিদ্যালয়ের প্রধান শিক্ষক"
+    ],
+    "def": [
+      "A male school principal."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -32425,6 +34312,35 @@
     ],
     "def": [
       "The state of being free from physical or psychological disease, illness, or malfunction; wellness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heard",
+    "bn": [
+      "শুনা",
+      "শ্রবণ করা",
+      "কর্ণপাত করা",
+      "বিচার করা",
+      "সংবাদ করা",
+      "শোনা"
+    ],
+    "def": [
+      "(stative) To perceive sounds through the ear."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "hearing",
+    "bn": [
+      "শ্রবণ",
+      "শ্রবণশক্তি",
+      "শুনানি"
+    ],
+    "def": [
+      "(stative) To perceive sounds through the ear."
     ],
     "syn": [],
     "ant": []
@@ -32561,6 +34477,19 @@
     ],
     "def": [
       "Thermal energy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "heaven",
+    "bn": [
+      "আকাশ",
+      "স্বর্গ",
+      "সুখময়স্থন"
+    ],
+    "def": [
+      "The sky, specifically:"
     ],
     "syn": [],
     "ant": []
@@ -33368,6 +35297,20 @@
     "ant": []
   },
   {
+    "en": "homeopathy",
+    "bn": [
+      "সদৃশবিধান",
+      "হোমিত্তপ্যাথি"
+    ],
+    "def": [
+      "A system of treating diseases with small amounts of substances which, in larger amounts, would produce the observed symptoms."
+    ],
+    "syn": [],
+    "ant": [
+      "allopathy"
+    ]
+  },
+  {
     "en": "homer",
     "bn": [
       "শীঘ্রই দূর হইতে পঠ চিনিয়া নিজের বাসায় পোঁছিতে শেখে এমন পারাবত"
@@ -33415,6 +35358,30 @@
     ],
     "def": [
       "The state of being sexually attracted primarily or exclusively to persons of the same sex."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "honorary",
+    "bn": [
+      "সম্মানার্থ প্রদত্ত",
+      "অবৈতনিক"
+    ],
+    "def": [
+      "An honorarium; a fee for services of no fixed value."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "honour",
+    "bn": [
+      "সম্মান",
+      "খ্যাতি"
+    ],
+    "def": [
+      "Recognition of importance or value; respect; veneration (of someone, usually for being morally upright or successful)"
     ],
     "syn": [],
     "ant": []
@@ -33779,6 +35746,20 @@
     "ant": []
   },
   {
+    "en": "humanity",
+    "bn": [
+      "মানুষজাতি",
+      "মানবপ্রকৃতি",
+      "মানবতা",
+      "মনুষ্যত্ব"
+    ],
+    "def": [
+      "Mankind; human beings as a group."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "humans",
     "bn": [
       "মানুষ সম্বন্ধীয়",
@@ -33886,6 +35867,17 @@
     ],
     "def": [
       "To throw (something) with force."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "husband",
+    "bn": [
+      "স্বামী"
+    ],
+    "def": [
+      "The master of a house; the head of a family; a householder."
     ],
     "syn": [],
     "ant": []
@@ -34307,6 +36299,18 @@
     ]
   },
   {
+    "en": "ill",
+    "bn": [
+      "পীড়িত",
+      "মন্দ"
+    ],
+    "def": [
+      "(often pluralized) Trouble; distress; misfortune; adversity."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "illegally",
     "bn": [
       "অবৈধভাবে",
@@ -34352,6 +36356,18 @@
     "ant": [
       "educated"
     ]
+  },
+  {
+    "en": "illness",
+    "bn": [
+      "পীড়া",
+      "অসুস্থ্যতা"
+    ],
+    "def": [
+      "An instance of a disease or poor health."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "image",
@@ -34404,6 +36420,25 @@
     "ant": []
   },
   {
+    "en": "imagination",
+    "bn": [
+      "কল্পনা",
+      "কল্পনাশক্তি",
+      "চিন্তা",
+      "অলীক কল্পনা",
+      "উদ্ভাবন",
+      "মনশ্চক্ষু",
+      "মায়া",
+      "বিকল্পনা",
+      "কল্পনাপ্রতিভা"
+    ],
+    "def": [
+      "The image-making power of the mind; the act of mentally creating or reproducing an object not previously perceived; the ability to create such images."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "imagine",
     "bn": [
       "কল্পনা করা"
@@ -34419,6 +36454,23 @@
       "know",
       "disbelieve"
     ]
+  },
+  {
+    "en": "imbibed",
+    "bn": [
+      "হজম করা",
+      "পান করা",
+      "পান করিয়া লত্তয়া",
+      "আত্মভূত করা",
+      "শুষিয়া লত্তয়া",
+      "শোষণ করা",
+      "মনোমধ্যে গ্রহণ করা"
+    ],
+    "def": [
+      "To drink (used frequently of alcoholic beverages)."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "immensely",
@@ -34702,6 +36754,17 @@
       "soft",
       "breakable"
     ]
+  },
+  {
+    "en": "impressed",
+    "bn": [
+      "অঙ্কিত"
+    ],
+    "def": [
+      "To affect (someone) strongly and often favourably."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "impression",
@@ -35131,6 +37194,17 @@
     ]
   },
   {
+    "en": "incurable",
+    "bn": [
+      "চিকিৎসার অসাধ্য"
+    ],
+    "def": [
+      "One who cannot be cured."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "independence",
     "bn": [
       "স্বাধীনতা",
@@ -35443,6 +37517,18 @@
     "syn": [
       "baby"
     ],
+    "ant": []
+  },
+  {
+    "en": "infidel",
+    "bn": [
+      "নাস্তিক",
+      "অবিশ্বাসী"
+    ],
+    "def": [
+      "(now usually derogatory) One who does not believe in a certain religion."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -35843,6 +37929,17 @@
     "ant": []
   },
   {
+    "en": "inner",
+    "bn": [
+      "আভ্যন্তরিক"
+    ],
+    "def": [
+      "An inner part."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Innocent",
     "bn": [
       "নির্দোষ",
@@ -35968,6 +38065,34 @@
     ]
   },
   {
+    "en": "insistence",
+    "bn": [
+      "জেদ",
+      "নির্বন্ধ"
+    ],
+    "def": [
+      "The state of being insistent."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "insolent",
+    "bn": [
+      "দাম্ভিক",
+      "অপমানজনক",
+      "অশিষ্ট",
+      "উদ্ধত",
+      "দুর্বিনীত",
+      "অপমানকর"
+    ],
+    "def": [
+      "A person who is insolent."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "inspired",
     "bn": [
       "অনুপ্রাণিত"
@@ -36077,6 +38202,18 @@
     "ant": []
   },
   {
+    "en": "institution",
+    "bn": [
+      "প্রতিষ্ঠান",
+      "সমিতিগৃহ"
+    ],
+    "def": [
+      "A custom or practice of a society or community."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "institutional",
     "bn": [
       "প্রতিষ্ঠানগত",
@@ -36115,6 +38252,18 @@
     ],
     "def": [
       "A custom or practice of a society or community."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "instrument",
+    "bn": [
+      "যন্ত্র",
+      "সহায়ক বস্তু বা ব্যক্তি"
+    ],
+    "def": [
+      "A device used to produce music."
     ],
     "syn": [],
     "ant": []
@@ -36276,6 +38425,19 @@
       "The act or process of making whole or entire."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "intellectuals",
+    "bn": [
+      "বুদ্ধিজীবী ব্যক্তি"
+    ],
+    "def": [
+      "An intelligent, learned person, especially one who discourses about learned matters."
+    ],
+    "syn": [
+      "highbrow"
+    ],
     "ant": []
   },
   {
@@ -36507,6 +38669,36 @@
     ],
     "def": [
       "To engage the attention of; to awaken interest in; to excite emotion or passion in, in behalf of a person or thing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "interests",
+    "bn": [
+      "স্বার্থ",
+      "সুদ",
+      "অংশ",
+      "গা",
+      "বৃদ্ধি",
+      "সুবিধা",
+      "তরফ",
+      "অধিকার",
+      "কুসীদ",
+      "পক্ষ",
+      "সম্পর্ক",
+      "কুসীদবৃত্তি",
+      "খাতির",
+      "ব্যক্তিগত প্রভাব",
+      "মঙ্গল",
+      "বাজি",
+      "ব্যাজ",
+      "বর্ধিত আয়",
+      "কৌতুক",
+      "কৌতূহল"
+    ],
+    "def": [
+      "The price paid for obtaining, or price received for providing, money or goods in a credit transaction, calculated as a fraction of the amount or value of what was borrowed."
     ],
     "syn": [],
     "ant": []
@@ -37070,6 +39262,30 @@
     "ant": []
   },
   {
+    "en": "invitation",
+    "bn": [
+      "নিমন্ত্রণ",
+      "আহবান"
+    ],
+    "def": [
+      "The act of inviting; solicitation; the requesting of a person's company."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "invocation",
+    "bn": [
+      "প্রার্থনাকালে",
+      "আহ্বান"
+    ],
+    "def": [
+      "The act or form of calling for the assistance or presence of some superior being, especially prayer offered to a divine being."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "involve",
     "bn": [
       "জড়িত করা"
@@ -37228,6 +39444,18 @@
     "ant": []
   },
   {
+    "en": "irreligious",
+    "bn": [
+      "অধর্মীয়",
+      "অধার্মিক"
+    ],
+    "def": [
+      "Contrary to religious beliefs and practices."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "island",
     "bn": [
       "দ্বীপ"
@@ -37346,6 +39574,17 @@
     "ant": []
   },
   {
+    "en": "jail",
+    "bn": [
+      "কারাগার"
+    ],
+    "def": [
+      "A place or institution for the confinement of persons held in lawful custody or detention, especially for minor offenses or with reference to some future judicial proceeding."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "japan",
     "bn": [
       "বার্ণিশ করা",
@@ -37457,6 +39696,21 @@
     "ant": []
   },
   {
+    "en": "joining",
+    "bn": [
+      "জোড়",
+      "জোড়া",
+      "যুক্তি",
+      "যোজন",
+      "সম্পৃক্তি"
+    ],
+    "def": [
+      "To connect or combine into one; to put together."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "joint",
     "bn": [
       "জোড়",
@@ -37472,6 +39726,40 @@
       "hinge",
       "pivot"
     ],
+    "ant": []
+  },
+  {
+    "en": "journal",
+    "bn": [
+      "দিনপুঞ্জী",
+      "সংবাদপত্র বা সাময়িক পত্র"
+    ],
+    "def": [
+      "A diary or daily record of a person, organization, vessel etc.; daybook."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "journalism",
+    "bn": [
+      "সাংবাদিকতা"
+    ],
+    "def": [
+      "The activity or profession of being a journalist."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "journalist",
+    "bn": [
+      "সাংবাদিক"
+    ],
+    "def": [
+      "The keeper of a personal journal, who writes in it regularly."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -37491,6 +39779,18 @@
     "ant": []
   },
   {
+    "en": "joy",
+    "bn": [
+      "উল্লাস",
+      "আনন্দ আনন্দ করা বা দেওয়া"
+    ],
+    "def": [
+      "A feeling of extreme happiness or cheerfulness, especially related to the acquisition or expectation of something good."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "joyous",
     "bn": [
       "আনন্দিত",
@@ -37498,6 +39798,58 @@
     ],
     "def": [
       "Full of joy; happy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "judge",
+    "bn": [
+      "বিচারপতি"
+    ],
+    "def": [
+      "A public official whose duty it is to administer the law, especially by presiding over trials and rendering judgments; a justice."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "judged",
+    "bn": [
+      "বিচারপূর্বক মীমাংসা করা",
+      "রায়দান করা",
+      "রায় দেত্তয়া",
+      "বিবেচনা করা",
+      "গণ্য করা",
+      "সাব্যস্ত করা",
+      "নির্ধারণ করা",
+      "দণ্ড দেত্তয়া",
+      "ধারণা করা"
+    ],
+    "def": [
+      "To sit in judgment on; to pass sentence on."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "judges",
+    "bn": [
+      "বিচারক",
+      "বিচারপতি",
+      "কাজী",
+      "সালিস",
+      "হাকিম",
+      "কারণিক",
+      "ন্যায়কর্তা",
+      "ন্যায়াধীশ",
+      "ধর্মাধিকারী",
+      "ধর্মাধিকরণ",
+      "অবেক্ষক",
+      "দ্রষ্টা"
+    ],
+    "def": [
+      "A public official whose duty it is to administer the law, especially by presiding over trials and rendering judgments; a justice."
     ],
     "syn": [],
     "ant": []
@@ -37710,6 +40062,17 @@
     ]
   },
   {
+    "en": "kafir",
+    "bn": [
+      "কাফ্রির"
+    ],
+    "def": [
+      "A disbeliever, a denier: someone who denies the truths from Allah; or more broadly any non-Muslim."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "kenning",
     "bn": [
       "পরোক্ষ নাম"
@@ -37769,6 +40132,30 @@
       "unimportant",
       "minor"
     ]
+  },
+  {
+    "en": "khan",
+    "bn": [
+      "খান",
+      "খাঁ",
+      "পান্থনিবাস",
+      "নৃপতি",
+      "সরদার",
+      "শাসক",
+      "রাজপ্রতিনিধি",
+      "শাসনকত্র্তা",
+      "আফগানিস্তান আদি ঠাইর উপাধি",
+      "চীনের সম্রাট",
+      "তুর্কি",
+      "মোঙ্গল",
+      "তাতার প্রভৃতি গোষ্ঠীর সর্ব্বোচ্চ নায়ক",
+      "বড়ো সরাইখানা"
+    ],
+    "def": [
+      "A ruler over various Turkish, Tatar and Mongol peoples in the Middle Ages."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "killing",
@@ -37963,6 +40350,17 @@
     ],
     "def": [
       "Of or belonging to a king or kings; exercised by a king."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "kings",
+    "bn": [
+      "রাজা"
+    ],
+    "def": [
+      "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation."
     ],
     "syn": [],
     "ant": []
@@ -38757,6 +41155,17 @@
     "ant": []
   },
   {
+    "en": "laymen",
+    "bn": [
+      "সাধারণ লোক"
+    ],
+    "def": [
+      "Layperson, someone who is not an ordained cleric or member of the clergy."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "lead",
     "bn": [
       "সীসা",
@@ -39383,6 +41792,18 @@
     "ant": []
   },
   {
+    "en": "liberal",
+    "bn": [
+      "বদান্য",
+      "মুক্তহস্ত"
+    ],
+    "def": [
+      "One with liberal views, supporting individual liberty (see Wikipedia's article on Liberalism)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Liberate",
     "bn": [
       "মুক্ত করা",
@@ -39437,6 +41858,20 @@
       "পাঠভবণ",
       "পুঁথিশালা",
       "পড়ার জায়গা ইত্যাদি"
+    ],
+    "def": [
+      "An institution which holds books and/or other forms of media for use by the public or qualified people often lending them out, as well as providing various other services for its users."
+    ],
+    "syn": [
+      "bookhouse"
+    ],
+    "ant": []
+  },
+  {
+    "en": "library",
+    "bn": [
+      "গ্রন্থাগার",
+      "পাঠাগার"
     ],
     "def": [
       "An institution which holds books and/or other forms of media for use by the public or qualified people often lending them out, as well as providing various other services for its users."
@@ -40341,6 +42776,18 @@
     ]
   },
   {
+    "en": "losing",
+    "bn": [
+      "ক্ষতিকারক",
+      "ক্ষতিকর"
+    ],
+    "def": [
+      "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Loss",
     "bn": [
       "ক্ষতি",
@@ -40620,6 +43067,17 @@
     "ant": []
   },
   {
+    "en": "lyricist",
+    "bn": [
+      "গীতিকার"
+    ],
+    "def": [
+      "A person who writes the lyrics of a song."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "m",
     "bn": [
       "ইংরেজি বর্ণমালার ত্রয়োদশ বর্ণ"
@@ -40671,6 +43129,18 @@
     ],
     "def": [
       "A device that directs and controls energy, often in the form of movement or electricity, to produce a certain effect."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mad",
+    "bn": [
+      "পাগল",
+      "ক্ষিপ্ত"
+    ],
+    "def": [
+      "To be or become mad."
     ],
     "syn": [],
     "ant": []
@@ -40775,6 +43245,18 @@
     ],
     "def": [
       "Forcefully, vigorously."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mainstream",
+    "bn": [
+      "প্রধান ধারা",
+      "প্রধান প্রবাহ"
+    ],
+    "def": [
+      "The principal current in a flow, such as a river or flow of air"
     ],
     "syn": [],
     "ant": []
@@ -41333,6 +43815,25 @@
     "ant": []
   },
   {
+    "en": "marrying",
+    "bn": [
+      "বিবাহ করা",
+      "পাত্রস্থ করা",
+      "বিবাহ দেত্তয়া",
+      "শাদি করা",
+      "পাণিগ্রহণ করা",
+      "পাণিপীড়ন করা",
+      "স্ত্রীপরিগ্রহ করা",
+      "মিলন করা",
+      "বিবাহিত হত্তয়া"
+    ],
+    "def": [
+      "To enter into the conjugal or connubial state; to take a husband or a wife."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "marshes",
     "bn": [
       "অনূপ",
@@ -41698,6 +44199,17 @@
     "ant": []
   },
   {
+    "en": "mausoleum",
+    "bn": [
+      "জমকালো সমাধিমন্দির বা সমাধি স্তম্ভ"
+    ],
+    "def": [
+      "A large stately tomb or a building housing such a tomb or several tombs."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "maximum",
     "bn": [
       "সর্বোচ্চ",
@@ -41949,6 +44461,18 @@
     "ant": []
   },
   {
+    "en": "medal",
+    "bn": [
+      "পদক",
+      "মেডেল"
+    ],
+    "def": [
+      "A stamped metal disc used as a personal ornament, a charm, or a religious object."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "medals",
     "bn": [
       "পদক",
@@ -42045,6 +44569,17 @@
       "thoughtless",
       "contemplation"
     ]
+  },
+  {
+    "en": "meet",
+    "bn": [
+      "সাক্ষাৎ করা"
+    ],
+    "def": [
+      "A sports competition, especially for track and field (a track meet) or swimming (a swim meet)."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "meeting",
@@ -42198,6 +44733,18 @@
     "ant": []
   },
   {
+    "en": "mental",
+    "bn": [
+      "মানসিক",
+      "মনোগত"
+    ],
+    "def": [
+      "Of or relating to the mind or an intellectual process."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "mention",
     "bn": [
       "উল্লেখ করা",
@@ -42315,6 +44862,19 @@
     ],
     "def": [
       "Joyful festivities, especially as a celebration."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "messages",
+    "bn": [
+      "বার্তা",
+      "বাণী",
+      "সংবাদ"
+    ],
+    "def": [
+      "A communication, or what is communicated; any concept or information conveyed."
     ],
     "syn": [],
     "ant": []
@@ -43525,6 +46085,18 @@
     "ant": []
   },
   {
+    "en": "mortgaged",
+    "bn": [
+      "বন্ধকী",
+      "কট"
+    ],
+    "def": [
+      "To borrow against a property, to obtain a loan for another purpose by giving away the right of seizure to the lender over a fixed property such as a house or piece of land; to pledge a property in order to get a loan."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "mosque",
     "bn": [
       "মসজিদ"
@@ -43574,6 +46146,41 @@
     ],
     "def": [
       "A (human) female who has given birth to a baby"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "mothers",
+    "bn": [
+      "মা",
+      "জননী",
+      "মাতা",
+      "মাতৃ",
+      "শাশুড়ী",
+      "প্রসূতি",
+      "মাতৃকা",
+      "বিমাতা",
+      "জন্মদাত্রী",
+      "ঠাকরূণ",
+      "জনি",
+      "জন্মদা",
+      "প্রসূ",
+      "পূর্বপুরুষের পত্নী",
+      "অম্বিকা",
+      "অম্বা",
+      "অম্বালিকা",
+      "সৃজনকারিণী",
+      "আই",
+      "ঠাকুরানী",
+      "ধাত্রী",
+      "পালয়িত্রী",
+      "আশ্রমপালিকা",
+      "উত্পাদিকা",
+      "প্রাচীনা স্ত্রীলোক"
+    ],
+    "def": [
+      "A person (especially an entomologist) or animal that catches moths."
     ],
     "syn": [],
     "ant": []
@@ -43760,6 +46367,17 @@
     "ant": [
       "rejoiced"
     ]
+  },
+  {
+    "en": "mourning",
+    "bn": [
+      "শোক বা বিলাপকরণ"
+    ],
+    "def": [
+      "To express sadness or sorrow for; to grieve over (especially a death)."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "mourns",
@@ -44091,6 +46709,17 @@
     ],
     "def": [
       "A composer, conductor, or performer of music; specifically, a person who sings and/or plays a musical instrument as a hobby, an occupation, or a profession."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "musicologist",
+    "bn": [
+      "সংগীততত্ত্বিক"
+    ],
+    "def": [
+      "One who studies musicology."
     ],
     "syn": [],
     "ant": []
@@ -44780,6 +47409,18 @@
     "ant": []
   },
   {
+    "en": "negative",
+    "bn": [
+      "অস্বীকারমূলক",
+      "নাসূচক ঋণাত্বক"
+    ],
+    "def": [
+      "Refusal or withholding of assents; prohibition, veto"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Negotiate",
     "bn": [
       "আলোচনা করা",
@@ -45005,6 +47646,21 @@
       "New information of interest."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "newspaper",
+    "bn": [
+      "সংপাদ পত্র"
+    ],
+    "def": [
+      "A publication, usually published daily or weekly and usually printed on cheap, low-quality paper, containing news and other articles."
+    ],
+    "syn": [
+      "daily",
+      "paper",
+      "rag"
+    ],
     "ant": []
   },
   {
@@ -45491,6 +48147,19 @@
     ],
     "def": [
       "(grammar, narrow sense) A word that can be used to refer to a person, animal, place, thing, phenomenon, substance, quality, or idea; one of the basic parts of speech in many languages, including English."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "novel",
+    "bn": [
+      "অসাধারণ",
+      "অীভনব",
+      "উপন্যাস"
+    ],
+    "def": [
+      "Newly made, formed or evolved; having no precedent; of recent origin; new."
     ],
     "syn": [],
     "ant": []
@@ -46470,6 +49139,17 @@
     "ant": []
   },
   {
+    "en": "opined",
+    "bn": [
+      "মতপ্রকাশ করা"
+    ],
+    "def": [
+      "To have or express an opinion; to state as an opinion; to suppose, consider (that)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "opinion",
     "bn": [
       "মতামত"
@@ -46579,6 +49259,18 @@
       "liberated",
       "privileged"
     ]
+  },
+  {
+    "en": "oppression",
+    "bn": [
+      "উৎপীড়ন",
+      "নির্দয় ব্যবহার"
+    ],
+    "def": [
+      "The exercise of authority or power in a burdensome, cruel, or unjust manner."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "option",
@@ -46726,6 +49418,37 @@
     ],
     "def": [
       "The quality of being organized."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "organise",
+    "bn": [
+      "সংগঠিত করা",
+      "সাজান",
+      "পত্তন করা",
+      "সংগঠন করা",
+      "সঙ্ঘবদ্ধ করা",
+      "বন্দোবস্ত করা",
+      "সুশৃঙ্খল করা",
+      "বিন্যস্ত করা",
+      "স্থাপন করা",
+      "স্থাপিত হত্তয়া",
+      "সংস্থাপিত হত্তয়া",
+      "সঙ্ঘটিত হত্তয়া",
+      "সঙ্ঘবদ্ধ হত্তয়া",
+      "সুশৃঙ্খলভাবে স্থাপন করা",
+      "মিলিত করা",
+      "মিলিত হত্তয়া",
+      "পাকান",
+      "পত্তন হত্তয়া",
+      "বন্দোবস্ত করা",
+      "সংঘবদ্ধ করা",
+      "প্রস্তুতি নেওয়া"
+    ],
+    "def": [
+      "To arrange in working order."
     ],
     "syn": [],
     "ant": []
@@ -47116,6 +49839,17 @@
       "overlook",
       "vantage point"
     ],
+    "ant": []
+  },
+  {
+    "en": "outright",
+    "bn": [
+      "খোলাখুলিভাবে একেবারে"
+    ],
+    "def": [
+      "To release a player outright, without conditions."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -47613,6 +50347,18 @@
     "ant": []
   },
   {
+    "en": "pact",
+    "bn": [
+      "চুক্তি",
+      "সন্ধি"
+    ],
+    "def": [
+      "An agreement; a compact; a covenant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "page",
     "bn": [
       "বই খাতার বা সংবাপত্রের পৃষ্ঠ"
@@ -47838,6 +50584,17 @@
     ],
     "def": [
       "One of a set of parallel lines."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "paralysed",
+    "bn": [
+      "পক্ষাঘাতগ্রস্ত"
+    ],
+    "def": [
+      "To afflict with paralysis."
     ],
     "syn": [],
     "ant": []
@@ -48515,6 +51272,17 @@
     "ant": []
   },
   {
+    "en": "paying",
+    "bn": [
+      "লাভজনক"
+    ],
+    "def": [
+      "To give money or other compensation to in exchange for goods or services."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Peace",
     "bn": [
       "শান্তি",
@@ -48570,6 +51338,24 @@
     "ant": [
       "elite"
     ]
+  },
+  {
+    "en": "peasants",
+    "bn": [
+      "চাষী",
+      "হালচাষী",
+      "হালী",
+      "কৃষিজীবী",
+      "ক্ষেত্রী",
+      "ক্ষেত্রজীবী",
+      "ছোট কৃষক",
+      "গেঁয়ো লোক"
+    ],
+    "def": [
+      "A member of the lowly social class that toils on the land, constituted by small farmers and tenants, sharecroppers, farmhands and other laborers on the land where they form the main labor force in agriculture and horticulture."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "pedals",
@@ -49026,6 +51812,17 @@
     "ant": []
   },
   {
+    "en": "personification",
+    "bn": [
+      "নরত্বারোপ"
+    ],
+    "def": [
+      "A person, thing or name typifying a certain quality or idea; an embodiment or exemplification."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "personnel",
     "bn": [
       "কোনও ব্যবসা বা সরকারী প্রতিষ্ঠানের কর্মচারিবৃন্দ",
@@ -49117,6 +51914,18 @@
       "occurrences",
       "events"
     ],
+    "ant": []
+  },
+  {
+    "en": "philanthropic",
+    "bn": [
+      "বিশ্বপ্রেমিক",
+      "মানবহিতৈষী"
+    ],
+    "def": [
+      "Of or pertaining to philanthropy; characterized by philanthropy; loving or helping mankind"
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -50300,6 +53109,28 @@
     ]
   },
   {
+    "en": "pluralism",
+    "bn": [
+      "নানাত্বদা"
+    ],
+    "def": [
+      "The quality or state of being plural, or in the plural number."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "pluralist",
+    "bn": [
+      "নানাত্ববাদী"
+    ],
+    "def": [
+      "A person who holds multiple offices, especially a clergyman who holds more than one ecclesiastical benefice."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "poaching",
     "bn": [
       "হস্তগত করা",
@@ -50488,6 +53319,17 @@
     ],
     "def": [
       "A political agent or officer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "politician",
+    "bn": [
+      "রাজনীতিবিদ"
+    ],
+    "def": [
+      "One engaged in politics, especially an elected or appointed government official."
     ],
     "syn": [],
     "ant": []
@@ -50768,6 +53610,18 @@
     "ant": []
   },
   {
+    "en": "portray",
+    "bn": [
+      "প্রতিকৃতি অঙ্কন করা",
+      "ভাষার সুষ্পষ্ট বর্ণনা করা"
+    ],
+    "def": [
+      "To paint or draw the likeness of."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "portrayal",
     "bn": [
       "চিত্রাঙ্কন",
@@ -50777,6 +53631,19 @@
     ],
     "def": [
       "The act of portraying."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "portrayed",
+    "bn": [
+      "অঙ্কিত",
+      "বর্ণিত",
+      "ন্যস্ত"
+    ],
+    "def": [
+      "To paint or draw the likeness of."
     ],
     "syn": [],
     "ant": []
@@ -51261,6 +54128,23 @@
     ]
   },
   {
+    "en": "practiced",
+    "bn": [
+      "চর্চিত",
+      "নিপুণ",
+      "অভ্যস্ত",
+      "দক্ষ",
+      "পাকা",
+      "অভিজ্ঞ",
+      "অভ্যাসের বা অনুশীলনের ফলে দক্ষ হইয়াছে এমন"
+    ],
+    "def": [
+      "Skillful, proficient, knowledgeable or expert as a result of practice"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "practices",
     "bn": [
       "অনুশীলন",
@@ -51339,6 +54223,30 @@
     ],
     "def": [
       "To give praise to; to commend, glorify, or worship."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "prater",
+    "bn": [
+      "অনর্থক বহুভাষী",
+      "জল্পক",
+      "আবোলতাবোল বকে এমন"
+    ],
+    "def": [
+      "A person who prates; a chatterer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "prayer",
+    "bn": [
+      "প্রার্থনা"
+    ],
+    "def": [
+      "A practice of communicating with one's God."
     ],
     "syn": [],
     "ant": []
@@ -51610,6 +54518,17 @@
     ]
   },
   {
+    "en": "prematurely",
+    "bn": [
+      "অকালে"
+    ],
+    "def": [
+      "In a premature manner; too soon or too early."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "prepares",
     "bn": [
       "প্রস্তুত করা",
@@ -51823,6 +54742,17 @@
     "ant": []
   },
   {
+    "en": "preserver",
+    "bn": [
+      "পালক"
+    ],
+    "def": [
+      "One who preserves."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "preserving",
     "bn": [
       "বাঁচাইয়া রাখা",
@@ -51848,6 +54778,18 @@
     ],
     "def": [
       "The office or role of president."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "president",
+    "bn": [
+      "রাষ্ট্রপতি",
+      "সভাপতি"
+    ],
+    "def": [
+      "An act in the past which may be used as an example to help decide the outcome of similar instances in the future."
     ],
     "syn": [],
     "ant": []
@@ -52010,6 +54952,23 @@
     "ant": []
   },
   {
+    "en": "priests",
+    "bn": [
+      "যাজক",
+      "ঋত্বিক",
+      "ধর্মযাজক",
+      "পূজারী",
+      "ঠাকুর",
+      "অর্চক",
+      "পুরোহিত"
+    ],
+    "def": [
+      "A religious clergyman (clergywoman, clergyperson) who is trained to perform services or sacrifices at a church or temple"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "primarily",
     "bn": [
       "প্রথমত"
@@ -52029,6 +54988,18 @@
     ],
     "def": [
       "A primary election; a preliminary election to select a political candidate of a political party."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "primordial",
+    "bn": [
+      "সর্বপ্রথম",
+      "আদিম"
+    ],
+    "def": [
+      "A first principle or element."
     ],
     "syn": [],
     "ant": []
@@ -52116,6 +55087,17 @@
     ],
     "def": [
       "Books and other material created by printing presses, considered collectively or as a medium."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "prison",
+    "bn": [
+      "কারাগার জেল"
+    ],
+    "def": [
+      "A place or institution of confinement, especially of long-term confinement for those convicted of serious crimes or otherwise considered undesirable by the government."
     ],
     "syn": [],
     "ant": []
@@ -52500,6 +55482,17 @@
     "ant": []
   },
   {
+    "en": "professor",
+    "bn": [
+      "অধ্যাপক আচার্য"
+    ],
+    "def": [
+      "The most senior rank for an academic at a university or similar institution, informally also known as \"full professor.\" Abbreviated Prof."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "profound",
     "bn": [
       "গভীর",
@@ -52523,6 +55516,29 @@
     "ant": []
   },
   {
+    "en": "profundity",
+    "bn": [
+      "অসামান্যতা"
+    ],
+    "def": [
+      "The state of being profound or abstruse."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "profusely",
+    "bn": [
+      "বহুলপরিমাণে",
+      "অঝোরে"
+    ],
+    "def": [
+      "In great quantity or abundance; in a profuse manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "programme",
     "bn": [
       "কর্মসূচি",
@@ -52536,6 +55552,22 @@
   },
   {
     "en": "programmes",
+    "bn": [
+      "কার্যক্রম",
+      "অনুক্রম",
+      "দৃশ্য",
+      "ক্রমপত্র",
+      "ঘটনা",
+      "কার্যসূচী"
+    ],
+    "def": [
+      "A set of structured activities."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "programs",
     "bn": [
       "কার্যক্রম",
       "অনুক্রম",
@@ -52772,6 +55804,21 @@
     "ant": []
   },
   {
+    "en": "prophets",
+    "bn": [
+      "নবী",
+      "ভাববাদী",
+      "ভবিষ্যদ্বক্তা",
+      "ধর্মপ্রবক্তা",
+      "দৈববাণীঘোষণাকারী"
+    ],
+    "def": [
+      "Someone who speaks by divine inspiration."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Proportion",
     "bn": [
       "অনুপাত",
@@ -52892,6 +55939,42 @@
     "ant": []
   },
   {
+    "en": "prostitute",
+    "bn": [
+      "বেশ্যা"
+    ],
+    "def": [
+      "Any person (especially a woman) who has sexual intercourse or engages in other sexual activity for payment, especially as a means of livelihood."
+    ],
+    "syn": [
+      "sex worker"
+    ],
+    "ant": []
+  },
+  {
+    "en": "prostitutes",
+    "bn": [
+      "পতিতা",
+      "বেশ্যা",
+      "অবিদ্যা",
+      "মাগী",
+      "গণিকা",
+      "খানকি",
+      "নটী",
+      "পণ্যস্ত্রী",
+      "ছিন্না",
+      "রুপাজীবা",
+      "কসবী"
+    ],
+    "def": [
+      "Any person (especially a woman) who has sexual intercourse or engages in other sexual activity for payment, especially as a means of livelihood."
+    ],
+    "syn": [
+      "sex worker"
+    ],
+    "ant": []
+  },
+  {
     "en": "protected",
     "bn": [
       "সংরক্ষিত",
@@ -53003,6 +56086,17 @@
       "expedite",
       "hasten"
     ]
+  },
+  {
+    "en": "proud",
+    "bn": [
+      "গর্বিত"
+    ],
+    "def": [
+      "Feeling honoured (by something); feeling happy or satisfied about an event or fact; gratified."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "prove",
@@ -53170,12 +56264,35 @@
     ]
   },
   {
+    "en": "provoked",
+    "bn": [
+      "কুপিত",
+      "প্রকোপিত"
+    ],
+    "def": [
+      "To cause someone to become annoyed or angry."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "proximity",
     "bn": [
       "নৈকট্য"
     ],
     "def": [
       "Closeness; the state of being near as in space, time, or relationship."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "psychiatric",
+    "bn": [
+      "মনোরোগসংক্রান্ত"
+    ],
+    "def": [
+      "Of, or relating to, psychiatry."
     ],
     "syn": [],
     "ant": []
@@ -53276,6 +56393,18 @@
     ],
     "def": [
       "One who publishes, especially books."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "publishing",
+    "bn": [
+      "প্রকাশক",
+      "প্রচারক"
+    ],
+    "def": [
+      "To issue (something, such as printed work) for distribution and/or sale."
     ],
     "syn": [],
     "ant": []
@@ -53592,6 +56721,40 @@
     ]
   },
   {
+    "en": "quarrels",
+    "bn": [
+      "চটাচটি",
+      "ঝগড়া",
+      "বিবাদ",
+      "ঝগড়াঝাঁটি",
+      "কলহ",
+      "দ্বন্দ্ব",
+      "অসদ্ভাব",
+      "অপ্রণয়",
+      "আপত্তি",
+      "বিবাদের হেতু",
+      "বন্ধুবিচ্ছেদ",
+      "প্রণয়ভঙ্গ",
+      "আড়ি",
+      "নটখট",
+      "ভেদ",
+      "কন্দল",
+      "কলি",
+      "ফইজত",
+      "ফেসাদ",
+      "ট্যাণ্ডাই ম্যাণ্ডাই",
+      "অকৌশল",
+      "ঠোকাঠুকি",
+      "খাত্তয়াখাত্তয়ি",
+      "প্রতিযোগ"
+    ],
+    "def": [
+      "A verbal dispute or heated argument."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "quarter",
     "bn": [
       "চতুর্থাংশ"
@@ -53709,6 +56872,17 @@
     ],
     "def": [
       "Rapidly; with speed; fast."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "quiet",
+    "bn": [
+      "শান্ত নিশ্চল"
+    ],
+    "def": [
+      "The absence of sound; quietness."
     ],
     "syn": [],
     "ant": []
@@ -53959,6 +57133,21 @@
     "ant": []
   },
   {
+    "en": "raided",
+    "bn": [
+      "উপদ্রব করা",
+      "বিমানে আক্রমণ করা",
+      "আক্রমণ করা",
+      "বাহির হইতে সহসা আক্রমণ করা",
+      "হানা দেত্তয়া"
+    ],
+    "def": [
+      "To engage in a raid against."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "rain",
     "bn": [
       "বৃষ্টি",
@@ -53980,6 +57169,19 @@
     ],
     "def": [
       "The amount of rain that falls on a single occasion"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "raise",
+    "bn": [
+      "উত্তোলন করা",
+      "বৃদ্ধি করা",
+      "উৎপাদন করা"
+    ],
+    "def": [
+      "An increase in wages or salary; a rise (UK)."
     ],
     "syn": [],
     "ant": []
@@ -54071,6 +57273,21 @@
     ],
     "def": [
       "To run."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "range",
+    "bn": [
+      "সারি",
+      "পর্বতশ্যেণী",
+      "অঞ্চল",
+      "গোলাগুলির পাল্লা",
+      "সারিতে সাজানো"
+    ],
+    "def": [
+      "A line or series of mountains, buildings, etc."
     ],
     "syn": [],
     "ant": []
@@ -54683,6 +57900,18 @@
     "ant": []
   },
   {
+    "en": "rebel",
+    "bn": [
+      "বিদ্রোহী",
+      "রাজদ্রোহী"
+    ],
+    "def": [
+      "A person who resists an established authority, often violently"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "rebellion",
     "bn": [
       "সশস্ত্র বিদ্রোহচারণ",
@@ -54690,6 +57919,19 @@
     ],
     "def": [
       "Armed resistance to an established government or ruler."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rebellious",
+    "bn": [
+      "বিদ্রোহী",
+      "বিদ্রোহরত",
+      "অবাধ্য"
+    ],
+    "def": [
+      "Showing rebellion."
     ],
     "syn": [],
     "ant": []
@@ -54763,6 +58005,21 @@
     ],
     "def": [
       "An operation in which data is received."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "receiving",
+    "bn": [
+      "গ্রহণ",
+      "আদান",
+      "গ্রাহ",
+      "কলন",
+      "প্রাপণ"
+    ],
+    "def": [
+      "To take, as something that is offered, given, committed, sent, paid, etc.; to accept; to be given something."
     ],
     "syn": [],
     "ant": []
@@ -55046,6 +58303,19 @@
     ],
     "def": [
       "Amounts of reinsurance coverage that are due from a reinsurer."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "recovery",
+    "bn": [
+      "পুনঃপ্রাপ্তি",
+      "উদ্ধার",
+      "আরোগ্যলাভ"
+    ],
+    "def": [
+      "The act or process of regaining or repossession of something lost."
     ],
     "syn": [],
     "ant": []
@@ -55572,6 +58842,17 @@
     "ant": []
   },
   {
+    "en": "regiment",
+    "bn": [
+      "সৈন্যদল"
+    ],
+    "def": [
+      "A unit of armed troops under the command of an officer, and consisting of several smaller units; now specifically, usually composed of two or more battalions."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "regimes",
     "bn": [
       "শাসন",
@@ -55750,6 +59031,18 @@
     ],
     "def": [
       "Something that is rejected."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rejoice",
+    "bn": [
+      "মআনন্দ করা",
+      "আনন্দিত হওয়া"
+    ],
+    "def": [
+      "To be very happy, be delighted, exult; to feel joy."
     ],
     "syn": [],
     "ant": []
@@ -56045,6 +59338,17 @@
     ]
   },
   {
+    "en": "relocated",
+    "bn": [
+      "নূতন স্থান নির্দেশ করা"
+    ],
+    "def": [
+      "To move (something) from one place to another."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "rely",
     "bn": [
       "নির্ভর করা",
@@ -56329,6 +59633,17 @@
     ],
     "def": [
       "To give a new name to."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rendered",
+    "bn": [
+      "অনুষ্ঠিত"
+    ],
+    "def": [
+      "(ditransitive) To cause to become."
     ],
     "syn": [],
     "ant": []
@@ -56767,6 +60082,19 @@
     ]
   },
   {
+    "en": "requested",
+    "bn": [
+      "অনুরূদ্ধ",
+      "উপরূদ্ধ",
+      "অভিযাচিত"
+    ],
+    "def": [
+      "To ask for (something)."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "require",
     "bn": [
       "প্রয়োজন"
@@ -56910,6 +60238,17 @@
     ],
     "def": [
       "To make into a different shape"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "reside",
+    "bn": [
+      "বাস করা"
+    ],
+    "def": [
+      "To dwell permanently or for a considerable time; to have a settled abode for a time; to remain for a long time."
     ],
     "syn": [],
     "ant": []
@@ -57063,6 +60402,17 @@
     ],
     "def": [
       "Relating to particular persons or things, each to each; particular; own."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "respectively",
+    "bn": [
+      "যথাক্রমে"
+    ],
+    "def": [
+      "In a relative manner; often used when comparing lists, where the term denotes that the items in the lists correspond to each other in the order they are given."
     ],
     "syn": [],
     "ant": []
@@ -57690,6 +61040,17 @@
     ]
   },
   {
+    "en": "ride",
+    "bn": [
+      "ঘোড়ায় বা সাইকেলে বা বাসে চড়া"
+    ],
+    "def": [
+      "An instance of riding."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "right",
     "bn": [
       "সঠিক",
@@ -57837,6 +61198,19 @@
       "safety",
       "security"
     ]
+  },
+  {
+    "en": "rites",
+    "bn": [
+      "আচার",
+      "অনুষ্ঠান",
+      "আচারব্যবহার"
+    ],
+    "def": [
+      "That which complies with justice, law or reason."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "ritual",
@@ -58342,6 +61716,35 @@
     "ant": []
   },
   {
+    "en": "royalties",
+    "bn": [
+      "রাজপদ",
+      "রানী",
+      "রাজা",
+      "রাজবংশীল ব্যক্তিবর্গ",
+      "রাজ্য",
+      "রাজাধিকার",
+      "অধিকারকভাগদেয়"
+    ],
+    "def": [
+      "The rank, status, power or authority of a monarch."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "rugged",
+    "bn": [
+      "এবড়োথেবড়ো",
+      "অমসৃণ"
+    ],
+    "def": [
+      "Broken into sharp or irregular points; uneven; not smooth; rough."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "ruins",
     "bn": [
       "ধ্বংসাবশেষ",
@@ -58389,6 +61792,19 @@
     ],
     "def": [
       "To regulate, be in charge of, make decisions for, reign over."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "run",
+    "bn": [
+      "দৌড়ানো",
+      "পলায়ন করা",
+      "চালিত করা"
+    ],
+    "def": [
+      "To run."
     ],
     "syn": [],
     "ant": []
@@ -58797,6 +62213,17 @@
     "ant": []
   },
   {
+    "en": "scatter",
+    "bn": [
+      "ছড়ানো বা ছড়িয়া পড়া"
+    ],
+    "def": [
+      "The act of scattering or dispersing."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "scenario",
     "bn": [
       "ঘটনাবিন্যাস"
@@ -59084,6 +62511,17 @@
     "ant": []
   },
   {
+    "en": "scriptures",
+    "bn": [
+      "বাইবেল"
+    ],
+    "def": [
+      "A sacred writing or holy book."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "scroll",
     "bn": [
       "পুঁথি"
@@ -59289,6 +62727,20 @@
     "ant": []
   },
   {
+    "en": "secret",
+    "bn": [
+      "গুপ্ত",
+      "গোপনীয়",
+      "রহস্যপূর্ণ",
+      "গূঢ় গূঢ় বা গোপন বিষয়"
+    ],
+    "def": [
+      "A piece of knowledge that is hidden and intended to be kept hidden."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "secretive",
     "bn": [
       "গোপনীয়"
@@ -59424,6 +62876,17 @@
       "bedrock",
       "parent material"
     ]
+  },
+  {
+    "en": "sedition",
+    "bn": [
+      "রাজদ্রোহ"
+    ],
+    "def": [
+      "Organized incitement of rebellion or civil disorder against authority or the state, usually by speech or writing."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "seduction",
@@ -59679,6 +63142,19 @@
     ]
   },
   {
+    "en": "selfishness",
+    "bn": [
+      "স্বার্থপরতা",
+      "আত্মম্ভরিতা",
+      "আত্মপরতা"
+    ],
+    "def": [
+      "The quality of being selfish; the condition of putting one's own interests before those of others."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "selling",
     "bn": [
       "নিষ্ক্রয়"
@@ -59760,6 +63236,31 @@
       "unfocussed",
       "indistinct"
     ]
+  },
+  {
+    "en": "sensitivity",
+    "bn": [
+      "সংবেদনশীলতা",
+      "সুবেদিতা",
+      "সুগ্রাহিতা"
+    ],
+    "def": [
+      "The quality or state of being sensitive; sensitiveness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "sent",
+    "bn": [
+      "প্রেরিত",
+      "প্রেষিত"
+    ],
+    "def": [
+      "A subdivision of currency, equal to one hundredth of an Estonian kroon."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "sentences",
@@ -59915,6 +63416,17 @@
       "clattery",
       "deafening"
     ]
+  },
+  {
+    "en": "sergeant",
+    "bn": [
+      "সৈনিক বা পুলিসের পদবিশেষ"
+    ],
+    "def": [
+      "UK army rank with NATO code OR-6, senior to corporal and junior to warrant officer ranks."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "series",
@@ -60167,6 +63679,32 @@
     ],
     "def": [
       "The time, place and circumstance in which something (such as a story or picture) is set; context; scenario."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "settled",
+    "bn": [
+      "নির্দিষ্ট",
+      "স্থায়ী",
+      "স্থিরীকৃত",
+      "স্থির",
+      "পরিবর্তনহীন",
+      "অনড়",
+      "কায়েম",
+      "ধার্য",
+      "স্থাপিত",
+      "অধিষ্ঠিত",
+      "কৃত",
+      "নিবদ্ধ",
+      "জমা",
+      "ঠিক",
+      "অচঞ্চল",
+      "স্থায়ী"
+    ],
+    "def": [
+      "To conclude or resolve (something):"
     ],
     "syn": [],
     "ant": []
@@ -60438,6 +63976,18 @@
     "ant": []
   },
   {
+    "en": "sharp",
+    "bn": [
+      "ধারাল",
+      "তীক্ষ্ণ"
+    ],
+    "def": [
+      "The symbol ♯, placed after the name of a note in the key signature or before a note on the staff to indicate that the note is to be played a semitone higher."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "shaw",
     "bn": [
       "কুঁজ",
@@ -60569,6 +64119,17 @@
     ],
     "def": [
       "A water-borne vessel generally larger than a boat."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "shocked",
+    "bn": [
+      "অভিঘানিত"
+    ],
+    "def": [
+      "To cause to be emotionally shocked, to cause (someone) to feel surprised and upset."
     ],
     "syn": [],
     "ant": []
@@ -61052,6 +64613,17 @@
     "ant": []
   },
   {
+    "en": "silence",
+    "bn": [
+      "নীরবতা"
+    ],
+    "def": [
+      "The absence of any sound."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "silences",
     "bn": [
       "নীরবতা",
@@ -61330,6 +64902,41 @@
     ],
     "syn": [],
     "ant": []
+  },
+  {
+    "en": "sister",
+    "bn": [
+      "বোন"
+    ],
+    "def": [
+      "A daughter of the same parents as another person; a female sibling."
+    ],
+    "syn": [
+      "sis"
+    ],
+    "ant": [
+      "brother"
+    ]
+  },
+  {
+    "en": "sisters",
+    "bn": [
+      "ভগিনী",
+      "বান্ধবী",
+      "সহকর্মিণী",
+      "নার্স",
+      "সহোদরা",
+      "বোন"
+    ],
+    "def": [
+      "A daughter of the same parents as another person; a female sibling."
+    ],
+    "syn": [
+      "sis"
+    ],
+    "ant": [
+      "brother"
+    ]
   },
   {
     "en": "site",
@@ -61643,6 +65250,19 @@
     "ant": []
   },
   {
+    "en": "smallness",
+    "bn": [
+      "সঙ্কীর্ণতা",
+      "কমি",
+      "ক্ষুদ্রতা"
+    ],
+    "def": [
+      "The state or quality of being small."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "Smallpox",
     "bn": [
       "গুটিবসন্ত"
@@ -61692,6 +65312,21 @@
       "Having a texture that lacks friction. Not rough."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "snake",
+    "bn": [
+      "সাপ",
+      "সর্প"
+    ],
+    "def": [
+      "A legless reptile of the sub-order Serpentes with a long, thin body and a fork-shaped tongue."
+    ],
+    "syn": [
+      "joe blake",
+      "serpent"
+    ],
     "ant": []
   },
   {
@@ -61747,6 +65382,17 @@
     ],
     "def": [
       "Any of various economic and political theories advocating collective or governmental ownership and administration of the means of production and distribution of goods."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "socialist",
+    "bn": [
+      "সমাজতন্ত্রবাদী"
+    ],
+    "def": [
+      "One who practices or advocates socialism."
     ],
     "syn": [],
     "ant": []
@@ -62371,6 +66017,18 @@
     "ant": []
   },
   {
+    "en": "spanish",
+    "bn": [
+      "স্পেনদেশীয়",
+      "স্পেনের ভাষা"
+    ],
+    "def": [
+      "To subject to spanishing, a printing process in which an ink is deposited on the bottoms and sides of depressions formed in a plastic material"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "spanning",
     "bn": [
       "মাপা",
@@ -62627,6 +66285,19 @@
     "ant": []
   },
   {
+    "en": "sphere",
+    "bn": [
+      "গোলক",
+      "পরিধি",
+      "বিস্তার"
+    ],
+    "def": [
+      "A regular three-dimensional object in which every cross-section is a circle; the figure described by the revolution of a circle about its diameter ."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "spice",
     "bn": [
       "মশলা",
@@ -62716,6 +66387,20 @@
       "The soul of a person or other creature. What moves through experience into self-definition as souls purpose."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "spite",
+    "bn": [
+      "আত্রেুাশ"
+    ],
+    "def": [
+      "Ill will or hatred toward another, accompanied with the desire to irritate, annoy, or thwart; a want to disturb or put out another; mild malice"
+    ],
+    "syn": [
+      "grudge",
+      "rancor"
+    ],
     "ant": []
   },
   {
@@ -62969,6 +66654,19 @@
     ]
   },
   {
+    "en": "staff",
+    "bn": [
+      "লাঠি",
+      "যষ্টি",
+      "লম্বা দন্ড"
+    ],
+    "def": [
+      "(plural staffs or staves) A long, straight, thick wooden rod or stick, especially one used to assist in walking."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "stage",
     "bn": [
       "নাট্র্র্র্র্যমঞ্চ",
@@ -63003,6 +66701,20 @@
       "Short for stainless steel."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stall",
+    "bn": [
+      "থামা",
+      "থামান"
+    ],
+    "def": [
+      "A compartment for a single animal in a stable or cattle shed."
+    ],
+    "syn": [
+      "boose"
+    ],
     "ant": []
   },
   {
@@ -63408,6 +67120,44 @@
     ]
   },
   {
+    "en": "stay",
+    "bn": [
+      "থাকা",
+      "অবস্থান করা",
+      "পড়া",
+      "থামান",
+      "টিকা",
+      "টেকা",
+      "অধিষ্ঠান করা",
+      "ধরিয়া রাখা",
+      "থামা",
+      "থাকান",
+      "বাধা দেত্তয়া",
+      "অপেক্ষা করা",
+      "সহিয়া থাকা",
+      "সহ্য করা",
+      "প্রশমিত করা"
+    ],
+    "def": [
+      "Continuance or a period of time spent in a place; abode for an indefinite time; sojourn."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "steadily",
+    "bn": [
+      "অটলভাবে",
+      "স্থিরভাবে",
+      "ধীরস্থির হয়ে"
+    ],
+    "def": [
+      "In a steady manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "steam",
     "bn": [
       "বাস্প",
@@ -63635,6 +67385,19 @@
     ],
     "def": [
       "To poke, pierce, thrust."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "stolen",
+    "bn": [
+      "অপহৃত",
+      "চোরা",
+      "হৃৎ"
+    ],
+    "def": [
+      "To take illegally, or without the owner's permission, something owned by someone else."
     ],
     "syn": [],
     "ant": []
@@ -64425,6 +68188,17 @@
     "ant": []
   },
   {
+    "en": "stunned",
+    "bn": [
+      "স্তব্ধ"
+    ],
+    "def": [
+      "To incapacitate; especially by inducing disorientation or unconsciousness."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "sturdy",
     "bn": [
       "মজবুত",
@@ -64541,6 +68315,27 @@
     ],
     "def": [
       "Formed, as in opinions, based upon a person's feelings or intuition, not upon observation or reasoning; coming more from within the observer than from observations of the external environment."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "subjects",
+    "bn": [
+      "প্রজা",
+      "প্রসঙ্গ",
+      "পাত্র",
+      "আত্ম",
+      "উপলক্ষ্য",
+      "নাগরিক",
+      "মন",
+      "অহং",
+      "উদ্দেশ্য",
+      "অধীন লোক",
+      "প্রয়োজক"
+    ],
+    "def": [
+      "(grammar) In a clause: the word or word group (usually a noun phrase) that is dealt with. In active clauses with verbs denoting an action, the subject and the actor are usually the same."
     ],
     "syn": [],
     "ant": []
@@ -64942,6 +68737,17 @@
     ]
   },
   {
+    "en": "superintendent",
+    "bn": [
+      "তত্ত্বাবধায়ক"
+    ],
+    "def": [
+      "A person who is authorized to supervise, direct or administer something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "superiority",
     "bn": [
       "শ্রেষ্ঠতা"
@@ -64971,6 +68777,17 @@
     "ant": [
       "natural"
     ]
+  },
+  {
+    "en": "supervising",
+    "bn": [
+      "কার্যদর্শী"
+    ],
+    "def": [
+      "To oversee or direct a task or organization."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "supplies",
@@ -65381,6 +69198,19 @@
     ]
   },
   {
+    "en": "suspicion",
+    "bn": [
+      "অবিশ্বাস",
+      "সন্দেহ",
+      "সংশয়"
+    ],
+    "def": [
+      "The act of suspecting something or someone, especially of something wrong."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "sustainability",
     "bn": [
       "টেকসইতা"
@@ -65521,6 +69351,18 @@
     "ant": []
   },
   {
+    "en": "sword",
+    "bn": [
+      "তরবারি",
+      "অসি"
+    ],
+    "def": [
+      "A long-bladed weapon with a hilt, and usually a pommel and cross-guard, which is designed to stab, slash, and/or hack."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "syllable",
     "bn": [
       "শব্দাংশ"
@@ -65545,6 +69387,18 @@
     "ant": []
   },
   {
+    "en": "symbolism",
+    "bn": [
+      "প্রতীকীবাদ",
+      "প্রতীকতা"
+    ],
+    "def": [
+      "Representation of a concept through symbols or underlying meanings of objects or qualities."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "symbols",
     "bn": [
       "প্রতীক",
@@ -65554,6 +69408,18 @@
     ],
     "def": [
       "A character or glyph representing an idea, concept or object."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "syncretism",
+    "bn": [
+      "ধর্মক্ষেত্রে অযৌক্তিক আপস",
+      "সমন্বয়প্রচেষ্টা"
+    ],
+    "def": [
+      "The (attempted) reconciliation or fusion of different systems or beliefs."
     ],
     "syn": [],
     "ant": []
@@ -65905,6 +69771,28 @@
     ]
   },
   {
+    "en": "talked",
+    "bn": [
+      "কথা বলা",
+      "বলা",
+      "বকা",
+      "কত্তয়া",
+      "কথোপকথন করা",
+      "কথাবার্তা বলা",
+      "আলাপআলোচনা করা",
+      "জল্পনা করা",
+      "বক্তৃতা করা",
+      "ভাষণ করা",
+      "বক্বক্ করা",
+      "উচ্চারণ করা"
+    ],
+    "def": [
+      "To communicate, usually by means of speech."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "talking",
     "bn": [
       "বক্বক্কারী",
@@ -66051,6 +69939,21 @@
     ],
     "def": [
       "A drug smoked or ingested for euphoric effect, cannabis."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "teacher",
+    "bn": [
+      "শিক্ষক",
+      "গুরু",
+      "অধ্যাপক",
+      "আচার্য",
+      "উপদেষ্টা"
+    ],
+    "def": [
+      "A person who teaches, especially one employed in a school."
     ],
     "syn": [],
     "ant": []
@@ -66546,6 +70449,30 @@
     ]
   },
   {
+    "en": "tenderness",
+    "bn": [
+      "আবেগপ্রবণতা",
+      "সুবিবেচনা",
+      "ভঙ্গুরতা",
+      "মায়া",
+      "নরমতা",
+      "সূক্ষ্মতা",
+      "প্রেমপরায়ণতা",
+      "স্নেহপূর্ণতা",
+      "কোমলত্ব",
+      "কোমলতা",
+      "কোমলতা",
+      "স্নেহশীলতা",
+      "অনুগ্রহ",
+      "দয়ালুতা"
+    ],
+    "def": [
+      "A tendency to express warm, compassionate feelings"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "tends",
     "bn": [
       "তত্ত্বাবধান করা",
@@ -66668,6 +70595,32 @@
     ],
     "def": [
       "An inhabitant of the planet Earth."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "terrible",
+    "bn": [
+      "ভয়ঙ্কর",
+      "ভীষণ",
+      "তীব্র"
+    ],
+    "def": [
+      "Dreadful; causing terror, alarm and fear; awesome"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "terrific",
+    "bn": [
+      "ভীতিজনক",
+      "ভয়ঙ্কর",
+      "প্রচন্ড"
+    ],
+    "def": [
+      "Terrifying, causing terror; terrible; sublime, awe-inspiring."
     ],
     "syn": [],
     "ant": []
@@ -66855,6 +70808,17 @@
     ],
     "def": [
       "Used to introduce the second element in a comparison."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "thank",
+    "bn": [
+      "ধন্যবাদ দেওয়া"
+    ],
+    "def": [
+      "An expression of appreciation; a thought."
     ],
     "syn": [],
     "ant": []
@@ -67336,6 +71300,23 @@
     ]
   },
   {
+    "en": "thorns",
+    "bn": [
+      "কাঁটা",
+      "শাখাকণ্টক",
+      "শল্য",
+      "কণ্টক",
+      "কণ্টকাকার বস্ত্র",
+      "খোঁচ",
+      "সকণ্টক বেড়াঝোপ"
+    ],
+    "def": [
+      "A sharp protective spine of a plant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "thorough",
     "bn": [
       "সম্পূর্ণ",
@@ -67511,6 +71492,18 @@
     ],
     "def": [
       "To grow or increase stature; to grow vigorously or luxuriantly, to flourish."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "throbbing",
+    "bn": [
+      "কম্পিত",
+      "কম্পান্বিত"
+    ],
+    "def": [
+      "To pound or beat rapidly or violently."
     ],
     "syn": [],
     "ant": []
@@ -67871,6 +71864,20 @@
     ],
     "def": [
       "A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "titled",
+    "bn": [
+      "খেতাবধারী",
+      "খেতাবপ্রাপ্ত",
+      "স্বত্ববান",
+      "উপাধিবিশিষ্ট"
+    ],
+    "def": [
+      "To assign a title to; to entitle."
     ],
     "syn": [],
     "ant": []
@@ -68663,6 +72670,18 @@
     "ant": []
   },
   {
+    "en": "transcend",
+    "bn": [
+      "অতিক্রম করা",
+      "শ্রেষ্ঠ হওয়া"
+    ],
+    "def": [
+      "To pass beyond the limits of something."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "transferred",
     "bn": [
       "স্থানান্তরিত",
@@ -68711,6 +72730,23 @@
     "en": "transformed",
     "bn": [
       "রুপান্তরিত"
+    ],
+    "def": [
+      "To change greatly the appearance or form of."
+    ],
+    "syn": [
+      "alter",
+      "change",
+      "convert",
+      "make over",
+      "transmogrify"
+    ],
+    "ant": []
+  },
+  {
+    "en": "transforming",
+    "bn": [
+      "রুপান্তর করা"
     ],
     "def": [
       "To change greatly the appearance or form of."
@@ -68894,6 +72930,22 @@
     "ant": []
   },
   {
+    "en": "travelling",
+    "bn": [
+      "ভ্রমণ",
+      "ভ্রাম্যমাণ",
+      "গমন",
+      "চলনশীল",
+      "ভ্রমণকারক",
+      "ভ্রমন্ত"
+    ],
+    "def": [
+      "To be on a journey, often for pleasure or business and with luggage; to go from one place to another."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "treason",
     "bn": [
       "রাজদ্রোহ",
@@ -68913,6 +72965,24 @@
     ],
     "def": [
       "A place where treasure is stored safely."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "treated",
+    "bn": [
+      "আচরণ করা",
+      "চিকিত্সা করা",
+      "ব্যবহার করা",
+      "ব্যবস্থা করা",
+      "হস্তক্ষেপ করা",
+      "প্রভাবিত করা",
+      "মধ্যস্থতা করা",
+      "আলোচনা করা"
+    ],
+    "def": [
+      "To negotiate, discuss terms, bargain (for or with)."
     ],
     "syn": [],
     "ant": []
@@ -68966,6 +73036,24 @@
       "sapling",
       "timber"
     ],
+    "ant": []
+  },
+  {
+    "en": "trembling",
+    "bn": [
+      "কম্পিত",
+      "কম্পান্বিত",
+      "কম্পমান",
+      "বিকম্পিত",
+      "কম্প্র",
+      "বিস্ফুরিত",
+      "বেপমান",
+      "উদ্বিগ্ন"
+    ],
+    "def": [
+      "To shake, quiver, or vibrate."
+    ],
+    "syn": [],
     "ant": []
   },
   {
@@ -69217,6 +73305,17 @@
     "ant": []
   },
   {
+    "en": "troupe",
+    "bn": [
+      "গায়ক বা অভিনেতর দল"
+    ],
+    "def": [
+      "A company of, often touring, actors, singers or dancers."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "trucks",
     "bn": [
       "ট্রাক",
@@ -69399,6 +73498,26 @@
     ],
     "def": [
       "To adjust (a musical instrument) so that it produces the correct pitches."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "tunes",
+    "bn": [
+      "সুর",
+      "মিল",
+      "স্বর",
+      "স্বন",
+      "সুরেলা ধ্বনি",
+      "সুর সমংবয়",
+      "রাগিণী",
+      "তালে মিল",
+      "ঐক্য",
+      "মেজাজ"
+    ],
+    "def": [
+      "A melody."
     ],
     "syn": [],
     "ant": []
@@ -69753,6 +73872,18 @@
     ]
   },
   {
+    "en": "unable",
+    "bn": [
+      "অসমর্থ",
+      "অক্ষম"
+    ],
+    "def": [
+      "Not able; lacking a certain ability."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "unauthorised",
     "bn": [
       "অননুমোদিত",
@@ -69797,6 +73928,18 @@
     ]
   },
   {
+    "en": "unbreakable",
+    "bn": [
+      "অলঙ্ঘনীয়",
+      "ভাঙ্গা যায় না এমন"
+    ],
+    "def": [
+      "Something that cannot be broken."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "uncertain",
     "bn": [
       "অনিশ্চিত",
@@ -69825,6 +73968,21 @@
       "certainty",
       "clarity"
     ]
+  },
+  {
+    "en": "uncle",
+    "bn": [
+      "কাকা",
+      "জ্যেঠা",
+      "মামা",
+      "মেসো",
+      "পিসে"
+    ],
+    "def": [
+      "The brother or brother-in-law of one’s parent."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "uncommon",
@@ -70192,6 +74350,20 @@
       "employment",
       "occupation"
     ]
+  },
+  {
+    "en": "unexpressed",
+    "bn": [
+      "অস্ফুট",
+      "অপ্রকাশিত",
+      "অব্যক্ত",
+      "অনুল্লিখিত"
+    ],
+    "def": [
+      "Not expressed."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "unfamiliar",
@@ -70583,6 +74755,21 @@
     "ant": []
   },
   {
+    "en": "unutterable",
+    "bn": [
+      "অনির্বচনীয়"
+    ],
+    "def": [
+      "Not utterable; incapable of being spoken or voiced"
+    ],
+    "syn": [
+      "ineffable",
+      "inexpressible",
+      "unspeakable"
+    ],
+    "ant": []
+  },
+  {
     "en": "Unwavering",
     "bn": [
       "অবিচল",
@@ -70914,6 +75101,18 @@
     "ant": []
   },
   {
+    "en": "vagabond",
+    "bn": [
+      "ভবঘুরে",
+      "কুড়ে বা নিষ্কর্মা লোক"
+    ],
+    "def": [
+      "A person on a trip of indeterminate destination and/or length of time."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "vague",
     "bn": [
       "গর্বিত",
@@ -71193,12 +75392,35 @@
     "ant": []
   },
   {
+    "en": "vastly",
+    "bn": [
+      "অতি"
+    ],
+    "def": [
+      "Greatly, in a vast manner."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "vegetables",
     "bn": [
       "শাকসবজি"
     ],
     "def": [
       "Any plant."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "veiled",
+    "bn": [
+      "অবগুণ্ঠিত",
+      "প্রচ্ছন্ন"
+    ],
+    "def": [
+      "To dress in, or decorate with, a veil."
     ],
     "syn": [],
     "ant": []
@@ -71721,6 +75943,19 @@
     ]
   },
   {
+    "en": "violin",
+    "bn": [
+      "বেহালা"
+    ],
+    "def": [
+      "A musical four-string instrument, generally played with a bow or by plucking the string, with the pitch set by pressing the strings at the appropriate place with the fingers; also any instrument of the violin family."
+    ],
+    "syn": [
+      "fiddle"
+    ],
+    "ant": []
+  },
+  {
     "en": "virtually",
     "bn": [
       "ফলতঃ",
@@ -71819,6 +76054,17 @@
     "ant": []
   },
   {
+    "en": "visited",
+    "bn": [
+      "দেখিতে যাত্তয়া"
+    ],
+    "def": [
+      "To habitually go to (someone in distress, sickness etc.) to comfort them. (Now generally merged into later senses, below.)"
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "visiting",
     "bn": [
       "দেখা সাক্ষাৎ সম্বন্ধীয়"
@@ -71893,12 +76139,39 @@
     "ant": []
   },
   {
+    "en": "vocabulary",
+    "bn": [
+      "শব্দকোষ",
+      "অভিধান",
+      "শব্দভান্ডার",
+      "কোন ভাষায় বা বিশেষ পুস্তকে ব্যবহৃত শব্দের তালিকা"
+    ],
+    "def": [
+      "A usually alphabetized and explained collection of words e.g. of a particular field, or prepared for a specific purpose, often for learning."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "vogue",
     "bn": [
       "কেতা বা ফ্যাশন"
     ],
     "def": [
       "The prevailing fashion or style."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "voice",
+    "bn": [
+      "কন্ঠস্বর",
+      "স্বর",
+      "মতপ্রকাশ"
+    ],
+    "def": [
+      "Sound uttered by the mouth, especially by human beings in speech or song; sound thus uttered considered as possessing some special quality or character"
     ],
     "syn": [],
     "ant": []
@@ -71958,6 +76231,27 @@
     "ant": []
   },
   {
+    "en": "volumes",
+    "bn": [
+      "আয়তন",
+      "পরিমাণ",
+      "খণ্ড",
+      "ঘনফল",
+      "ঘনমান",
+      "কণ্ঠস্বর",
+      "ত্রৈমাত্রিক আয়তন",
+      "ঘনতা",
+      "কিতা",
+      "মোট পরিমাণ",
+      "পাকাইয়ারাখা পৃষ্ঠাসমূহ"
+    ],
+    "def": [
+      "A three-dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "volunteer",
     "bn": [
       "স্বেচ্ছাসেবক"
@@ -71979,6 +76273,40 @@
     ],
     "def": [
       "To wager, bet."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "waist",
+    "bn": [
+      "কোমর",
+      "কটি",
+      "জাহাজের মধ্যভাগ"
+    ],
+    "def": [
+      "The part of the body between the pelvis and the stomach."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "walked",
+    "bn": [
+      "বেড়ান",
+      "পায়চারি করা",
+      "হাঁটা",
+      "চলা",
+      "পদব্রজে ভ্রমণ করা",
+      "পথ চলা",
+      "হাঁটিয়া বেড়ান",
+      "পদব্রজে গমন করা",
+      "পরিক্রমণ করা",
+      "পরিভ্রমণ করা",
+      "পদক্ষেপ করা"
+    ],
+    "def": [
+      "To move on the feet by alternately setting each foot (or pair or group of feet, in the case of animals with four or more feet) forward, with at least one foot on the ground at all times. Compare run."
     ],
     "syn": [],
     "ant": []
@@ -72436,6 +76764,35 @@
     "ant": []
   },
   {
+    "en": "wedding",
+    "bn": [
+      "বিবাহ",
+      "পরিণয়",
+      "বিবাহোত্সব",
+      "উদ্বাহ",
+      "পাণিপীড়ন",
+      "পাণিগ্রহণ",
+      "ঊঢ়ি",
+      "বিবাহোৎসব"
+    ],
+    "def": [
+      "To perform the marriage ceremony for; to join in matrimony."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "weekly",
+    "bn": [
+      "সাপ্তাহিক"
+    ],
+    "def": [
+      "A publication that is published once a week."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "weeks",
     "bn": [
       "সপ্তাহ"
@@ -72620,6 +76977,24 @@
     "def": [
       "Asking for information specifying something.",
       "The thing or things that."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "whatever",
+    "bn": [
+      "কিছু",
+      "সবটা",
+      "যতসামান্য",
+      "যাহাকিছু",
+      "যাহা কিছু",
+      "যাহাই ঘটুক",
+      "একটা না একটা",
+      "মোটেই"
+    ],
+    "def": [
+      "Unexceptional or unimportant; blah."
     ],
     "syn": [],
     "ant": []
@@ -73017,6 +77392,20 @@
     "ant": []
   },
   {
+    "en": "wildfire",
+    "bn": [
+      "আলেয়া",
+      "দাবানলের মতো ছড়িয়ে পড়ে এমন"
+    ],
+    "def": [
+      "A rapidly spreading fire, especially one occurring in a wildland area."
+    ],
+    "syn": [
+      "forest fire"
+    ],
+    "ant": []
+  },
+  {
     "en": "wildlife",
     "bn": [
       "বন্যপ্রাণী"
@@ -73207,6 +77596,37 @@
     ],
     "def": [
       "To become wise."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wish",
+    "bn": [
+      "ইচ্ছা বা অভিলাষ করা"
+    ],
+    "def": [
+      "A desire, hope, or longing for something or for something to happen."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wishes",
+    "bn": [
+      "ইচ্ছা",
+      "কামনা",
+      "আকাঙ্ক্ষা",
+      "অভিলাষ",
+      "অভিরুচি",
+      "কাম্যতা",
+      "বাঁছা",
+      "আকাঙ্ক্ষা বস্তু",
+      "আকাঙ্ক্ষিত বস্তু",
+      "কাম্য বস্তু"
+    ],
+    "def": [
+      "A desire, hope, or longing for something or for something to happen."
     ],
     "syn": [],
     "ant": []
@@ -73405,6 +77825,18 @@
     "ant": []
   },
   {
+    "en": "woods",
+    "bn": [
+      "কাষ্ঠ",
+      "বন"
+    ],
+    "def": [
+      "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel."
+    ],
+    "syn": [],
+    "ant": []
+  },
+  {
     "en": "wording",
     "bn": [
       "বাক্যে কথন",
@@ -73469,6 +77901,33 @@
       "rest",
       "play"
     ]
+  },
+  {
+    "en": "worked",
+    "bn": [
+      "কাজ করা",
+      "চলা",
+      "পরিশ্রম করা",
+      "চাকরি করা",
+      "খাটা",
+      "উসকান",
+      "শ্রমরত থাকা",
+      "কাজ করান",
+      "কার্যসম্পাদন করা",
+      "ফল দেত্তয়া",
+      "উদ্ভাবন করা",
+      "তৈয়ারি করা",
+      "গঠন করা",
+      "কর্মরত থাকা",
+      "রচনা করা",
+      "করা",
+      "খেলা"
+    ],
+    "def": [
+      "To do a specific task by employing physical or mental powers."
+    ],
+    "syn": [],
+    "ant": []
   },
   {
     "en": "worker",
@@ -73719,6 +78178,22 @@
       "To enclose (an object) completely in any flexible, thin material such as fabric or paper."
     ],
     "syn": [],
+    "ant": []
+  },
+  {
+    "en": "wrath",
+    "bn": [
+      "গভীর ক্রোধ",
+      "রাগ",
+      "কোপ"
+    ],
+    "def": [
+      "Great anger."
+    ],
+    "syn": [
+      "fury",
+      "ire"
+    ],
     "ant": []
   },
   {
@@ -74090,6 +78565,22 @@
       "old age",
       "senility"
     ]
+  },
+  {
+    "en": "youthful",
+    "bn": [
+      "তারুণবয়স্ক"
+    ],
+    "def": [
+      "Young or seeming young."
+    ],
+    "syn": [
+      "lively",
+      "sprightly",
+      "spry",
+      "young"
+    ],
+    "ant": []
   },
   {
     "en": "zero",
