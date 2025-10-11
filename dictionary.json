@@ -8448,9 +8448,8 @@
   {
     "en": "belong",
     "bn": [
-      "অধিকারভুক্ত হওয়া",
       "সম্পর্কিত হওয়া",
-      "সদস্য হওয়া"
+      "অধিকার ভুক্ত হওয়া"
     ],
     "def": [
       "to be the property of"
@@ -32752,8 +32751,7 @@
   {
     "en": "exploitation",
     "bn": [
-      "শোষণ",
-      "অনুচ্চ exploitation"
+      "শোষণ"
     ],
     "def": [
       "the action or fact of treating someone unfairly for one's own advantage"
@@ -50138,7 +50136,9 @@
   {
     "en": "lessen",
     "bn": [
-      "কমানো,হ্রাস করা,অবনমিত করা"
+      "কমানো",
+      "হ্রাস করা",
+      "অবনমিত করা"
     ],
     "def": [
       "make or become less;"
@@ -50173,25 +50173,6 @@
   },
   {
     "en": "let",
-    "bn": [
-      "যাইতে দেত্তয়া",
-      "করিতে দেত্তয়া",
-      "বাধা দেত্তয়া",
-      "পলাইতে হত্তয়া",
-      "আসিতে দেত্তয়া",
-      "অনুমতি দেত্তয়া",
-      "হইতে দেত্তয়া",
-      "সহ্য করা",
-      "ভাড়া দেত্তয়া"
-    ],
-    "def": [
-      "The allowing of possession of a property etc. in exchange for rent."
-    ],
-    "syn": [],
-    "ant": []
-  },
-  {
-    "en": "lets",
     "bn": [
       "যাইতে দেত্তয়া",
       "করিতে দেত্তয়া",
@@ -60164,46 +60145,6 @@
     ],
     "def": [
       "Other than supposed; different."
-    ],
-    "syn": [],
-    "ant": []
-  },
-  {
-    "en": "ottava rima",
-    "bn": [
-      "অষ্টপদী"
-    ],
-    "def": [
-      "eight-line stanza with specific rhyme"
-    ],
-    "syn": [
-      "stanza form",
-      "poetic structure"
-    ],
-    "ant": [
-      "free verse",
-      "prose"
-    ]
-  },
-  {
-    "en": "ottoman",
-    "bn": [
-      "আসনবিশেষ",
-      "হাতল এবং হেলান দেওয়ার পিঠবিহীন গদিআঁটা চেয়ার"
-    ],
-    "def": [
-      "An upholstered sofa, without arms or a back, sometimes with a compartment for storing linen, etc."
-    ],
-    "syn": [],
-    "ant": []
-  },
-  {
-    "en": "oust",
-    "bn": [
-      "বহিষ্কার করা বা উচেছদ করা"
-    ],
-    "def": [
-      "To expel; to remove."
     ],
     "syn": [],
     "ant": []
@@ -76095,7 +76036,10 @@
   {
     "en": "sediment",
     "bn": [
-      "পলল"
+      "পলল",
+      "তলানি",
+      "গাদ",
+      "পলি"
     ],
     "def": [
       "eroded matter deposited by water"
@@ -76187,7 +76131,8 @@
   {
     "en": "seek",
     "bn": [
-      "অনুসন্ধান করা,খোজা"
+      "অনুসন্ধান করা",
+      "খোজা"
     ],
     "def": [
       "attempt to find (something)."
@@ -88803,7 +88748,9 @@
   {
     "en": "trust",
     "bn": [
-      "বিশ্বাস,আস্থা,নির্ভর"
+      "বিশ্বাস",
+      "আস্থা",
+      "নির্ভর"
     ],
     "def": [
       "firm belief in the reliability, truth, or ability of someone or something."
