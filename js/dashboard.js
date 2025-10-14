@@ -290,7 +290,6 @@ window.setWordOfDay = function () {
                     <div class="word-definition">
                         <h4>Definitions</h4>
                         <ul>${definitionsHTML}</ul>
-                        <p class="example">${wordofday.bn || ''}</p>
                     </div>
 
                     <div class="word-details">
