@@ -12,7 +12,7 @@ This is just the beginning. **BornoPath is a work in progress** — shaped by cu
 > Let your words grow — with **BornoPath**.
 
 > Link_1 (with PWA) : https://bornopath.kinsta.page <br>
-> Link_2 :           https://bornopath.free.nf
+> Link_2 :           https://bornopath.infy.uk
 ---
 
 ## 📸 Screenshots
