@@ -24,7 +24,7 @@ let dictionaryLoadedPromise = null; // Add this line
 // Fetch dictionary data from the remote JSON file
 async function fetchDictionary() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/towfikahmed0/Bornopath/refs/heads/main/dictionary.json');
+        const response = await fetch('https://raw.githubusercontent.com/towfikahmed0/e2b_dictionary/refs/heads/main/dictionary.json');
         dictionary = await response.json();
         console.log("Dictionary loaded successfully.");
     } catch (error) {
