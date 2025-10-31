@@ -1,5 +1,5 @@
 // Improved sw.js for Bornopath PWA to prevent Firestore offline issues
-const CACHE_NAME = 'bornopath-cache-v1.3.3';
+const CACHE_NAME = 'bornopath-cache-v1.3.4';
 const OFFLINE_URL = '/offline.html';
 
 const urlsToCache = [
