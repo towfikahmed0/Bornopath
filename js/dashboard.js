@@ -45,7 +45,7 @@ dictionaryLoadedPromise = fetchDictionary();
 
 async function getUserData(email) {
 	// Show blocking overlay to deactivate clicks while fetching user data
-	showGlobalLoader("Fetching user data...");
+	// showGlobalLoader("Fetching user data...");
 
 	try {
 		const q = query(
