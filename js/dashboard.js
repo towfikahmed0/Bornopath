@@ -339,6 +339,41 @@ window.intialQuestions = async function (QNo, limit, mood) {
     if (QNo == limit) {
         document.getElementById("quiz").style.display = 'none';
         document.getElementById('quizEnd').style.display = 'block';
+        
+        // prevent page reload/navigation while final score is being processed
+        window.preventReload = true;
+
+        // show browser "are you sure" dialog on refresh/close/navigation
+        window.onbeforeunload = function (e) {
+            if (!window.preventReload) return;
+            e.preventDefault();
+            e.returnValue = '';
+            return '';
+        };
+
+        // block common reload shortcuts (F5, Ctrl/Cmd+R)
+        function _blockReloadKeys(e) {
+            if (!window.preventReload) return;
+            const k = e.key;
+            if (
+                k === 'F5' ||
+                k === 'f5' ||
+                (e.ctrlKey && (k === 'r' || k === 'R')) ||
+                (e.metaKey && (k === 'r' || k === 'R'))
+            ) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                const st = document.getElementById('stutas');
+                if (st) {
+                    st.innerText = 'Reload is disabled while score is being processed.';
+                    setTimeout(() => { st.innerText = ''; }, 2000);
+                } else {
+                    console.warn('Reload prevented.');
+                }
+            }
+        }
+        window.addEventListener('keydown', _blockReloadKeys, true);
+
         document.getElementById("finalScore").innerHTML = `${score}/${limit}`;
         document.getElementById("prac_accuracy").innerHTML = `${((score / limit) * 100).toFixed(2)}%`;
         await updateScoreInFirestore(score, limit);
