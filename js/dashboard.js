@@ -44,31 +44,44 @@ async function fetchDictionary() {
 dictionaryLoadedPromise = fetchDictionary();
 
 async function getUserData(email) {
-    const q = query(
-        collection(db, "users"),
-        where("email", "==", email)
-    );
-    const querySnapshot = await getDocs(q);
+	// Show blocking overlay to deactivate clicks while fetching user data
+	showGlobalLoader("Fetching user data...");
 
-    if (querySnapshot.empty) {
-        console.warn("No user data found for email:", email);
-        window.location.replace("index.html");
-        return null; // Return null if no data
-    } else {
-        currentUserData = querySnapshot.docs[0].data(); // Store data
-        // console.log("Fetched user data:", currentUserData);
-        //update user's last active time
-        await updateDoc(doc(db, "users", querySnapshot.docs[0].id), {
-            lastActive: new Date()
-        });
-        return currentUserData; // Return the fetched data
-    }
+	try {
+		const q = query(
+			collection(db, "users"),
+			where("email", "==", email)
+		);
+		const querySnapshot = await getDocs(q);
+
+		if (querySnapshot.empty) {
+			console.warn("No user data found for email:", email);
+			// hide overlay before redirecting
+			return null; // overlay will be hidden in finally
+		} else {
+			currentUserData = querySnapshot.docs[0].data(); // Store data
+			// update user's last active time
+			await updateDoc(doc(db, "users", querySnapshot.docs[0].id), {
+				lastActive: new Date()
+			});
+			return currentUserData; // Return the fetched data
+		}
+	} catch (err) {
+		console.error("Error fetching user data:", err);
+		// propagate or return null — caller handles redirect
+		return null;
+	} finally {
+		// Always remove overlay so UI becomes interactive again
+		hideGlobalLoader();
+	}
 }
+
 function updateUIWithUserData(userData) {
     if (!userData) {
         console.error("No user data provided to update UI.");
         return;
     }
+
 
     // Load user data into the UI
     for (let i = 0; i < document.getElementsByClassName('profileAvatar').length; i++) {
@@ -2030,4 +2043,55 @@ function getLocalDate() {
     const d = new Date();
     d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
     return d.toISOString().split("T")[0];
+}
+
+// Add global overlay helpers to block user interaction while fetching data
+function showGlobalLoader(message = "Loading...") {
+	// If already present, just update message and show
+	let overlay = document.getElementById('global-blocking-overlay');
+	if (!overlay) {
+		overlay = document.createElement('div');
+		overlay.id = 'global-blocking-overlay';
+		overlay.setAttribute('role', 'status');
+		Object.assign(overlay.style, {
+			position: 'fixed',
+			inset: '0',
+			background: 'rgba(0,0,0,0.35)',
+			display: 'flex',
+			justifyContent: 'center',
+			alignItems: 'center',
+			zIndex: '999999',
+			cursor: 'wait'
+		});
+		const inner = document.createElement('div');
+		inner.id = 'global-blocking-overlay-inner';
+		Object.assign(inner.style, {
+			padding: '18px 22px',
+			background: 'rgba(255,255,255,0.95)',
+			color: '#222',
+			borderRadius: '8px',
+			boxShadow: '0 6px 20px rgba(0,0,0,0.2)',
+			fontSize: '16px',
+			fontWeight: '500'
+		});
+		inner.innerText = message;
+		overlay.appendChild(inner);
+		// Prevent pointer events from reaching underlying UI
+		overlay.addEventListener('click', e => e.stopPropagation(), { capture: true });
+		document.body.appendChild(overlay);
+	} else {
+		const inner = document.getElementById('global-blocking-overlay-inner');
+		if (inner) inner.innerText = message;
+		overlay.style.display = 'flex';
+	}
+	// Also prevent tab focus navigation to page controls
+	document.documentElement.setAttribute('data-loading-block', 'true');
+	document.body.style.pointerEvents = 'auto'; // overlay captures clicks
+}
+
+function hideGlobalLoader() {
+	const overlay = document.getElementById('global-blocking-overlay');
+	if (overlay) overlay.style.display = 'none';
+	document.documentElement.removeAttribute('data-loading-block');
+	// restore any page-level pointer handling if needed
 }
