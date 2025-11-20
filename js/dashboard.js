@@ -339,7 +339,7 @@ window.intialQuestions = async function (QNo, limit, mood) {
     if (QNo == limit) {
         document.getElementById("quiz").style.display = 'none';
         document.getElementById('quizEnd').style.display = 'block';
-        
+
         // prevent page reload/navigation while final score is being processed
         window.preventReload = true;
 
@@ -809,13 +809,17 @@ async function updateScoreInFirestore(correctAnswersThisSession, questionsThisSe
         // নতুন মান হিসাব করা
         const newPoints = currentPoints + correctAnswersThisSession;
         const newTotalQuestions = currentTotalQuestions + questionsThisSession;
+        console.log(new Date().toISOString().split('T')[0]);
+
+        const today = getLocalDate();
         const newPracData = {
             ...currentPracData,
-            [new Date().toISOString().split('T')[0]]: {
-                correctAnswers: (currentPracData[new Date().toISOString().split('T')[0]]?.correctAnswers || 0) + correctAnswersThisSession,
-                totalQuestions: (currentPracData[new Date().toISOString().split('T')[0]]?.totalQuestions || 0) + questionsThisSession
+            [today]: {
+                correctAnswers: (currentPracData[today]?.correctAnswers || 0) + correctAnswersThisSession,
+                totalQuestions: (currentPracData[today]?.totalQuestions || 0) + questionsThisSession
             }
         };
+
 
         const newAccuracy = newTotalQuestions > 0
             ? parseFloat((newPoints / newTotalQuestions).toFixed(2))
@@ -2019,4 +2023,11 @@ async function generateQuestionsIdxArray(totalQuestions) {
     combinedArray = combinedArray.slice(0, totalQuestions);
 
     return combinedArray;
+}
+
+
+function getLocalDate() {
+    const d = new Date();
+    d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
+    return d.toISOString().split("T")[0];
 }
