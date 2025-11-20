@@ -1160,938 +1160,166 @@ function updateLeaderboardFromFirestore() {
     });
 }
 
-window.renderQuestionBank = async function () {
+// --- New: efficient question-bank rendering & search helpers ---
+let dictionaryIndex = [];            // lightweight index: { en, bn, def, syn, ant, lower }
+let currentSearchResults = [];       // filtered indices into dictionaryIndex
+let currentRenderPos = 0;
+const PAGE_SIZE = 200;               // number of items to render per batch
+const INITIAL_SHOW = 100;            // initial sample when no search
+
+function debounce(fn, wait) {
+    let t;
+    return function (...args) {
+        clearTimeout(t);
+        t = setTimeout(() => fn.apply(this, args), wait);
+    };
+}
+
+async function initializeDictionaryIndex() {
+    if (dictionaryIndex.length > 0) return; // already initialized
+    await dictionaryLoadedPromise; // ensure dictionary loaded
+    dictionaryIndex = dictionary.map((entry, idx) => ({
+        en: entry.en || '',
+        bn: Array.isArray(entry.bn) ? entry.bn.join(', ') : (entry.bn || ''),
+        def: entry.def || '',
+        syn: Array.isArray(entry.syn) ? entry.syn.join(', ') : (entry.syn || ''),
+        ant: Array.isArray(entry.ant) ? entry.ant.join(', ') : (entry.ant || ''),
+        lower: (entry.en || '').toLowerCase(),
+        origIdx: idx
+    }));
+}
+
+function makeWordListItem(entry) {
+    // Use textContent-safe creation and avoid heavy innerHTML when possible
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = "#";
+    a.addEventListener('click', (e) => {
+        e.preventDefault();
+        // Use existing showWordDtls() which expects an array of values as string inputs
+        showWordDtls([entry.en, [entry.bn], [entry.def], [entry.syn], [entry.ant]]);
+    });
+    a.textContent = entry.en;
+    const btn = document.createElement('button');
+    btn.className = 'pronounce-btn';
+    btn.innerHTML = '<i class="fa fa-angle-right"></i>';
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        showWordDtls([entry.en, [entry.bn], [entry.def], [entry.syn], [entry.ant]]);
+    });
+    a.appendChild(btn);
+    li.appendChild(a);
+    return li;
+}
+
+function renderWordList(append = false) {
     const container = document.getElementById("dictionary-word-list");
-
-    dictionary.forEach(entry => {
-        const card = document.createElement("li");
-        card.innerHTML = `
-    <a href="#" onclick="showWordDtls(['${entry.en}',['${entry.bn}'],['${entry.def}'],['${entry.syn}'],['${entry.ant}']])">${entry.en} 
-    <button class="pronounce-btn" onclick="showWordDtls(['${entry.en}',['${entry.bn}'],['${entry.def}'],['${entry.syn}'],['${entry.ant}']])"><i class="fa fa-angle-right"></i></button></a> 
-
-    `;
-        container.appendChild(card);
-    });
-}
-
-window.showWordDtls = async function (wordDetails) {
-    document.getElementById("searchInput").value = wordDetails[0];
-    try {
-        const response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + wordDetails[0]);
-        const data = await response.json();
-
-        document.getElementById("wordDetailsModalContent").style.display = 'block';
-        document.getElementById("dictionary-word-list").style.display = 'none';
-
-        // Defensive checks for API response
-        const apiEntry = Array.isArray(data) && data.length > 0 ? data[0] : {};
-        const meanings = Array.isArray(apiEntry.meanings) ? apiEntry.meanings : [];
-
-        // Collect definitions, synonyms, antonyms from API
-        let apiDefinitions = "";
-        let apiSynonyms = [];
-        let apiAntonyms = [];
-
-        meanings.forEach(meaning => {
-            if (Array.isArray(meaning.definitions)) {
-                meaning.definitions.forEach(def => {
-                    apiDefinitions += `<li>${def.definition}${def.example ? `<br><i>Example: ${def.example}</i>` : ""}</li>`;
-                    if (Array.isArray(def.synonyms)) apiSynonyms.push(...def.synonyms);
-                    if (Array.isArray(def.antonyms)) apiAntonyms.push(...def.antonyms);
-                });
-            }
-        });
-
-        // Merge your custom data with API data
-        const customDef = Array.isArray(wordDetails[2]) ? wordDetails[2].join(", ") : wordDetails[2];
-        const customBn = Array.isArray(wordDetails[1]) ? wordDetails[1].join(", ") : wordDetails[1];
-        const customSyn = Array.isArray(wordDetails[3]) ? wordDetails[3].join(", ") : wordDetails[3];
-        const customAnt = Array.isArray(wordDetails[4]) ? wordDetails[4].join(", ") : wordDetails[4];
-
-        const allDefinitions = `
-            <ul>
-              <li>${customDef} <br></li>
-              ${apiDefinitions}
-            </ul>`;
-
-        const allSynonyms = [...new Set([...(customSyn ? customSyn.split(",") : []), ...apiSynonyms])].filter(Boolean).join(", ") || "N/A";
-        const allAntonyms = [...new Set([...(customAnt ? customAnt.split(",") : []), ...apiAntonyms])].filter(Boolean).join(", ") || "N/A";
-
-        // Render styled card
-        document.getElementById('wordDetailsModalContent').innerHTML = `
-            <div class="word-card">
-              <div class="word-header">
-                <h1 id="dictionaryWrd">
-                  <span>${wordDetails[0]}</span> 
-                  <button class="btn" onclick="speakWord('${wordDetails[0]}')">🔊 Pronounce</button>
-                </h1>
-                <p class="pronunciation">${apiEntry.phonetic || 'N/A'}</p>
-                <p class="word-type">${meanings[0]?.partOfSpeech || 'N/A'}</p>
-              </div>
-            <div class="word-definition">
-              <p class="example">"${customBn}"</p>
-            </div>
-
-              <div class="word-definition">
-                <h3><i class="fa fa-book"></i> Definitions</h3>
-                ${allDefinitions}
-              </div>
-
-              <div class="word-details">
-                <div class="synonyms">
-                  <h4><i class="fa fa-sync"></i> Synonyms</h4>
-                  <p>${allSynonyms}</p>
-                </div>
-
-                <div class="antonyms">
-                  <h4><i class="fa fa-exchange"></i> Antonyms</h4>
-                  <p>${allAntonyms}</p>
-                </div>
-              </div>
-              <div>
-                    <img src="https://www.english-bangla.com/public/images/words/D${wordDetails[0][0].toLowerCase()}/${wordDetails[0].toLowerCase()}" style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px;" alt="Image related to ${wordDetails[0]}" onerror="this.style.display='none'">
-            </div>
-            <br>
-
-              <div id="ai-explanation" class="mb-3">
-                <div class="loading" id="loadingDiv">
-                  <span id="btnSpinner" class="loading-spinner"></span><br>
-                  <h5 class="loading-text">Generating AI Explanation...</h5>
-                </div>
-              </div>
-
-              <a href='#'>
-                <button class="btn btn-primary" onclick="document.getElementById('wordDetailsModalContent').style.display='none'; document.getElementById('dictionary-word-list').style.display='block';">Close</button>
-              </a>
-            </div>`;
-
-    } catch (error) {
-        document.getElementById("wordDetailsModalContent").innerHTML = `
-        <div class='word-card'>
-          <h2 class="section-title">:( Word Not Found</h2>
-          <p>Sorry, we couldn't find the word "${wordDetails[0]}". Please try another word.</p>
-          <p style="color: grey;">Error: ${error} <p>
-          <p>Alternatively, you can <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button> for help.</p>
-        </div>`;
-        return;
+    if (!container) return;
+    if (!append) {
+        container.innerHTML = '';
     }
-
-    // Generate AI explanation
-    const prompt = `"${wordDetails[0]}" এই ইংরেজি শব্দটির বাংলা অর্থ বিস্তারিতভাবে ব্যাখ্যা কর। এর ব্যাকরণগত শ্রেণি (noun/verb/adjective ইত্যাদি) উল্লেখ করো। শব্দটির অর্থ স্পষ্টভাবে বোঝাতে অন্তত ৩টি উদাহরণ বাক্য দাও।
-                  ফলাফলটি বাংলায় লেখো এবং HTML ট্যাগ ব্যবহার করে উপস্থাপন করো (কিন্তু h1, h2, h3, h4 ট্যাগ ব্যবহার করো না)। <b>, <i>, <p>, <ul>, <li> ইত্যাদি ট্যাগ ও inline-css ব্যবহার করে তথ্যগুলো সুন্দরভাবে ফরম্যাট করো।`;
-
-    try {
-        const aiExplaination = await puter.ai.chat(prompt, { model: "gpt-4.1-nano" });
-
-        if (document.getElementById("dictionaryWrd").childNodes[0].innerText !== wordDetails[0]) {
-            return; // Exit if user searched another word meanwhile
-        }
-
-        document.getElementById("ai-explanation").innerHTML = `
-          <h3><i class="fa fa-graduation-cap"></i> AI Explanation</h3><br>
-          <div>${aiExplaination.message.content}</div>`;
-    } catch (error) {
-        console.error("Error calling AI:", error);
-        document.getElementById("ai-explanation").innerHTML = `<p>AI explanation not available :(</p>`;
+    // Decide source list: currentSearchResults if non-empty else default sample
+    const source = currentSearchResults.length > 0 ? currentSearchResults : dictionaryIndex.map((_, i) => i);
+    const frag = document.createDocumentFragment();
+    const end = Math.min(source.length, currentRenderPos + PAGE_SIZE);
+    for (let i = currentRenderPos; i < end; i++) {
+        const entry = dictionaryIndex[source[i]];
+        frag.appendChild(makeWordListItem(entry));
     }
-}
+    container.appendChild(frag);
+    currentRenderPos = end;
 
-window.speakWord = function (word) {
-    const utterance = new SpeechSynthesisUtterance(word);
-    utterance.lang = "en-US";
-    speechSynthesis.speak(utterance);
-}
-window.showUser = function (user) {
-    let userData = JSON.parse(user);
-
-    // Function to convert timestamp to "X hours ago" format
-    function formatTimeAgo(timestamp) {
-        if (!timestamp) return "Unknown";
-
-        let date;
-
-        // Handle different timestamp formats
-        if (timestamp.seconds !== undefined && timestamp.nanoseconds !== undefined) {
-            // Firestore Timestamp (may be stringified)
-            date = new Date(timestamp.seconds * 1000);
-        } else if (timestamp instanceof Date) {
-            // Already a Date object
-            date = timestamp;
-        } else if (typeof timestamp === 'string') {
-            // ISO string
-            date = new Date(timestamp);
-        } else if (typeof timestamp === 'number') {
-            // Unix timestamp (check if seconds or milliseconds)
-            date = new Date(timestamp < 1000000000000 ? timestamp * 1000 : timestamp);
+    // Manage "Load more" UI
+    let moreBtn = document.getElementById('loadMoreWordsBtn');
+    if (currentRenderPos < source.length) {
+        if (!moreBtn) {
+            moreBtn = document.createElement('button');
+            moreBtn.id = 'loadMoreWordsBtn';
+            moreBtn.className = 'btn';
+            moreBtn.style.margin = '10px 0';
+            moreBtn.textContent = 'Load more';
+            moreBtn.addEventListener('click', () => renderWordList(true));
+            container.parentNode.insertBefore(moreBtn, container.nextSibling);
         } else {
-            return "Unknown";
+            moreBtn.style.display = 'inline-block';
         }
-
-        // If we couldn't create a valid date
-        if (isNaN(date.getTime())) return "Unknown";
-
-        const now = new Date();
-        const seconds = Math.floor((now - date) / 1000);
-
-        // Calculate time intervals
-        const intervals = {
-            year: 31536000,
-            month: 2592000,
-            week: 604800,
-            day: 86400,
-            hour: 3600,
-            minute: 60
-        };
-
-        // Find the largest appropriate interval
-        for (const [unit, secondsInUnit] of Object.entries(intervals)) {
-            const interval = Math.floor(seconds / secondsInUnit);
-            if (interval >= 1) {
-                return `${interval} ${unit}${interval === 1 ? '' : 's'} ago`;
-            }
-        }
-
-        return "Just now";
+    } else if (moreBtn) {
+        moreBtn.style.display = 'none';
     }
 
-    const lastActiveFormatted = formatTimeAgo(userData.lastActive);
-
-    // Rest of your UI code
-    document.getElementsByClassName("leaderboard-container")[0].style.display = 'none';
-    document.getElementById('leaderboard').style.padding = 0;
-    document.getElementById('user2user_Profile').style.display = 'block';
-    //friends profile
-    document.getElementById('user2user_Profile').innerHTML = `
-  <div class="profile-container">
-<button class="btn" onclick="document.getElementById('user2user_Profile').style.display='none';
-        document.getElementsByClassName('leaderboard-container')[0].style.display = 'block';document.getElementById('leaderboard').style.padding = '19px';">
-        <i class="fa fa-angle-left"></i>
-          Back</button>
-        <!-- Profile Header Section -->
-        <div class="profile-header">
-          <div class="avatar-section">
-            <div class="avatar-wrapper">
-              <img src="https://placehold.co/600x400?text=${userData.name[0]}" alt="Profile Picture" class="profile-avatar">
-            </div>
-            <div class="basic-info">
-              <h1 class="profile-name" id="user-name">${userData.name}</h1>
-              <div class="profile-meta">
-              <span class="meta-item" id="user-dob"><i class="fa fa-id-badge"></i> ${userData.userClass}</span>
-              <span class="meta-item" id="user-gender"><i class="fa fa-male"></i> ${userData.gender}</span>
-              </div>
-              <p class="profile-bio m-1 example" id="user-bio" style="font-style: italic; color: grey;">Last Active: ${lastActiveFormatted}</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Stats Overview -->
-        <div class="stats-section">
-          <div class="stat-card">
-            <div class="stat-icon"><i class="fa fa-trophy"></i></div>
-            <div class="stat-info">
-              <span class="stat-value"> ${userData.points}</span>
-              <span class="stat-label">Total Score</span>
-            </div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon"><i class="fa fa-calendar-check-o"></i></div>
-            <div class="stat-info">
-              <span class="stat-value"> ${userData.streak}</span>
-              <span class="stat-label">Day Streak</span>
-            </div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon"><i class="fa fa-line-chart"></i></div>
-            <div class="stat-info">
-              <span class="stat-value"> ${userData.accuracy * 100}%</span>
-              <span class="stat-label">Accuracy</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Progress Graph -->
-        <div class="graph-section">
-          <h2 class="section-title"><i class="fa fa-bar-chart"></i> Learning Progress</h2>
-          <div class="graph-container">
-            <canvas id="user2user_progressChart"></canvas>
-          </div>
-        </div>
-      </div>
-  `;
-    const numDays = 7; // Default to 7 days
-    const labels = getLastDates(numDays);
-    const practiceData = userData.pracData || {};
-    const correctAnswersData_user1 = labels.map(date => {
-        return practiceData[date]?.correctAnswers || 0;
-    });
-    onAuthStateChanged(auth, async (user) => {
-        if (!user) return;
-
-        const q = query(collection(db, "users"), where("email", "==", user.email));
-        const snapshot = await getDocs(q);
-
-        if (snapshot.empty) {
-            console.error("User data not found.");
-            return;
+    // Show/hide no-results
+    const noResults = document.getElementById('no-results-message');
+    if (source.length === 0) {
+        if (noResults) {
+            noResults.style.display = 'block';
+            noResults.innerHTML = `No results found. <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button>`;
         }
-
-        const userDoc = snapshot.docs[0];
-        const practiceData = userDoc.data().pracData || {};
-
-        const labels = getLastDates(numDays);
-        const correctAnswersData_user2 = labels.map(date => {
-            return practiceData[date]?.correctAnswers || 0;
-        });
-        // Render chart with both datasets
-        renderMultiDatasetChart(labels,
-            correctAnswersData_user1,
-            correctAnswersData_user2, userData.name,
-            document.getElementById('user2user_progressChart'));
-    });
-
-}
-function renderMultiDatasetChart(labels, dataset1, dataset2, userName, canvasElement) {
-    const ctx = canvasElement.getContext('2d');
-
-    // Destroy previous chart if it exists
-    if (canvasElement.chart) {
-        canvasElement.chart.destroy();
-    }
-
-    canvasElement.chart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    label: userName,
-                    data: dataset1,
-                    borderColor: '#FF6B6B',  // Soft coral (complementary contrast)
-                    backgroundColor: 'rgba(255, 107, 107, 0.1)',  // Lighter translucent coral
-                    borderWidth: 2,
-                    pointBackgroundColor: '#FF6B6B',
-                    tension: 0.3,
-                    fill: true
-                },
-                {
-                    label: 'You',
-                    data: dataset2,
-                    borderColor: '#159895',  // Primary teal
-                    backgroundColor: 'rgba(21, 152, 149, 0.1)',  // Lighter translucent teal
-                    borderWidth: 2,         // Thicker line for emphasis
-                    pointBackgroundColor: '#159895',  // Match border color
-                    tension: 0.3,           // Smoother curve
-                    fill: true
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'top',
-                },
-                tooltip: {
-                    mode: 'index',
-                    intersect: false,
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'Points'
-                    }
-                },
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Date'
-                    }
-                }
-            }
-        }
-    });
-}
-
-//
-window.deleteAccount = async function (password) {
-    document.getElementsByClassName('configpagebg')[0].innerHTML = `
-    <div class="confirmation-modal">
-        <div class="loading" id="loadingDiv">
-            <span id="btnSpinner" class="loading-spinner"></span><br>
-            <h5 class="loading-text">Deleting your account...</h5>
-          </div>
-          </div>`;
-    const auth = getAuth();
-    const db = getFirestore();
-    const user = auth.currentUser;
-
-    if (!user) {
-        alert("No user is signed in.");
-        return;
-    }
-
-    try {
-        const credential = EmailAuthProvider.credential(user.email, password.trim());  // trim just in case
-        await reauthenticateWithCredential(user, credential);
-        await deleteDoc(doc(db, "users", user.uid));
-        await deleteUser(user);
-        alert("Account deleted successfully.");
-    } catch (error) {
-        if (error.code === 'auth/invalid-login-credentials') {
-            document.getElementsByClassName('configpagebg')[0].innerHTML = `
-    <div class="confirmation-modal">
-        <div class="loading" id="loadingDiv">
-            <h5 class="loading-text" style="color: #dc3545;">:( Failed to delete account. Please try again.</h5>
-            <p>error: ${error.code}</p>
-            <button class="btn" onclick="document.getElementsByClassName('configpagebg')[0].style.display='none';">Back</button>
-          </div>
-          </div>`;
-        } else {
-            alert("Error: " + error.message);
-        }
+    } else if (noResults) {
+        noResults.style.display = 'none';
     }
 }
 
-//
-window.showDeleteConfirmation = function () {
-    //get email from local storage
-    const email = localStorage.getItem("userEmail");
-    document.getElementsByClassName('configpagebg')[0].style.display = 'block';
-    document.getElementsByClassName('configpagebg')[0].innerHTML = `
-    <div class="confirmation-modal">
-        <h2>Are you sure you want to delete your account?</h2>
-        <p>This action cannot be undone.</p>
-        <input type="email" id="confirm-email" placeholder="Enter your email" value='${email}' class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-red-500 focus:border-red-500 transition-colors duration-200" disabled>
-        <br>
-        <input type="password" id="confirm-password" placeholder="Enter your password" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-red-500 focus:border-red-500 transition-colors duration-200" required>
-        <br>
-        <button class="btn btn-danger m-3" onclick="if(document.getElementById('confirm-password').value) {deleteAccount(document.getElementById('confirm-password').value)}">Delete Account</button>
-        <button class="btn btn-secondary m-3" onclick="document.getElementsByClassName('configpagebg')[0].style.display='none';">Cancel</button>
-     </div>`;
+window.searchDictionary = async function(query) {
+    await initializeDictionaryIndex();
+    query = (query || '').trim().toLowerCase();
+    currentRenderPos = 0;
+    currentSearchResults = [];
 
-}
-
-window.sendResetEmail = async function () {
-    const configPageBg = document.getElementsByClassName('configpagebg')[0];
-    configPageBg.style.display = 'block';
-    const auth = getAuth();
-    const user = auth.currentUser;
-
-    if (!user) {
-        alert("No user is signed in.");
-        return;
-    }
-
-    const email = user.email;
-    if (!email) {
-        configPageBg.innerHTML = `
-        <div class="confirmation-modal">
-            <h5 class="loading-text" style="color: #dc3545;">Failed to send email... Try again later.</h5>
-            <button class="btn" onclick="document.getElementsByClassName('configpagebg')[0].style.display='none';">Back</button>
-
-            </div>`;
-        return;
-    }
-
-    // Countdown display before sending email
-    let countdown = 5;
-    configPageBg.innerHTML = `
-    <div class="confirmation-modal">
-        <div class="loading" id="loadingDiv">
-            <span id="btnSpinner" class="loading-spinner"></span><br>
-            <h5 class="loading-text">Sending password reset email to <span style="color: #28a745;">${email}</span> in <span id="countdownForSendingEmail">${countdown}</span> seconds...</h5>
-            <button class="btn" onclick="document.getElementsByClassName('configpagebg')[0].style.display='none';document.getElementsByClassName('configpagebg')[0].innerHTML='';">Back</button>
-        </div>
-        </div>`;
-
-    // Update countdown every second
-    const interval = setInterval(() => {
-        if (countdown <= 0) {
-            if (document.getElementById('countdownForSendingEmail')) {
-                clearInterval(interval);
-                actuallySendEmail();
-                document.getElementById('loadingDiv').childNodes[1].innerText = "Sending password reset email...";
-                document.getElementById('loadingDiv').childNodes[3].disabled = true;
-                return;
-            } else {
-                clearInterval(interval);
-                return; // Exit if the element is not found
-            }
-        }
-        countdown--;
-        if (document.getElementById('countdownForSendingEmail')) {
-            document.getElementById('countdownForSendingEmail').textContent = countdown;
-        } else {
-            clearInterval(interval);
-        }
-    }, 1000);
-
-    async function actuallySendEmail() {
-        try {
-            await sendPasswordResetEmail(auth, email);
-            configPageBg.innerHTML = `
-            <div class="confirmation-modal">
-            <h5 class="loading-text" style="color: #28a745;">:) Password reset email sent! Check your inbox.</h5>
-            <button class="btn" onclick="document.getElementsByClassName('configpagebg')[0].style.display='none';">Back</button>
-            </div>`;
-            document.getElementById('changePassword').disabled = true;
-        } catch (error) {
-            if (error.code === 'auth/user-not-found') {
-                alert("No user found with this email.");
-            } else if (error.code === 'auth/invalid-email') {
-                alert("Invalid email address.");
-            } else {
-                alert("Error: " + error.message);
-            }
-        }
-    }
-}
-
-window.askAI_searchword = async function () {
-    const query = document.getElementById('searchInput').value;
-    document.getElementById("wordDetailsModalContent").style.display = 'none';
-    document.getElementById('no-results-message').style.display = 'block';
-    document.getElementById('no-results-message').innerHTML = `<div class="loading" id="loadingDiv">
-    <span id="btnSpinner" class="loading-spinner"></span><br>
-    <h5 class="loading-text">Getting "${query}" meaning...</h5>
-    </div>`;
     if (!query) {
-        return;
-    }
-    const prompt = `${query} শব্দটির অর্থ ও ব্যাখ্যা বাংলায় দাও। এর ব্যাকরণগত শ্রেণি (noun/verb/adjective ইত্যাদি) উল্লেখ করো। শব্দটির অর্থ বোঝাতে অন্তত ৩টি উদাহরণ বাক্য দাও। ফলাফলটি বাংলায় লেখো এবং HTML ট্যাগ ব্যবহার করে উপস্থাপন করো (কিন্তু h1, h2, h3, h4 ট্যাগ ব্যবহার করো না)। <b>, <i>, <p>, <ul>, <li> ইত্যাদি ট্যাগ ও inline-css ব্যবহার করে তথ্যগুলো সুন্দরভাবে ফরম্যাট করো।`;
-    try {
-        // Call AI API to get explanation
-        const aiResponse = await puter.ai.chat(prompt, { model: "gpt-4.1-nano" });
-        document.getElementById('no-results-message').innerHTML = aiResponse;
-    } catch (error) {
-        console.error("Error fetching AI explanation:", error);
-    }
-
-}
-
-window.updateChartRange = function () {
-    const selectedValue = document.getElementById('chartRangeSelector').value;
-    // Update the chart based on the selected value
-    fetchPracticeDataAndRenderChart(selectedValue);
-}
-
-window.showDetailedProgress = async function () {
-    const container = document.getElementById('progressOverviewModal');
-    container.style.display = 'block';
-    document.getElementById('settings').style.display = 'none';
-    document.getElementById('profile').style.display = 'none';
-
-    // Show loading state
-    container.innerHTML = `
-        <div class="progress-loading">
-            <div class="spinner"></div>
-            <p>Loading your progress data...</p>
-        </div>
-    `;
-
-    const user = auth.currentUser;
-    if (!user) {
-        container.innerHTML = `<p class="no-data">Please sign in to view your progress.</p>`;
+        // show initial sample (first INITIAL_SHOW unique alphabetical entries)
+        currentSearchResults = dictionaryIndex
+            .slice()
+            .sort((a,b)=> a.lower.localeCompare(b.lower))
+            .slice(0, INITIAL_SHOW)
+            .map((_, i)=> i);
+        // but because we sorted a copy, map index won't reflect original indices; instead use direct slice:
+        currentSearchResults = dictionaryIndex
+            .slice(0, INITIAL_SHOW)
+            .map((_, i) => i);
+        renderWordList(false);
         return;
     }
 
-    let practicedQuestionsIdxData = {};
-    try {
-        const userRef = doc(db, "users", user.uid);
-        const userSnap = await getDoc(userRef);
-        if (userSnap.exists()) {
-            practicedQuestionsIdxData = userSnap.data().practicedQuestionsIdx || {};
+    // Fast two-pass filtering: prefix matches first, then includes
+    const prefixMatches = [];
+    const includesMatches = [];
+
+    for (let i = 0; i < dictionaryIndex.length; i++) {
+        const item = dictionaryIndex[i];
+        if (item.lower.startsWith(query)) {
+            prefixMatches.push(i);
+        } else if (item.lower.indexOf(query) !== -1) {
+            includesMatches.push(i);
         }
-    } catch (err) {
-        console.error("Error fetching user progress:", err);
-        container.innerHTML = `<p class="error-message">Error loading progress data. Please try again later.</p>`;
-        return;
     }
-
-    if (Object.keys(practicedQuestionsIdxData).length === 0) {
-        container.innerHTML = `
-            <div class="no-progress-container">
-                <div class="no-progress-icon">📊</div>
-                <h3>No Progress Data Yet</h3>
-                <p>Complete some practice sessions to see your progress here.</p>
-            </div>
-        `;
-        return;
-    }
-
-    let totalCorrect = 0;
-    let totalAttempts = 0;
-    let masteredWords = 0;
-    let strugglingWords = 0;
-
-    Object.values(practicedQuestionsIdxData).forEach(stats => {
-        const correct = stats.correctAttempts || 0;
-        const total = stats.totalAttempts || 0;
-        totalCorrect += correct;
-        totalAttempts += total;
-
-        const accuracy = total > 0 ? (correct / total) : 0;
-        if (accuracy >= 0.8) masteredWords++;
-        if (accuracy <= 0.5) strugglingWords++;
-    });
-
-    const overallAccuracy = totalAttempts > 0 ? ((totalCorrect / totalAttempts) * 100).toFixed(1) : 0;
-
-    // Build content
-    let content = `
-        <div class="progress-header">
-            <h2>Your Learning Progress</h2>
-            <div class="progress-stats">
-                <div class="stat-box">
-                    <span class="stat-value">${Object.keys(practicedQuestionsIdxData).length}</span>
-                    <span class="stat-label">Words Practiced</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-value">${overallAccuracy}%</span>
-                    <span class="stat-label">Overall Accuracy</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-value">${masteredWords}</span>
-                    <span class="stat-label">Mastered</span>
-                </div>
-                <div class="stat-box">
-                    <span class="stat-value">${strugglingWords}</span>
-                    <span class="stat-label">Need Practice</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="progress-controls">
-            <div class="sort-filter">
-                <select id="progressSort">
-                    <option value="accuracy-desc">Highest Accuracy</option>
-                    <option value="accuracy-asc">Lowest Accuracy</option>
-                    <option value="attempts-desc">Most Practiced</option>
-                    <option value="attempts-asc">Least Practiced</option>
-                    <option value="alphabetical">A-Z</option>
-                </select>
-                <select id="progressFilter">
-                    <option value="all">All Words</option>
-                    <option value="mastered">Mastered (>80%)</option>
-                    <option value="struggling">Needs Practice (<50%)</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="progress-container" id="progressItemsContainer">
-    `;
-
-    const progressItems = [];
-    Object.entries(practicedQuestionsIdxData).forEach(([idx, stats]) => {
-        const word = dictionary[idx]?.en || 'Unknown word';
-        const wordMeaning = dictionary[idx]?.bn || 'Unknown word-meaning';
-        const correct = stats.correctAttempts || 0;
-        const total = stats.totalAttempts || 0;
-        const practiceData = stats.pracDate || {};
-        console.log(practiceData);
-        const accuracy = total > 0 ? (correct / total) : 0;
-        const accuracyPercent = (accuracy * 100).toFixed(1);
-
-        progressItems.push({ idx, word, wordMeaning, correct, total, accuracy, accuracyPercent, practiceData });
-    });
-
-    progressItems.sort((a, b) => b.accuracy - a.accuracy);
-
-    progressItems.forEach(item => {
-        const barColor = item.accuracy <= 0.5 ? '#e74c3c' :
-            item.accuracy <= 0.8 ? '#f39c12' : '#27ae5fdc';
-        const practiceLevel = item.accuracy <= 0.5 ? 'needs-practice' :
-            item.accuracy <= 0.8 ? 'getting-better' : 'mastered';
-
-        content += `
-            <div class="progress-item ${practiceLevel}" data-accuracy="${item.accuracy}" data-attempts="${item.total}" data-word="${item.word.toLowerCase()}">
-                <div class="word-header">
-                    <span class="word">${item.word}</span>
-                    <span class="word-meaning pronunciation">${item.wordMeaning}</span>
-                    <span class="accuracy-text">${item.correct}/${item.total} (${item.accuracyPercent}%)</span>
-                    <span class="practice-date" style="color: #ddd; width: 100%; text-align: right;">${item.practiceData}</span>
-                    </div>
-                    <div class="progress-bar-wrapper" style=" background-color: #27ae5fdc;display: flex;flex-direction: row-reverse;">
-                        <div class="overall-progress-bar" style="width:${100 - item.accuracyPercent}%; background:${barColor};">
-                    <div class="progress-tooltip">${item.accuracyPercent}% accuracy</div>
-                    </div>
-                </div>
-            </div>
-        `;
-    });
-
-    content += `</div>`; // Close container
-    container.innerHTML = content;
-
-    // Event listeners
-    document.getElementById('progressSort').addEventListener('change', sortProgressItems);
-    document.getElementById('progressFilter').addEventListener('change', filterProgressItems);
-    document.getElementById('progressSearch').addEventListener('input', searchProgressItems);
-
-    // Add styles
-    addProgressStyles();
+    currentSearchResults = prefixMatches.concat(includesMatches);
+    renderWordList(false);
 };
 
-// Styles included
-// Add styles once
-function addProgressStyles() {
-    if (document.getElementById('progress-styles')) return;
+// Replace existing window.renderQuestionBank with an efficient initializer
+window.renderQuestionBank = async function () {
+    await initializeDictionaryIndex();
+    // render initial sample only (no 19k DOM nodes)
+    currentSearchResults = dictionaryIndex.slice(0, INITIAL_SHOW).map((_, i) => i);
+    currentRenderPos = 0;
+    // Clear previous container and any "load more" button
+    const container = document.getElementById("dictionary-word-list");
+    if (container) container.innerHTML = '';
+    const existingBtn = document.getElementById('loadMoreWordsBtn');
+    if (existingBtn) existingBtn.remove();
 
-    const style = document.createElement('style');
-    style.id = 'progress-styles';
-    style.textContent = `
-        .progress-modal {
-            max-width: 700px;
-            margin: 50px auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-            overflow: hidden;
-            font-family: 'Segoe UI', sans-serif;
-        }
-        .progress-header {
-            background: linear-gradient(135deg, #159895, #16a085);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            border-radius: 14px 14px 0px 0px;
-        }
-        .progress-header h2 { margin-bottom: 15px; }
-        .progress-stats { display: flex; justify-content: space-around; flex-wrap: wrap; }
-        .stat-box { text-align: center; margin: 5px 0; }
-        .stat-value { font-size: 24px; font-weight: bold; display: block; }
-        .stat-label { font-size: 14px; opacity: 0.9; }
-        .progress-controls {
-            display: flex;
-            justify-content: space-between;
-            padding: 15px 20px;
-            background: #ecf0f1;
-            border-bottom: 1px solid #bdc3c7;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .search-box { position: relative; flex: 1; min-width: 200px; }
-        #progressSearch { width: 100%; padding: 10px 15px 10px 35px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
-        .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #7f8c8d; }
-        .sort-filter { display: flex; gap: 10px; }
-        #progressSort, #progressFilter { padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; background: white; }
-        .progress-container { padding: 10px; }
-        .progress-item {
-            background: #fff;
-            border-radius: 6px;
-            padding: 15px;
-            margin-bottom: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .progress-item:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-        .progress-item.mastered { border-left: 5px solid #27ae60; }
-        .progress-item.getting-better { border-left: 5px solid #f39c12; }
-        .progress-item.needs-practice { border-left: 5px solid #e74c3c; }
-        .word-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-        .word { font-weight: 600; font-size: 18px; }
-        .accuracy-text { font-size: 14px; color: #7f8c8d; }
-        .progress-bar-wrapper { height: 10px; background: #ecf0f1; border-radius: 4px; overflow: hidden; margin-bottom: 10px; }
-        .progress-bar { height: 100%; border-radius: 4px; position: relative; transition: width 0.5s ease; }
-        .progress-bar:hover .progress-tooltip { opacity: 1; transform: translateY(-100%); }
-        .progress-tooltip {
-            position: absolute;
-            right: 0;
-            top: -5px;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            opacity: 0;
-            transform: translateY(0);
-            transition: opacity 0.2s, transform 0.2s;
-            pointer-events: none;
-        }
-        .progress-loading { text-align: center; padding: 40px; color: #7f8c8d; }
-        .spinner { border: 3px solid #f3f3f3; border-top: 3px solid #1abc9c; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 0 auto 15px; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        .no-progress-container { text-align: center; padding: 40px 20px; color: #7f8c8d; }
-        .no-progress-icon { font-size: 48px; margin-bottom: 15px; }
-        .no-progress-container h3 { margin: 0 0 10px 0; color: #34495e; }
-        @media (max-width: 768px) {
-            .progress-controls { flex-direction: column; }
-            .search-box { width: 100%; }
-            .sort-filter { width: 100%; justify-content: space-between; }
-            #progressSort, #progressFilter { width: 48%; }
-            .progress-stats { flex-wrap: wrap; }
-            .stat-box { width: 50%; }
-        }
-    `;
-    document.head.appendChild(style);
-}
+    renderWordList(false);
 
-// Call once at the start
-addProgressStyles();
-
-
-
-// Sorting function
-function sortProgressItems() {
-    const sortValue = document.getElementById('progressSort').value;
-    const container = document.getElementById('progressItemsContainer');
-    const items = Array.from(container.getElementsByClassName('progress-item'));
-
-    items.sort((a, b) => {
-        const aAcc = parseFloat(a.getAttribute('data-accuracy'));
-        const bAcc = parseFloat(b.getAttribute('data-accuracy'));
-        const aAtt = parseInt(a.getAttribute('data-attempts'));
-        const bAtt = parseInt(b.getAttribute('data-attempts'));
-        const aWord = a.getAttribute('data-word');
-        const bWord = b.getAttribute('data-word');
-
-        switch (sortValue) {
-            case 'accuracy-desc': return bAcc - aAcc;
-            case 'accuracy-asc': return aAcc - bAcc;
-            case 'attempts-desc': return bAtt - aAtt;
-            case 'attempts-asc': return aAtt - bAtt;
-            case 'alphabetical': return aWord.localeCompare(bWord);
-            default: return 0;
-        }
-    });
-
-    // Re-append sorted items to container
-    items.forEach(item => container.appendChild(item));
-}
-
-
-async function generateQuestionsIdxArray(totalQuestions) {
-    // Validate totalQuestions
-    totalQuestions = parseInt(totalQuestions);
-    if (isNaN(totalQuestions) || totalQuestions <= 0) {
-        console.error("Invalid totalQuestions value:", totalQuestions);
-        return [];
+    // Hook search box (debounced) if not already hooked
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput && !searchInput._fastSearchBound) {
+        const debounced = debounce((e) => {
+            const q = e.target.value;
+            window.searchDictionary(q);
+        }, 180);
+        searchInput.addEventListener('input', debounced);
+        searchInput._fastSearchBound = true;
     }
+};
 
-    // Get current user
-    const user = auth.currentUser;
-    if (!user || !user.uid) {
-        console.error("User not signed in or missing UID!");
-        return [];
-    }
-    let practicedQuestionsIdxData = {};
-
-    // Fetch practiced questions data from Firestore
-    try {
-        const userRef = doc(db, "users", user.uid);
-        const userSnap = await getDoc(userRef);
-        if (userSnap.exists()) {
-            practicedQuestionsIdxData = userSnap.data().practicedQuestionsIdx || {};
-        }
-    } catch (err) {
-        console.error("Error fetching user progress:", err);
-        return [];
-    }
-
-    // Extract practiced question indices and stats
-    const practicedQuestionsIdxArray = Object.keys(practicedQuestionsIdxData)
-        .map(idx => parseInt(idx))
-        .filter(idx => !isNaN(idx) && idx >= 0 && idx < dictionary.length);
-
-    // Calculate wrong attempts for each practiced question
-    const mostWrongAttemptedQuestionsIdx = practicedQuestionsIdxArray
-        .map(idx => {
-            const data = practicedQuestionsIdxData[idx];
-            const wrongAttempts = (data.totalAttempts || 0) - (data.correctAttempts || 0);
-            return { idx, wrongAttempts };
-        })
-        .filter(item => item.wrongAttempts > 0)
-        .sort((a, b) => b.wrongAttempts - a.wrongAttempts);
-
-    // Start with most wrong attempted questions
-    let combinedArray = mostWrongAttemptedQuestionsIdx.map(item => item.idx);
-
-    // Fill up with random questions if needed
-    const usedIdx = new Set(combinedArray);
-    while (combinedArray.length < totalQuestions) {
-        const randomIdx = Math.floor(Math.random() * dictionary.length);
-        if (!usedIdx.has(randomIdx)) {
-            combinedArray.push(randomIdx);
-            usedIdx.add(randomIdx);
-        }
-        // Prevent infinite loop if dictionary is too small
-        if (usedIdx.size >= dictionary.length) break;
-    }
-
-    // If practicedQuestionsIdxData is empty, just pick random indices
-    if (combinedArray.length === 0) {
-        while (combinedArray.length < totalQuestions && combinedArray.length < dictionary.length) {
-            const randomIdx = Math.floor(Math.random() * dictionary.length);
-            if (!combinedArray.includes(randomIdx)) {
-                combinedArray.push(randomIdx);
-            }
-        }
-    }
-
-    // Trim to required length
-    combinedArray = combinedArray.slice(0, totalQuestions);
-
-    return combinedArray;
-}
-
-
-function getLocalDate() {
-    const d = new Date();
-    d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
-    return d.toISOString().split("T")[0];
-}
-
-// Add global overlay helpers to block user interaction while fetching data
-function showGlobalLoader(message = "Loading...") {
-	// If already present, just update message and show
-	let overlay = document.getElementById('global-blocking-overlay');
-	if (!overlay) {
-		overlay = document.createElement('div');
-		overlay.id = 'global-blocking-overlay';
-		overlay.setAttribute('role', 'status');
-		Object.assign(overlay.style, {
-			position: 'fixed',
-			inset: '0',
-			background: 'rgba(0,0,0,0.35)',
-			display: 'flex',
-			justifyContent: 'center',
-			alignItems: 'center',
-			zIndex: '999999',
-			cursor: 'wait'
-		});
-		const inner = document.createElement('div');
-		inner.id = 'global-blocking-overlay-inner';
-		Object.assign(inner.style, {
-			padding: '18px 22px',
-			background: 'rgba(255,255,255,0.95)',
-			color: '#222',
-			borderRadius: '8px',
-			boxShadow: '0 6px 20px rgba(0,0,0,0.2)',
-			fontSize: '16px',
-			fontWeight: '500'
-		});
-		inner.innerText = message;
-		overlay.appendChild(inner);
-		// Prevent pointer events from reaching underlying UI
-		overlay.addEventListener('click', e => e.stopPropagation(), { capture: true });
-		document.body.appendChild(overlay);
-	} else {
-		const inner = document.getElementById('global-blocking-overlay-inner');
-		if (inner) inner.innerText = message;
-		overlay.style.display = 'flex';
-	}
-	// Also prevent tab focus navigation to page controls
-	document.documentElement.setAttribute('data-loading-block', 'true');
-	document.body.style.pointerEvents = 'auto'; // overlay captures clicks
-}
-
-function hideGlobalLoader() {
-	const overlay = document.getElementById('global-blocking-overlay');
-	if (overlay) overlay.style.display = 'none';
-	document.documentElement.removeAttribute('data-loading-block');
-	// restore any page-level pointer handling if needed
-}
+// ...existing code...

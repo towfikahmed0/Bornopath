@@ -80,33 +80,37 @@ function searchword() {
     console.time('searchWord');
     document.getElementById("dictionary-word-list").style.display = "block";
     document.getElementById("wordDetailsModalContent").style.display = 'none';
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("dictionary-word-list");
-    li = ul.getElementsByTagName("li");
-    
-    var noResults = document.getElementById("no-results-message");
-    noResults.innerHTML = `No results found. <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button>`;
-    var foundItems = 0;
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-            foundItems++;
+    var input = document.getElementById("searchInput");
+    if (!input) return;
+    const query = input.value || '';
+
+    // Use the new fast search implemented in dashboard.js
+    if (window.searchDictionary) {
+        window.searchDictionary(query);
+    } else {
+        // fallback to original behavior if new function not available
+        var filter = query.toUpperCase();
+        var ul = document.getElementById("dictionary-word-list");
+        var li = ul.getElementsByTagName("li");
+        var noResults = document.getElementById("no-results-message");
+        noResults.innerHTML = `No results found. <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button>`;
+        var foundItems = 0;
+        for (var i = 0; i < li.length; i++) {
+            var a = li[i].getElementsByTagName("a")[0];
+            var txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+                foundItems++;
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+        if (foundItems === 0 && filter.length > 0) {
+            noResults.style.display = "block";
         } else {
-            li[i].style.display = "none";
+            noResults.style.display = "none";
         }
     }
-
-    // Show or hide the "no results" message
-    if (foundItems === 0 && filter.length > 0) {
-        noResults.style.display = "block";
-    } else {
-        noResults.style.display = "none";
-    }
-    
     console.timeEnd('searchWord');
 }
 // document.getElementById("searchInput").addEventListener('focus', () => {
