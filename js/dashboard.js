@@ -20,7 +20,8 @@ let score = 0; // Initialize score variable
 let dictionary = [];
 let practicedQuestionsIdx = [];
 let sessionQuestionsIdx = [];
-let dictionaryLoadedPromise = null; // Add this line
+let dictionaryLoadedPromise = null;
+const suggestionsContainer = document.getElementById('suggestions-container');
 // Fetch dictionary data from the remote JSON file
 async function fetchDictionary() {
     try {
@@ -44,36 +45,36 @@ async function fetchDictionary() {
 dictionaryLoadedPromise = fetchDictionary();
 
 async function getUserData(email) {
-	// Show blocking overlay to deactivate clicks while fetching user data
-	// showGlobalLoader("Fetching user data...");
+    // Show blocking overlay to deactivate clicks while fetching user data
+    showGlobalLoader("Fetching user data...");
 
-	try {
-		const q = query(
-			collection(db, "users"),
-			where("email", "==", email)
-		);
-		const querySnapshot = await getDocs(q);
+    try {
+        const q = query(
+            collection(db, "users"),
+            where("email", "==", email)
+        );
+        const querySnapshot = await getDocs(q);
 
-		if (querySnapshot.empty) {
-			console.warn("No user data found for email:", email);
-			// hide overlay before redirecting
-			return null; // overlay will be hidden in finally
-		} else {
-			currentUserData = querySnapshot.docs[0].data(); // Store data
-			// update user's last active time
-			await updateDoc(doc(db, "users", querySnapshot.docs[0].id), {
-				lastActive: new Date()
-			});
-			return currentUserData; // Return the fetched data
-		}
-	} catch (err) {
-		console.error("Error fetching user data:", err);
-		// propagate or return null — caller handles redirect
-		return null;
-	} finally {
-		// Always remove overlay so UI becomes interactive again
-		hideGlobalLoader();
-	}
+        if (querySnapshot.empty) {
+            console.warn("No user data found for email:", email);
+            // hide overlay before redirecting
+            return null; // overlay will be hidden in finally
+        } else {
+            currentUserData = querySnapshot.docs[0].data(); // Store data
+            // update user's last active time
+            await updateDoc(doc(db, "users", querySnapshot.docs[0].id), {
+                lastActive: new Date()
+            });
+            return currentUserData; // Return the fetched data
+        }
+    } catch (err) {
+        console.error("Error fetching user data:", err);
+        // propagate or return null — caller handles redirect
+        return null;
+    } finally {
+        // Always remove overlay so UI becomes interactive again
+        hideGlobalLoader();
+    }
 }
 
 function updateUIWithUserData(userData) {
@@ -1160,166 +1161,25 @@ function updateLeaderboardFromFirestore() {
     });
 }
 
-// --- New: efficient question-bank rendering & search helpers ---
-let dictionaryIndex = [];            // lightweight index: { en, bn, def, syn, ant, lower }
-let currentSearchResults = [];       // filtered indices into dictionaryIndex
-let currentRenderPos = 0;
-const PAGE_SIZE = 200;               // number of items to render per batch
-const INITIAL_SHOW = 100;            // initial sample when no search
 
-function debounce(fn, wait) {
-    let t;
-    return function (...args) {
-        clearTimeout(t);
-        t = setTimeout(() => fn.apply(this, args), wait);
-    };
+window.searchDictionary = async function (query) {
+    console.log("Searching for:", query);
+    return;
 }
-
-async function initializeDictionaryIndex() {
-    if (dictionaryIndex.length > 0) return; // already initialized
-    await dictionaryLoadedPromise; // ensure dictionary loaded
-    dictionaryIndex = dictionary.map((entry, idx) => ({
-        en: entry.en || '',
-        bn: Array.isArray(entry.bn) ? entry.bn.join(', ') : (entry.bn || ''),
-        def: entry.def || '',
-        syn: Array.isArray(entry.syn) ? entry.syn.join(', ') : (entry.syn || ''),
-        ant: Array.isArray(entry.ant) ? entry.ant.join(', ') : (entry.ant || ''),
-        lower: (entry.en || '').toLowerCase(),
-        origIdx: idx
-    }));
-}
-
-function makeWordListItem(entry) {
-    // Use textContent-safe creation and avoid heavy innerHTML when possible
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = "#";
-    a.addEventListener('click', (e) => {
-        e.preventDefault();
-        // Use existing showWordDtls() which expects an array of values as string inputs
-        showWordDtls([entry.en, [entry.bn], [entry.def], [entry.syn], [entry.ant]]);
-    });
-    a.textContent = entry.en;
-    const btn = document.createElement('button');
-    btn.className = 'pronounce-btn';
-    btn.innerHTML = '<i class="fa fa-angle-right"></i>';
-    btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        showWordDtls([entry.en, [entry.bn], [entry.def], [entry.syn], [entry.ant]]);
-    });
-    a.appendChild(btn);
-    li.appendChild(a);
-    return li;
-}
-
-function renderWordList(append = false) {
-    const container = document.getElementById("dictionary-word-list");
-    if (!container) return;
-    if (!append) {
-        container.innerHTML = '';
-    }
-    // Decide source list: currentSearchResults if non-empty else default sample
-    const source = currentSearchResults.length > 0 ? currentSearchResults : dictionaryIndex.map((_, i) => i);
-    const frag = document.createDocumentFragment();
-    const end = Math.min(source.length, currentRenderPos + PAGE_SIZE);
-    for (let i = currentRenderPos; i < end; i++) {
-        const entry = dictionaryIndex[source[i]];
-        frag.appendChild(makeWordListItem(entry));
-    }
-    container.appendChild(frag);
-    currentRenderPos = end;
-
-    // Manage "Load more" UI
-    let moreBtn = document.getElementById('loadMoreWordsBtn');
-    if (currentRenderPos < source.length) {
-        if (!moreBtn) {
-            moreBtn = document.createElement('button');
-            moreBtn.id = 'loadMoreWordsBtn';
-            moreBtn.className = 'btn';
-            moreBtn.style.margin = '10px 0';
-            moreBtn.textContent = 'Load more';
-            moreBtn.addEventListener('click', () => renderWordList(true));
-            container.parentNode.insertBefore(moreBtn, container.nextSibling);
-        } else {
-            moreBtn.style.display = 'inline-block';
-        }
-    } else if (moreBtn) {
-        moreBtn.style.display = 'none';
-    }
-
-    // Show/hide no-results
-    const noResults = document.getElementById('no-results-message');
-    if (source.length === 0) {
-        if (noResults) {
-            noResults.style.display = 'block';
-            noResults.innerHTML = `No results found. <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button>`;
-        }
-    } else if (noResults) {
-        noResults.style.display = 'none';
-    }
-}
-
-window.searchDictionary = async function(query) {
-    await initializeDictionaryIndex();
-    query = (query || '').trim().toLowerCase();
-    currentRenderPos = 0;
-    currentSearchResults = [];
-
-    if (!query) {
-        // show initial sample (first INITIAL_SHOW unique alphabetical entries)
-        currentSearchResults = dictionaryIndex
-            .slice()
-            .sort((a,b)=> a.lower.localeCompare(b.lower))
-            .slice(0, INITIAL_SHOW)
-            .map((_, i)=> i);
-        // but because we sorted a copy, map index won't reflect original indices; instead use direct slice:
-        currentSearchResults = dictionaryIndex
-            .slice(0, INITIAL_SHOW)
-            .map((_, i) => i);
-        renderWordList(false);
-        return;
-    }
-
-    // Fast two-pass filtering: prefix matches first, then includes
-    const prefixMatches = [];
-    const includesMatches = [];
-
-    for (let i = 0; i < dictionaryIndex.length; i++) {
-        const item = dictionaryIndex[i];
-        if (item.lower.startsWith(query)) {
-            prefixMatches.push(i);
-        } else if (item.lower.indexOf(query) !== -1) {
-            includesMatches.push(i);
-        }
-    }
-    currentSearchResults = prefixMatches.concat(includesMatches);
-    renderWordList(false);
-};
 
 // Replace existing window.renderQuestionBank with an efficient initializer
 window.renderQuestionBank = async function () {
-    await initializeDictionaryIndex();
-    // render initial sample only (no 19k DOM nodes)
-    currentSearchResults = dictionaryIndex.slice(0, INITIAL_SHOW).map((_, i) => i);
-    currentRenderPos = 0;
-    // Clear previous container and any "load more" button
-    const container = document.getElementById("dictionary-word-list");
-    if (container) container.innerHTML = '';
-    const existingBtn = document.getElementById('loadMoreWordsBtn');
-    if (existingBtn) existingBtn.remove();
-
-    renderWordList(false);
-
-    // Hook search box (debounced) if not already hooked
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput && !searchInput._fastSearchBound) {
-        const debounced = debounce((e) => {
-            const q = e.target.value;
-            window.searchDictionary(q);
-        }, 180);
-        searchInput.addEventListener('input', debounced);
-        searchInput._fastSearchBound = true;
-    }
+    // Build lightweight index for searching
+    console.log("Building dictionary index...");
+    updateWordCount();
+    let searchInput = document.getElementById("searchInput");
+    searchInput.addEventListener('input', filterSuggestions);
+    // Close suggestions when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.dictionary-search')) {
+            suggestionsContainer.style.display = 'none';
+        }
+    });
 };
 
 window.showWordDtls = async function (wordDetails) {
@@ -2195,52 +2055,190 @@ function getLocalDate() {
 
 // Add global overlay helpers to block user interaction while fetching data
 function showGlobalLoader(message = "Loading...") {
-	// If already present, just update message and show
-	let overlay = document.getElementById('global-blocking-overlay');
-	if (!overlay) {
-		overlay = document.createElement('div');
-		overlay.id = 'global-blocking-overlay';
-		overlay.setAttribute('role', 'status');
-		Object.assign(overlay.style, {
-			position: 'fixed',
-			inset: '0',
-			background: 'rgba(0,0,0,0.35)',
-			display: 'flex',
-			justifyContent: 'center',
-			alignItems: 'center',
-			zIndex: '999999',
-			cursor: 'wait'
-		});
-		const inner = document.createElement('div');
-		inner.id = 'global-blocking-overlay-inner';
-		Object.assign(inner.style, {
-			padding: '18px 22px',
-			background: 'rgba(255,255,255,0.95)',
-			color: '#222',
-			borderRadius: '8px',
-			boxShadow: '0 6px 20px rgba(0,0,0,0.2)',
-			fontSize: '16px',
-			fontWeight: '500'
-		});
-		inner.innerText = message;
-		overlay.appendChild(inner);
-		// Prevent pointer events from reaching underlying UI
-		overlay.addEventListener('click', e => e.stopPropagation(), { capture: true });
-		document.body.appendChild(overlay);
-	} else {
-		const inner = document.getElementById('global-blocking-overlay-inner');
-		if (inner) inner.innerText = message;
-		overlay.style.display = 'flex';
-	}
-	// Also prevent tab focus navigation to page controls
-	document.documentElement.setAttribute('data-loading-block', 'true');
-	document.body.style.pointerEvents = 'auto'; // overlay captures clicks
+    // If already present, just update message and show
+    let overlay = document.getElementById('global-blocking-overlay');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'global-blocking-overlay';
+        overlay.setAttribute('role', 'status');
+        Object.assign(overlay.style, {
+            position: 'fixed',
+            inset: '0',
+            background: 'rgba(0,0,0,0.35)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: '999999',
+            cursor: 'wait'
+        });
+        const inner = document.createElement('div');
+        inner.id = 'global-blocking-overlay-inner';
+        Object.assign(inner.style, {
+            padding: '18px 22px',
+            background: 'rgba(255,255,255,0.95)',
+            color: '#222',
+            borderRadius: '8px',
+            boxShadow: '0 6px 20px rgba(0,0,0,0.2)',
+            fontSize: '16px',
+            fontWeight: '500'
+        });
+        inner.innerText = message;
+        overlay.appendChild(inner);
+        // Prevent pointer events from reaching underlying UI
+        overlay.addEventListener('click', e => e.stopPropagation(), { capture: true });
+        document.body.appendChild(overlay);
+    } else {
+        const inner = document.getElementById('global-blocking-overlay-inner');
+        if (inner) inner.innerText = message;
+        overlay.style.display = 'flex';
+    }
+    // Also prevent tab focus navigation to page controls
+    document.documentElement.setAttribute('data-loading-block', 'true');
+    document.body.style.pointerEvents = 'auto'; // overlay captures clicks
 }
 
 function hideGlobalLoader() {
-	const overlay = document.getElementById('global-blocking-overlay');
-	if (overlay) overlay.style.display = 'none';
-	document.documentElement.removeAttribute('data-loading-block');
-	// restore any page-level pointer handling if needed
+    const overlay = document.getElementById('global-blocking-overlay');
+    if (overlay) overlay.style.display = 'none';
+    document.documentElement.removeAttribute('data-loading-block');
+    // restore any page-level pointer handling if needed
 }
 
+
+
+// function of dictionary
+function updateWordCount() {
+    const count = dictionary.length;
+    document.getElementById('word_count').textContent = count.toLocaleString();
+    let synonymCount = 0;
+    dictionary.forEach(w => {
+        if (w.syn && w.syn.length > 0) {
+            synonymCount = synonymCount + w.syn.length;
+        }
+    });
+    document.getElementById('synonym_count').textContent = synonymCount.toLocaleString();
+    let bnCount = 0;
+    dictionary.forEach(w => {
+        if (w.bn && w.bn.length > 0) {
+            bnCount = bnCount + w.bn.length;
+        }
+    });
+    document.getElementById('translation_count').textContent = bnCount.toLocaleString();
+}
+
+function filterSuggestions() {
+    let searchInput = document.getElementById("searchInput");
+    const query = searchInput.value.toLowerCase().trim();
+    if (!query) {
+        suggestionsContainer.style.display = 'none';
+        return;
+    }
+
+    const suggestions = dictionary
+        .filter(w => w.en.toLowerCase().startsWith(query))
+        .slice(0, 10);
+    displaySuggestions(suggestions);
+}
+
+function displaySuggestions(list) {
+    suggestionsContainer.innerHTML = '';
+    if (!list.length) {
+        suggestionsContainer.innerHTML = '<div class="suggestion-item">No words found</div>';
+    } else {
+        list.forEach(w => {
+            const el = document.createElement('div');
+            el.className = 'suggestion-item';
+            el.innerHTML = `
+                        <span class='suggestion-word'>${w.en}</span>
+                        <span class='suggestion-bangla'>${w.bn?.[0] || ''}</span>
+                    `;
+            el.addEventListener('click', () => displayWordDetails(w));
+            suggestionsContainer.appendChild(el);
+        });
+    }
+    suggestionsContainer.style.display = 'block';
+}
+
+async function displayWordDetails(word) {
+    const wordDetails = document.getElementById('word_details');
+    // ask api to fetch more details about the word if needed
+    try {
+        const response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + word.en);
+        const data = await response.json();
+        const wordData = data[0];
+
+        let phonetics = wordData.phonetics?.map(p => p.text).filter(Boolean).join(", ") || "Not available";
+        let pos = wordData.meanings?.map(m => m.partOfSpeech).filter(Boolean).join(", ") || "Not available";
+        //make pos an array of unique values
+        pos = [...new Set(wordData.meanings?.map(m => m.partOfSpeech).filter(Boolean))].join(", ") || "Not available";
+        // convert pos an array
+        pos = wordData.meanings?.map(m => m.partOfSpeech).filter(Boolean) || [];
+
+        let audioUrl = wordData.phonetics?.find(p => p.audio)?.audio || null;
+
+        let examples = [];
+        wordData.meanings?.forEach(m => {
+            m.definitions?.forEach(d => {
+                if (d.example) {
+                    examples.push(d.example);
+                }
+            });
+        });
+        if (examples.length > 0) {
+            word.sen = examples;
+        }
+
+        let dictionary_img = `https://www.english-bangla.com/public/images/words/D${word.en[0]}/${word.en}`;
+        //https://www.english-bangla.com/public/images/words/D{first letter of the word}/{word}
+
+        wordDetails.innerHTML = `
+                    <div class="word-header-dictionary">
+                        <h1 style="font-style: italic;" onclick="pronounce('${audioUrl}')">${word.en} <i class="fas fa-volume-up"></i></h1>
+                    </div>
+                    <p>${phonetics}</p>
+                    <div class="synonym-list">${pos.map(p => `<span class="synonym">${p}</span>`).join('') || ""}</div>
+                    <h3><i class="fas fa-language"></i> Bangla Meaning</h3>
+                    <p>${word.bn?.join(', ') || 'No translation available'}</p>
+                    <h3><i class="fas fa-book"></i> Definition</h3>
+                    <ul style="list-style: disc; margin-left: 20px;">
+                        ${word.def ? word.def.map(d => `<li>${d}</li>`).join('') : '<li>No definition available</li>'}
+                    </ul>
+                    ${word.syn ? `
+                        <h3><i class="fas fa-sync-alt"></i> Synonyms</h3>
+                        <div class="synonym-list">
+                            ${word.syn.map(s => `<span class="synonym">${s}</span>`).join('') || "No synonyms available"}
+                        </div>
+                    ` : ''}
+                    ${word.ant ? `
+                        <h3><i class="fas fa-exchange-alt"></i> Antonyms</h3>
+                        <div class="synonym-list">
+                            ${word.ant.map(a => `<span class="synonym">${a}</span>`).join('') || "No antonyms available"}
+                        </div>` : ''}
+                    ${word.sen ? `
+                        <h3><i class="fas fa-comment"></i> Example Sentences</h3>
+                        <ul style="margin-left: 20px;">
+                            ${word.sen.map(s => `<li>${s}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                    <h3><i class="fas fa-images"></i> From Dictionary</h3>
+                    <div class="dictionary_img">
+                        <img src="${dictionary_img}" alt="Dictionary Image" onerror="this.onerror=null;this.outerHTML='<span>Not available for this word</span>';">
+                    </div>
+                `;
+        wordDetails.style.display = 'block';
+        suggestionsContainer.style.display = 'none';
+        searchInput.value = word.en;
+        wordDetails.scrollIntoView({ behavior: 'smooth' });
+    } catch (err) {
+        console.error('Failed to fetch additional word details:', err);
+    }
+}
+
+function pronounce(audioUrl) {
+    if (audioUrl) {
+        const audio = new Audio(audioUrl);
+        audio.play();
+    } else {
+        alert('Pronunciation audio not available.');
+    }
+}

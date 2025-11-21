@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,8 +34,15 @@
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .logo {
@@ -81,50 +89,59 @@
     }
   </style>
 </head>
+
 <body>
   <div class="card">
     <div class="logo">Bornopath</div>
     <h1>You’re Offline</h1>
-    <p>It seems your internet connection is lost. Don’t worry — you can still browse saved content. Once you’re online, Bornopath will sync automatically.</p>
+    <p>It seems your internet connection is lost. Don’t worry — you can still browse saved content. Once you’re online,
+      Bornopath will sync automatically.</p>
     <button class="retry-button" onclick="checkConnection()">Reconnect</button>
     <div class="footer">Bornopath — Words, Everywhere.</div>
   </div>
+  <script>
+    function checkConnection() {
+      const btn = document.querySelector('.retry-button');
+      const original = btn.textContent;
 
-<script>
-  // Function triggered by "Reconnect" button
-  function checkConnection() {
-    const btn = document.querySelector('.retry-button');
-    const original = btn.textContent;
+      btn.textContent = "Checking...";
+      btn.disabled = true;
 
-    btn.textContent = "Checking...";
-    btn.disabled = true;
+      // Add a real network request test (more reliable than navigator.onLine)
+      fetch('/icons/icon-192.png', {
+        method: 'HEAD',
+        cache: 'no-cache',
+        timeout: 3000
+      })
+        .then(() => {
+          // Real connection confirmed - redirect
+          window.location.href = "/dashboard.html"; // Consider redirecting to dashboard instead of login
+        })
+        .catch(() => {
+          // Network request failed
+          btn.textContent = "Still Offline";
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.disabled = false;
+          }, 1500);
+        });
+    }
 
-    setTimeout(() => {
-      if (navigator.onLine) {
-        window.location.href = "/index.html"; // go straight to index.html
-      } else {
-        btn.textContent = "Still Offline";
-        setTimeout(() => {
-          btn.textContent = original;
-          btn.disabled = false;
-        }, 1500);
-      }
-    }, 1200);
-  }
+    // Auto-redirect with network confirmation
+    window.addEventListener('online', () => {
+      // Small delay to ensure stable connection
+      setTimeout(() => {
+        checkConnection();
+      }, 1000);
+    });
 
-  // Automatically redirect when connection comes back
-  window.addEventListener('online', () => {
-    window.location.href = "/index.html";
-  });
-
-  // Optional: reset button if offline again
-  window.addEventListener('offline', () => {
-    const btn = document.querySelector('.retry-button');
-    btn.textContent = "Reconnect";
-    btn.disabled = false;
-  });
-</script>
-
+    window.addEventListener('offline', () => {
+      const btn = document.querySelector('.retry-button');
+      btn.textContent = "Reconnect";
+      btn.disabled = false;
+    });
+  </script>
 
 </body>
+
 </html>

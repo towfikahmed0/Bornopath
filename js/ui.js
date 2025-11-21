@@ -20,12 +20,13 @@ function switchtab(ele) {
         document.getElementById("leaderboard").style.display = "none";
         document.getElementById("profileContant").style.display = "none";
         document.getElementById("quizContainer").style.display = 'none';
-        document.getElementById('wordDetailsModalContent').style.display = 'none';
-        document.getElementById('dictionary-word-list').style.display = 'block';
+        //document.getElementById('wordDetailsModalContent').style.display = 'none';
+        //document.getElementById('dictionary-word-list').style.display = 'block';
         document.getElementsByClassName('configpagebg')[0].style.display = 'none';
-        if (document.getElementById('dictionary-word-list').children.length === 0) {
-            renderQuestionBank();
-        }
+        // if (document.getElementById('dictionary-word-list').children.length === 0) {
+            // renderQuestionBank();
+        // }
+        renderQuestionBank();
         console.timeEnd("renderQuestionBank");
     } else if (ele.id == 'tab_3') {
         document.getElementById("tab_1").classList.remove("active")
@@ -74,53 +75,7 @@ function selectOption(ele) {
 //   // Standard message (some browsers ignore custom text)
 //   e.preventDefault(); // Modern way
 //   e.returnValue = ''; // For backward compatibility
-// });
-
-function searchword() {
-    console.time('searchWord');
-    document.getElementById("dictionary-word-list").style.display = "block";
-    document.getElementById("wordDetailsModalContent").style.display = 'none';
-    var input = document.getElementById("searchInput");
-    if (!input) return;
-    const query = input.value || '';
-
-    // Use the new fast search implemented in dashboard.js
-    if (window.searchDictionary) {
-        window.searchDictionary(query);
-    } else {
-        // fallback to original behavior if new function not available
-        var filter = query.toUpperCase();
-        var ul = document.getElementById("dictionary-word-list");
-        var li = ul.getElementsByTagName("li");
-        var noResults = document.getElementById("no-results-message");
-        noResults.innerHTML = `No results found. <button class="btn-primary btn" onclick="askAI_searchword()">Ask AI</button>`;
-        var foundItems = 0;
-        for (var i = 0; i < li.length; i++) {
-            var a = li[i].getElementsByTagName("a")[0];
-            var txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-                foundItems++;
-            } else {
-                li[i].style.display = "none";
-            }
-        }
-        if (foundItems === 0 && filter.length > 0) {
-            noResults.style.display = "block";
-        } else {
-            noResults.style.display = "none";
-        }
-    }
-    console.timeEnd('searchWord');
-}
-// document.getElementById("searchInput").addEventListener('focus', () => {
-//   document.getElementById("dictionary-word-list").style.display = 'block';
-// });
-// document.getElementById("searchInput").addEventListener('blur', () => {
-//   setTimeout(() => {
-//     document.getElementById("dictionary-word-list").style.display = 'none';
-//   }, 2000); // Delay to allow click events on list items
-// });
+// })
 
 function switchProfileTab(tab) {
     const tabs = document.querySelectorAll('.pf-tab-btn');
