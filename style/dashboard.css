@@ -1126,12 +1126,12 @@ body[data-theme="dark"] #ai-explanation-2 {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .word-details h3 i {
   margin-right: 10px;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .word-details p {
