@@ -17,7 +17,9 @@
     rel="stylesheet">
   <link href="style/dashboard.css?v=6" rel="stylesheet">
   <link href="style/profile.css?v=2" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js">
+
 
   </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -205,7 +207,7 @@
             <button class="btn" id="deleteAccount" onclick="signOut()">Log Out</button>
             <button class="btn" id="deleteAccount" onclick="showDeleteConfirmation()">Delete Account</button>
             <div class="alert alert-primary" role="alert">
-              You are using <strong>BornoPath v1.3.5</strong>.
+              You are using <strong>BornoPath v1.4.0</strong>.
             </div>
           </div>
         </div>
@@ -217,22 +219,43 @@
 
 
     <div id="questionBank" style="display: none; padding: 19px;">
-      <h2><i class="fa fa-book" aria-hidden="true"></i> Dictionary</h2>
-      <br>
-      <input type="text" id="searchInput" onkeyup="searchword()" placeholder="Search for words.."
-        title="Type in a word">
-
-      <ul id="dictionary-word-list" style="display: block;">
-      </ul>
-      <div class="word-card" id="no-results-message" style="display: none;">
+      <div class="dictionary-search">
+        <h2><i class="fa fa-book" aria-hidden="true"></i> Dictionary</h2>
+        <p class="subtitle">Find definitions, synonyms, and Bangla meanings in one simple search.</p>
+        <input type="text" id="searchInput" placeholder="Search for words.." title="Type in a word">
+        <div id="suggestions-container"></div>
       </div>
-      <div id="wordDetailsModalContent" style="display: none;">
-        <div class="loading" id="loadingDiv">
-          <span id="btnSpinner" class="loading-spinner"></span><br>
+      <div id="word_details" class="word-details"></div>
+
+      <div class="dictioary_details">
+        <h2 class="section-title">Dictionary Summary</h2>
+        <div class="summary-grid">
+          <div class="summary-card">
+            <h3>Total Words</h3>
+            <p><span id="word_count">...</span></p>
+          </div>
+          <div class="summary-card">
+            <h3>Synonyms Available</h3>
+            <p><span id="synonym_count">...</span></p>
+          </div>
+          <div class="summary-card">
+            <h3>Bangla Translations</h3>
+            <p><span id="translation_count">...</span></p>
+          </div>
+          <div class="summary-card">
+            <h3>Last Updated</h3>
+            <p><span id="last_updated">November 18, 2025</span></p>
+          </div>
         </div>
       </div>
+      <footer>
+        <p style="text-align: center; font-size: 14px; color: gray; margin-top: 20px;">Dictionary Data from <a href="https://e2bdictionary.kinsta.page/">e2b dictionary</a></p>
+      </footer>
       <!-- <div id="dictionary-list"></div> -->
     </div>
+
+
+
     <div id="leaderboard" style="display: none; padding: 19px;">
       <div class="leaderboard-container">
         <!-- notification -->
@@ -315,7 +338,7 @@
           <div class="quiz-body">
             <div class="question-container">
               <div class="question-type" id="stutas">loading...</div>
-              <h2 class="question-text" id="questionText">What is the correct meaning of the word "ephemeral"?</h2>
+              <h2 class="question-text" id="questionText">Loading question...</h2>
             </div>
             <div class="options-container" id="optionsContainer">
               <p hidden id="opton-selected"></p>
@@ -323,19 +346,19 @@
               <!-- Options will be inserted here by JavaScript -->
               <div class="quiz-option">
                 <span class="option-letter">A</span>
-                <span class="option-text">Option 1</span>
+                <span class="option-text">Option loading...</span>
               </div>
               <div class="quiz-option">
                 <span class="option-letter">B</span>
-                <span class="option-text">Option 2</span>
+                <span class="option-text">Option loading...</span>
               </div>
               <div class="quiz-option">
                 <span class="option-letter">C</span>
-                <span class="option-text">Option 3</span>
+                <span class="option-text">Option loading...</span>
               </div>
               <div class="quiz-option">
                 <span class="option-letter">D</span>
-                <span class="option-text">Option 4</span>
+                <span class="option-text">Option loading...</span>
               </div>
             </div>
           </div>
@@ -521,8 +544,8 @@
   </script>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script src="https://js.puter.com/v2/"></script>
-  <script type="module" src="js/dashboard.js?v=1.3.6:1"></script>
-  <script src="js/ui.js?v=1.3.0"></script>
+  <script type="module" src="js/dashboard.js?v=1.4.0"></script>
+  <script src="js/ui.js?v=1.4.0"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
