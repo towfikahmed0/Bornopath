@@ -253,71 +253,9 @@ window.setWordOfDay = function () {
         }
 
         const wordofday = dictionary[wordofdayIdx];
-
         try {
-            const response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + wordofday.en);
-            const data = await response.json();
-            const wordData = data[0];
+            displayWordDetails(wordofday, "wordOfDay")
 
-            let phonetics = wordData.phonetics?.map(p => p.text).filter(Boolean).join(", ") || "Not available";
-
-            // Merge definitions
-            let definitions = [];
-            if (wordofday.def) definitions.push(wordofday.def);
-            wordData.meanings.forEach(meaning => {
-                meaning.definitions.forEach(d => definitions.push(d.definition + (d.example ? ` <br><span class="example">"${d.example}"</span>` : "")));
-            });
-            let definitionsHTML = definitions.map(d => `<li>${d}</li>`).join("");
-
-            // Merge synonyms
-            let allSynonyms = [];
-            if (wordofday.syn) allSynonyms.push(wordofday.syn);
-            wordData.meanings.forEach(meaning => {
-                allSynonyms = allSynonyms.concat(meaning.synonyms || []);
-                meaning.definitions.forEach(d => allSynonyms = allSynonyms.concat(d.synonyms || []));
-            });
-            allSynonyms = [...new Set(allSynonyms)];
-            let synonymsHTML = allSynonyms.length ? allSynonyms.join(", ") : "None";
-
-            // Merge antonyms
-            let allAntonyms = [];
-            if (wordofday.ant) allAntonyms.push(wordofday.ant);
-            wordData.meanings.forEach(meaning => {
-                allAntonyms = allAntonyms.concat(meaning.antonyms || []);
-                meaning.definitions.forEach(d => allAntonyms = allAntonyms.concat(d.antonyms || []));
-            });
-            allAntonyms = [...new Set(allAntonyms)];
-            let antonymsHTML = allAntonyms.length ? allAntonyms.join(", ") : "None";
-
-            container.innerHTML = `
-                <h2 class="section-title">Word of the Day</h2>
-                <div class="word-card" onclick="speakWord('${wordofday.en}')">
-                    <div class="word-header">
-                        <h1>${wordofday.en}</h1>
-                        <p class="pronunciation">${phonetics}</p>
-                        ${highlightAccuracy ? `<p class="accuracy-note">⚡ Weak Word – Accuracy: <b>${highlightAccuracy}%</b></p>` : ''}
-                    </div>
-                <div class="word-definition">
-                    <p class="example">${wordofday.bn || ''}</p>
-                </div>
-
-                    <div class="word-definition">
-                        <h4>Definitions</h4>
-                        <ul>${definitionsHTML}</ul>
-                    </div>
-
-                    <div class="word-details">
-                        <div class="synonyms">
-                            <h4><i class="fa fa-sync"></i> Synonyms</h4>
-                            <p>${synonymsHTML}</p>
-                        </div>
-                        <div class="antonyms">
-                            <h4><i class="fa fa-exchange"></i> Antonyms</h4>
-                            <p>${antonymsHTML}</p>
-                        </div>
-                    </div>
-                </div>
-            `;
         } catch (err) {
             console.error(err);
             container.innerHTML = `<h2 class="section-title">Word of the Day</h2>
@@ -707,59 +645,115 @@ window.selectOption = function (selectedOption, mood) {
 }
 
 //-----------------------SHOW CORRECT ANSWER DETAILS---------------------------
-function showCorrectAnsDtls(ansIdx, options, correctOption) {
-    let correctAnsData = dictionary[ansIdx]
+async function showCorrectAnsDtls(ansIdx, options, correctOption) {
+    let correctAnsData = dictionary[ansIdx];
+    if (!correctAnsData) return;
+
+    // ensure we have a shallow copy so we can add example sentences if found
+    let word = Object.assign({}, correctAnsData);
+
     document.getElementById('additionalWordInfo').style.display = 'block';
+    const wordDetails = document.getElementById("additionalWordInfo");
 
-    document.getElementById('additionalWordInfo').innerHTML = `
-  <h2 class="section-title">Answer Details</h2>
-          <div class="word-card">
-            <div class="word-header">
-              <h1 id="ansWrd"><span>${correctAnsData['en']}</span> <button class="btn" onclick="speakWord('${correctAnsData['en']}')">🔊 Pronounce</button></h1>
-            </div>
+    try {
+        const resp = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word.en));
+        const data = await resp.json();
+        const wordData = Array.isArray(data) && data.length ? data[0] : null;
 
-            <div class="word-definition">
-              <p>${correctAnsData['def']}</p>
-              <p class="example">"${correctAnsData['bn']}"</p>
-            </div>
+        const phonetics = wordData?.phonetics?.map(p => p.text).filter(Boolean).join(", ") || "Not available";
+        const posArray = Array.isArray(wordData?.meanings) ? [...new Set(wordData.meanings.map(m => m.partOfSpeech).filter(Boolean))] : [];
+        const posHtml = posArray.length ? posArray.map(p => `<span class="synonym">${p}</span>`).join('') : "";
 
-            <div class="word-details">
-              <div class="synonyms">
-                <h4><i class="fa fa-sync"></i> Synonyms</h4>
-                <p>${correctAnsData['syn']}</p>
-              </div>
+        const audioUrl = wordData?.phonetics?.find(p => p.audio)?.audio || null;
 
-              <div class="antonyms">
-                <h4><i class="fa fa-exchange"></i> Antonyms</h4>
-                <p>${correctAnsData['ant']}</p>
-              </div>
-            </div>
-            <div>
-                    <img src="https://www.english-bangla.com/public/images/words/D${correctAnsData['en'][0].toLowerCase()}/${correctAnsData['en'].toLowerCase()}" style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px;" alt="Image related to ${correctAnsData['en']}" onerror="this.style.display='none'">
-            </div>
-            <br>
-            <button class="btn btn-primary" 
-  onclick="
-    generateAIExplanation(
-      '${correctAnsData['en']}',
-      '${options}',
-      '${correctOption}'
-    );
-    this.style.display='none';
-    window.scrollTo({ top: document.getElementById('quizContainer').scrollHeight, behavior: 'smooth' });
-  ">
-  AI Explanation
-</button>
-            <br>
-            <div id="ai-explanation-2" class="mb-3" style="display: none;">
-              <div class="loading" id="loadingDiv">
-              <span id="btnSpinner" class="loading-spinner"></span><br>
-              <h5 class="loading-text">Generating AI Explanation...</h5>
-              </div>
-            </div>
-          </div>
+        const examples = [];
+        if (Array.isArray(wordData?.meanings)) {
+            wordData.meanings.forEach(m => {
+                if (Array.isArray(m.definitions)) {
+                    m.definitions.forEach(d => {
+                        if (d.example) examples.push(d.example);
+                    });
+                }
+            });
+        }
+        if (examples.length > 0) {
+            word.sen = examples;
+        }
 
+        const dictionary_img = `https://www.english-bangla.com/public/images/words/D${word.en[0]}/${word.en}`;
+
+        // Build safe strings for template (avoid undefined map calls)
+        const defHtml = Array.isArray(word.def) ? word.def.map(d => `<li>${d}</li>`).join('') : '<li>No definition available</li>';
+        const synHtml = Array.isArray(word.syn) ? word.syn.map(s => `<span class="synonym">${s}</span>`).join('') : "No synonyms available";
+        const antHtml = Array.isArray(word.ant) ? word.ant.map(a => `<span class="synonym">${a}</span>`).join('') : "No antonyms available";
+        const senHtml = Array.isArray(word.sen) ? word.sen.map(s => `<li>${s}</li>`).join('') : "";
+
+        // options may be array; make it a readable string for the AI button
+        const optionsStr = Array.isArray(options) ? options.join(', ') : String(options || '');
+
+        wordDetails.innerHTML = `
+        <div class="word-header-dictionary">
+            <h1 style="font-style: italic;" onclick="pronounce('${audioUrl || ''}')">${word.en} <i class="fas fa-volume-up"></i></h1>
+        </div>
+        <p>${phonetics}</p>
+        <div class="synonym-list">${posHtml}</div>
+        <h3><i class="fas fa-language"></i> Bangla Meaning</h3>
+        <p>${Array.isArray(word.bn) ? word.bn.join(', ') : (word.bn || 'No translation available')}</p>
+        <h3><i class="fas fa-book"></i> Definition</h3>
+        <ul style="list-style: disc; margin-left: 20px;">
+            ${defHtml}
+        </ul>
+        ${word.syn ? `
+            <h3><i class="fas fa-sync-alt"></i> Synonyms</h3>
+            <div class="synonym-list">${synHtml}</div>
+        ` : ''}
+        ${word.ant ? `
+            <h3><i class="fas fa-exchange-alt"></i> Antonyms</h3>
+            <div class="synonym-list">${antHtml}</div>
+        ` : ''}
+        ${word.sen ? `
+            <h3><i class="fas fa-comment"></i> Example Sentences</h3>
+            <ul style="margin-left: 20px;">
+                ${senHtml}
+            </ul>
+        ` : ''}
+        <h3><i class="fas fa-images"></i> From Dictionary</h3>
+        <div class="dictionary_img">
+            <img src="${dictionary_img}" alt="Dictionary Image" onerror="this.onerror=null;this.outerHTML='<span>Not available for this word</span>';">
+        </div>
+        <br>
+        <button class="btn btn-primary" 
+            onclick="
+                generateAIExplanation(
+                    '${String(correctAnsData.en).replace(/'/g, "\\'")}',
+                    '${String(optionsStr).replace(/'/g, "\\'")}',
+                    '${String(correctOption).replace(/'/g, "\\'")}'
+                );
+                this.style.display='none';
+                window.scrollTo({ top: document.getElementById('quizContainer').scrollHeight, behavior: 'smooth' });
+            ">
+            AI Explanation
+        </button>
+        <br>
+        <div id="ai-explanation-2" class="mb-3" style="display: none;">
+            <div class="loading" id="loadingDiv">
+                <span id="btnSpinner" class="loading-spinner"></span><br>
+                <h5 class="loading-text">Generating AI Explanation...</h5>
+            </div>
+        </div>
         `;
+
+    } catch (err) {
+        console.error('Failed to fetch additional word details:', err);
+        // show minimal details instead of failing silently
+        wordDetails.innerHTML = `
+            <div class="word-header-dictionary">
+                <h2>${word.en}</h2>
+            </div>
+            <p>${Array.isArray(word.bn) ? word.bn.join(', ') : (word.bn || 'No translation available')}</p>
+            <p style="color: #999;">Additional dictionary details not available.</p>
+        `;
+    }
 }
 
 //-----------------------AI EXPLANATION USING PUTER.AI---------------------------
@@ -916,7 +910,7 @@ function restartQuizUI() {
     document.getElementById("endUnlimitedPractice").style.display = 'none';
     document.getElementById("endUnlimitedPractice").style.display = 'none';
     document.getElementById('practiceTypeSelectionContainer').style.display = 'none';
-    document.getElementById("no-results-message").style.display = 'none';
+    // document.getElementById("no-results-message").style.display = 'none';
 }
 
 //-----------------------DASHBOARD CHART & STREAK UPDATE---------------------------
@@ -1971,79 +1965,74 @@ function sortProgressItems() {
     items.forEach(item => container.appendChild(item));
 }
 
-
 async function generateQuestionsIdxArray(totalQuestions) {
-    // Validate totalQuestions
-    totalQuestions = parseInt(totalQuestions);
-    if (isNaN(totalQuestions) || totalQuestions <= 0) {
-        console.error("Invalid totalQuestions value:", totalQuestions);
-        return [];
-    }
+    totalQuestions = Number(totalQuestions);
+    if (!Number.isInteger(totalQuestions) || totalQuestions <= 0) return [];
 
-    // Get current user
+    // User check
     const user = auth.currentUser;
-    if (!user || !user.uid) {
-        console.error("User not signed in or missing UID!");
-        return [];
-    }
-    let practicedQuestionsIdxData = {};
+    if (!user?.uid) return [];
 
-    // Fetch practiced questions data from Firestore
+    // Fetch practiced data
+    let practicedData = {};
     try {
-        const userRef = doc(db, "users", user.uid);
-        const userSnap = await getDoc(userRef);
-        if (userSnap.exists()) {
-            practicedQuestionsIdxData = userSnap.data().practicedQuestionsIdx || {};
-        }
-    } catch (err) {
-        console.error("Error fetching user progress:", err);
+        const userSnap = await getDoc(doc(db, "users", user.uid));
+        if (userSnap.exists()) practicedData = userSnap.data().practicedQuestionsIdx || {};
+    } catch {
         return [];
     }
 
-    // Extract practiced question indices and stats
-    const practicedQuestionsIdxArray = Object.keys(practicedQuestionsIdxData)
-        .map(idx => parseInt(idx))
-        .filter(idx => !isNaN(idx) && idx >= 0 && idx < dictionary.length);
-
-    // Calculate wrong attempts for each practiced question
-    const mostWrongAttemptedQuestionsIdx = practicedQuestionsIdxArray
-        .map(idx => {
-            const data = practicedQuestionsIdxData[idx];
-            const wrongAttempts = (data.totalAttempts || 0) - (data.correctAttempts || 0);
-            return { idx, wrongAttempts };
-        })
-        .filter(item => item.wrongAttempts > 0)
-        .sort((a, b) => b.wrongAttempts - a.wrongAttempts);
-
-    // Start with most wrong attempted questions
-    let combinedArray = mostWrongAttemptedQuestionsIdx.map(item => item.idx);
-
-    // Fill up with random questions if needed
-    const usedIdx = new Set(combinedArray);
-    while (combinedArray.length < totalQuestions) {
-        const randomIdx = Math.floor(Math.random() * dictionary.length);
-        if (!usedIdx.has(randomIdx)) {
-            combinedArray.push(randomIdx);
-            usedIdx.add(randomIdx);
-        }
-        // Prevent infinite loop if dictionary is too small
-        if (usedIdx.size >= dictionary.length) break;
+    // If no practice data → random only
+    if (Object.keys(practicedData).length === 0) {
+        return getRandomUnique(dictionary.length, totalQuestions);
     }
 
-    // If practicedQuestionsIdxData is empty, just pick random indices
-    if (combinedArray.length === 0) {
-        while (combinedArray.length < totalQuestions && combinedArray.length < dictionary.length) {
-            const randomIdx = Math.floor(Math.random() * dictionary.length);
-            if (!combinedArray.includes(randomIdx)) {
-                combinedArray.push(randomIdx);
-            }
-        }
+    const practicedIdx = Object.keys(practicedData)
+        .map(Number)
+        .filter(i => i >= 0 && i < dictionary.length);
+
+    const weak = [];
+    const others = [];
+
+    // Separate into: weak (<65% accuracy) and others
+    for (const idx of practicedIdx) {
+        const d = practicedData[idx];
+        const total = d.totalAttempts || 1;
+        const correct = d.correctAttempts || 0;
+        const accuracy = (correct / total) * 100;
+
+        if (accuracy < 65) weak.push(idx);
+        else others.push(idx);
     }
 
-    // Trim to required length
-    combinedArray = combinedArray.slice(0, totalQuestions);
+    // Final result starts with weak questions
+    const final = [...weak];
+    const used = new Set(final);
 
-    return combinedArray;
+    // Fill remaining with random questions
+    const need = totalQuestions - final.length;
+
+    const randomFill = getRandomUnique(dictionary.length, need, used);
+    final.push(...randomFill);
+
+    return final.slice(0, totalQuestions);
+}
+
+
+// Utility: Random unique indices (fast & safe)
+function getRandomUnique(max, count, avoid = new Set()) {
+    const available = [];
+    for (let i = 0; i < max; i++) {
+        if (!avoid.has(i)) available.push(i);
+    }
+
+    // Shuffle Fisher–Yates
+    for (let i = available.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [available[i], available[j]] = [available[j], available[i]];
+    }
+
+    return available.slice(0, count);
 }
 
 
@@ -2152,15 +2141,15 @@ function displaySuggestions(list) {
                         <span class='suggestion-word'>${w.en}</span>
                         <span class='suggestion-bangla'>${w.bn?.[0] || ''}</span>
                     `;
-            el.addEventListener('click', () => displayWordDetails(w));
+            el.addEventListener('click', () => displayWordDetails(w, 'word_details'));
             suggestionsContainer.appendChild(el);
         });
     }
     suggestionsContainer.style.display = 'block';
 }
 
-async function displayWordDetails(word) {
-    const wordDetails = document.getElementById('word_details');
+async function displayWordDetails(word, ele_id) {
+    const wordDetails = document.getElementById(ele_id);
     // ask api to fetch more details about the word if needed
     try {
         const response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + word.en);
@@ -2227,7 +2216,9 @@ async function displayWordDetails(word) {
                 `;
         wordDetails.style.display = 'block';
         suggestionsContainer.style.display = 'none';
-        searchInput.value = word.en;
+        if (ele_id === 'word_details') {
+            searchInput.value = word.en;
+        }
         wordDetails.scrollIntoView({ behavior: 'smooth' });
     } catch (err) {
         console.error('Failed to fetch additional word details:', err);

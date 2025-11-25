@@ -13,16 +13,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Rubik+Marker+Hatch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link href="style/dashboard.css?v=1.4.0" rel="stylesheet">
-  <link href="style/profile.css?v=v=1.4.0" rel="stylesheet">
+  href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Rubik+Marker+Hatch&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+  <link href="style/dashboard.css?v=1.4.1" rel="stylesheet">
+  <link href="style/profile.css?v=2" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js">
-
-
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
 
   <title>Bornopath-Learn Words the Smart Way.</title>
@@ -112,10 +110,9 @@
           </button>
         </div>
       </div>
-
       <!-- Word of the Day -->
-      <div class="word-of-day" id="wordOfDay">
-        <h2 class="section-title">Word of the Day</h2>
+      <h2 class="section-title">Word of the Day</h2>
+      <div class="word-details" id="wordOfDay" style="display: block;">
         <div class="word-card">
           <div class="loading" id="loadingDiv">
             <span id="btnSpinner" class="loading-spinner"></span><br>
@@ -124,6 +121,7 @@
         </div>
       </div>
     </div>
+
 
 
     <div id="profileContant" style="display: none;">
@@ -207,7 +205,7 @@
             <button class="btn" id="deleteAccount" onclick="signOut()">Log Out</button>
             <button class="btn" id="deleteAccount" onclick="showDeleteConfirmation()">Delete Account</button>
             <div class="alert alert-primary" role="alert">
-              You are using <strong>BornoPath v1.4.0</strong>.
+              You are using <strong>BornoPath v1.4.1</strong>.
             </div>
           </div>
         </div>
@@ -249,7 +247,8 @@
         </div>
       </div>
       <footer>
-        <p style="text-align: center; font-size: 14px; color: gray; margin-top: 20px;">Dictionary Data from <a href="https://e2bdictionary.kinsta.page/">e2b dictionary</a></p>
+        <p style="text-align: center; font-size: 14px; color: gray; margin-top: 20px;">Dictionary Data from <a
+            href="https://e2bdictionary.kinsta.page/">e2b dictionary</a></p>
       </footer>
       <!-- <div id="dictionary-list"></div> -->
     </div>
@@ -371,7 +370,8 @@
             </button>
           </div>
         </div>
-        <div id="additionalWordInfo">
+        <div id="additionalWordInfo" class="word-details" style="margin-top: 20px; display: none;">
+          <!-- Additional word info will be inserted here -->
         </div>
       </div>
       <div id="customize_quiz" style="display: none;">
@@ -447,7 +447,7 @@
     </div>
 
 
-  </div>
+  </div> 
   <script>
 
     // Check for service worker updates every hour
@@ -544,8 +544,8 @@
   </script>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script src="https://js.puter.com/v2/"></script>
-  <script type="module" src="js/dashboard.js?v=1.4.0"></script>
-  <script src="js/ui.js?v=1.4.0"></script>
+  <script type="module" src="js/dashboard.js?v=1.4.1"></script>
+  <script src="js/ui.js?v=1.4.1"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
