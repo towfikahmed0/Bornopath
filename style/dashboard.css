@@ -1020,7 +1020,7 @@ body[data-theme="dark"] #ai-explanation-2 {
 }
 
 .summary-card p {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -1326,6 +1326,10 @@ body[data-theme="dark"] #ai-explanation-2 {
   .user-info {
     flex-direction: column;
     text-align: center;
+  }
+
+  .dictionary_img img {
+    width: 100%;
   }
 }
 

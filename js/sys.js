@@ -1,4 +1,4 @@
- import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
 import {
     getAuth,
     onAuthStateChanged,
@@ -17,20 +17,42 @@ import {
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyB12GMrNdELvkdSKxF8Ij2IGKRqUh63WTc",
-    authDomain: "wordvo-bb47d.firebaseapp.com",
-    projectId: "wordvo-bb47d",
-    storageBucket: "wordvo-bb47d.firebasestorage.app",
-    messagingSenderId: "1050344621419",
-    appId: "1:1050344621419:web:29909f4d722e58b1e9b82e",
-    measurementId: "G-LCXCH1X6C2"
-};
+import { SecurityUtils } from './security.js';
+import { AuthSecurity } from './auth-security.js';
+import { ErrorHandler } from './error-handler.js';
+import { FirebaseErrorHandler } from './firebase-error-handler.js';
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+let app, auth, db;
+
+try {
+    // Load environment variables
+    Env.load();
+
+    // Get Firebase config from environment
+    const firebaseConfig = FirebaseConfig.getConfig();
+
+    // Initialize Firebase
+    app = initializeApp(firebaseConfig);
+    auth = getAuth(app);
+    db = getFirestore(app);
+
+    console.log('✅ Firebase initialized successfully');
+
+} catch (error) {
+    console.error('❌ Firebase initialization failed:', error);
+
+    // Show user-friendly error
+    const status = document.getElementById('status');
+    if (status) {
+        status.innerHTML = `
+            <div class="alert alert-danger">
+                <strong>Configuration Error:</strong> Unable to initialize application.
+            </div>
+        `;
+        status.style.display = 'block';
+    }
+    throw error;
+}
 
 // DOM Elements
 const status = document.getElementById("status");
@@ -61,25 +83,38 @@ async function findUserByEmail(emailToFind) {
 
 // Improved login_next function
 window.login_next = async function () {
-    const email = emailInput.value.trim();
+    const email = SecurityUtils.sanitizeInput(emailInput.value.trim());
 
     if (!email) {
-        status.innerHTML = "*Please enter your email";
+        showError("*Please enter your email");
         emailInput.focus();
         return;
     }
 
-    if (!validateEmail(email)) {
-        status.innerHTML = "*Please enter a valid email address";
+    if (!SecurityUtils.validateEmail(email)) {
+        showError("*Please enter a valid email address");
         emailInput.focus();
         return;
     }
-    document.getElementById("nextbtn").innerHTML = "<div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>";
+
+    setButtonLoading(nextBtn, true);
+
+    const exists = await ErrorHandler.withRetry(
+        () => findUserByEmail(email),
+        3, // max retries
+        1000 // initial delay
+    );
+
+
+
+    // Show loading state
+    setButtonLoading(nextBtn, true);
+
     try {
         const exists = await findUserByEmail(email);
 
+        // Sanitize all inputs when showing forms
         if (!exists) {
-            // New user flow
             showElement(nameInput);
             showElement(genderInput);
             showElement(classInput);
@@ -87,149 +122,160 @@ window.login_next = async function () {
             hideElement(nextBtn);
             showElement(signInBtn);
             emailInput.disabled = true;
-            status.innerHTML = "";
+            clearError();
         } else {
-            // Existing user flow
             showElement(passwordInput);
             hideElement(nextBtn);
             showElement(loginBtn);
-            status.innerHTML = "";
+            clearError();
             passwordInput.focus();
         }
     } catch (error) {
         console.error("Login next error:", error);
-        status.style.display = "block";
-        status.innerHTML = "*Something went wrong. Please try again.";
-        document.getElementById("nextbtn").innerHTML = 'Next';
+        ErrorHandler.handleError({
+            type: ErrorHandler.ERROR_TYPES.AUTH,
+            message: error.message,
+            context: { action: 'login_next' },
+            showToast: true
+        });
+    } finally {
+        setButtonLoading(nextBtn, false);
     }
 };
 
-// Enhanced signUp function with email verification
 window.signUp = async function () {
-    const email = emailInput.value.trim();
-    const name = nameInput.value.trim();
-    const gender = genderInput.value;
-    const user_class = classInput.value;
-    const password = passwordInput.value;
+    const email = SecurityUtils.sanitizeInput(emailInput.value.trim());
+    const name = SecurityUtils.sanitizeInput(nameInput.value.trim());
+    const gender = SecurityUtils.sanitizeInput(genderInput.value);
+    const userClass = SecurityUtils.sanitizeInput(classInput.value);
+    const password = passwordInput.value; // Don't sanitize password
 
-    // Validation
-    if (!name || !gender || !user_class || !password) {
-        status.style.display = "block";
-        status.innerHTML = "*Please fill all fields";
+    // Enhanced validation
+    const validation = AuthSecurity.validateSignupInput({
+        email, password, name, gender, userClass
+    });
+
+    if (!validation.valid) {
+        showError(`*${validation.message}`);
         return;
     }
 
-    if (password.length < 6) {
-        status.style.display = "block";
-        status.innerHTML = "*Password must be at least 6 characters";
-        passwordInput.focus();
-        return;
-    }
-    document.getElementById("signinbtn").innerHTML = "<div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>";
+    setButtonLoading(signInBtn, true);
+
     try {
-        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const userCredential = await ErrorHandler.withRetry(
+            () => createUserWithEmailAndPassword(auth, email, password),
+            2,
+            1000
+        );
         const user = userCredential.user;
 
-        // Send email verification
         await sendEmailVerification(user);
 
-        // Create user document with additional stats for ranking
+        // Create user document with sanitized data
         await setDoc(doc(db, "users", user.uid), {
-            name: name,
-            email: email,
-            userClass: user_class,
-            gender: gender,
-            points: 0,           // For ranking
-            accuracy: 0,       // 100% as float (0-1)
+            name: SecurityUtils.sanitizeInput(name),
+            email: SecurityUtils.sanitizeInput(email),
+            userClass: SecurityUtils.sanitizeInput(userClass),
+            gender: SecurityUtils.sanitizeInput(gender),
+            points: 0,
+            accuracy: 0,
             streak: 0,
             totalQuestions: 0,
             lastActive: serverTimestamp(),
             mistakeWords: [],
             pracData: [],
             savedWordsIdx: [],
-            leaderboardRank: 0, // For ranking
+            leaderboardRank: 0,
             createdAt: serverTimestamp()
         });
-        status.style.display = "block";
-        status.innerHTML = "<p style='color: #159895d6;'><i class='fa fa-check'></i> Verification email sent! Please verify your email And <a href = 'index.html'>Log in</a> again</p>";
-        document.getElementById("signinbtn").innerHTML = 'Sign in';
+
+        showSuccess("<i class='fa fa-check'></i> Verification email sent! Please verify your email and <a href='index.html'>Log in</a> again");
+
         setTimeout(() => window.location.replace("index.html"), 10000);
     } catch (error) {
-        console.error("Sign up error:", error);
-        document.getElementById("signinbtn").innerHTML = 'Sign in';
-        handleAuthError(error);
+        FirebaseErrorHandler.handleAuthError(error);
+    } finally {
+        setButtonLoading(signInBtn, false);
     }
 };
 
-// Improved login function
+// Replace the existing login function
 window.login = async function () {
-    const email = emailInput.value.trim();
+    const email = SecurityUtils.sanitizeInput(emailInput.value.trim());
     const password = passwordInput.value;
 
-    if (!password) {
-        status.style.display = "block";
-        status.innerHTML = "*Please enter your password";
-        passwordInput.focus();
+    // Enhanced validation with rate limiting
+    const validation = AuthSecurity.validateLoginInput(email, password);
+    if (!validation.valid) {
+        showError(`*${validation.message}`);
         return;
     }
-    document.getElementById("loginbtn").innerHTML = "<div class='spinner-border' role='status'><span class='visually-hidden'>Loading...</span></div>";
+
+    setButtonLoading(loginBtn, true);
+
     try {
-        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        const userCredential = await ErrorHandler.withRetry(
+            () => signInWithEmailAndPassword(auth, email, password),
+            2,
+            1000
+        );
         const user = userCredential.user;
 
         if (!user.emailVerified) {
-            status.style.display = "block";
-            status.innerHTML = "*Please verify your email first. Check your inbox.";
+            showError("*Please verify your email first. Check your inbox.");
             await sendEmailVerification(user);
             return;
         }
 
-        // Update last active timestamp
+        // Reset login attempts on successful login
+        AuthSecurity.resetLoginAttempts();
+
         await setDoc(doc(db, "users", user.uid), {
             lastActive: serverTimestamp()
         }, { merge: true });
 
         window.location.replace("dashboard.html");
     } catch (error) {
-        console.error("Login error:", error);
-        document.getElementById("loginbtn").innerHTML = 'Log in';
-        handleAuthError(error);
+        FirebaseErrorHandler.handleAuthError(error);
+    } finally {
+        setButtonLoading(loginBtn, false);
     }
 };
 
 // Helper functions
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
+function showError(message) {
+    status.style.display = "block";
+    status.innerHTML = SecurityUtils.sanitizeInput(message, true);
+    status.className = "alert alert-danger";
+}
+
+function showSuccess(message) {
+    status.style.display = "block";
+    status.innerHTML = SecurityUtils.sanitizeInput(message, true);
+    status.className = "alert alert-success";
+}
+
+function clearError() {
+    status.style.display = "none";
+    status.innerHTML = "";
+}
+
+function setButtonLoading(button, isLoading) {
+    if (isLoading) {
+        button.disabled = true;
+        button.innerHTML = "<div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div>";
+    } else {
+        button.disabled = false;
+        button.innerHTML = button === nextBtn ? 'Next' :
+            button === signInBtn ? 'Sign in' : 'Log in';
+    }
 }
 
 function handleAuthError(error) {
-    switch (error.code) {
-        case "auth/email-already-in-use":
-            status.style.display = "block";
-            status.innerHTML = "*Email already in use";
-            break;
-        case "auth/invalid-email":
-            status.style.display = "block";
-            status.innerHTML = "*Invalid email address";
-            break;
-        case "auth/weak-password":
-            status.style.display = "block";
-            status.innerHTML = "*Password should be at least 6 characters";
-            break;
-        case "auth/user-not-found":
-            status.style.display = "block";
-            status.innerHTML = "*User not found";
-            break;
-        case "auth/wrong-password":
-            status.style.display = "block";
-            status.innerHTML = "*Wrong password";
-            break;
-        default:
-            status.style.display = "block";
-            status.innerHTML = "*Something went wrong. Please try again.";
-    }
+    FirebaseErrorHandler.handleAuthError(error);
 }
+
 
 function showElement(element) {
     element.style.display = "block";
