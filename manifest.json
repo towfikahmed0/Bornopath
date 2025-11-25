@@ -18,8 +18,8 @@
       "type": "image/png"
     }
   ],
-  "id": "/dashboard.html",         
-  "scope": "/",                    
-  "version": "1.4.0",               
+  "id": "/dashboard.html",          // helps Android recognize updates
+  "scope": "/",                     // keeps navigation inside your app
+  "version": "1.3.2",               // custom version
   "prefer_related_applications": false
 }
