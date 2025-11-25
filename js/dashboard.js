@@ -7,34 +7,41 @@ import { FirebaseErrorHandler } from './firebase-error-handler.js';
 
 let app, auth, db;
 
+// Initialize Firebase with environment variables
 try {
-    // Load environment variables
-    Env.load();
-
-    // Get Firebase config from environment
+    // Load environment variables first
+    if (typeof Env !== 'undefined') {
+        Env.load();
+    }
+    
+    // Get Firebase config
     const firebaseConfig = FirebaseConfig.getConfig();
-
+    
     // Initialize Firebase
     app = initializeApp(firebaseConfig);
     auth = getAuth(app);
     db = getFirestore(app);
-
+    
     console.log('✅ Firebase initialized successfully');
-
+    
 } catch (error) {
     console.error('❌ Firebase initialization failed:', error);
-
-    // Show user-friendly error
-    const status = document.getElementById('status');
-    if (status) {
-        status.innerHTML = `
-            <div class="alert alert-danger">
-                <strong>Configuration Error:</strong> Unable to initialize application.
-            </div>
-        `;
-        status.style.display = 'block';
-    }
-    throw error;
+    
+    // Fallback to hardcoded config
+    const fallbackConfig = {
+        apiKey: "AIzaSyB12GMrNdELvkdSKxF8Ij2IGKRqUh63WTc",
+        authDomain: "wordvo-bb47d.firebaseapp.com",
+        projectId: "wordvo-bb47d",
+        storageBucket: "wordvo-bb47d.firebasestorage.app",
+        messagingSenderId: "1050344621419",
+        appId: "1:1050344621419:web:29909f4d722e58b1e9b82e",
+        measurementId: "G-LCXCH1X6C2"
+    };
+    
+    app = initializeApp(fallbackConfig);
+    auth = getAuth(app);
+    db = getFirestore(app);
+    console.log('✅ Firebase initialized with fallback config');
 }
 
 // Access environment variables anywhere
