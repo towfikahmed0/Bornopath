@@ -5,7 +5,7 @@ body {
     background-position: center;
     height: 100vh;
     font-family: 'Work Sans', sans-serif;
-    background: linear-gradient(rgba(21, 152, 149, 0.8), rgba(21, 152, 149, 0.8)), url(https://png.pngtree.com/background/20220726/original/pngtree-seamless-pattern-with-isometric-font-picture-image_1807283.jpg) no-repeat center center / cover;
+    background: linear-gradient(#1ab5b2de, #0e605ede), url(https://png.pngtree.com/background/20220726/original/pngtree-seamless-pattern-with-isometric-font-picture-image_1807283.jpg) no-repeat center center / cover; 
 }
 
 .startup {
@@ -29,6 +29,11 @@ body {
     color: #8DBCC7;
     background-color: #ffffff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 12px 40px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+.loginform:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .loginform h1 {
@@ -48,6 +53,11 @@ select {
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
+    transition: 1s;
+}
+input:hover {
+    border-radius: 2px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -59,10 +69,13 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    transition: 0.5s;
 }
 
 button:hover {
     background-color: #117876;
+    border-radius: 3px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .sidetext {
@@ -79,6 +92,8 @@ button:hover {
 .sidetext h1 {
     font-size: 4vw;
     text-shadow: -7px 4px 7px #3333338a;
+    animation: float 2s ease-in-out infinite;
+    z-index: -1;
 }
 
 .sidetext button {
@@ -113,6 +128,13 @@ button:hover {
     align-items: center;
     font-family: 'Work Sans', sans-serif;
     transition: 1s;
+}
+
+.aboutSection {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
 }
 
 .aboutContainer {
@@ -262,3 +284,17 @@ button:hover {
         margin-right: 5px;
     }
 }
+
+@keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+		
+            }
+
+            50% {
+                transform: translateY(-5px);
+		
+            }
+        }
