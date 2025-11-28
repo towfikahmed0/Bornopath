@@ -38,6 +38,9 @@
             align-items: center;
             background-color: #f9fdfd;
             font-family: 'Inter', sans-serif;
+            background-size: cover;
+    	    background-position: center;
+	    background: linear-gradient(#1ab5b2de, #0e605ede), url(https://png.pngtree.com/background/20220726/original/pngtree-seamless-pattern-with-isometric-font-picture-image_1807283.jpg) no-repeat center center / cover; 
         }
 
         .icon-download {
@@ -51,6 +54,19 @@
             stroke-linecap: round;
             stroke-linejoin: round;
         }
+@keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+		
+            }
+
+            50% {
+                transform: translateY(-4px);
+		
+            }
+        }
     </style>
 </head>
 
@@ -60,12 +76,12 @@
         <img src="/icons/icon-192.png" alt="Bornopath Logo" width="80" height="80"
             class="mx-auto mb-6 rounded-full shadow-md"
             onerror="this.onerror=null; this.src='https://placehold.co/80x80/159895/ffffff?text=B'">
-        <h1 class="text-3xl font-bold mb-2 text-gray-800">Install <span class="text-bornopath-teal">Bornopath</span>
+        <h1 class="text-3xl font-bold mb-2 text-gray-800" style="animation: float 2s ease-in-out infinite;">Install <span class="text-bornopath-teal">Bornopath</span>
         </h1>
         <p class="text-gray-500 mb-6 text-base">Add Bornopath to your home screen for quick access and an immersive app
             experience.</p>
         <div class="alert alert-primary" role="alert">
-            Current Version: <strong>BornoPath v1.4.1</strong>.
+            Current Version: <strong>BornoPath v1.4.0</strong>.
         </div>
 
         <button id="installBtn"
