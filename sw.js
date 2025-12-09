@@ -2,7 +2,7 @@
 // Version: 1.4.0
 // Cache Strategy: Stale-While-Revalidate with Network First for critical resources
 
-const APP_VERSION = 'bornopath-v1.4.1';
+const APP_VERSION = 'bornopath-v1.4.1:0';
 const CACHE_NAMES = {
   static: `${APP_VERSION}-static`,
   dynamic: `${APP_VERSION}-dynamic`,
